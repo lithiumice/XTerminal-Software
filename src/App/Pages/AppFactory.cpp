@@ -28,12 +28,15 @@
 #include "Terminal/Terminal.h"
 #include "Pictures/Pictures.h"
 #include "AppList/AppList.h"
+#include "WifiText/WifiText.h"
+#include "Russian/Russian.h"
 
-// #define APP_DEF(className) (#include "className")
+// #define APP_DEF(className) \
+// 	#include #className
 //
 // #include "_APP_DEF.inc"
-//
-// #undef APP_DEF
+
+#undef APP_DEF
 
 PageBase* AppFactory::CreatePage(const char* name)
 {

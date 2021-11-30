@@ -1,6 +1,6 @@
 #include "AppList.h"
 #include "App/Configs/Version.h"
-
+#include "HAL/HAL.h"
 using namespace Page;
 
 AppList::AppList()
@@ -25,7 +25,6 @@ void AppList::onViewLoad()
 
 #define APPLIST_DEF(className)\
 	AttachEvent(View.ui.className.icon);
-	// AttachEvent(View.ui.##className##.icon);
 #include "_APPLIST_DEF.inc"
 #undef APPLIST_DEF
 }
@@ -76,7 +75,15 @@ void AppList::AttachEvent(lv_obj_t* obj)
 
 void AppList::Update()
 {
-	
+    static uint8_t auto_entered_weather_flag=0;
+	if( HAL::config.auto_enter_weather&&
+        HAL::config.enc_btn_first_push_flag==0&&
+        auto_entered_weather_flag==0&&
+        millis()>= 1000*HAL::config.auto_enter_weather_delay_sec)
+    {
+        auto_entered_weather_flag=1;
+        Manager->Push("Pages/Template");
+    }
 }
 
 void AppList::onTimerUpdate(lv_timer_t* timer)
@@ -104,11 +111,11 @@ void AppList::onEvent(lv_event_t* event)
 			instance->Manager->Push("Pages/Terminal");
 		}else if (obj == instance->View.ui.pictures.icon)
 		{
-			instance->Manager->Push("Pages/Pictures");
+			instance->Manager->Push("Pages/SystemInfos");
 		}
 		else if (obj == instance->View.ui.settings.icon)
 		{
-			instance->Manager->Push("Pages/SystemInfos");
+			instance->Manager->Push("Pages/Pictures");
 		}
 		// none
 		else if (obj == instance->View.ui.filemanager.icon)

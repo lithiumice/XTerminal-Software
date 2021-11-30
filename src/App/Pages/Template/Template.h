@@ -33,7 +33,9 @@ private:
     void updateWeather();
     void Update();
     void AttachEvent(lv_obj_t* obj);
+    void updateSeconds();
     void updateSpaceImg();
+    void updateClockInfo();
     static void onTimerUpdate(lv_timer_t* timer);
     static int onWeatherEvent(Account* account, Account::EventParam_t* param);
     int onClockEvent(Account* account, Account::EventParam_t* param);

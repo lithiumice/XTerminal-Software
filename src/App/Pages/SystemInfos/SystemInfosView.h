@@ -23,6 +23,7 @@ public:
 
     struct
     {
+        item_t wifi;
         item_t system;
         item_t imu;
         item_t battery;
@@ -31,13 +32,14 @@ public:
     } ui;
 
 public:
-    void SetJoints(
-        const char* info
+
+    void SetWifiInfo(
+        const char* host_name,
+        const char* wifi_name,
+        const char* password,
+        uint8_t is_connected
     );
-    void SetPose6D(
-        const char* info
-    );
-    void SetPictures(const char* info);
+
     void SetIMU(
         const char* info
     );

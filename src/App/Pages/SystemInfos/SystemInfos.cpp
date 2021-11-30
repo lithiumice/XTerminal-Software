@@ -1,5 +1,7 @@
+#include <HAL/HAL_Config.h>
 #include "SystemInfos.h"
 #include "App/Configs/Version.h"
+#include "HAL/HAL.h"
 
 using namespace Page;
 
@@ -22,6 +24,7 @@ void SystemInfos::onViewLoad()
 	Model.Init();
 	View.Create(root);
 	AttachEvent(root);
+	AttachEvent(View.ui.wifi.icon);
 	AttachEvent(View.ui.system.icon);
 	AttachEvent(View.ui.imu.icon);
 	AttachEvent(View.ui.battery.icon);
@@ -76,7 +79,14 @@ void SystemInfos::AttachEvent(lv_obj_t* obj)
 void SystemInfos::Update()
 {
 	char buf[64];
-	
+	/* WIFI */
+	View.SetWifiInfo(
+		HAL::config.host_name.c_str(),
+        HAL::config.wifi_name.c_str(),
+        HAL::config.wifi_pwd.c_str(),
+		HAL::wifi_isconnected()
+	);
+
 	/* IMU */
 	Model.GetIMUInfo(buf, sizeof(buf));
 	View.SetIMU(buf);
@@ -93,11 +103,11 @@ void SystemInfos::Update()
 	int total_heap;
 	int used_heap_percent;
 	int used_spiram;
-	
 #ifdef ARDUINO
 	used_heap=ESP.getFreeHeap();
-	total_heap=ESP.getHeapSize();
-	used_heap_percent = used_heap * 100 / total_heap;
+	// total_heap=ESP.getHeapSize();
+    total_heap=320*1024;
+	used_heap_percent = (total_heap-used_heap) * 100 / total_heap;
 	used_spiram=heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
 #else
 	used_heap = 0;
@@ -110,7 +120,7 @@ void SystemInfos::Update()
 		detect ? "YES" : "NO",
 		buf,
 		VERSION_FILESYSTEM,
-		total_heap,
+		used_heap,
 		used_heap_percent
 	);
 

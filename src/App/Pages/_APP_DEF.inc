@@ -7,3 +7,5 @@ APP_DEF(Scene3D);
 APP_DEF(Terminal);
 APP_DEF(Pictures);
 APP_DEF(AppList);
+APP_DEF(WifiText);
+APP_DEF(Russian);

@@ -4,6 +4,60 @@
 #else
 #include "WString/WString.h"
 #endif
+// extern std::map<String, int> weather_str2int;
+// extern String* ari_level_int2str;
+
+String ari_level_int2str[]={
+        "Excellent",//0
+        "JustFine",//1
+        "LightPollution",
+        "MidPollution",
+        "HeavyPollution",
+        "SeriousPollution",//5
+};
+//std::map<int, String> ari_level_int2str[]={
+//        {0,"Excellent"},//0
+//        {1,"JustFine"},//1
+//        {2,"LightPollution"},
+//        {3,"MidPollution"},
+//        {4,"HeavyPollution"},
+//        {5,"SeriousPollution"}//5
+//};
+String weather_int2name[]={
+        "Sunny",//0
+        "Gloomy",//1
+        "Rainy",
+        "Cloudy",//1
+        "HailStone",
+        "Fogy",
+        "DustStorm",//5
+        "ThunderStorm",
+        "Snow",
+};
+
+std::map<String, int> weather_str2int = {
+        {"qing", 0},
+        {"yin", 1},
+        {"yu", 2},
+        {"yun", 3},
+        {"bingbao", 4},
+        {"wu", 5},
+        {"shachen", 6},
+        {"lei", 7},
+        {"xue", 8}
+};
+
+
+std::map<String, String> windir_cn2en={
+        {"东风", "west"},
+        {"南风", "south"},
+        {"西风", "east"},
+        {"北风", "north"},
+        {"西北风", "eastnorth"},
+        {"东北风", "westnorth"},
+        {"东南风", "westsouth"},
+        {"西南风", "eastsouth"},
+};
 
 std::map<String, String> city_cn={
         {"北京","Beijing"},

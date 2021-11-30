@@ -21,7 +21,8 @@ void Terminal::onCustomAttrConfig()
 void Terminal::onViewLoad()
 {
 	View.Create(root);
-	AttachEvent(root);
+	// AttachEvent(root);
+	AttachEvent(View.ui.termTextLabel);
 }
 
 void Terminal::onViewDidLoad()
@@ -36,7 +37,7 @@ void Terminal::onViewWillAppear()
 	
 	lv_obj_set_style_bg_color(root, lv_color_white(), LV_PART_MAIN);
 
-	timer = lv_timer_create(onTimerUpdate, 500, this);
+	timer = lv_timer_create(onTimerUpdate, 300, this);
 	lv_timer_ready(timer);
 
 	lv_obj_fade_in(root, 300, 0);
@@ -44,7 +45,7 @@ void Terminal::onViewWillAppear()
 
 void Terminal::onViewDidAppear()
 {
-	// lv_group_focus_obj(View.ui.canvas);
+	lv_group_focus_obj(View.ui.termTextLabel);
 }
 
 void Terminal::onViewWillDisappear()

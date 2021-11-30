@@ -155,30 +155,6 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
 .PHONY : Z_DUMMY_TARGET/fast
 
-lib/Arduino-MPU6050/MPU6050.obj: lib/Arduino-MPU6050/MPU6050.cpp.obj
-.PHONY : lib/Arduino-MPU6050/MPU6050.obj
-
-# target to build an object file
-lib/Arduino-MPU6050/MPU6050.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/MPU6050.cpp.obj
-.PHONY : lib/Arduino-MPU6050/MPU6050.cpp.obj
-
-lib/Arduino-MPU6050/MPU6050.i: lib/Arduino-MPU6050/MPU6050.cpp.i
-.PHONY : lib/Arduino-MPU6050/MPU6050.i
-
-# target to preprocess a source file
-lib/Arduino-MPU6050/MPU6050.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/MPU6050.cpp.i
-.PHONY : lib/Arduino-MPU6050/MPU6050.cpp.i
-
-lib/Arduino-MPU6050/MPU6050.s: lib/Arduino-MPU6050/MPU6050.cpp.s
-.PHONY : lib/Arduino-MPU6050/MPU6050.s
-
-# target to generate assembly for a file
-lib/Arduino-MPU6050/MPU6050.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/MPU6050.cpp.s
-.PHONY : lib/Arduino-MPU6050/MPU6050.cpp.s
-
 lib/ArduinoJson/extras/fuzzing/json_fuzzer.obj: lib/ArduinoJson/extras/fuzzing/json_fuzzer.cpp.obj
 .PHONY : lib/ArduinoJson/extras/fuzzing/json_fuzzer.obj
 
@@ -4162,6 +4138,54 @@ lib/ESP32Time/ESP32Time.s: lib/ESP32Time/ESP32Time.cpp.s
 lib/ESP32Time/ESP32Time.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32Time/ESP32Time.cpp.s
 .PHONY : lib/ESP32Time/ESP32Time.cpp.s
+
+lib/MPU6050/src/I2Cdev.obj: lib/MPU6050/src/I2Cdev.cpp.obj
+.PHONY : lib/MPU6050/src/I2Cdev.obj
+
+# target to build an object file
+lib/MPU6050/src/I2Cdev.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/I2Cdev.cpp.obj
+.PHONY : lib/MPU6050/src/I2Cdev.cpp.obj
+
+lib/MPU6050/src/I2Cdev.i: lib/MPU6050/src/I2Cdev.cpp.i
+.PHONY : lib/MPU6050/src/I2Cdev.i
+
+# target to preprocess a source file
+lib/MPU6050/src/I2Cdev.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/I2Cdev.cpp.i
+.PHONY : lib/MPU6050/src/I2Cdev.cpp.i
+
+lib/MPU6050/src/I2Cdev.s: lib/MPU6050/src/I2Cdev.cpp.s
+.PHONY : lib/MPU6050/src/I2Cdev.s
+
+# target to generate assembly for a file
+lib/MPU6050/src/I2Cdev.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/I2Cdev.cpp.s
+.PHONY : lib/MPU6050/src/I2Cdev.cpp.s
+
+lib/MPU6050/src/MPU6050.obj: lib/MPU6050/src/MPU6050.cpp.obj
+.PHONY : lib/MPU6050/src/MPU6050.obj
+
+# target to build an object file
+lib/MPU6050/src/MPU6050.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/MPU6050.cpp.obj
+.PHONY : lib/MPU6050/src/MPU6050.cpp.obj
+
+lib/MPU6050/src/MPU6050.i: lib/MPU6050/src/MPU6050.cpp.i
+.PHONY : lib/MPU6050/src/MPU6050.i
+
+# target to preprocess a source file
+lib/MPU6050/src/MPU6050.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/MPU6050.cpp.i
+.PHONY : lib/MPU6050/src/MPU6050.cpp.i
+
+lib/MPU6050/src/MPU6050.s: lib/MPU6050/src/MPU6050.cpp.s
+.PHONY : lib/MPU6050/src/MPU6050.s
+
+# target to generate assembly for a file
+lib/MPU6050/src/MPU6050.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/MPU6050.cpp.s
+.PHONY : lib/MPU6050/src/MPU6050.cpp.s
 
 lib/SD/src/SD.obj: lib/SD/src/SD.cpp.obj
 .PHONY : lib/SD/src/SD.obj
@@ -13883,6 +13907,54 @@ src/App/Resources/Image/img_src_bluetooth.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.s
 .PHONY : src/App/Resources/Image/img_src_bluetooth.c.s
 
+src/App/Resources/Image/img_src_bt.obj: src/App/Resources/Image/img_src_bt.c.obj
+.PHONY : src/App/Resources/Image/img_src_bt.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_bt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj
+.PHONY : src/App/Resources/Image/img_src_bt.c.obj
+
+src/App/Resources/Image/img_src_bt.i: src/App/Resources/Image/img_src_bt.c.i
+.PHONY : src/App/Resources/Image/img_src_bt.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_bt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.i
+.PHONY : src/App/Resources/Image/img_src_bt.c.i
+
+src/App/Resources/Image/img_src_bt.s: src/App/Resources/Image/img_src_bt.c.s
+.PHONY : src/App/Resources/Image/img_src_bt.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_bt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.s
+.PHONY : src/App/Resources/Image/img_src_bt.c.s
+
+src/App/Resources/Image/img_src_bt_off.obj: src/App/Resources/Image/img_src_bt_off.c.obj
+.PHONY : src/App/Resources/Image/img_src_bt_off.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_bt_off.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj
+.PHONY : src/App/Resources/Image/img_src_bt_off.c.obj
+
+src/App/Resources/Image/img_src_bt_off.i: src/App/Resources/Image/img_src_bt_off.c.i
+.PHONY : src/App/Resources/Image/img_src_bt_off.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_bt_off.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.i
+.PHONY : src/App/Resources/Image/img_src_bt_off.c.i
+
+src/App/Resources/Image/img_src_bt_off.s: src/App/Resources/Image/img_src_bt_off.c.s
+.PHONY : src/App/Resources/Image/img_src_bt_off.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_bt_off.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.s
+.PHONY : src/App/Resources/Image/img_src_bt_off.c.s
+
 src/App/Resources/Image/img_src_clock.obj: src/App/Resources/Image/img_src_clock.c.obj
 .PHONY : src/App/Resources/Image/img_src_clock.obj
 
@@ -14602,6 +14674,78 @@ src/App/Resources/Image/img_src_weather.s: src/App/Resources/Image/img_src_weath
 src/App/Resources/Image/img_src_weather.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.s
 .PHONY : src/App/Resources/Image/img_src_weather.c.s
+
+src/App/Resources/Image/img_src_wifi.obj: src/App/Resources/Image/img_src_wifi.c.obj
+.PHONY : src/App/Resources/Image/img_src_wifi.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_wifi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj
+.PHONY : src/App/Resources/Image/img_src_wifi.c.obj
+
+src/App/Resources/Image/img_src_wifi.i: src/App/Resources/Image/img_src_wifi.c.i
+.PHONY : src/App/Resources/Image/img_src_wifi.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_wifi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.i
+.PHONY : src/App/Resources/Image/img_src_wifi.c.i
+
+src/App/Resources/Image/img_src_wifi.s: src/App/Resources/Image/img_src_wifi.c.s
+.PHONY : src/App/Resources/Image/img_src_wifi.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_wifi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.s
+.PHONY : src/App/Resources/Image/img_src_wifi.c.s
+
+src/App/Resources/Image/img_src_wifi_48.obj: src/App/Resources/Image/img_src_wifi_48.c.obj
+.PHONY : src/App/Resources/Image/img_src_wifi_48.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_wifi_48.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj
+.PHONY : src/App/Resources/Image/img_src_wifi_48.c.obj
+
+src/App/Resources/Image/img_src_wifi_48.i: src/App/Resources/Image/img_src_wifi_48.c.i
+.PHONY : src/App/Resources/Image/img_src_wifi_48.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_wifi_48.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.i
+.PHONY : src/App/Resources/Image/img_src_wifi_48.c.i
+
+src/App/Resources/Image/img_src_wifi_48.s: src/App/Resources/Image/img_src_wifi_48.c.s
+.PHONY : src/App/Resources/Image/img_src_wifi_48.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_wifi_48.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.s
+.PHONY : src/App/Resources/Image/img_src_wifi_48.c.s
+
+src/App/Resources/Image/img_src_wifi_off.obj: src/App/Resources/Image/img_src_wifi_off.c.obj
+.PHONY : src/App/Resources/Image/img_src_wifi_off.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_wifi_off.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj
+.PHONY : src/App/Resources/Image/img_src_wifi_off.c.obj
+
+src/App/Resources/Image/img_src_wifi_off.i: src/App/Resources/Image/img_src_wifi_off.c.i
+.PHONY : src/App/Resources/Image/img_src_wifi_off.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_wifi_off.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.i
+.PHONY : src/App/Resources/Image/img_src_wifi_off.c.i
+
+src/App/Resources/Image/img_src_wifi_off.s: src/App/Resources/Image/img_src_wifi_off.c.s
+.PHONY : src/App/Resources/Image/img_src_wifi_off.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_wifi_off.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.s
+.PHONY : src/App/Resources/Image/img_src_wifi_off.c.s
 
 src/App/Resources/Image/img_src_zhihu.obj: src/App/Resources/Image/img_src_zhihu.c.obj
 .PHONY : src/App/Resources/Image/img_src_zhihu.obj
@@ -15347,6 +15491,30 @@ src/HAL/HAL_Buzz.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.s
 .PHONY : src/HAL/HAL_Buzz.cpp.s
 
+src/HAL/HAL_Config.obj: src/HAL/HAL_Config.cpp.obj
+.PHONY : src/HAL/HAL_Config.obj
+
+# target to build an object file
+src/HAL/HAL_Config.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj
+.PHONY : src/HAL/HAL_Config.cpp.obj
+
+src/HAL/HAL_Config.i: src/HAL/HAL_Config.cpp.i
+.PHONY : src/HAL/HAL_Config.i
+
+# target to preprocess a source file
+src/HAL/HAL_Config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.i
+.PHONY : src/HAL/HAL_Config.cpp.i
+
+src/HAL/HAL_Config.s: src/HAL/HAL_Config.cpp.s
+.PHONY : src/HAL/HAL_Config.s
+
+# target to generate assembly for a file
+src/HAL/HAL_Config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.s
+.PHONY : src/HAL/HAL_Config.cpp.s
+
 src/HAL/HAL_Encoder.obj: src/HAL/HAL_Encoder.cpp.obj
 .PHONY : src/HAL/HAL_Encoder.obj
 
@@ -15419,6 +15587,30 @@ src/HAL/HAL_IMU.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.s
 .PHONY : src/HAL/HAL_IMU.cpp.s
 
+src/HAL/HAL_JsonConst.obj: src/HAL/HAL_JsonConst.cpp.obj
+.PHONY : src/HAL/HAL_JsonConst.obj
+
+# target to build an object file
+src/HAL/HAL_JsonConst.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj
+.PHONY : src/HAL/HAL_JsonConst.cpp.obj
+
+src/HAL/HAL_JsonConst.i: src/HAL/HAL_JsonConst.cpp.i
+.PHONY : src/HAL/HAL_JsonConst.i
+
+# target to preprocess a source file
+src/HAL/HAL_JsonConst.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.i
+.PHONY : src/HAL/HAL_JsonConst.cpp.i
+
+src/HAL/HAL_JsonConst.s: src/HAL/HAL_JsonConst.cpp.s
+.PHONY : src/HAL/HAL_JsonConst.s
+
+# target to generate assembly for a file
+src/HAL/HAL_JsonConst.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.s
+.PHONY : src/HAL/HAL_JsonConst.cpp.s
+
 src/HAL/HAL_Power.obj: src/HAL/HAL_Power.cpp.obj
 .PHONY : src/HAL/HAL_Power.obj
 
@@ -15467,6 +15659,30 @@ src/HAL/HAL_SdCard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.s
 .PHONY : src/HAL/HAL_SdCard.cpp.s
 
+src/HAL/HAL_TermPrint.obj: src/HAL/HAL_TermPrint.cpp.obj
+.PHONY : src/HAL/HAL_TermPrint.obj
+
+# target to build an object file
+src/HAL/HAL_TermPrint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj
+.PHONY : src/HAL/HAL_TermPrint.cpp.obj
+
+src/HAL/HAL_TermPrint.i: src/HAL/HAL_TermPrint.cpp.i
+.PHONY : src/HAL/HAL_TermPrint.i
+
+# target to preprocess a source file
+src/HAL/HAL_TermPrint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.i
+.PHONY : src/HAL/HAL_TermPrint.cpp.i
+
+src/HAL/HAL_TermPrint.s: src/HAL/HAL_TermPrint.cpp.s
+.PHONY : src/HAL/HAL_TermPrint.s
+
+# target to generate assembly for a file
+src/HAL/HAL_TermPrint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.s
+.PHONY : src/HAL/HAL_TermPrint.cpp.s
+
 src/HAL/HAL_Weather.obj: src/HAL/HAL_Weather.cpp.obj
 .PHONY : src/HAL/HAL_Weather.obj
 
@@ -15514,30 +15730,6 @@ src/HAL/HAL_Wifi.s: src/HAL/HAL_Wifi.cpp.s
 src/HAL/HAL_Wifi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.s
 .PHONY : src/HAL/HAL_Wifi.cpp.s
-
-src/HAL/city_cn.obj: src/HAL/city_cn.cpp.obj
-.PHONY : src/HAL/city_cn.obj
-
-# target to build an object file
-src/HAL/city_cn.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/city_cn.cpp.obj
-.PHONY : src/HAL/city_cn.cpp.obj
-
-src/HAL/city_cn.i: src/HAL/city_cn.cpp.i
-.PHONY : src/HAL/city_cn.i
-
-# target to preprocess a source file
-src/HAL/city_cn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/city_cn.cpp.i
-.PHONY : src/HAL/city_cn.cpp.i
-
-src/HAL/city_cn.s: src/HAL/city_cn.cpp.s
-.PHONY : src/HAL/city_cn.s
-
-# target to generate assembly for a file
-src/HAL/city_cn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/city_cn.cpp.s
-.PHONY : src/HAL/city_cn.cpp.s
 
 src/Port/Display.obj: src/Port/Display.cpp.obj
 .PHONY : src/Port/Display.obj
@@ -15670,9 +15862,6 @@ help:
 	@echo "... Debug"
 	@echo "... Production"
 	@echo "... Z_DUMMY_TARGET"
-	@echo "... lib/Arduino-MPU6050/MPU6050.obj"
-	@echo "... lib/Arduino-MPU6050/MPU6050.i"
-	@echo "... lib/Arduino-MPU6050/MPU6050.s"
 	@echo "... lib/ArduinoJson/extras/fuzzing/json_fuzzer.obj"
 	@echo "... lib/ArduinoJson/extras/fuzzing/json_fuzzer.i"
 	@echo "... lib/ArduinoJson/extras/fuzzing/json_fuzzer.s"
@@ -16171,6 +16360,12 @@ help:
 	@echo "... lib/ESP32Time/ESP32Time.obj"
 	@echo "... lib/ESP32Time/ESP32Time.i"
 	@echo "... lib/ESP32Time/ESP32Time.s"
+	@echo "... lib/MPU6050/src/I2Cdev.obj"
+	@echo "... lib/MPU6050/src/I2Cdev.i"
+	@echo "... lib/MPU6050/src/I2Cdev.s"
+	@echo "... lib/MPU6050/src/MPU6050.obj"
+	@echo "... lib/MPU6050/src/MPU6050.i"
+	@echo "... lib/MPU6050/src/MPU6050.s"
 	@echo "... lib/SD/src/SD.obj"
 	@echo "... lib/SD/src/SD.i"
 	@echo "... lib/SD/src/SD.s"
@@ -17386,6 +17581,12 @@ help:
 	@echo "... src/App/Resources/Image/img_src_bluetooth.obj"
 	@echo "... src/App/Resources/Image/img_src_bluetooth.i"
 	@echo "... src/App/Resources/Image/img_src_bluetooth.s"
+	@echo "... src/App/Resources/Image/img_src_bt.obj"
+	@echo "... src/App/Resources/Image/img_src_bt.i"
+	@echo "... src/App/Resources/Image/img_src_bt.s"
+	@echo "... src/App/Resources/Image/img_src_bt_off.obj"
+	@echo "... src/App/Resources/Image/img_src_bt_off.i"
+	@echo "... src/App/Resources/Image/img_src_bt_off.s"
 	@echo "... src/App/Resources/Image/img_src_clock.obj"
 	@echo "... src/App/Resources/Image/img_src_clock.i"
 	@echo "... src/App/Resources/Image/img_src_clock.s"
@@ -17476,6 +17677,15 @@ help:
 	@echo "... src/App/Resources/Image/img_src_weather.obj"
 	@echo "... src/App/Resources/Image/img_src_weather.i"
 	@echo "... src/App/Resources/Image/img_src_weather.s"
+	@echo "... src/App/Resources/Image/img_src_wifi.obj"
+	@echo "... src/App/Resources/Image/img_src_wifi.i"
+	@echo "... src/App/Resources/Image/img_src_wifi.s"
+	@echo "... src/App/Resources/Image/img_src_wifi_48.obj"
+	@echo "... src/App/Resources/Image/img_src_wifi_48.i"
+	@echo "... src/App/Resources/Image/img_src_wifi_48.s"
+	@echo "... src/App/Resources/Image/img_src_wifi_off.obj"
+	@echo "... src/App/Resources/Image/img_src_wifi_off.i"
+	@echo "... src/App/Resources/Image/img_src_wifi_off.s"
 	@echo "... src/App/Resources/Image/img_src_zhihu.obj"
 	@echo "... src/App/Resources/Image/img_src_zhihu.i"
 	@echo "... src/App/Resources/Image/img_src_zhihu.s"
@@ -17569,6 +17779,9 @@ help:
 	@echo "... src/HAL/HAL_Buzz.obj"
 	@echo "... src/HAL/HAL_Buzz.i"
 	@echo "... src/HAL/HAL_Buzz.s"
+	@echo "... src/HAL/HAL_Config.obj"
+	@echo "... src/HAL/HAL_Config.i"
+	@echo "... src/HAL/HAL_Config.s"
 	@echo "... src/HAL/HAL_Encoder.obj"
 	@echo "... src/HAL/HAL_Encoder.i"
 	@echo "... src/HAL/HAL_Encoder.s"
@@ -17578,21 +17791,24 @@ help:
 	@echo "... src/HAL/HAL_IMU.obj"
 	@echo "... src/HAL/HAL_IMU.i"
 	@echo "... src/HAL/HAL_IMU.s"
+	@echo "... src/HAL/HAL_JsonConst.obj"
+	@echo "... src/HAL/HAL_JsonConst.i"
+	@echo "... src/HAL/HAL_JsonConst.s"
 	@echo "... src/HAL/HAL_Power.obj"
 	@echo "... src/HAL/HAL_Power.i"
 	@echo "... src/HAL/HAL_Power.s"
 	@echo "... src/HAL/HAL_SdCard.obj"
 	@echo "... src/HAL/HAL_SdCard.i"
 	@echo "... src/HAL/HAL_SdCard.s"
+	@echo "... src/HAL/HAL_TermPrint.obj"
+	@echo "... src/HAL/HAL_TermPrint.i"
+	@echo "... src/HAL/HAL_TermPrint.s"
 	@echo "... src/HAL/HAL_Weather.obj"
 	@echo "... src/HAL/HAL_Weather.i"
 	@echo "... src/HAL/HAL_Weather.s"
 	@echo "... src/HAL/HAL_Wifi.obj"
 	@echo "... src/HAL/HAL_Wifi.i"
 	@echo "... src/HAL/HAL_Wifi.s"
-	@echo "... src/HAL/city_cn.obj"
-	@echo "... src/HAL/city_cn.i"
-	@echo "... src/HAL/city_cn.s"
 	@echo "... src/Port/Display.obj"
 	@echo "... src/Port/Display.i"
 	@echo "... src/Port/Display.s"

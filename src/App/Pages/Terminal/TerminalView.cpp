@@ -27,10 +27,10 @@ void TerminalView::Create(lv_obj_t* root)
 	 // lv_obj_set_style_text_font(ui.termTextLabel, &lv_font_simsun_16_cjk, 0);
 	 lv_obj_set_style_text_color(ui.termTextLabel, lv_color_white(), 0);
 	 // lv_obj_align(ui.termTextLabel, LV_ALIGN_TOP_MID, 0, 120);
-	 lv_obj_set_pos(ui.termTextLabel, 5, 15);
+	 // lv_obj_set_pos(ui.termTextLabel, 5, 15);
 	 
 	ui.group = lv_group_create();
-	lv_group_add_obj(ui.group, root);
+	// lv_group_add_obj(ui.group, root);
 	lv_group_add_obj(ui.group, ui.termTextLabel);
 }
 

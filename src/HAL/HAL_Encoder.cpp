@@ -48,6 +48,7 @@ static void Encoder_PushHandler(ButtonEvent* btn, int event)
 {
     if (event == ButtonEvent::EVENT_PRESSED)
     {
+        HAL::config.enc_btn_first_push_flag=1;
         Serial.println("Encoder btn EVENT_PRESSED");
 
         HAL::Buzz_Tone(500, 20);

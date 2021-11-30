@@ -61,49 +61,46 @@ void HAL::IMU_Init()
     //     Serial.print(devStatus);
     //     Serial.println(F(")"));
     // }
+#ifdef BOARD_WROOM32
+#else
     accelgyro.initialize();
     Serial.println("Testing device connections...");
     Serial.println(accelgyro.testConnection() ? "MPU6050 connection successful" : "MPU6050 connection failed");
-
+#endif
 }
 
 void HAL::IMU_Update()
 {
     IMU_Info_t imuInfo;
-    // imuInfo.ax = rand() % 1000 - 500;
-    // imuInfo.ay = rand() % 1000 - 500;
-    // imuInfo.az = rand() % 1000 - 500;
-    // imuInfo.gx = rand() % 1000 - 500;
-    // imuInfo.gy = rand() % 1000 - 500;
-    // imuInfo.gz = rand() % 1000 - 500;
-    // imuInfo.mx = rand() % 1000 - 500;
-    // imuInfo.my = rand() % 1000 - 500;
-    // imuInfo.mz = rand() % 1000 - 500;
-    // imuInfo.roll= rand() % 1000 - 500;
-    // imuInfo.yaw =rand() % 1000 - 500;
-    // imuInfo.pitch=rand() % 1000 - 500;
 
-//    accelgyro.getMotion6(
-//            &imuInfo.ax,
-//            &imuInfo.ay,
-//            &imuInfo.az,
-//            &imuInfo.gx,
-//            &imuInfo.gy,
-//            &imuInfo.gz
-//    );
+#ifdef BOARD_WROOM32
+     imuInfo.ax = rand() % 1000 - 500;
+     imuInfo.ay = rand() % 1000 - 500;
+     imuInfo.az = rand() % 1000 - 500;
+     imuInfo.gx = rand() % 1000 - 500;
+     imuInfo.gy = rand() % 1000 - 500;
+     imuInfo.gz = rand() % 1000 - 500;
+     imuInfo.mx = rand() % 1000 - 500;
+     imuInfo.my = rand() % 1000 - 500;
+     imuInfo.mz = rand() % 1000 - 500;
+     imuInfo.roll= rand() % 1000 - 500;
+     imuInfo.yaw =rand() % 1000 - 500;
+     imuInfo.pitch=rand() % 1000 - 500;
+#else
     accelgyro.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-    imuInfo.ax = ax;
-    imuInfo.ay = ay;
-    imuInfo.az = az;
-    imuInfo.gx = gx;
-    imuInfo.gy = gy;
-    imuInfo.gz = gz;
+    imuInfo.ax = (float)ax/1000;
+    imuInfo.ay = (float)ay/1000;
+    imuInfo.az = (float)az/1000;
+    imuInfo.gx = (float)gx/1000;
+    imuInfo.gy = (float)gy/1000;
+    imuInfo.gz = (float)gz/1000;
     imuInfo.mx = 0;
     imuInfo.my = 0;
     imuInfo.mz = 0;
     imuInfo.roll= 0;
     imuInfo.yaw =0;
     imuInfo.pitch=0;
+#endif
 
     AccountSystem::IMU_Commit(&imuInfo);
 

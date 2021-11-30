@@ -25,6 +25,18 @@ void SystemInfosView::Create(lv_obj_t* root)
 	Style_Init();
 
 	Item_Create(
+		&ui.wifi,
+		root,
+		"WifiInfo",
+		"wifi_48",
+
+		"Host\n"
+		"Wifi\n"
+		"Passwd\n"
+		"Connected"
+	);
+
+	Item_Create(
 		&ui.system,
 		root,
 		"SystemInfo",
@@ -73,8 +85,8 @@ void SystemInfosView::Create(lv_obj_t* root)
 		"Detect\n"
 		"Size\n"
 		"Version\n"
-		"HeapSize\n"
-		"UsedHeap"
+		"FreeHeap\n"
+		"Usedpercent"
 	);
 
 	
@@ -87,6 +99,7 @@ void SystemInfosView::Group_Init()
 	lv_group_set_focus_cb(ui.group, onFocus);
 	lv_indev_set_group(lv_get_indev(LV_INDEV_TYPE_ENCODER), ui.group);
 	
+	lv_group_add_obj(ui.group, ui.wifi.icon);
 	lv_group_add_obj(ui.group, ui.system.icon);
 	lv_group_add_obj(ui.group, ui.imu.icon);
 	lv_group_add_obj(ui.group, ui.battery.icon);
@@ -230,6 +243,26 @@ void SystemInfosView::Item_Create(
 	lv_obj_set_height(icon, height);
 }
 
+void SystemInfosView::SetWifiInfo(
+	const char* host_name,
+	const char* wifi_name,
+	const char* password,
+	uint8_t is_connected
+)
+{
+	lv_label_set_text_fmt(
+		ui.wifi.labelData,
+		"%s\n"
+		"%s\n"
+		"%s\n"
+		"%s",
+		host_name,
+		wifi_name,
+		password,
+		is_connected?"YES":"NO"
+	);
+	
+}
 void SystemInfosView::SetIMU(
 	const char* info
 )
@@ -276,7 +309,7 @@ void SystemInfosView::SetStorage(
 		detect,
 		size,
 		version,
-		total_heap,
+		total_heap/1024,
 		used_heap_percent
 	);
 }

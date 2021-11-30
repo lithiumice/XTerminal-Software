@@ -6,35 +6,32 @@
 #include "HAL_Def.h"
 #include "App/Configs/Config.h"
 #include "CommonMacro.h"
-
-#ifdef ARDUINO
-#include "Arduino.h"
-#include "FreeRTOS.h"
-#include <ESP32Time.h>
-#include "WString.h"
-
-#include <WiFi.h>
-#include <WiFiMulti.h>
-#include <WebServer.h>
-#include <ESPmDNS.h>
-#include <HTTPClient.h>
-#else
-#include "WString/WString.h"
-class ESP32Time{};
-#endif
-
-
+#include "HAL_Config.h"
 
 namespace HAL
 {
-
-    void getWeatherNowUrl(void);
-    void getWeatherWeekUrl(short maxT[], short minT[]);
-    long long getTimestampLocal();
-    long long getTimestampUrl();
-
+/* HAL */
     void Init();
     void Update();
+
+/* Config */
+    extern Config_t config;
+    void config_set(HAL::Weather_Info_t *info);
+    void config_get(HAL::Weather_Info_t *info);
+    void config_set_clock(int64_t Timestamp);
+    void config_get_clock(int64_t *Timestamp);
+    void config_load();
+    void config_save();
+
+/* Weather */
+
+    int64_t getTimestampLocal();
+    int64_t getTimestampUrl();
+    bool getWeatherWeekUrl(short maxT[], short minT[]);
+    bool getWeatherNowUrl(Weather_Info_t *info);
+    void parseTimeStamp(int64_t timestamp);
+
+
 
 /* WIFI */
     void wifi_init();
@@ -67,7 +64,7 @@ namespace HAL
 /* IMU */
     void IMU_Init();
     void IMU_Update();
-
+    void Clock_Update();
     void Weather_Update();
 
 /* SD */

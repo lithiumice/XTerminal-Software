@@ -1,6 +1,8 @@
 #include "TemplateView.h"
 #include <map>
 
+#include "HAL/HAL.h"
+
 #ifdef ARDUINO
 #include "WString.h"
 #else
@@ -8,9 +10,12 @@
 #endif
 
 using namespace Page;
+extern std::map<String, int> weather_str2int;
+extern String ari_level_int2str[];
+extern String weather_int2name[];
 
 // char weekDayCh[7][5] = { "周一","周二", "周一", "周一", "周一", "周一", "周一" };
-
+// xue、lei、shachen、wu、bingbao、yun、yu、yin、qing
 void TemplateView::weather_group_add(lv_obj_t* root)
 {
 	ui.group = lv_group_create();
@@ -54,7 +59,7 @@ void TemplateView::weather_gui_init(lv_obj_t* root)
 {
 	ui.weatherImg = lv_img_create(root);
 	lv_img_set_src(ui.weatherImg, weaImage_map[0]);
-	lv_obj_set_pos(ui.weatherImg, 15, 25);
+	lv_obj_set_pos(ui.weatherImg, 15, 30);
 
 	ui.cityLabel = lv_label_create(root);
 	lv_label_set_recolor(ui.cityLabel, true);
@@ -99,10 +104,10 @@ void TemplateView::weather_gui_init(lv_obj_t* root)
 	lv_obj_align(ui.clockLabel_1, LV_ALIGN_TOP_MID, 0, 110);
 	ui.clockLabel_2 = lv_label_create(root);
 	lv_label_set_recolor(ui.clockLabel_2, true);
-	lv_label_set_text_fmt(ui.clockLabel_2, " %02d second", 00);
-	lv_obj_set_style_text_font(ui.clockLabel_2, &lv_font_montserrat_10, 0);
+	lv_label_set_text_fmt(ui.clockLabel_2, " %02d", 00);
+	lv_obj_set_style_text_font(ui.clockLabel_2, &lv_font_montserrat_12, 0);
 	lv_obj_set_style_text_color(ui.clockLabel_2, lv_color_white(), 0);
-	lv_obj_set_pos(ui.clockLabel_2, 160, 115);
+	lv_obj_set_pos(ui.clockLabel_2, 163, 115);
 
 
 
@@ -172,26 +177,33 @@ void TemplateView::SetCityName(const char* cityName)
 	);
 }
 
-void TemplateView::SetWeather(const int weatherCode)
+void TemplateView::SetWeather(const char* weather_pinyin)
 {
+	int code = weather_str2int[weather_pinyin];
+	const char* name = weather_int2name[code].c_str();
 	lv_img_set_src(
 		ui.weatherImg,
-		weaImage_map[0]
+		weaImage_map[code]
 	);
 	lv_label_set_text_fmt(
 		ui.weatherLabel,
-		"Weather: #ffa500 %s#", 
-		"Sunny"
+		"Weather: #ffa500 %s#",
+		name
 	);
 }
 
 void TemplateView::SetAirLevel(const int airLevel)
 {
-
+	if (airLevel < 0 || airLevel>5)
+	{
+		HAL::TerminalPrintln("error air level");
+		return;
+	}
+	const char* name = ari_level_int2str[airLevel].c_str();
 	lv_label_set_text_fmt(
 		ui.airLabel,
-		"AirLevel: #ffa500 %d#",
-		airLevel
+		"AirLevel: #ffa500 %s#",
+		name
 	);
 }
 
@@ -233,7 +245,7 @@ void TemplateView::SetTextInfo(const int minTemp, const int maxTemp, const char*
 {
 	lv_label_set_text_fmt(
 		ui.txtLabel,
-		"minTemp:%d C, maxTemp:%d C, windDir:%s level %d",
+		"minTemp:%dC, maxTemp:%dC, windDir:%s, winlevel:%d",
 		minTemp,
 		maxTemp,
 		windDir,
@@ -268,7 +280,7 @@ void TemplateView::SetClockSec(const int sec)
 
 	lv_label_set_text_fmt(
 		ui.clockLabel_2,
-		" %02d second",
+		" %02d",
 		sec
 	);
 }
@@ -281,8 +293,11 @@ void TemplateView::Create(lv_obj_t* root)
 
 	weather_style_init();
 	weather_gui_init(root);
-	weather_group_add(root);
+	// weather_group_add(root);
+	ui.group = lv_group_create();
+	lv_group_add_obj(ui.group, root);
 }
+
 
 void TemplateView::Delete()
 {

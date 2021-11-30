@@ -103,6 +103,8 @@ namespace Page
 
 		void SetCityName(const char* cityName);
 
+		void SetWeather(const char* weather_pinyin);
+
 		void SetWeather(const int weatherCode);
 		void SetAirLevel(const int airLevel);
 

@@ -45,8 +45,8 @@ void AppListView::Create(lv_obj_t* root)
 	Item_Create(
 		&ui.pictures,
 		root,
-		"Pictures",
-		"picture",
+		"SysInfo",
+		"system",
 
 		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
 	);

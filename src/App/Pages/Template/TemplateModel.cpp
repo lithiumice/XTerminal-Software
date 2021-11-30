@@ -4,17 +4,17 @@
 #include "App/Accounts/Account_Master.h"
 using namespace Page;
 
-static int onEvent(Account* account, Account::EventParam_t* param)
-{
-    auto instance = (TemplateModel*)(account->UserData);
-
-    if(param->event==Account::EVENT_PUB_PUBLISH)
-    {
-        instance->data_reved_flag = 1;
-        memcpy(&instance->info, param->data_p, sizeof(HAL::Weather_Info_t));
-    }
-    return 0;
-}
+//static int onEvent(Account* account, Account::EventParam_t* param)
+//{
+//    auto instance = (TemplateModel*)(account->UserData);
+//
+//    if(param->event==Account::EVENT_PUB_PUBLISH)
+//    {
+//        instance->data_reved_flag = 1;
+//        memcpy(&instance->info, param->data_p, sizeof(HAL::Weather_Info_t));
+//    }
+//    return 0;
+//}
 
 void TemplateModel::Init()
 {
@@ -24,7 +24,7 @@ void TemplateModel::Init()
         0, 
         this
     );
-    account->SetEventCallback(onEvent);
+//    account->SetEventCallback(onEvent);
     account->Subscribe("Weather");
 
     GetWeatherInfo();

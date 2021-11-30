@@ -24,10 +24,11 @@ do{\
         IMPORT_FONT(bahnschrift_32);
         IMPORT_FONT(bahnschrift_65);
         IMPORT_FONT(agencyb_36);
-        IMPORT_FONT(MicrosoftDengL_14);
+        // IMPORT_FONT(MicrosoftDengL_14);
         
         /* Import Images */
         IMPORT_IMG(logo);
+        IMPORT_IMG(system);
         IMPORT_IMG(setting);
         IMPORT_IMG(cube);
         IMPORT_IMG(terminal);
@@ -41,6 +42,7 @@ do{\
         IMPORT_IMG(bt);
         IMPORT_IMG(bt_off);
         IMPORT_IMG(wifi);
+        IMPORT_IMG(wifi_48);
         IMPORT_IMG(wifi_off);
 
         IMPORT_IMG(alarm);

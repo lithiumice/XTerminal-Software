@@ -10,6 +10,10 @@ namespace HAL{
 
 void HAL::TerminalPrint(char* text)
 {
+//    va_list arg_ptr;
+//    va_start(arg_ptr, count);
+//    printf(text,...);
+
     printf("%s",text);
     globalTermText = globalTermText + text;
     term_text_update_flag=1;

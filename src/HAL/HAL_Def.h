@@ -3,9 +3,50 @@
 
 #include <stdint.h>
 #include <string>
+#ifdef ARDUINO
+#include "Arduino.h"
+#include "FreeRTOS.h"
+#include <ESP32Time.h>
+#include "WString.h"
+
+#include <WiFi.h>
+#include <WiFiMulti.h>
+#include <WebServer.h>
+#include <ESPmDNS.h>
+#include <HTTPClient.h>
+#else
+#include "WString/WString.h"
+class ESP32Time{};
+#define millis() lv_tick_get()
+#endif
+
+#define WIFI_SET_NAME 0
+#define WIFI_SET_PWD 1
 
 namespace HAL
 {
+
+    typedef struct {
+        String wifi_name;
+        String wifi_pwd;
+        String host_name;
+
+        bool auto_enter_weather;
+        int auto_enter_weather_delay_sec;
+
+        int backlight_256;
+        int update_clock_interval_minute;//min
+        int update_weather_interval_minute;//min
+
+        //flag
+        uint8_t wifi_name_passswd;
+        uint8_t clock_url_get_sucess_flag;
+        uint8_t weather_url_get_sucess_flag;
+        uint8_t enc_btn_first_push_flag;
+
+
+    } Config_t;
+
 	/* Time */
 	typedef struct
 	{
@@ -88,7 +129,6 @@ namespace HAL
 		bool isCharging;
 	} Power_Info_t;
 
-    void getWeatherNowUrl(Weather_Info_t *info);
 }
 
 #endif

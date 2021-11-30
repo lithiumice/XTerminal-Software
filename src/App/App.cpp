@@ -43,14 +43,6 @@ void App_Init()
     manager.SetGlobalLoadAnimType(PageManager::LOAD_ANIM_OVER_TOP, 500);
     manager.Push("Pages/Startup");
 
-    // APP_DEF(Template);
-    // APP_DEF(SystemInfos);
-    // APP_DEF(Startup);
-    // APP_DEF(Scene3D);
-    // APP_DEF(Terminal);
-    // APP_DEF(Pictures);
-    // APP_DEF(AppList);
-
     ACCOUNT_SEND_NOTIFY_CMD(Storage, STORAGE_CMD_LOAD);
     ACCOUNT_SEND_NOTIFY_CMD(SysConfig, SYSCONFIG_CMD_LOAD);
     INIT_DONE();

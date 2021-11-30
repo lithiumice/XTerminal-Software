@@ -1,7 +1,13 @@
 #include <HAL/HAL.h>
 #include "Template.h"
+#include <map>
 #include "stdio.h"
 using namespace Page;
+extern std::map<String, int> weather_str2int;
+extern String* ari_level_int2str;
+extern HAL::Weather_Info_t weaInfo;
+extern HAL::TimeStamp_t time_stamp_info;
+extern HAL::Time_str_t time_info;
 
 Template::Template()
 {
@@ -33,15 +39,22 @@ void Template::onViewDidLoad()
 void Template::onViewWillAppear()
 {
 	lv_indev_set_group(lv_get_indev(LV_INDEV_TYPE_ENCODER), View.ui.group);
-	
+
 	StatusBar::SetStyle(StatusBar::STYLE_TRANSP);
 
 	lv_obj_set_style_bg_color(root, lv_color_white(), LV_PART_MAIN);
 
-	timer = lv_timer_create(onTimerUpdate, 60, this);
+	timer = lv_timer_create(onTimerUpdate, 10, this);
 	lv_timer_ready(timer);
 
 	lv_obj_fade_in(root, 600, 0);
+
+	//info init
+    updateWeather();
+#ifdef ARDUINO
+	HAL::parseTimeStamp(HAL::getTimestampLocal());
+#endif
+    updateClockInfo();
 }
 
 void Template::onViewDidAppear()
@@ -71,6 +84,22 @@ void Template::AttachEvent(lv_obj_t* obj)
 	lv_obj_add_event_cb(obj, onEvent, LV_EVENT_ALL, this);
 }
 
+void Template::updateSeconds()
+{
+	time_info.second++;
+	if (time_info.second >= 60)//60s
+	{
+        time_info.second=0;
+
+#ifdef ARDUINO
+		HAL::parseTimeStamp(HAL::getTimestampLocal());
+#endif
+        updateClockInfo();
+	}
+	View.SetClockSec(time_info.second);
+
+}
+
 void Template::updateSpaceImg()
 {
 	static int _spaceIndex = 0;
@@ -79,28 +108,60 @@ void Template::updateSpaceImg()
 
 }
 
+void Template::updateClockInfo()
+{
+	View.SetClockDay(time_info.month, time_info.day);
+	View.SetClockHour(time_info.hour, time_info.minute);
+}
+
 void Template::updateWeather()
 {
-	if (Model.data_reved_flag)
-	{
-		Model.data_reved_flag = 0;
-		View.SetAirLevel(Model.info.airQulity);
-		View.SetCityName(Model.info.cityname);
-		View.SetHuminature(Model.info.humidity);
-		View.SetTemperatue(Model.info.temperature);
-		View.SetTextInfo(
-			Model.info.minTemp, 
-			Model.info.maxTmep,
-			Model.info.windDir,
-			Model.info.windLevel
-		);
-	}
+	View.SetWeather(weaInfo.weather);
+	View.SetAirLevel(weaInfo.airQulity);
+	View.SetCityName(weaInfo.cityname);
+	View.SetHuminature(weaInfo.humidity);
+	View.SetTemperatue(weaInfo.temperature);
+	View.SetTextInfo(
+		weaInfo.minTemp,
+		weaInfo.maxTmep,
+		weaInfo.windDir,
+		weaInfo.windLevel
+	);
 }
 
 void Template::Update()
 {
-	updateSpaceImg();
-	updateWeather();
+	__IntervalExecute(updateSpaceImg(), 60);
+	__IntervalExecute(updateSeconds(), 1000);
+	__IntervalExecute(updateWeather(), 1000*5);
+
+	if(HAL::config.weather_url_get_sucess_flag)
+    {
+        HAL::config.weather_url_get_sucess_flag=0;
+        updateWeather();
+    }
+
+    if(HAL::config.clock_url_get_sucess_flag)
+    {
+        HAL::config.clock_url_get_sucess_flag=0;
+        updateClockInfo();
+        updateSeconds();
+    }
+	// static int count = 0;
+	// count++;//10ms
+	//
+	// if (count % 3 == 0)//60ms
+	// {
+	// 	updateSpaceImg();
+	// }
+	// if (count % (100 * 5) == 0)//5s
+	// {
+	// 	updateWeather();
+	// 	updateClockInfo();
+	// }
+
+
+
 }
 
 void Template::onTimerUpdate(lv_timer_t* timer)

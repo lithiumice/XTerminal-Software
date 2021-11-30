@@ -146,23 +146,23 @@ static void StatusBar_Update(lv_timer_t* timer)
     wifi_cur_status = HAL::wifi_isconnected();
     if(wifi_cur_status!= wifi_last_status)
     {
-	    if(wifi_cur_status)
-            lv_img_set_src(ui.imgWifi, Resource.GetImage("wifi"));
-        else
-            lv_img_set_src(ui.imgWifi, Resource.GetImage("wifi_off"));
+        lv_img_set_src(ui.imgWifi, 
+            wifi_cur_status?
+            Resource.GetImage("wifi"):
+            Resource.GetImage("wifi_off"));
     }
 
     /* bt */
     static uint8_t bt_last_status = 0;
     static uint8_t bt_cur_status = 0;
     bt_last_status = bt_cur_status;
-    bt_cur_status = HAL::wifi_isconnected();
+    bt_cur_status = 0;
     if (bt_cur_status != bt_last_status)
     {
-        if (bt_cur_status)
-            lv_img_set_src(ui.imgBT, Resource.GetImage("bt"));
-        else
-            lv_img_set_src(ui.imgBT, Resource.GetImage("bt_off"));
+        lv_img_set_src(ui.imgBT, 
+            bt_cur_status?
+            Resource.GetImage("bt"):
+            Resource.GetImage("bt_off"));
     }
 
     /* battery */
@@ -170,7 +170,8 @@ static void StatusBar_Update(lv_timer_t* timer)
     actStatusBar->Pull("Power", &power, sizeof(power));
     lv_label_set_text_fmt(ui.battery.label, "%d%%", power.usage);
 
-    bool Is_BattCharging = power.isCharging;
+    bool Is_BattCharging = 1;
+    // bool Is_BattCharging = power.isCharging;
     lv_obj_t* contBatt = ui.battery.objUsage;
     static bool Is_BattChargingAnimActive = false;
     if(Is_BattCharging)
@@ -260,15 +261,15 @@ static lv_obj_t* StatusBar_Create(lv_obj_t* par)
 
     /* wifi */
     img = lv_img_create(cont);
-    lv_img_set_src(img, Resource.GetImage("bt"));
-    lv_obj_align(img, LV_ALIGN_LEFT_MID, 32, 0);
+    lv_img_set_src(img, Resource.GetImage("wifi"));
+    lv_obj_align(img, LV_ALIGN_LEFT_MID, 14+18, 0);
     // lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgWifi = img;
 
     /* bluetooth */
     img = lv_img_create(cont);
     lv_img_set_src(img, Resource.GetImage("bt"));
-    lv_obj_align(img, LV_ALIGN_LEFT_MID, 32+14, 0);
+    lv_obj_align(img, LV_ALIGN_LEFT_MID, 14+18+18, 0);
     // lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgBT = img;
 
@@ -306,7 +307,7 @@ static lv_obj_t* StatusBar_Create(lv_obj_t* par)
 
     label = lv_label_create(cont);
     lv_obj_add_style(label, &style, 0);
-    lv_obj_align_to(label, ui.battery.img, LV_ALIGN_OUT_RIGHT_MID, 5, 0);
+    lv_obj_align_to(label, ui.battery.img, LV_ALIGN_OUT_RIGHT_MID, 3, 0);
     lv_label_set_text(label, "100%");
     ui.battery.label = label;
 
