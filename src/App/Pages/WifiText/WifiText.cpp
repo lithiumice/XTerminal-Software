@@ -198,7 +198,7 @@ void WifiText::onEvent(lv_event_t* event)
 			HAL::config.wifi_pwd = text;
 		}
 		HAL::config.host_name = "LithiumPeak";
-		HAL::config_save();
+		HAL::config_wifi_save();
 #endif
 
 		instance->Manager->Pop();

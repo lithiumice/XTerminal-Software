@@ -1,6 +1,7 @@
 #include "Scene3DView.h"
 
 using namespace Page;
+void* cbuf;
 
 void Scene3DView::Create(lv_obj_t* root)
 {
@@ -36,8 +37,9 @@ void Scene3DView::Create(lv_obj_t* root)
 	lv_draw_label_dsc_init(&label_dsc);
 	label_dsc.color = lv_color_make(0, 150, 150);
 
-	static lv_color_t cbuf[LV_CANVAS_BUF_SIZE_TRUE_COLOR(120, 120)];
+	// static lv_color_t cbuf[LV_CANVAS_BUF_SIZE_TRUE_COLOR(120, 120)];
 
+	cbuf = lv_mem_alloc(LV_CANVAS_BUF_SIZE_TRUE_COLOR(120, 120));
 	lv_obj_t* canvas = lv_canvas_create(root);
 	lv_canvas_set_buffer(canvas, cbuf, 120, 120, LV_IMG_CF_TRUE_COLOR);
 	lv_obj_align(canvas, LV_ALIGN_CENTER, 0, 0);
@@ -58,3 +60,15 @@ void Scene3DView::Create(lv_obj_t* root)
 	lv_group_add_obj(ui.group, ui.canvas);
 	lv_group_focus_obj(ui.canvas);
 }
+
+void Scene3DView::Delete()
+{
+	lv_obj_del(ui.canvas);
+	lv_obj_del(ui.labelTitle);
+
+	if(cbuf!=nullptr)
+	{
+		lv_mem_free(cbuf);
+	}
+}
+

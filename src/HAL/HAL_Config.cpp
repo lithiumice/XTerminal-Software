@@ -33,29 +33,50 @@ Preferences prefs;
 
 void HAL::config_load()
 {
+    config_wifi_load();
+    config_num_load();
+    HAL::TerminalPrintln("auto_enter_weather_delay_sec"+String((int)config.auto_enter_weather_delay_sec));
+    HAL::TerminalPrintln("update_weather_interval_minute"+String((int)config.update_weather_interval_minute));
+}
+
+void HAL::config_clear()
+{
     prefs.begin("Config");
-
-//    if(prefs.isKey("host_name"))
-    config.host_name=prefs.getString("host_name", "LithiumPeak");
-    config.wifi_name=prefs.getString("wifi_name", "LithiumMe");
-    config.wifi_pwd=prefs.getString("wifi_pwd", "1234qwer");
-
-    config.auto_enter_weather=prefs.getBool(AUTO_ENTER_WEATHER,0);
-    config.auto_enter_weather_delay_sec=prefs.getInt(AUTO_ENTER_WEATHER_DELAY_SEC,5);
-    config.backlight_256=prefs.getInt(BACKLIGHT_256,256);
-    config.update_clock_interval_minute=prefs.getInt(UPDATE_CLOCK_INTERVAL, 2);
-    config.update_weather_interval_minute=prefs.getInt(UPDATE_WEATHER_INTERVAL, 5);
-
+    prefs.clear();
     prefs.end();
 }
 
 void HAL::config_save()
+{
+    config_wifi_save();
+    config_num_save();
+}
+
+void HAL::config_wifi_load()
+{
+    prefs.begin("Config");
+
+    config.host_name=prefs.getString("host_name", "LithiumPeak");
+    config.wifi_name=prefs.getString("wifi_name", "LithiumMe");
+    config.wifi_pwd=prefs.getString("wifi_pwd", "1234qwer");
+
+    prefs.end();
+}
+
+void HAL::config_wifi_save()
 {
     prefs.begin("Config");
 
     prefs.putString("host_name", config.host_name);
     prefs.putString("wifi_name", config.wifi_name);
     prefs.putString("wifi_pwd", config.wifi_pwd);
+
+    prefs.end();
+}
+
+void HAL::config_num_save()
+{
+    prefs.begin("Config_num");
 
     prefs.putBool(AUTO_ENTER_WEATHER,config.auto_enter_weather);
     prefs.putInt(AUTO_ENTER_WEATHER_DELAY_SEC,config.auto_enter_weather_delay_sec);
@@ -66,9 +87,44 @@ void HAL::config_save()
     prefs.end();
 }
 
-void HAL::config_set(HAL::Weather_Info_t* info)
+void HAL::config_num_load()
+{
+    prefs.begin("Config_num");
+
+    config.auto_enter_weather=prefs.getBool(AUTO_ENTER_WEATHER,0);
+    config.auto_enter_weather_delay_sec=prefs.getInt(AUTO_ENTER_WEATHER_DELAY_SEC,5);
+    config.backlight_256=prefs.getInt(BACKLIGHT_256,256);
+    config.update_clock_interval_minute=prefs.getInt(UPDATE_CLOCK_INTERVAL, 2);
+    config.update_weather_interval_minute=prefs.getInt(UPDATE_WEATHER_INTERVAL, 5);
+
+    prefs.end();
+}
+
+void HAL::config_clock_save(int64_t Timestamp)
+{
+//prefs.remove("naisu");
+//
+//prefs.end();
+//Serial.println(prefs.freeEntries());
+    prefs.begin("Config");
+
+    prefs.putLong64("Timestamp",Timestamp);
+
+    prefs.end();
+}
+
+void HAL::config_clock_load(int64_t* Timestamp)
 {
     prefs.begin("Config");
+
+    *Timestamp=prefs.getLong64("Timestamp",0);
+
+    prefs.end();
+}
+
+void HAL::config_weather_save(HAL::Weather_Info_t* info)
+{
+    prefs.begin("Config_wea");
 
     prefs.putString("cityname", info->cityname);
     prefs.putString("weather", info->weather);
@@ -84,35 +140,9 @@ void HAL::config_set(HAL::Weather_Info_t* info)
     prefs.end();
 }
 
-void HAL::config_set_clock(int64_t Timestamp)
+void HAL::config_weather_load(HAL::Weather_Info_t* info)
 {
-    //prefs.begin("mynamespace");
-//
-//String naisu = prefs.getString("naisu", "555");
-//prefs.putString("naisu", "233");
-//prefs.remove("naisu");
-//prefs.clear();
-//prefs.end();
-//Serial.println(prefs.freeEntries());
-    prefs.begin("Config");
-
-    prefs.putLong64("Timestamp",Timestamp);
-
-    prefs.end();
-}
-
-void HAL::config_get_clock(int64_t* Timestamp)
-{
-    prefs.begin("Config");
-
-    *Timestamp=prefs.getLong64("Timestamp",0);
-
-    prefs.end();
-}
-
-void HAL::config_get(HAL::Weather_Info_t* info)
-{
-    prefs.begin("Config");
+    prefs.begin("Config_wea");
 
     String tmp=prefs.getString("cityname", "Chongqing");
     strcpy(info->cityname,tmp.c_str());

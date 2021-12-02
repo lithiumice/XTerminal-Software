@@ -7,7 +7,7 @@
 #else
 #define DISP_HOR_RES         240
 #define DISP_VER_RES         240
-#define DISP_BUF_SIZE        (240*240/8)//9.3KB
+#define DISP_BUF_SIZE        (240*240/4)//9.3KB
 #endif
 
 //static lv_color_t lv_full_disp_buf[DISP_BUF_SIZE];

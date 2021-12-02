@@ -13163,77 +13163,53 @@ src/App/Pages/AppList/AppListView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.s
 .PHONY : src/App/Pages/AppList/AppListView.cpp.s
 
-src/App/Pages/Pictures/Pictures.obj: src/App/Pages/Pictures/Pictures.cpp.obj
-.PHONY : src/App/Pages/Pictures/Pictures.obj
+src/App/Pages/NumTweak/NumTweak.obj: src/App/Pages/NumTweak/NumTweak.cpp.obj
+.PHONY : src/App/Pages/NumTweak/NumTweak.obj
 
 # target to build an object file
-src/App/Pages/Pictures/Pictures.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj
-.PHONY : src/App/Pages/Pictures/Pictures.cpp.obj
+src/App/Pages/NumTweak/NumTweak.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj
+.PHONY : src/App/Pages/NumTweak/NumTweak.cpp.obj
 
-src/App/Pages/Pictures/Pictures.i: src/App/Pages/Pictures/Pictures.cpp.i
-.PHONY : src/App/Pages/Pictures/Pictures.i
+src/App/Pages/NumTweak/NumTweak.i: src/App/Pages/NumTweak/NumTweak.cpp.i
+.PHONY : src/App/Pages/NumTweak/NumTweak.i
 
 # target to preprocess a source file
-src/App/Pages/Pictures/Pictures.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.i
-.PHONY : src/App/Pages/Pictures/Pictures.cpp.i
+src/App/Pages/NumTweak/NumTweak.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.i
+.PHONY : src/App/Pages/NumTweak/NumTweak.cpp.i
 
-src/App/Pages/Pictures/Pictures.s: src/App/Pages/Pictures/Pictures.cpp.s
-.PHONY : src/App/Pages/Pictures/Pictures.s
+src/App/Pages/NumTweak/NumTweak.s: src/App/Pages/NumTweak/NumTweak.cpp.s
+.PHONY : src/App/Pages/NumTweak/NumTweak.s
 
 # target to generate assembly for a file
-src/App/Pages/Pictures/Pictures.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.s
-.PHONY : src/App/Pages/Pictures/Pictures.cpp.s
+src/App/Pages/NumTweak/NumTweak.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.s
+.PHONY : src/App/Pages/NumTweak/NumTweak.cpp.s
 
-src/App/Pages/Pictures/PicturesModel.obj: src/App/Pages/Pictures/PicturesModel.cpp.obj
-.PHONY : src/App/Pages/Pictures/PicturesModel.obj
+src/App/Pages/Russian/Russian.obj: src/App/Pages/Russian/Russian.cpp.obj
+.PHONY : src/App/Pages/Russian/Russian.obj
 
 # target to build an object file
-src/App/Pages/Pictures/PicturesModel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj
-.PHONY : src/App/Pages/Pictures/PicturesModel.cpp.obj
+src/App/Pages/Russian/Russian.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj
+.PHONY : src/App/Pages/Russian/Russian.cpp.obj
 
-src/App/Pages/Pictures/PicturesModel.i: src/App/Pages/Pictures/PicturesModel.cpp.i
-.PHONY : src/App/Pages/Pictures/PicturesModel.i
-
-# target to preprocess a source file
-src/App/Pages/Pictures/PicturesModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.i
-.PHONY : src/App/Pages/Pictures/PicturesModel.cpp.i
-
-src/App/Pages/Pictures/PicturesModel.s: src/App/Pages/Pictures/PicturesModel.cpp.s
-.PHONY : src/App/Pages/Pictures/PicturesModel.s
-
-# target to generate assembly for a file
-src/App/Pages/Pictures/PicturesModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.s
-.PHONY : src/App/Pages/Pictures/PicturesModel.cpp.s
-
-src/App/Pages/Pictures/PicturesView.obj: src/App/Pages/Pictures/PicturesView.cpp.obj
-.PHONY : src/App/Pages/Pictures/PicturesView.obj
-
-# target to build an object file
-src/App/Pages/Pictures/PicturesView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj
-.PHONY : src/App/Pages/Pictures/PicturesView.cpp.obj
-
-src/App/Pages/Pictures/PicturesView.i: src/App/Pages/Pictures/PicturesView.cpp.i
-.PHONY : src/App/Pages/Pictures/PicturesView.i
+src/App/Pages/Russian/Russian.i: src/App/Pages/Russian/Russian.cpp.i
+.PHONY : src/App/Pages/Russian/Russian.i
 
 # target to preprocess a source file
-src/App/Pages/Pictures/PicturesView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.i
-.PHONY : src/App/Pages/Pictures/PicturesView.cpp.i
+src/App/Pages/Russian/Russian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.i
+.PHONY : src/App/Pages/Russian/Russian.cpp.i
 
-src/App/Pages/Pictures/PicturesView.s: src/App/Pages/Pictures/PicturesView.cpp.s
-.PHONY : src/App/Pages/Pictures/PicturesView.s
+src/App/Pages/Russian/Russian.s: src/App/Pages/Russian/Russian.cpp.s
+.PHONY : src/App/Pages/Russian/Russian.s
 
 # target to generate assembly for a file
-src/App/Pages/Pictures/PicturesView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.s
-.PHONY : src/App/Pages/Pictures/PicturesView.cpp.s
+src/App/Pages/Russian/Russian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.s
+.PHONY : src/App/Pages/Russian/Russian.cpp.s
 
 src/App/Pages/Scene3D/Scene3D.obj: src/App/Pages/Scene3D/Scene3D.cpp.obj
 .PHONY : src/App/Pages/Scene3D/Scene3D.obj
@@ -13306,6 +13282,30 @@ src/App/Pages/Scene3D/Scene3DView.s: src/App/Pages/Scene3D/Scene3DView.cpp.s
 src/App/Pages/Scene3D/Scene3DView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.s
 .PHONY : src/App/Pages/Scene3D/Scene3DView.cpp.s
+
+src/App/Pages/Settings/Settings.obj: src/App/Pages/Settings/Settings.cpp.obj
+.PHONY : src/App/Pages/Settings/Settings.obj
+
+# target to build an object file
+src/App/Pages/Settings/Settings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj
+.PHONY : src/App/Pages/Settings/Settings.cpp.obj
+
+src/App/Pages/Settings/Settings.i: src/App/Pages/Settings/Settings.cpp.i
+.PHONY : src/App/Pages/Settings/Settings.i
+
+# target to preprocess a source file
+src/App/Pages/Settings/Settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.i
+.PHONY : src/App/Pages/Settings/Settings.cpp.i
+
+src/App/Pages/Settings/Settings.s: src/App/Pages/Settings/Settings.cpp.s
+.PHONY : src/App/Pages/Settings/Settings.s
+
+# target to generate assembly for a file
+src/App/Pages/Settings/Settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.s
+.PHONY : src/App/Pages/Settings/Settings.cpp.s
 
 src/App/Pages/StartUp/StartUp.obj: src/App/Pages/StartUp/StartUp.cpp.obj
 .PHONY : src/App/Pages/StartUp/StartUp.obj
@@ -13475,102 +13475,6 @@ src/App/Pages/SystemInfos/SystemInfosView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.s
 .PHONY : src/App/Pages/SystemInfos/SystemInfosView.cpp.s
 
-src/App/Pages/Template/Template.obj: src/App/Pages/Template/Template.cpp.obj
-.PHONY : src/App/Pages/Template/Template.obj
-
-# target to build an object file
-src/App/Pages/Template/Template.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj
-.PHONY : src/App/Pages/Template/Template.cpp.obj
-
-src/App/Pages/Template/Template.i: src/App/Pages/Template/Template.cpp.i
-.PHONY : src/App/Pages/Template/Template.i
-
-# target to preprocess a source file
-src/App/Pages/Template/Template.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.i
-.PHONY : src/App/Pages/Template/Template.cpp.i
-
-src/App/Pages/Template/Template.s: src/App/Pages/Template/Template.cpp.s
-.PHONY : src/App/Pages/Template/Template.s
-
-# target to generate assembly for a file
-src/App/Pages/Template/Template.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.s
-.PHONY : src/App/Pages/Template/Template.cpp.s
-
-src/App/Pages/Template/TemplateModel.obj: src/App/Pages/Template/TemplateModel.cpp.obj
-.PHONY : src/App/Pages/Template/TemplateModel.obj
-
-# target to build an object file
-src/App/Pages/Template/TemplateModel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj
-.PHONY : src/App/Pages/Template/TemplateModel.cpp.obj
-
-src/App/Pages/Template/TemplateModel.i: src/App/Pages/Template/TemplateModel.cpp.i
-.PHONY : src/App/Pages/Template/TemplateModel.i
-
-# target to preprocess a source file
-src/App/Pages/Template/TemplateModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.i
-.PHONY : src/App/Pages/Template/TemplateModel.cpp.i
-
-src/App/Pages/Template/TemplateModel.s: src/App/Pages/Template/TemplateModel.cpp.s
-.PHONY : src/App/Pages/Template/TemplateModel.s
-
-# target to generate assembly for a file
-src/App/Pages/Template/TemplateModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.s
-.PHONY : src/App/Pages/Template/TemplateModel.cpp.s
-
-src/App/Pages/Template/TemplateView.obj: src/App/Pages/Template/TemplateView.cpp.obj
-.PHONY : src/App/Pages/Template/TemplateView.obj
-
-# target to build an object file
-src/App/Pages/Template/TemplateView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj
-.PHONY : src/App/Pages/Template/TemplateView.cpp.obj
-
-src/App/Pages/Template/TemplateView.i: src/App/Pages/Template/TemplateView.cpp.i
-.PHONY : src/App/Pages/Template/TemplateView.i
-
-# target to preprocess a source file
-src/App/Pages/Template/TemplateView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.i
-.PHONY : src/App/Pages/Template/TemplateView.cpp.i
-
-src/App/Pages/Template/TemplateView.s: src/App/Pages/Template/TemplateView.cpp.s
-.PHONY : src/App/Pages/Template/TemplateView.s
-
-# target to generate assembly for a file
-src/App/Pages/Template/TemplateView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.s
-.PHONY : src/App/Pages/Template/TemplateView.cpp.s
-
-src/App/Pages/Template/weather_image.obj: src/App/Pages/Template/weather_image.c.obj
-.PHONY : src/App/Pages/Template/weather_image.obj
-
-# target to build an object file
-src/App/Pages/Template/weather_image.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj
-.PHONY : src/App/Pages/Template/weather_image.c.obj
-
-src/App/Pages/Template/weather_image.i: src/App/Pages/Template/weather_image.c.i
-.PHONY : src/App/Pages/Template/weather_image.i
-
-# target to preprocess a source file
-src/App/Pages/Template/weather_image.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.i
-.PHONY : src/App/Pages/Template/weather_image.c.i
-
-src/App/Pages/Template/weather_image.s: src/App/Pages/Template/weather_image.c.s
-.PHONY : src/App/Pages/Template/weather_image.s
-
-# target to generate assembly for a file
-src/App/Pages/Template/weather_image.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.s
-.PHONY : src/App/Pages/Template/weather_image.c.s
-
 src/App/Pages/Terminal/Terminal.obj: src/App/Pages/Terminal/Terminal.cpp.obj
 .PHONY : src/App/Pages/Terminal/Terminal.obj
 
@@ -13642,6 +13546,126 @@ src/App/Pages/Terminal/TerminalView.s: src/App/Pages/Terminal/TerminalView.cpp.s
 src/App/Pages/Terminal/TerminalView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.s
 .PHONY : src/App/Pages/Terminal/TerminalView.cpp.s
+
+src/App/Pages/Weather/Weather.obj: src/App/Pages/Weather/Weather.cpp.obj
+.PHONY : src/App/Pages/Weather/Weather.obj
+
+# target to build an object file
+src/App/Pages/Weather/Weather.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj
+.PHONY : src/App/Pages/Weather/Weather.cpp.obj
+
+src/App/Pages/Weather/Weather.i: src/App/Pages/Weather/Weather.cpp.i
+.PHONY : src/App/Pages/Weather/Weather.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/Weather.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.i
+.PHONY : src/App/Pages/Weather/Weather.cpp.i
+
+src/App/Pages/Weather/Weather.s: src/App/Pages/Weather/Weather.cpp.s
+.PHONY : src/App/Pages/Weather/Weather.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/Weather.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.s
+.PHONY : src/App/Pages/Weather/Weather.cpp.s
+
+src/App/Pages/Weather/WeatherModel.obj: src/App/Pages/Weather/WeatherModel.cpp.obj
+.PHONY : src/App/Pages/Weather/WeatherModel.obj
+
+# target to build an object file
+src/App/Pages/Weather/WeatherModel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj
+.PHONY : src/App/Pages/Weather/WeatherModel.cpp.obj
+
+src/App/Pages/Weather/WeatherModel.i: src/App/Pages/Weather/WeatherModel.cpp.i
+.PHONY : src/App/Pages/Weather/WeatherModel.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/WeatherModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.i
+.PHONY : src/App/Pages/Weather/WeatherModel.cpp.i
+
+src/App/Pages/Weather/WeatherModel.s: src/App/Pages/Weather/WeatherModel.cpp.s
+.PHONY : src/App/Pages/Weather/WeatherModel.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/WeatherModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.s
+.PHONY : src/App/Pages/Weather/WeatherModel.cpp.s
+
+src/App/Pages/Weather/WeatherView.obj: src/App/Pages/Weather/WeatherView.cpp.obj
+.PHONY : src/App/Pages/Weather/WeatherView.obj
+
+# target to build an object file
+src/App/Pages/Weather/WeatherView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj
+.PHONY : src/App/Pages/Weather/WeatherView.cpp.obj
+
+src/App/Pages/Weather/WeatherView.i: src/App/Pages/Weather/WeatherView.cpp.i
+.PHONY : src/App/Pages/Weather/WeatherView.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/WeatherView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.i
+.PHONY : src/App/Pages/Weather/WeatherView.cpp.i
+
+src/App/Pages/Weather/WeatherView.s: src/App/Pages/Weather/WeatherView.cpp.s
+.PHONY : src/App/Pages/Weather/WeatherView.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/WeatherView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.s
+.PHONY : src/App/Pages/Weather/WeatherView.cpp.s
+
+src/App/Pages/Weather/weather_image.obj: src/App/Pages/Weather/weather_image.c.obj
+.PHONY : src/App/Pages/Weather/weather_image.obj
+
+# target to build an object file
+src/App/Pages/Weather/weather_image.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj
+.PHONY : src/App/Pages/Weather/weather_image.c.obj
+
+src/App/Pages/Weather/weather_image.i: src/App/Pages/Weather/weather_image.c.i
+.PHONY : src/App/Pages/Weather/weather_image.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/weather_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.i
+.PHONY : src/App/Pages/Weather/weather_image.c.i
+
+src/App/Pages/Weather/weather_image.s: src/App/Pages/Weather/weather_image.c.s
+.PHONY : src/App/Pages/Weather/weather_image.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/weather_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.s
+.PHONY : src/App/Pages/Weather/weather_image.c.s
+
+src/App/Pages/WifiText/WifiText.obj: src/App/Pages/WifiText/WifiText.cpp.obj
+.PHONY : src/App/Pages/WifiText/WifiText.obj
+
+# target to build an object file
+src/App/Pages/WifiText/WifiText.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj
+.PHONY : src/App/Pages/WifiText/WifiText.cpp.obj
+
+src/App/Pages/WifiText/WifiText.i: src/App/Pages/WifiText/WifiText.cpp.i
+.PHONY : src/App/Pages/WifiText/WifiText.i
+
+# target to preprocess a source file
+src/App/Pages/WifiText/WifiText.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.i
+.PHONY : src/App/Pages/WifiText/WifiText.cpp.i
+
+src/App/Pages/WifiText/WifiText.s: src/App/Pages/WifiText/WifiText.cpp.s
+.PHONY : src/App/Pages/WifiText/WifiText.s
+
+# target to generate assembly for a file
+src/App/Pages/WifiText/WifiText.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.s
+.PHONY : src/App/Pages/WifiText/WifiText.cpp.s
 
 src/App/Resources/Font/font_agencyb_36.obj: src/App/Resources/Font/font_agencyb_36.c.obj
 .PHONY : src/App/Resources/Font/font_agencyb_36.obj
@@ -14363,6 +14387,30 @@ src/App/Resources/Image/img_src_picture.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.s
 .PHONY : src/App/Resources/Image/img_src_picture.c.s
 
+src/App/Resources/Image/img_src_playboy.obj: src/App/Resources/Image/img_src_playboy.c.obj
+.PHONY : src/App/Resources/Image/img_src_playboy.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_playboy.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj
+.PHONY : src/App/Resources/Image/img_src_playboy.c.obj
+
+src/App/Resources/Image/img_src_playboy.i: src/App/Resources/Image/img_src_playboy.c.i
+.PHONY : src/App/Resources/Image/img_src_playboy.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_playboy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.i
+.PHONY : src/App/Resources/Image/img_src_playboy.c.i
+
+src/App/Resources/Image/img_src_playboy.s: src/App/Resources/Image/img_src_playboy.c.s
+.PHONY : src/App/Resources/Image/img_src_playboy.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_playboy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.s
+.PHONY : src/App/Resources/Image/img_src_playboy.c.s
+
 src/App/Resources/Image/img_src_pose6d.obj: src/App/Resources/Image/img_src_pose6d.c.obj
 .PHONY : src/App/Resources/Image/img_src_pose6d.obj
 
@@ -14387,6 +14435,30 @@ src/App/Resources/Image/img_src_pose6d.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.s
 .PHONY : src/App/Resources/Image/img_src_pose6d.c.s
 
+src/App/Resources/Image/img_src_sandbox.obj: src/App/Resources/Image/img_src_sandbox.c.obj
+.PHONY : src/App/Resources/Image/img_src_sandbox.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_sandbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj
+.PHONY : src/App/Resources/Image/img_src_sandbox.c.obj
+
+src/App/Resources/Image/img_src_sandbox.i: src/App/Resources/Image/img_src_sandbox.c.i
+.PHONY : src/App/Resources/Image/img_src_sandbox.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_sandbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.i
+.PHONY : src/App/Resources/Image/img_src_sandbox.c.i
+
+src/App/Resources/Image/img_src_sandbox.s: src/App/Resources/Image/img_src_sandbox.c.s
+.PHONY : src/App/Resources/Image/img_src_sandbox.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_sandbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.s
+.PHONY : src/App/Resources/Image/img_src_sandbox.c.s
+
 src/App/Resources/Image/img_src_satellite.obj: src/App/Resources/Image/img_src_satellite.c.obj
 .PHONY : src/App/Resources/Image/img_src_satellite.obj
 
@@ -14410,6 +14482,30 @@ src/App/Resources/Image/img_src_satellite.s: src/App/Resources/Image/img_src_sat
 src/App/Resources/Image/img_src_satellite.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.s
 .PHONY : src/App/Resources/Image/img_src_satellite.c.s
+
+src/App/Resources/Image/img_src_sd.obj: src/App/Resources/Image/img_src_sd.c.obj
+.PHONY : src/App/Resources/Image/img_src_sd.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj
+.PHONY : src/App/Resources/Image/img_src_sd.c.obj
+
+src/App/Resources/Image/img_src_sd.i: src/App/Resources/Image/img_src_sd.c.i
+.PHONY : src/App/Resources/Image/img_src_sd.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.i
+.PHONY : src/App/Resources/Image/img_src_sd.c.i
+
+src/App/Resources/Image/img_src_sd.s: src/App/Resources/Image/img_src_sd.c.s
+.PHONY : src/App/Resources/Image/img_src_sd.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.s
+.PHONY : src/App/Resources/Image/img_src_sd.c.s
 
 src/App/Resources/Image/img_src_sd_card.obj: src/App/Resources/Image/img_src_sd_card.c.obj
 .PHONY : src/App/Resources/Image/img_src_sd_card.obj
@@ -14530,6 +14626,30 @@ src/App/Resources/Image/img_src_storage.s: src/App/Resources/Image/img_src_stora
 src/App/Resources/Image/img_src_storage.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.s
 .PHONY : src/App/Resources/Image/img_src_storage.c.s
+
+src/App/Resources/Image/img_src_system.obj: src/App/Resources/Image/img_src_system.c.obj
+.PHONY : src/App/Resources/Image/img_src_system.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_system.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj
+.PHONY : src/App/Resources/Image/img_src_system.c.obj
+
+src/App/Resources/Image/img_src_system.i: src/App/Resources/Image/img_src_system.c.i
+.PHONY : src/App/Resources/Image/img_src_system.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_system.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.i
+.PHONY : src/App/Resources/Image/img_src_system.c.i
+
+src/App/Resources/Image/img_src_system.s: src/App/Resources/Image/img_src_system.c.s
+.PHONY : src/App/Resources/Image/img_src_system.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_system.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.s
+.PHONY : src/App/Resources/Image/img_src_system.c.s
 
 src/App/Resources/Image/img_src_system_info.obj: src/App/Resources/Image/img_src_system_info.c.obj
 .PHONY : src/App/Resources/Image/img_src_system_info.obj
@@ -17488,15 +17608,12 @@ help:
 	@echo "... src/App/Pages/AppList/AppListView.obj"
 	@echo "... src/App/Pages/AppList/AppListView.i"
 	@echo "... src/App/Pages/AppList/AppListView.s"
-	@echo "... src/App/Pages/Pictures/Pictures.obj"
-	@echo "... src/App/Pages/Pictures/Pictures.i"
-	@echo "... src/App/Pages/Pictures/Pictures.s"
-	@echo "... src/App/Pages/Pictures/PicturesModel.obj"
-	@echo "... src/App/Pages/Pictures/PicturesModel.i"
-	@echo "... src/App/Pages/Pictures/PicturesModel.s"
-	@echo "... src/App/Pages/Pictures/PicturesView.obj"
-	@echo "... src/App/Pages/Pictures/PicturesView.i"
-	@echo "... src/App/Pages/Pictures/PicturesView.s"
+	@echo "... src/App/Pages/NumTweak/NumTweak.obj"
+	@echo "... src/App/Pages/NumTweak/NumTweak.i"
+	@echo "... src/App/Pages/NumTweak/NumTweak.s"
+	@echo "... src/App/Pages/Russian/Russian.obj"
+	@echo "... src/App/Pages/Russian/Russian.i"
+	@echo "... src/App/Pages/Russian/Russian.s"
 	@echo "... src/App/Pages/Scene3D/Scene3D.obj"
 	@echo "... src/App/Pages/Scene3D/Scene3D.i"
 	@echo "... src/App/Pages/Scene3D/Scene3D.s"
@@ -17506,6 +17623,9 @@ help:
 	@echo "... src/App/Pages/Scene3D/Scene3DView.obj"
 	@echo "... src/App/Pages/Scene3D/Scene3DView.i"
 	@echo "... src/App/Pages/Scene3D/Scene3DView.s"
+	@echo "... src/App/Pages/Settings/Settings.obj"
+	@echo "... src/App/Pages/Settings/Settings.i"
+	@echo "... src/App/Pages/Settings/Settings.s"
 	@echo "... src/App/Pages/StartUp/StartUp.obj"
 	@echo "... src/App/Pages/StartUp/StartUp.i"
 	@echo "... src/App/Pages/StartUp/StartUp.s"
@@ -17527,18 +17647,6 @@ help:
 	@echo "... src/App/Pages/SystemInfos/SystemInfosView.obj"
 	@echo "... src/App/Pages/SystemInfos/SystemInfosView.i"
 	@echo "... src/App/Pages/SystemInfos/SystemInfosView.s"
-	@echo "... src/App/Pages/Template/Template.obj"
-	@echo "... src/App/Pages/Template/Template.i"
-	@echo "... src/App/Pages/Template/Template.s"
-	@echo "... src/App/Pages/Template/TemplateModel.obj"
-	@echo "... src/App/Pages/Template/TemplateModel.i"
-	@echo "... src/App/Pages/Template/TemplateModel.s"
-	@echo "... src/App/Pages/Template/TemplateView.obj"
-	@echo "... src/App/Pages/Template/TemplateView.i"
-	@echo "... src/App/Pages/Template/TemplateView.s"
-	@echo "... src/App/Pages/Template/weather_image.obj"
-	@echo "... src/App/Pages/Template/weather_image.i"
-	@echo "... src/App/Pages/Template/weather_image.s"
 	@echo "... src/App/Pages/Terminal/Terminal.obj"
 	@echo "... src/App/Pages/Terminal/Terminal.i"
 	@echo "... src/App/Pages/Terminal/Terminal.s"
@@ -17548,6 +17656,21 @@ help:
 	@echo "... src/App/Pages/Terminal/TerminalView.obj"
 	@echo "... src/App/Pages/Terminal/TerminalView.i"
 	@echo "... src/App/Pages/Terminal/TerminalView.s"
+	@echo "... src/App/Pages/Weather/Weather.obj"
+	@echo "... src/App/Pages/Weather/Weather.i"
+	@echo "... src/App/Pages/Weather/Weather.s"
+	@echo "... src/App/Pages/Weather/WeatherModel.obj"
+	@echo "... src/App/Pages/Weather/WeatherModel.i"
+	@echo "... src/App/Pages/Weather/WeatherModel.s"
+	@echo "... src/App/Pages/Weather/WeatherView.obj"
+	@echo "... src/App/Pages/Weather/WeatherView.i"
+	@echo "... src/App/Pages/Weather/WeatherView.s"
+	@echo "... src/App/Pages/Weather/weather_image.obj"
+	@echo "... src/App/Pages/Weather/weather_image.i"
+	@echo "... src/App/Pages/Weather/weather_image.s"
+	@echo "... src/App/Pages/WifiText/WifiText.obj"
+	@echo "... src/App/Pages/WifiText/WifiText.i"
+	@echo "... src/App/Pages/WifiText/WifiText.s"
 	@echo "... src/App/Resources/Font/font_agencyb_36.obj"
 	@echo "... src/App/Resources/Font/font_agencyb_36.i"
 	@echo "... src/App/Resources/Font/font_agencyb_36.s"
@@ -17638,12 +17761,21 @@ help:
 	@echo "... src/App/Resources/Image/img_src_picture.obj"
 	@echo "... src/App/Resources/Image/img_src_picture.i"
 	@echo "... src/App/Resources/Image/img_src_picture.s"
+	@echo "... src/App/Resources/Image/img_src_playboy.obj"
+	@echo "... src/App/Resources/Image/img_src_playboy.i"
+	@echo "... src/App/Resources/Image/img_src_playboy.s"
 	@echo "... src/App/Resources/Image/img_src_pose6d.obj"
 	@echo "... src/App/Resources/Image/img_src_pose6d.i"
 	@echo "... src/App/Resources/Image/img_src_pose6d.s"
+	@echo "... src/App/Resources/Image/img_src_sandbox.obj"
+	@echo "... src/App/Resources/Image/img_src_sandbox.i"
+	@echo "... src/App/Resources/Image/img_src_sandbox.s"
 	@echo "... src/App/Resources/Image/img_src_satellite.obj"
 	@echo "... src/App/Resources/Image/img_src_satellite.i"
 	@echo "... src/App/Resources/Image/img_src_satellite.s"
+	@echo "... src/App/Resources/Image/img_src_sd.obj"
+	@echo "... src/App/Resources/Image/img_src_sd.i"
+	@echo "... src/App/Resources/Image/img_src_sd.s"
 	@echo "... src/App/Resources/Image/img_src_sd_card.obj"
 	@echo "... src/App/Resources/Image/img_src_sd_card.i"
 	@echo "... src/App/Resources/Image/img_src_sd_card.s"
@@ -17659,6 +17791,9 @@ help:
 	@echo "... src/App/Resources/Image/img_src_storage.obj"
 	@echo "... src/App/Resources/Image/img_src_storage.i"
 	@echo "... src/App/Resources/Image/img_src_storage.s"
+	@echo "... src/App/Resources/Image/img_src_system.obj"
+	@echo "... src/App/Resources/Image/img_src_system.i"
+	@echo "... src/App/Resources/Image/img_src_system.s"
 	@echo "... src/App/Resources/Image/img_src_system_info.obj"
 	@echo "... src/App/Resources/Image/img_src_system_info.i"
 	@echo "... src/App/Resources/Image/img_src_system_info.s"

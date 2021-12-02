@@ -28,7 +28,7 @@ void AppListView::Create(lv_obj_t* root)
 		&ui.cubedemo,
 		root,
 		"CubeDemo",
-		"cube",
+		"sandbox",
 
 		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our"
 	);
@@ -45,7 +45,7 @@ void AppListView::Create(lv_obj_t* root)
 	Item_Create(
 		&ui.pictures,
 		root,
-		"SysInfo",
+		"SystemInfo",
 		"system",
 
 		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
@@ -63,8 +63,8 @@ void AppListView::Create(lv_obj_t* root)
 	Item_Create(
 		&ui.filemanager,
 		root,
-		"filemanager",
-		"filemanager",
+		"TetrisGame",
+		"playboy",
 	
 		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
 	);
@@ -96,14 +96,14 @@ void AppListView::Create(lv_obj_t* root)
 		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
 	);
 	
-	Item_Create(
-		&ui.clock,
-		root,
-		"clock",
-		"clock",
+	// Item_Create(
+	// 	&ui.clock,
+	// 	root,
+	// 	"clock",
+	// 	"clock",
 	
-		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	);
+	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+	// );
 
 	Group_Init();
 }

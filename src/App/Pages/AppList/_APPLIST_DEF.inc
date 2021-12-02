@@ -6,4 +6,4 @@ APPLIST_DEF(filemanager);
 APPLIST_DEF(videoplayer);
 APPLIST_DEF(fandisplay);
 APPLIST_DEF(weather);
-APPLIST_DEF(clock);
+// APPLIST_DEF(clock);

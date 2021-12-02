@@ -44,9 +44,11 @@ do{                 \
 }while(0) \
 
 #endif
+#include <string>
 
 void App_Init();
 void App_UnInit();
 void App_Install();
+void App_Remove(std::string app_name);
 
 #endif

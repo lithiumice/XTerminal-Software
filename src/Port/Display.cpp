@@ -23,18 +23,18 @@
 #include "Display.h"
 #include "HAL/HAL.h"
 
-TaskHandle_t handleTaskLvgl;
-void TaskLvglUpdate(void* parameter)
-{
-    ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
+// TaskHandle_t handleTaskLvgl;
+// void TaskLvglUpdate(void* parameter)
+// {
+//     ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
-    for (;;)
-    {
-        lv_task_handler();
-        delay(5);
-//        __IntervalExecute(lv_task_handler(), 5);
-    }
-}
+//     for (;;)
+//     {
+//         lv_task_handler();
+//         delay(5);
+// //        __IntervalExecute(lv_task_handler(), 5);
+//     }
+// }
 
 
 /**
@@ -58,13 +58,13 @@ void Port_Init()
     lv_fs_if_init();
 
     // Update display in parallel thread.
-    xTaskCreate(
-        TaskLvglUpdate,
-        "LvglThread",
-        20000,
-        nullptr,
-        configMAX_PRIORITIES - 1,
-        &handleTaskLvgl);
+    // xTaskCreate(
+    //     TaskLvglUpdate,
+    //     "LvglThread",
+    //     1024*25,//20000=19.5KB
+    //     nullptr,
+    //     configMAX_PRIORITIES - 1,
+    //     &handleTaskLvgl);
 
     /* ±≥π‚Ω•¡¡ */
     HAL::Backlight_SetGradual(500, 1000);

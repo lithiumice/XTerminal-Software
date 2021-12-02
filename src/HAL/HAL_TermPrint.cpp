@@ -18,6 +18,8 @@ void HAL::TerminalPrint(char* text)
     globalTermText = globalTermText + text;
     term_text_update_flag=1;
 }
+
+// #define TerminalPrintf(...) printf
 void HAL::TerminalPrintln(char* text)
 {
     TerminalPrint((char*)"\r\n");

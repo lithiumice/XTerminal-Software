@@ -21,15 +21,19 @@
  * SOFTWARE.
  */
 #include "AppFactory.h"
-#include "Template/Template.h"
+#include "Weather/Weather.h"
 #include "SystemInfos/SystemInfos.h"
 #include "StartUp/StartUp.h"
 #include "Scene3D/Scene3D.h"
 #include "Terminal/Terminal.h"
-#include "Pictures/Pictures.h"
 #include "AppList/AppList.h"
 #include "WifiText/WifiText.h"
+
+//todo
 #include "Russian/Russian.h"
+#include "NumTweak/NumTweak.h"
+#include "Settings/Settings.h"
+#include "Games/Games.h"
 
 // #define APP_DEF(className) \
 // 	#include #className

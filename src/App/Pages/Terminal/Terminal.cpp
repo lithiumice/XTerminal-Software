@@ -60,8 +60,8 @@ void Terminal::onViewDidDisappear()
 
 void Terminal::onViewDidUnload()
 {
-	View.Delete();
-	Model.DeInit();
+	// View.Delete();
+	// Model.DeInit();
 }
 
 void Terminal::AttachEvent(lv_obj_t* obj)

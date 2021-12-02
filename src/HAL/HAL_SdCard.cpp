@@ -1,6 +1,7 @@
 #include "HAL/HAL.h"
 #include "SPI.h"
 #include "SD.h"
+uint64_t cardSize;
 
 bool HAL::SD_Init()
 {
@@ -9,34 +10,34 @@ bool HAL::SD_Init()
    SPIClass* sd_spi = new SPIClass(HSPI); // another SPI
    if (!SD.begin(15, *sd_spi, 80000000)) // SD-Card SS pin is 15
    {
-       Serial.println("Card Mount Failed");
+       HAL::TerminalPrintln("Card Mount Failed");
        return false;
    }
    uint8_t cardType = SD.cardType();
 
    if (cardType == CARD_NONE)
    {
-       Serial.println("No SD card attached");
+       HAL::TerminalPrintln("No SD card attached");
        return false;
    }
 
-   Serial.print("SD Card Type: ");
+   HAL::TerminalPrint("SD Card Type: ");
    if (cardType == CARD_MMC)
    {
-       Serial.println("MMC");
+       HAL::TerminalPrintln("MMC");
    } else if (cardType == CARD_SD)
    {
-       Serial.println("SDSC");
+       HAL::TerminalPrintln("SDSC");
    } else if (cardType == CARD_SDHC)
    {
-       Serial.println("SDHC");
+       HAL::TerminalPrintln("SDHC");
    } else
    {
-       Serial.println("UNKNOWN");
+       HAL::TerminalPrintln("UNKNOWN");
    }
 
-   uint64_t cardSize = SD.cardSize() / (1024 * 1024);
-   Serial.printf("SD Card Size: %lluMB\n", cardSize);
+   cardSize = SD.cardSize() / (1024 * 1024);
+   HAL::TerminalPrintln("SD Card Size(MB): "+String((int)cardSize));
 
    return true;
 }
@@ -48,13 +49,13 @@ bool HAL::SD_GetReady()
 
 float HAL::SD_GetCardSizeMB()
 {
-    return 32 * 1024;
+    return cardSize;
 }
 
-static void SD_Check(bool isInsert)
-{
+// static void SD_Check(bool isInsert)
+// {
 
-}
+// }
 
 void HAL::SD_SetEventCallback(SD_CallbackFunction_t callback)
 {

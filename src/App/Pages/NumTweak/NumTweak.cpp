@@ -30,11 +30,25 @@ void NumTweak::onViewLoad()
 	lv_obj_set_size(root, LV_HOR_RES, LV_VER_RES);
 	StatusBar::SetStyle(StatusBar::STYLE_BLACK);
 
-	lv_obj_t* level_label = lv_label_create(root); lv_label_set_text(level_label, "level:");
-	lv_obj_set_style_text_color(level_label, lv_color_white(), 0);
-	lv_obj_set_style_text_font(level_label, &lv_font_montserrat_12, 0);
-	lv_obj_align(level_label, LV_ALIGN_TOP_RIGHT, -40, 10);
 
+	 ui.arc = lv_arc_create(lv_scr_act());
+	lv_obj_set_size(ui.arc, 150, 150);
+	lv_arc_set_rotation(ui.arc, 135);
+	lv_arc_set_bg_angles(ui.arc, 0, 270);
+	lv_arc_set_value(ui.arc, 40);
+	lv_obj_set_style_bg_color(ui.arc, lv_palette_main(LV_PALETTE_RED), LV_PART_KNOB);
+	lv_obj_set_style_bg_color(ui.arc, lv_palette_main(LV_PALETTE_DEEP_ORANGE), LV_PART_INDICATOR);
+	lv_obj_center(ui.arc);
+
+
+	ui.indicateText = lv_label_create(root);
+	lv_label_set_recolor(ui.indicateText, true);
+	lv_obj_set_style_text_font(ui.indicateText, &lv_font_montserrat_26, 0);
+	lv_obj_set_style_text_color(ui.indicateText, lv_color_white(), 0);
+	lv_obj_align(ui.indicateText, LV_ALIGN_CENTER,0,0);
+	lv_label_set_text(ui.indicateText, "40");
+	
+	
 }
 
 void NumTweak::onViewDidLoad()

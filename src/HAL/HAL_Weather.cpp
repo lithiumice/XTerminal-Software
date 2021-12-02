@@ -120,7 +120,7 @@ bool HAL::getWeatherNowUrl(Weather_Info_t* info)
             info->windLevel = parseWindLevel(sk["win_speed"].as<String>());
             info->airQulity = parseAirLevel(sk["air"].as<int>());
 
-            config_set(info);
+            config_weather_save(info);
             fisrt_get_weather_flag=1;
             HAL::config.weather_url_get_sucess_flag=1;
             ret=true;
@@ -210,7 +210,7 @@ int64_t HAL::getTimestampUrl()
             time_stamp_info.preNetTimestamp = atoll(time.c_str()) + time_stamp_info.errorNetTimestamp + TIMEZERO_OFFSIZE;
             time_stamp_info.preLocalTimestamp = millis();
 
-            config_set_clock(time_stamp_info.preNetTimestamp);
+            config_clock_save(time_stamp_info.preNetTimestamp);
             HAL::config.clock_url_get_sucess_flag=1;
             fisrt_get_clock_flag=1;
         }

@@ -135,6 +135,7 @@ static void StatusBar_Update(lv_timer_t* timer)
     AccountSystem::Storage_Basic_Info_t sdInfo;
     actStatusBar->Pull("Storage", &sdInfo, sizeof(sdInfo));
     // sdInfo.isDetect ? lv_obj_clear_flag(ui.imgSD, LV_OBJ_FLAG_HIDDEN) : lv_obj_add_flag(ui.imgSD, LV_OBJ_FLAG_HIDDEN);
+    
     lv_obj_clear_flag(ui.imgSD, LV_OBJ_FLAG_HIDDEN);
     lv_obj_clear_flag(ui.imgWifi, LV_OBJ_FLAG_HIDDEN);
     lv_obj_clear_flag(ui.imgBT, LV_OBJ_FLAG_HIDDEN);
@@ -256,21 +257,21 @@ static lv_obj_t* StatusBar_Create(lv_obj_t* par)
     img = lv_img_create(cont);
     lv_img_set_src(img, Resource.GetImage("sd_card"));
     lv_obj_align(img, LV_ALIGN_LEFT_MID, 14, -1);
-    // lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
+    lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgSD = img;
 
     /* wifi */
     img = lv_img_create(cont);
-    lv_img_set_src(img, Resource.GetImage("wifi"));
+    lv_img_set_src(img, Resource.GetImage("wifi_off"));
     lv_obj_align(img, LV_ALIGN_LEFT_MID, 14+18, 0);
-    // lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
+    lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgWifi = img;
 
     /* bluetooth */
     img = lv_img_create(cont);
-    lv_img_set_src(img, Resource.GetImage("bt"));
+    lv_img_set_src(img, Resource.GetImage("bt_off"));
     lv_obj_align(img, LV_ALIGN_LEFT_MID, 14+18+18, 0);
-    // lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
+    lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgBT = img;
 
     /* clock */

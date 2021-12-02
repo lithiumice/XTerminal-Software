@@ -2,36 +2,6 @@
 #include "HAL.h"
 #include "HAL_Config.h"
 
-//uint32_t ap_timeout=0;
-//char * HOST_NAME = (char*)"LithiumPeak";
-//char * NET_SSID = (char*)"LithiumMe";
-//char * NET_PASS = (char*)"1234qwer";
-//char * AP_SSID = (char*)"LithiumMe";
-//char * AP_PASS = (char*)"1234qwer";
-//char * AP_SSID1 = (char*)"LithiumLink";
-//char * AP_PASS1 = (char*)"1234qwer";
-
-//namespace HAL{
-//    String HOST_NAME = "LithiumPeak";
-//    String NET_SSID = "LithiumMe";
-//    String NET_PASS = "1234qwer";
-//    String AP_SSID = "LithiumMe";
-//    String AP_PASS = "1234qwer";
-//    String AP_SSID1 = "LithiumLink";
-//    String AP_PASS1 = "1234qwer";
-//}
-//void HAL::StartTread()
-//{
-//    xTaskCreate(
-//            taskOne,                     /*任务函数*/
-//            "TaskOne",                   /*带任务名称的字符串*/
-//            10000,                       /*堆栈大小，单位为字节*/
-//            NULL,                        /*作为任务输入传递的参数*/
-//            1,                           /*任务的优先级*/
-//            &run_data->xHandle_task_one); /*任务句柄*/
-//
-//}
-
 void HAL::wifi_init()
 {
     WiFi.enableSTA(false);
@@ -43,6 +13,25 @@ void HAL::wifi_init()
 bool HAL::wifi_isconnected()
 {
     return WL_CONNECTED == WiFi.status();
+}
+
+void HAL::wifi_smartConfig()
+{
+  WiFi.mode(WIFI_MODE_STA);
+  Serial.println("wifi_smartConfig:");
+  WiFi.beginSmartConfig();
+//   while (1)
+//   {
+//     Serial.print(".");
+//     delay(500);
+//     if (WiFi.smartConfigDone())
+//     {
+//       Serial.println("配网成功");
+//       Serial.printf("SSID:%s", WiFi.SSID().c_str());
+//       Serial.printf("PSW:%s", WiFi.psk().c_str());
+//       break;
+//     }
+//   }
 }
 
 void HAL::wifi_search()

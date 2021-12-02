@@ -7657,52 +7657,38 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/AppList/AppListView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj: ../src/App/Pages/Pictures/Pictures.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/Pictures.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj: ../src/App/Pages/NumTweak/NumTweak.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/NumTweak/NumTweak.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/Pictures.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/NumTweak/NumTweak.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/Pictures.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/NumTweak/NumTweak.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj: ../src/App/Pages/Pictures/PicturesModel.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/PicturesModel.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj: ../src/App/Pages/Russian/Russian.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Russian/Russian.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/PicturesModel.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Russian/Russian.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/PicturesModel.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj: ../src/App/Pages/Pictures/PicturesView.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/PicturesView.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/PicturesView.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Pictures/PicturesView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Russian/Russian.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj: ../src/App/Pages/Scene3D/Scene3D.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Scene3D/Scene3D.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.i: cmake_force
@@ -7716,7 +7702,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj: ../src/App/Pages/Scene3D/Scene3DModel.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Scene3D/Scene3DModel.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.i: cmake_force
@@ -7730,7 +7716,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj: ../src/App/Pages/Scene3D/Scene3DView.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Scene3D/Scene3DView.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.i: cmake_force
@@ -7740,6 +7726,20 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.i: cmake_for
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Scene3D/Scene3DView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj: ../src/App/Pages/Settings/Settings.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Settings/Settings.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Settings/Settings.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Settings/Settings.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUp.cpp.obj: ../src/App/Pages/StartUp/StartUp.cpp
@@ -7839,66 +7839,10 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/SystemInfos/SystemInfosView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj: ../src/App/Pages/Template/Template.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/Template.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/Template.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/Template.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj: ../src/App/Pages/Template/TemplateModel.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/TemplateModel.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/TemplateModel.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/TemplateModel.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj: ../src/App/Pages/Template/TemplateView.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/TemplateView.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/TemplateView.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/TemplateView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj: ../src/App/Pages/Template/weather_image.c
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/weather_image.c
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/weather_image.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Template/weather_image.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.s
-
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj: ../src/App/Pages/Terminal/Terminal.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Terminal/Terminal.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.i: cmake_force
@@ -7912,7 +7856,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj: ../src/App/Pages/Terminal/TerminalModel.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Terminal/TerminalModel.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.i: cmake_force
@@ -7926,7 +7870,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj: ../src/App/Pages/Terminal/TerminalView.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Terminal/TerminalView.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.i: cmake_force
@@ -7937,10 +7881,80 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Terminal/TerminalView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj: ../src/App/Pages/Weather/Weather.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/Weather.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/Weather.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/Weather.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj: ../src/App/Pages/Weather/WeatherModel.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/WeatherModel.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/WeatherModel.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/WeatherModel.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj: ../src/App/Pages/Weather/WeatherView.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/WeatherView.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/WeatherView.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/WeatherView.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj: ../src/App/Pages/Weather/weather_image.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/weather_image.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/weather_image.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/Weather/weather_image.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj: ../src/App/Pages/WifiText/WifiText.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/WifiText/WifiText.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/WifiText/WifiText.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Pages/WifiText/WifiText.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj: ../src/App/Resources/Font/font_agencyb_36.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_agencyb_36.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.i: cmake_force
@@ -7954,7 +7968,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj: ../src/App/Resources/Font/font_bahnschrift_13.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_13.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.i: cmake_force
@@ -7968,7 +7982,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.s: cm
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj: ../src/App/Resources/Font/font_bahnschrift_17.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_17.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.i: cmake_force
@@ -7982,7 +7996,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.s: cm
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj: ../src/App/Resources/Font/font_bahnschrift_32.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_32.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.i: cmake_force
@@ -7996,7 +8010,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.s: cm
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj: ../src/App/Resources/Font/font_bahnschrift_65.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_65.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.i: cmake_force
@@ -8010,7 +8024,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.s: cm
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj: ../src/App/Resources/Image/img_src_alarm.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_alarm.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.i: cmake_force
@@ -8024,7 +8038,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj: ../src/App/Resources/Image/img_src_arm.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_arm.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.i: cmake_force
@@ -8038,7 +8052,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.s: cmake_for
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj: ../src/App/Resources/Image/img_src_battery.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_battery.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.i: cmake_force
@@ -8052,7 +8066,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj: ../src/App/Resources/Image/img_src_battery_info.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_battery_info.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.i: cmake_force
@@ -8066,7 +8080,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_battery_info.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj: ../src/App/Resources/Image/img_src_bicycle.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_bicycle.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.i: cmake_force
@@ -8080,7 +8094,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bicycle.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj: ../src/App/Resources/Image/img_src_bluetooth.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_bluetooth.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.i: cmake_force
@@ -8094,7 +8108,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bluetooth.c.s: cma
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj: ../src/App/Resources/Image/img_src_bt.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_bt.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.i: cmake_force
@@ -8108,7 +8122,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt.c.s: cmake_forc
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj: ../src/App/Resources/Image/img_src_bt_off.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_bt_off.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.i: cmake_force
@@ -8122,7 +8136,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_bt_off.c.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj: ../src/App/Resources/Image/img_src_clock.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_clock.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.i: cmake_force
@@ -8136,7 +8150,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_clock.c.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj: ../src/App/Resources/Image/img_src_compass.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_compass.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.i: cmake_force
@@ -8150,7 +8164,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_compass.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj: ../src/App/Resources/Image/img_src_cube.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_cube.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.i: cmake_force
@@ -8164,7 +8178,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_cube.c.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj: ../src/App/Resources/Image/img_src_filemanager.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_filemanager.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.i: cmake_force
@@ -8178,7 +8192,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_filemanager.c.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj: ../src/App/Resources/Image/img_src_gps_arrow_dark.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_gps_arrow_dark.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.i: cmake_force
@@ -8192,7 +8206,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_dark.c.s
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj: ../src/App/Resources/Image/img_src_gps_arrow_default.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_gps_arrow_default.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.c.i: cmake_force
@@ -8206,7 +8220,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_default.
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj: ../src/App/Resources/Image/img_src_gps_arrow_light.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_gps_arrow_light.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.i: cmake_force
@@ -8220,7 +8234,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_arrow_light.c.
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj: ../src/App/Resources/Image/img_src_gps_pin.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_gps_pin.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.i: cmake_force
@@ -8234,7 +8248,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gps_pin.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj: ../src/App/Resources/Image/img_src_gyroscope.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_gyroscope.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.i: cmake_force
@@ -8248,7 +8262,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_gyroscope.c.s: cma
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj: ../src/App/Resources/Image/img_src_joints.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_joints.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.i: cmake_force
@@ -8262,7 +8276,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj: ../src/App/Resources/Image/img_src_locate.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_locate.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.i: cmake_force
@@ -8276,7 +8290,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_locate.c.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj: ../src/App/Resources/Image/img_src_logo.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_logo.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.i: cmake_force
@@ -8290,7 +8304,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_logo.c.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj: ../src/App/Resources/Image/img_src_map_location.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_589) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_map_location.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.i: cmake_force
@@ -8304,7 +8318,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj: ../src/App/Resources/Image/img_src_menu.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_589) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_590) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_menu.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.i: cmake_force
@@ -8318,7 +8332,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_menu.c.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj: ../src/App/Resources/Image/img_src_origin_point.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_590) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_591) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_origin_point.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.i: cmake_force
@@ -8332,7 +8346,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj: ../src/App/Resources/Image/img_src_pause.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_591) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_592) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_pause.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.i: cmake_force
@@ -8346,7 +8360,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj: ../src/App/Resources/Image/img_src_picture.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_592) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_593) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_picture.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.i: cmake_force
@@ -8357,10 +8371,24 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_picture.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj: ../src/App/Resources/Image/img_src_playboy.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_594) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_playboy.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_playboy.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_playboy.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj: ../src/App/Resources/Image/img_src_pose6d.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_593) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_595) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_pose6d.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.i: cmake_force
@@ -8371,10 +8399,24 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_pose6d.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj: ../src/App/Resources/Image/img_src_sandbox.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_596) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sandbox.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sandbox.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sandbox.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj: ../src/App/Resources/Image/img_src_satellite.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_594) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_597) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_satellite.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.i: cmake_force
@@ -8385,10 +8427,24 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_satellite.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj: ../src/App/Resources/Image/img_src_sd.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_598) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sd.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sd.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sd.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj: ../src/App/Resources/Image/img_src_sd_card.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_595) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_599) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_sd_card.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.i: cmake_force
@@ -8402,7 +8458,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj: ../src/App/Resources/Image/img_src_setting.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_596) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_600) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_setting.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.i: cmake_force
@@ -8416,7 +8472,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj: ../src/App/Resources/Image/img_src_start.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_597) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_601) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_start.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.i: cmake_force
@@ -8430,7 +8486,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj: ../src/App/Resources/Image/img_src_stop.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_598) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_602) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_stop.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.i: cmake_force
@@ -8444,7 +8500,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj: ../src/App/Resources/Image/img_src_storage.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_599) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_603) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_storage.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.i: cmake_force
@@ -8455,10 +8511,24 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_storage.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj: ../src/App/Resources/Image/img_src_system.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_604) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_system.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_system.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_system.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj: ../src/App/Resources/Image/img_src_system_info.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_600) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_605) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_system_info.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.i: cmake_force
@@ -8472,7 +8542,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj: ../src/App/Resources/Image/img_src_terminal.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_601) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_606) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_terminal.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.i: cmake_force
@@ -8486,7 +8556,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.s: cmak
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj: ../src/App/Resources/Image/img_src_time_info.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_602) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_607) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_time_info.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.i: cmake_force
@@ -8500,7 +8570,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.s: cma
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj: ../src/App/Resources/Image/img_src_trip.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_603) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_608) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_trip.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.i: cmake_force
@@ -8514,7 +8584,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_trip.c.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj: ../src/App/Resources/Image/img_src_video.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_604) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_609) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_video.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.i: cmake_force
@@ -8528,7 +8598,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj: ../src/App/Resources/Image/img_src_weather.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_605) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_610) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_weather.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.i: cmake_force
@@ -8542,7 +8612,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_weather.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj: ../src/App/Resources/Image/img_src_wifi.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_606) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_611) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_wifi.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.i: cmake_force
@@ -8556,7 +8626,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi.c.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj: ../src/App/Resources/Image/img_src_wifi_48.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_607) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_612) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_wifi_48.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.i: cmake_force
@@ -8570,7 +8640,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_48.c.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj: ../src/App/Resources/Image/img_src_wifi_off.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_608) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_613) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_wifi_off.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.i: cmake_force
@@ -8584,7 +8654,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_wifi_off.c.s: cmak
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj: ../src/App/Resources/Image/img_src_zhihu.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_609) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_614) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Image/img_src_zhihu.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.i: cmake_force
@@ -8598,7 +8668,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_zhihu.c.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj: ../src/App/Resources/ResourcePool.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_610) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_615) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/ResourcePool.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.i: cmake_force
@@ -8612,7 +8682,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/ResourcePool.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj: ../src/App/Utils/AccountSystem/Account.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_611) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_616) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/AccountSystem/Account.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.i: cmake_force
@@ -8626,7 +8696,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/Account.cpp.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj: ../src/App/Utils/AccountSystem/AccountBroker.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_612) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_617) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/AccountSystem/AccountBroker.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.i: cmake_force
@@ -8640,7 +8710,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/AccountBroker.cpp.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj: ../src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_613) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_618) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPongBuffer.c.i: cmake_force
@@ -8654,7 +8724,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/AccountSystem/PingPongBuffer/PingPon
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj: ../src/App/Utils/ButtonEvent/ButtonEvent.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_614) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_619) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/ButtonEvent/ButtonEvent.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.i: cmake_force
@@ -8668,7 +8738,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.s: cmake
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj: ../src/App/Utils/GPX/GPX.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_615) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_620) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/GPX/GPX.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.i: cmake_force
@@ -8682,7 +8752,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX/GPX.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj: ../src/App/Utils/GPX_Parser/GPX_Parser.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_616) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_621) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/GPX_Parser/GPX_Parser.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.i: cmake_force
@@ -8696,7 +8766,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/GPX_Parser/GPX_Parser.cpp.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj: ../src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_617) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_622) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.i: cmake_force
@@ -8710,7 +8780,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj: ../src/App/Utils/MapConv/MapConv.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_618) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_623) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/MapConv/MapConv.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.i: cmake_force
@@ -8724,7 +8794,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj: ../src/App/Utils/MapConv/TileSystem/TileSystem.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_619) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_624) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/MapConv/TileSystem/TileSystem.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.i: cmake_force
@@ -8738,7 +8808,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj: ../src/App/Utils/PageManager/PM_Anim.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_620) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_625) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/PageManager/PM_Anim.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.i: cmake_force
@@ -8752,7 +8822,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Anim.cpp.s: cmake_for
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj: ../src/App/Utils/PageManager/PM_Base.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_621) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_626) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/PageManager/PM_Base.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.i: cmake_force
@@ -8766,7 +8836,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Base.cpp.s: cmake_for
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj: ../src/App/Utils/PageManager/PM_Drag.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_622) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_627) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/PageManager/PM_Drag.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.i: cmake_force
@@ -8780,7 +8850,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Drag.cpp.s: cmake_for
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj: ../src/App/Utils/PageManager/PM_Router.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_623) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_628) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/PageManager/PM_Router.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.i: cmake_force
@@ -8794,7 +8864,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_Router.cpp.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj: ../src/App/Utils/PageManager/PM_State.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_624) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_629) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/PageManager/PM_State.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.i: cmake_force
@@ -8808,7 +8878,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/PM_State.cpp.s: cmake_fo
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj: ../src/App/Utils/PageManager/ResourceManager.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_625) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_630) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/PageManager/ResourceManager.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.i: cmake_force
@@ -8822,7 +8892,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/PageManager/ResourceManager.cpp.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj: ../src/App/Utils/StorageService/StorageService.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_626) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_631) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/StorageService/StorageService.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.i: cmake_force
@@ -8836,7 +8906,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj: ../src/App/Utils/TileConv/TileConv.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_627) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_632) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/TileConv/TileConv.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.i: cmake_force
@@ -8850,7 +8920,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj: ../src/App/Utils/Time/DateStrings.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_628) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_633) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/Time/DateStrings.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.i: cmake_force
@@ -8864,7 +8934,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/DateStrings.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj: ../src/App/Utils/Time/Time.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_629) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_634) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/Time/Time.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.i: cmake_force
@@ -8878,7 +8948,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/Time/Time.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj: ../src/App/Utils/TonePlayer/TonePlayer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_630) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_635) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/TonePlayer/TonePlayer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.i: cmake_force
@@ -8892,7 +8962,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TonePlayer/TonePlayer.cpp.s: cmake_f
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj: ../src/App/Utils/TrackFilter/TrackLineFilter.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_631) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_636) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/TrackFilter/TrackLineFilter.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.i: cmake_force
@@ -8906,7 +8976,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackLineFilter.cpp.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj: ../src/App/Utils/TrackFilter/TrackPointFilter.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_632) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_637) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/TrackFilter/TrackPointFilter.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.i: cmake_force
@@ -8920,7 +8990,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TrackFilter/TrackPointFilter.cpp.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj: ../src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_633) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_638) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.i: cmake_force
@@ -8934,7 +9004,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_anim_timeline_wrapper.c.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj: ../src/App/Utils/lv_ext/lv_label_anim_effect.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_634) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_639) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/lv_ext/lv_label_anim_effect.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.i: cmake_force
@@ -8948,7 +9018,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_label_anim_effect.cpp.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj: ../src/App/Utils/lv_ext/lv_obj_ext_func.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_635) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_640) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Utils/lv_ext/lv_obj_ext_func.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.i: cmake_force
@@ -8962,7 +9032,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj: ../src/HAL/HAL.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_636) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_641) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.i: cmake_force
@@ -8976,7 +9046,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj: ../src/HAL/HAL_Audio.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_637) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_642) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Audio.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.i: cmake_force
@@ -8990,7 +9060,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Audio.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj: ../src/HAL/HAL_Backlight.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_638) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_643) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Backlight.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.i: cmake_force
@@ -9004,7 +9074,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Backlight.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj: ../src/HAL/HAL_Buzz.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_639) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_644) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Buzz.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.i: cmake_force
@@ -9018,7 +9088,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Buzz.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj: ../src/HAL/HAL_Config.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_640) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_645) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Config.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.i: cmake_force
@@ -9032,7 +9102,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj: ../src/HAL/HAL_Encoder.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_641) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_646) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Encoder.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.i: cmake_force
@@ -9046,7 +9116,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj: ../src/HAL/HAL_I2C_Scan.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_642) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_647) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_I2C_Scan.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.i: cmake_force
@@ -9060,7 +9130,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj: ../src/HAL/HAL_IMU.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_643) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_648) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_IMU.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.i: cmake_force
@@ -9074,7 +9144,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_IMU.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj: ../src/HAL/HAL_JsonConst.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_644) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_649) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_JsonConst.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.i: cmake_force
@@ -9088,7 +9158,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_JsonConst.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj: ../src/HAL/HAL_Power.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_645) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_650) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Power.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.i: cmake_force
@@ -9102,7 +9172,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Power.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj: ../src/HAL/HAL_SdCard.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_646) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_651) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_SdCard.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.i: cmake_force
@@ -9116,7 +9186,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_SdCard.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj: ../src/HAL/HAL_TermPrint.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_647) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_652) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_TermPrint.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.i: cmake_force
@@ -9130,7 +9200,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_TermPrint.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj: ../src/HAL/HAL_Weather.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_648) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_653) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Weather.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.i: cmake_force
@@ -9144,7 +9214,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Weather.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj: ../src/HAL/HAL_Wifi.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_649) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_654) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/HAL/HAL_Wifi.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.i: cmake_force
@@ -9158,7 +9228,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Wifi.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj: ../src/Port/Display.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_650) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_655) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/Port/Display.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.i: cmake_force
@@ -9172,7 +9242,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/Display.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj: ../src/Port/lv_port/lv_port_disp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_651) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_656) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/Port/lv_port/lv_port_disp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.i: cmake_force
@@ -9186,7 +9256,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_disp.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj: ../src/Port/lv_port/lv_port_fatfs.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_652) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_657) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/Port/lv_port/lv_port_fatfs.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.i: cmake_force
@@ -9200,7 +9270,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_fatfs.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj: ../src/Port/lv_port/lv_port_indev.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_653) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_658) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/Port/lv_port/lv_port_indev.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.i: cmake_force
@@ -9214,7 +9284,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp.s: cmake_force
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_654) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_659) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
@@ -9769,12 +9839,12 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppList.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListModel.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUp.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUpModel.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUpView.cpp.obj" \
@@ -9782,13 +9852,14 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfos.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosModel.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj" \
@@ -9819,13 +9890,17 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj" \
@@ -10427,12 +10502,12 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppFactory.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppList.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListModel.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/Pictures.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesModel.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Pictures/PicturesView.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/NumTweak/NumTweak.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Russian/Russian.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3D.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DModel.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Scene3D/Scene3DView.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Settings/Settings.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUp.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUpModel.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StartUp/StartUpView.cpp.obj
@@ -10440,13 +10515,14 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/StatusBar/StatusBar.
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfos.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosModel.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/Template.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateModel.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/TemplateView.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Template/weather_image.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/Weather.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherModel.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj
@@ -10477,13 +10553,17 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_me
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_origin_point.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pause.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_picture.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_playboy.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_pose6d.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sandbox.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_satellite.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_sd_card.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_setting.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_start.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_stop.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_storage.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_system_info.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_terminal.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_time_info.c.obj
@@ -10541,7 +10621,7 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/Port/lv_port/lv_port_indev.cpp
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_655) "Linking CXX executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_660) "Linking CXX executable Z_DUMMY_TARGET"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-g++.exe" -fno-rtti -fno-exceptions -std=gnu++11 -Os -g3 -Wall -nostdlib -Wpointer-arith -Wno-error=unused-but-set-variable -Wno-error=unused-variable -mlongcalls -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -Wno-error=deprecated-declarations -Wno-error=unused-function -Wno-unused-parameter -Wno-sign-compare -fstack-protector -fexceptions -Werror=reorder -g @CMakeFiles/Z_DUMMY_TARGET.dir/objects1.rsp -o Z_DUMMY_TARGET 
 
 # Rule to build all files generated by this target.

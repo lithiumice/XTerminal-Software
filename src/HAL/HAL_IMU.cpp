@@ -66,6 +66,17 @@ void HAL::IMU_Init()
     accelgyro.initialize();
     Serial.println("Testing device connections...");
     Serial.println(accelgyro.testConnection() ? "MPU6050 connection successful" : "MPU6050 connection failed");
+
+    // accelgyro.CalibrateAccel(7);
+    // accelgyro.CalibrateGyro(7);
+    // accelgyro.PrintActiveOffsets();
+
+        // g_cfg.mpu_config.x_gyro_offset = mpu.getXGyroOffset();
+        // g_cfg.mpu_config.y_gyro_offset = mpu.getYGyroOffset();
+        // g_cfg.mpu_config.z_gyro_offset = mpu.getZGyroOffset();
+        // g_cfg.mpu_config.x_accel_offset = mpu.getXAccelOffset();
+        // g_cfg.mpu_config.y_accel_offset = mpu.getYAccelOffset();
+        // g_cfg.mpu_config.z_accel_offset = mpu.getZAccelOffset();
 #endif
 }
 

@@ -45,13 +45,20 @@ void App_Init()
 
     ACCOUNT_SEND_NOTIFY_CMD(Storage, STORAGE_CMD_LOAD);
     ACCOUNT_SEND_NOTIFY_CMD(SysConfig, SYSCONFIG_CMD_LOAD);
-    INIT_DONE();
+
+#ifdef ARDUINO
+#include "Port/Display.h"
+    // xTaskNotifyGive(handleTaskLvgl);
+#else
+    do{
+    } while (0);
+#endif
 
     HAL::TerminalPrintln(
         VERSION_FIRMWARE_NAME
         "\nVersion: " VERSION_SOFTWARE
         "\nAuthor: " VERSION_AUTHOR_NAME
-        "\nStarting....\n"
+        "\nStarting...."
     );
 }
 
@@ -60,6 +67,11 @@ void App_insPush(std::string app_name)
     static std::string prev_app= "Startup";
     manager.Install(app_name.c_str(), ("Pages/"+ app_name).c_str()); \
 
+}
+
+void App_Remove(std::string app_name)
+{
+    manager.Uninstall(("Pages/" + app_name).c_str()); \
 }
 
 void App_Install()

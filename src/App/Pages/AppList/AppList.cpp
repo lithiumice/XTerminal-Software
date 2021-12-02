@@ -1,7 +1,10 @@
 #include "AppList.h"
+
+#include "App/App.h"
 #include "App/Configs/Version.h"
 #include "HAL/HAL.h"
 using namespace Page;
+uint64_t enter_time=0;
 
 AppList::AppList()
 {
@@ -19,6 +22,8 @@ void AppList::onCustomAttrConfig()
 
 void AppList::onViewLoad()
 {
+	enter_time = millis();
+
 	Model.Init();
 	View.Create(root);
 	AttachEvent(root);
@@ -31,7 +36,8 @@ void AppList::onViewLoad()
 
 void AppList::onViewDidLoad()
 {
-
+	// App_Remove("Startup");
+	// lv_group_set_default(g);
 }
 
 void AppList::onViewWillAppear()
@@ -76,13 +82,14 @@ void AppList::AttachEvent(lv_obj_t* obj)
 void AppList::Update()
 {
     static uint8_t auto_entered_weather_flag=0;
-	if( HAL::config.auto_enter_weather&&
+	if( 
+		// HAL::config.auto_enter_weather&&
         HAL::config.enc_btn_first_push_flag==0&&
         auto_entered_weather_flag==0&&
-        millis()>= 1000*HAL::config.auto_enter_weather_delay_sec)
+        millis()-enter_time>= 1000*HAL::config.auto_enter_weather_delay_sec)
     {
         auto_entered_weather_flag=1;
-        Manager->Push("Pages/Template");
+        Manager->Push("Pages/Weather");
     }
 }
 
@@ -115,12 +122,12 @@ void AppList::onEvent(lv_event_t* event)
 		}
 		else if (obj == instance->View.ui.settings.icon)
 		{
-			instance->Manager->Push("Pages/Pictures");
+			instance->Manager->Push("Pages/Settings");
 		}
 		// none
 		else if (obj == instance->View.ui.filemanager.icon)
 		{
-			instance->Manager->Push("Pages/Pictures");
+			instance->Manager->Push("Pages/Russian");
 		}
 		else if (obj == instance->View.ui.fandisplay.icon)
 		{
@@ -128,16 +135,12 @@ void AppList::onEvent(lv_event_t* event)
 		}
 		else if (obj == instance->View.ui.videoplayer.icon)
 		{
-			instance->Manager->Push("Pages/Pictures");
+			instance->Manager->Push("Pages/Games");
 		}
 		//weather clock
 		else if (obj == instance->View.ui.weather.icon)
 		{
-			instance->Manager->Push("Pages/Template");
-		}
-		else if (obj == instance->View.ui.clock.icon)
-		{
-			instance->Manager->Push("Pages/Template");
+			instance->Manager->Push("Pages/Weather");
 		}
 	}
 	else if (code == LV_EVENT_LONG_PRESSED)

@@ -14,6 +14,8 @@ class NumTweak : public PageBase
 public:
     struct
     {
+        lv_obj_t* arc;
+        lv_obj_t* indicateText;
         lv_group_t* group;
     } ui;
 

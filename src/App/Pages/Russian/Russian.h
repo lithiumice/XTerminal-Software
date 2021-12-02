@@ -16,11 +16,35 @@ public:
     {
         lv_group_t* group;
     } ui;
+    lv_obj_t* level_label;
+    lv_obj_t* score_label;
+    lv_obj_t* next_label;
+
+    lv_obj_t* canvas;
+    lv_draw_rect_dsc_t rect_dsc;
+    lv_draw_rect_dsc_t empty_rect_dsc;
+
+    void DrawBlock(int x, int y, int block_type);
+
+    int Rotate(int S, int I);
+
+    int Display(int x, int y, int CAC, int Mode);
+
+    int DoBlocks();
+
+    int CheckCollision();
+
+    void GameInit();
 
     Russian();
     virtual ~Russian();
 
     virtual void onCustomAttrConfig();
+    void Draw_Block();
+    void Draw_Block(int x, int y, int block_type);
+    void Canvas_Init();
+    void Canvas_Clear();
+    void Labels_Init();
     virtual void onViewLoad();
     virtual void onViewDidLoad();
     virtual void onViewWillAppear();

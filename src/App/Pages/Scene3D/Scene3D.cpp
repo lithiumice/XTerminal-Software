@@ -51,12 +51,12 @@ void Scene3D::onViewWillAppear()
 
 void Scene3D::onViewDidAppear()
 {
-
+    lv_indev_set_cursor(lv_get_indev(LV_INDEV_TYPE_ENCODER), View.ui.canvas);
 }
 
 void Scene3D::onViewWillDisappear()
 {
-
+    lv_timer_del(timer);
 }
 
 void Scene3D::onViewDidDisappear()
@@ -65,7 +65,8 @@ void Scene3D::onViewDidDisappear()
 
 void Scene3D::onViewDidUnload()
 {
-
+    
+    View.Delete();
 }
 
 void Scene3D::AttachEvent(lv_obj_t* obj)
@@ -94,7 +95,8 @@ void Scene3D::onEvent(lv_event_t* event)
     if (code == LV_EVENT_PRESSED)
     {
         HAL::TerminalPrintln("Scene3D LV_EVENT_PRESSED");
-        instance->Manager->Pop();
+        instance->Manager->BackHome();
+        // instance->Manager->Pop();
     }
     else if (code == LV_EVENT_LONG_PRESSED)
     {

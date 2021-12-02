@@ -7,6 +7,18 @@
 #include "App/Configs/Config.h"
 #include "CommonMacro.h"
 #include "HAL_Config.h"
+#include "lvgl/lvgl.h"
+
+#ifdef ARDUINO
+extern TaskHandle_t handleTaskUrl;
+extern lv_color_t *lv_disp_buf_p;
+#endif
+
+extern HAL::Weather_Info_t weaInfo;
+extern HAL::TimeStamp_t time_stamp_info;
+extern uint8_t fisrt_get_weather_flag;
+extern uint8_t fisrt_get_clock_flag;
+void notifyUrlThread();
 
 namespace HAL
 {
@@ -16,12 +28,17 @@ namespace HAL
 
 /* Config */
     extern Config_t config;
-    void config_set(HAL::Weather_Info_t *info);
-    void config_get(HAL::Weather_Info_t *info);
-    void config_set_clock(int64_t Timestamp);
-    void config_get_clock(int64_t *Timestamp);
+    void config_weather_save(HAL::Weather_Info_t *info);
+    void config_weather_load(HAL::Weather_Info_t *info);
+    void config_clock_save(int64_t Timestamp);
+    void config_clock_load(int64_t *Timestamp);
     void config_load();
     void config_save();
+    void config_clear();
+    void config_num_save();
+    void config_num_load();
+    void config_wifi_save();
+    void config_wifi_load();
 
 /* Weather */
 
@@ -40,8 +57,9 @@ namespace HAL
     bool wifi_close();
     bool wifi_open_ap();
     bool wifi_isconnected();
+    void wifi_smartConfig();
 
-/* Terminal */
+    /* Terminal */
     extern std::string globalTermText;
     extern uint8_t term_text_update_flag;
 
