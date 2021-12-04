@@ -62,7 +62,10 @@ void SystemInfosView::Create(lv_obj_t* root)
 		"Az\n"
 		"Gx\n"
 		"Gy\n"
-		"Gz"
+		"Gz\n"
+		"Pitch\n"
+		"Roll\n"
+		"Yaw"
 	);
 
 	Item_Create(

@@ -19,8 +19,8 @@ do{\
     static void Resource_Init()
     {
         /* Import Fonts */
-        // IMPORT_FONT(bahnschrift_13);
-        // IMPORT_FONT(bahnschrift_17);
+        IMPORT_FONT(bahnschrift_13);
+        IMPORT_FONT(bahnschrift_17);
         // IMPORT_FONT(bahnschrift_32);
         // IMPORT_FONT(bahnschrift_65);
 
@@ -29,9 +29,9 @@ do{\
         IMPORT_FONT(agencyb_36);
         IMPORT_FONT(RexBold_28);
         IMPORT_FONT(RexBold_68);
-        IMPORT_FONT(RexBold_89);
+        // IMPORT_FONT(RexBold_89);
         IMPORT_FONT(Morganite_36);
-        IMPORT_FONT(Morganite_100);
+        // IMPORT_FONT(Morganite_100);
         IMPORT_FONT(HandGotn_14);
         IMPORT_FONT(HandGotn_20);
         IMPORT_FONT(HandGotn_26);

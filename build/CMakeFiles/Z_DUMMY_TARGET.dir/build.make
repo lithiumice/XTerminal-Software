@@ -8945,24 +8945,10 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_HandGotn_26.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj: ../src/App/Resources/Font/font_Morganite_100.c
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_635) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_Morganite_100.c
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_Morganite_100.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_Morganite_100.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.s
-
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj: ../src/App/Resources/Font/font_Morganite_36.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_636) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_635) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_Morganite_36.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.i: cmake_force
@@ -8976,7 +8962,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.s: cmak
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj: ../src/App/Resources/Font/font_RexBold_28.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_637) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_636) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_RexBold_28.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.i: cmake_force
@@ -8990,7 +8976,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.s: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj: ../src/App/Resources/Font/font_RexBold_68.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_638) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_637) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_RexBold_68.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.i: cmake_force
@@ -9001,24 +8987,10 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_RexBold_68.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj: ../src/App/Resources/Font/font_RexBold_89.c
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_639) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_RexBold_89.c
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.i"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_RexBold_89.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.s"
-	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_RexBold_89.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.s
-
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj: ../src/App/Resources/Font/font_agencyb_36.c
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_640) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_638) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_agencyb_36.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.i: cmake_force
@@ -9028,6 +9000,34 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.i: cmake_
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.s"
 	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_agencyb_36.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj: ../src/App/Resources/Font/font_bahnschrift_13.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_639) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_13.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_13.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_13.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj: ../src/App/Resources/Font/font_bahnschrift_17.c
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_640) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj -MF CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj.d -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj -c C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_17.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.i"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_17.c > CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.s"
+	"C:\\Users\\lithiumice/.platformio/packages/toolchain-xtensa32@2.50200.97/bin/xtensa-esp32-elf-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/lithiumice/Desktop/LithiumPeak/2.Firmware/PlatformIO/littleVisual-ESP32-fw-F/src/App/Resources/Font/font_bahnschrift_17.c -o CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.obj: ../src/App/Resources/Image/img_src_3d.c
@@ -10995,12 +10995,12 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_14.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_20.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj" \
@@ -11734,12 +11734,12 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroSt
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_14.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_20.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_arm.c.obj

@@ -78,7 +78,7 @@ void SystemInfos::AttachEvent(lv_obj_t* obj)
 
 void SystemInfos::Update()
 {
-	char buf[64];
+	char buf[128];
 	/* WIFI */
 	View.SetWifiInfo(
 		HAL::config.host_name.c_str(),
@@ -88,7 +88,21 @@ void SystemInfos::Update()
 	);
 
 	/* IMU */
-	Model.GetIMUInfo(buf, sizeof(buf));
+	// Model.GetIMUInfo(buf, sizeof(buf));
+	snprintf(
+        buf,
+        sizeof(buf),
+        "%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f",
+        imuInfo.ax,
+        imuInfo.ay,
+        imuInfo.az,
+        imuInfo.gx,
+        imuInfo.gy,
+        imuInfo.gz,
+        imuInfo.pitch,
+        imuInfo.roll,
+        imuInfo.yaw
+    );
 	View.SetIMU(buf);
 
 	/* Power */

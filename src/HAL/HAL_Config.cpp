@@ -19,6 +19,18 @@ namespace HAL {
 #define BACKLIGHT_256 "K3"
 #define UPDATE_CLOCK_INTERVAL "K4"
 #define UPDATE_WEATHER_INTERVAL "K5"
+#define DATA_UPLOAD_INTERVAL "K6"
+#define AUTO_CALIBRATE_MPU "K7"
+
+// enum ConfigAlterName
+// {
+//     AUTO_ENTER_WEATHER=1,
+//     AUTO_ENTER_WEATHER_DELAY_SEC,
+//     BACKLIGHT_256,
+//     UPDATE_CLOCK_INTERVAL,
+//     UPDATE_WEATHER_INTERVAL,
+//     DATA_UPLOAD_INTERVAL
+// };
 
 void HAL::config_load()
 {
@@ -39,6 +51,34 @@ void HAL::config_save()
 {
     config_wifi_save();
     config_num_save();
+}
+
+void HAL::config_mpu_load()
+{
+    prefs.begin("Config_mpu");
+
+    config.mpu_config.x_gyro_offset=prefs.getInt("gx", 0);
+    config.mpu_config.y_gyro_offset=prefs.getInt("gy", 0);
+    config.mpu_config.z_gyro_offset=prefs.getInt("gz", 0);
+    config.mpu_config.x_accel_offset=prefs.getInt("ax", 0);
+    config.mpu_config.y_accel_offset=prefs.getInt("ay", 0);
+    config.mpu_config.z_accel_offset=prefs.getInt("az", 0);
+
+    prefs.end();
+}
+
+void HAL::config_mpu_save()
+{
+    prefs.begin("Config_mpu");
+
+    prefs.putInt("gx", config.mpu_config.x_gyro_offset);
+    prefs.getInt("gy", config.mpu_config.y_gyro_offset);
+    prefs.getInt("gz",  config.mpu_config.z_gyro_offset);
+    prefs.getInt("ax", config.mpu_config.x_accel_offset);
+    prefs.getInt("ay", config.mpu_config.y_accel_offset);
+    prefs.getInt("az", config.mpu_config.z_accel_offset);
+
+    prefs.end();
 }
 
 void HAL::config_wifi_load()
@@ -68,10 +108,13 @@ void HAL::config_num_save()
     prefs.begin("Config_num");
 
     prefs.putBool(AUTO_ENTER_WEATHER,config.auto_enter_weather);
+    prefs.putBool(AUTO_CALIBRATE_MPU,config.auto_calibrate_mpu);
+
     prefs.putInt(AUTO_ENTER_WEATHER_DELAY_SEC,config.auto_enter_weather_delay_sec);
     prefs.putInt(BACKLIGHT_256,config.backlight_256);
     prefs.putInt(UPDATE_CLOCK_INTERVAL, config.update_clock_interval_minute);
     prefs.putInt(UPDATE_WEATHER_INTERVAL,config.update_weather_interval_minute);
+    prefs.putInt(DATA_UPLOAD_INTERVAL,config.data_upload_interval);
 
     prefs.end();
 }
@@ -81,10 +124,13 @@ void HAL::config_num_load()
     prefs.begin("Config_num");
 
     config.auto_enter_weather=prefs.getBool(AUTO_ENTER_WEATHER,0);
+    config.auto_calibrate_mpu=prefs.getBool(AUTO_CALIBRATE_MPU,0);
+
     config.auto_enter_weather_delay_sec=prefs.getInt(AUTO_ENTER_WEATHER_DELAY_SEC,5);
     config.backlight_256=prefs.getInt(BACKLIGHT_256,256);
     config.update_clock_interval_minute=prefs.getInt(UPDATE_CLOCK_INTERVAL, 2);
     config.update_weather_interval_minute=prefs.getInt(UPDATE_WEATHER_INTERVAL, 5);
+    config.data_upload_interval=prefs.getInt(DATA_UPLOAD_INTERVAL, 200);
 
     prefs.end();
 }

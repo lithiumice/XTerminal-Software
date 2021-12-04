@@ -458,14 +458,11 @@
 				2122,
 				2127,
 				2129,
-				2132,
-				2134,
 				2135,
-				2136,
 				2137,
+				2138,
+				2139,
 				2140,
-				2141,
-				2142,
 				2143,
 				2144,
 				2145,
@@ -473,10 +470,13 @@
 				2147,
 				2148,
 				2149,
+				2150,
 				2151,
 				2152,
-				2153,
-				2154
+				2154,
+				2155,
+				2156,
+				2157
 			]
 		},
 		{
@@ -2430,14 +2430,11 @@
 				2125,
 				2127,
 				2129,
-				2132,
-				2134,
 				2135,
-				2136,
 				2137,
+				2138,
+				2139,
 				2140,
-				2141,
-				2142,
 				2143,
 				2144,
 				2145,
@@ -2445,10 +2442,13 @@
 				2147,
 				2148,
 				2149,
+				2150,
 				2151,
 				2152,
-				2153,
-				2154
+				2154,
+				2155,
+				2156,
+				2157
 			]
 		},
 		{
@@ -3117,11 +3117,14 @@
 				2128,
 				2130,
 				2131,
+				2132,
 				2133,
-				2138,
-				2139,
-				2150,
-				2155
+				2134,
+				2136,
+				2141,
+				2142,
+				2153,
+				2158
 			]
 		},
 		{
@@ -13802,12 +13805,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "src/App/Resources/Font/font_Morganite_100.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 1,
 			"path" : "src/App/Resources/Font/font_Morganite_36.c",
 			"sourceGroupIndex" : 1
 		},
@@ -13826,13 +13823,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "src/App/Resources/Font/font_RexBold_89.c",
+			"path" : "src/App/Resources/Font/font_agencyb_36.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "src/App/Resources/Font/font_agencyb_36.c",
+			"path" : "src/App/Resources/Font/font_bahnschrift_13.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/App/Resources/Font/font_bahnschrift_17.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -14579,6 +14582,21 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/App/Utils/lv_ext/lv_obj_ext_func.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/App/ano_dt.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/App/kalman.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/App/quaternions.hpp",
 			"sourceGroupIndex" : 2
 		},
 		{

@@ -36,13 +36,16 @@ void SystemInfosModel::GetIMUInfo(
     snprintf(
         info,
         len,
-        "%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f",
+        "%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f",
         imu.ax,
         imu.ay,
         imu.az,
         imu.gx,
         imu.gy,
-        imu.gz
+        imu.gz,
+        imu.pitch,
+        imu.roll,
+        imu.yaw
     );
 }
 

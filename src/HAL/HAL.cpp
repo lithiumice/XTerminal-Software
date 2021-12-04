@@ -5,12 +5,15 @@
 #include "HAL/HAL.h"
 #include "Port/Display.h"
 #include "App/App.h"
+#include "App/ano_dt.hpp"
 
 #define DISP_HOR_RES         CONFIG_SCREEN_HOR_RES
 #define DISP_VER_RES         CONFIG_SCREEN_VER_RES
 #define DISP_BUF_SIZE        (240*240/6)//18.6KB
 
 TaskHandle_t handleTaskUrl;
+data_send dataMonitor;
+
 void notifyUrlThread()
 {
 #ifdef ARDUINO
@@ -82,6 +85,26 @@ void notify() {
     Serial.print("OK");
 }
 
+void upload()
+{
+    // dataMonitor.send_vofa_4(
+    //     imuInfo.pitch, 
+    //     imuInfo.roll, 
+    //     imuInfo.yaw, 
+    //     imuInfo.gx
+    //     );
+    dataMonitor.send_vofa_8(
+        imuInfo.ax, 
+        imuInfo.ay, 
+        imuInfo.gx, 
+        imuInfo.gy, 
+        imuInfo.pitch, 
+        imuInfo.roll, 
+        imuInfo.yaw, 
+        imuInfo.az
+        );
+}
+
 void normal()
 {
     HAL::Power_Update();
@@ -94,69 +117,47 @@ void HAL::Update() {
     lv_task_handler();
     __IntervalExecute(normal(), 20);
     __IntervalExecute(HAL::SD_Update(), 500);
-    __IntervalExecute(notify(), 600);
+    // __IntervalExecute(notify(), 600);
+    __IntervalExecute(upload(), HAL::config.data_upload_interval);
 
-    static uint8_t wifi_smartconfig_state = 0;
-    if(wifi_smartconfig_state==0)
-    {
-        if(HAL::wifi_isconnected())
-        {
-            wifi_smartconfig_state = 2;
-        }
-        if(millis()>1000*20)
-        {
-            wifi_smartconfig_state = 1;
-        }
-    }
-    //已经连到wifi
-    else if(wifi_smartconfig_state==2)
-    {
-        wifi_smartconfig_state = 2;
-    }
-    //开始智能配网
-    else if(wifi_smartconfig_state==1)
-    {
-        wifi_smartconfig_state = 3;
-        HAL::wifi_smartConfig();
-    }
-    //等待配网
-    else if(wifi_smartconfig_state==3)
-    {
-        if (WiFi.smartConfigDone())
-        {
-             wifi_smartconfig_state = 4;
-            Serial.println("配网成功");
-            Serial.printf("SSID:%s", WiFi.SSID().c_str());
-            Serial.printf("PSW:%s", WiFi.psk().c_str());
-        }
-    }
-    //配网成功
-    else if(wifi_smartconfig_state==4)
-    {
-        wifi_smartconfig_state = 4;
-    }
-
-    // static uint8_t connected_to_wifi_from_boot = 0;
-    // if(HAL::wifi_isconnected())
+    // static uint8_t wifi_smartconfig_state = 0;
+    // if(wifi_smartconfig_state==0)
     // {
-    //     connected_to_wifi_from_boot = 1;
+    //     if(HAL::wifi_isconnected())
+    //     {
+    //         wifi_smartconfig_state = 2;
+    //     }
+    //     if(millis()>1000*20)
+    //     {
+    //         wifi_smartconfig_state = 1;
+    //     }
     // }
-
-    // static uint8_t started_smartconfig = 0;
-    // if(connected_to_wifi_from_boot==0&&
-    //     started_smartconfig==0&&
-    //     millis()>1000*20
-    // )
+    // //已经连到wifi
+    // else if(wifi_smartconfig_state==2)
     // {
-    //     started_smartconfig = 1;
+    //     wifi_smartconfig_state = 2;
+    // }
+    // //开始智能配网
+    // else if(wifi_smartconfig_state==1)
+    // {
+    //     wifi_smartconfig_state = 3;
     //     HAL::wifi_smartConfig();
     // }
-
-    // if (WiFi.smartConfigDone())
+    // //等待配网
+    // else if(wifi_smartconfig_state==3)
     // {
-    //   Serial.println("配网成功");
-    //   Serial.printf("SSID:%s", WiFi.SSID().c_str());
-    //   Serial.printf("PSW:%s", WiFi.psk().c_str());
+    //     if (WiFi.smartConfigDone())
+    //     {
+    //          wifi_smartconfig_state = 4;
+    //         Serial.println("配网成功");
+    //         Serial.printf("SSID:%s", WiFi.SSID().c_str());
+    //         Serial.printf("PSW:%s", WiFi.psk().c_str());
+    //     }
+    // }
+    // //配网成功
+    // else if(wifi_smartconfig_state==4)
+    // {
+    //     wifi_smartconfig_state = 4;
     // }
 
     //    xTaskNotifyGive(handleTaskLvgl);

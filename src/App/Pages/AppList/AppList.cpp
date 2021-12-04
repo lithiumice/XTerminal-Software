@@ -5,6 +5,7 @@
 #include "HAL/HAL.h"
 using namespace Page;
 uint64_t enter_time=0;
+		extern uint8_t anim_img_select;
 
 AppList::AppList()
 {
@@ -124,8 +125,15 @@ void AppList::onEvent(lv_event_t* event)
 		{
 			instance->Manager->Push("Pages/Settings");
 		}
+		// weather
 		else if (obj == instance->View.ui.weather.icon)
 		{
+			anim_img_select = 1;
+			instance->Manager->Push("Pages/Weather");
+		}
+		else if (obj == instance->View.ui.clock.icon)
+		{
+			anim_img_select = 0;
 			instance->Manager->Push("Pages/Weather");
 		}
 		// game

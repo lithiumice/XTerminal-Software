@@ -25,19 +25,33 @@ class ESP32Time{};
 
 namespace HAL
 {
+	typedef struct MPU_Config
+	{
+		int16_t x_gyro_offset;
+		int16_t y_gyro_offset;
+		int16_t z_gyro_offset;
+
+		int16_t x_accel_offset;
+		int16_t y_accel_offset;
+		int16_t z_accel_offset;
+	}MPU_Config_t;
 
     typedef struct {
+		MPU_Config_t mpu_config;
+
         String wifi_name;
         String wifi_pwd;
         String host_name;
 
         bool auto_enter_weather;
+        bool auto_calibrate_mpu;
+		
         int auto_enter_weather_delay_sec;
 
         int backlight_256;
         int update_clock_interval_minute;//min
         int update_weather_interval_minute;//min
-
+		int data_upload_interval;//ms
     } Config_t;
 
 	/* Time */

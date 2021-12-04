@@ -27,20 +27,29 @@ void AppListView::Create(lv_obj_t* root)
 	Item_Create(
 		&ui.weather,
 		root,
-		"weather",
+		"Weather",
 		"weather",
 	
-		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+		"it fetch weather and clock data from webserver for every 5 minutes,make sure to open you wifi before using it >_"
+	);
+
+	Item_Create(
+		&ui.clock,
+		root,
+		"Clock",
+		"clock",
+	
+		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
 	);
 	
 
 	Item_Create(
 		&ui.gametetris,
 		root,
-		"TetrisGame",
+		"GameTetris",
 		"playboy",
 	
-		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
+		"I wrote this game for one and a half day,though it work fine on my PC,it still would crash on this device XD"
 	);
 	
 	Item_Create(
@@ -49,7 +58,7 @@ void AppListView::Create(lv_obj_t* root)
 		"GameCat",
 		"vr",
 	
-		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
+		"a game ported from Arduboy,move left/right to control the cat and win score through bounce the snow,just have a happy holiday"
 	);
 	
 	Item_Create(
@@ -64,11 +73,10 @@ void AppListView::Create(lv_obj_t* root)
 Item_Create(
 		&ui.cubedemo,
 		root,
-		"GameCube",
+		"DemoCube",
 		"mc",
 
-		"use encoder to scale cube\n"
-		"The first press of the encoder will focus on the square and the second press will exit the program\n"
+		"push th encoder first and rotate to scale cube, the second press will exit the program"
 	);
 	// 编码器第一次按下会聚焦到方块上第二次按下退出程序
 
@@ -78,8 +86,7 @@ Item_Create(
 		"Terminal",
 		"terminal",
 
-		"a terminal app"
-		"This command is used to display logs and running information about the startup of the device"
+		"a terminal app used to record the running logs/informations since the device boot from startup"
 	);
 	// 用于显示设备从开机启动依赖的日志和运行信息
 
@@ -89,7 +96,7 @@ Item_Create(
 		"SystemInfo",
 		"system",
 
-		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+		"get insight to the system and device, gyrometers and accelermeter,wifi,storge,author infomation etc"
 	);
 
 	Item_Create(

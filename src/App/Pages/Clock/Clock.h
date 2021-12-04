@@ -6,26 +6,10 @@
 #include "../Page.h"
 #include "lvgl.h"
 
-
-enum TweakType{
-	BLACKLIGHT,
-    UPDATE_CLOCK_INTERVAL,
-    UPDATE_WEATHER_INTERVAL,
-    AUTO_ENTER_WEATHER_DELAY_SEC,
-    DATA_UPLOAD_INTERVAL
-};
-
-typedef struct{
-    int min;
-    int max;
-    int current;
-    int step;
-}NumTweakConfig;
-
 namespace Page
 {
 
-class NumTweak : public PageBase
+class Clock : public PageBase
 {
 public:
     struct
@@ -36,8 +20,8 @@ public:
         lv_group_t* group;
     } ui;
 
-    NumTweak();
-    virtual ~NumTweak();
+    Clock();
+    virtual ~Clock();
 
     virtual void onCustomAttrConfig();
     virtual void onViewLoad();
