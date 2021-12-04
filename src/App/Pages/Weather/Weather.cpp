@@ -6,9 +6,7 @@
 using namespace Page;
 extern std::map<String, int> weather_str2int;
 extern String *ari_level_int2str;
-extern HAL::Weather_Info_t weaInfo;
-extern HAL::TimeStamp_t time_stamp_info;
-extern HAL::Time_str_t time_info;
+
 
 Weather::Weather() {
 }
@@ -76,17 +74,17 @@ void Weather::AttachEvent(lv_obj_t *obj) {
 }
 
 void Weather::updateSeconds() {
-    time_info.second++;
-    if (time_info.second >= 60)//60s
+    HAL::time_info.second++;
+    if (HAL::time_info.second >= 60)//60s
     {
-        time_info.second = 0;
+        HAL::time_info.second = 0;
 
 #ifdef ARDUINO
         HAL::parseTimeStamp(HAL::getTimestampLocal());
 #endif
         updateClockInfo();
     }
-    View.SetClockSec(time_info.second);
+    View.SetClockSec(HAL::time_info.second);
 
 }
 
@@ -96,26 +94,33 @@ void Weather::updateSpaceImg() {
     // _spaceIndex = (_spaceIndex + 1) % 10;
 
     static int _spaceIndex = 0;
-    lv_img_set_src(View.ui.spaceImg, View.carImage_map[_spaceIndex]);
-    _spaceIndex = (_spaceIndex + 1) % 20;
+    lv_img_set_src(View.ui.spaceImg, View.loveImage_map[_spaceIndex]);
+    _spaceIndex = (_spaceIndex + 1) % 27;
 
 }
 
 void Weather::updateClockInfo() {
-    View.SetClockDay(time_info.month, time_info.day);
-    View.SetClockHour(time_info.hour, time_info.minute);
+    View.SetClockDay(HAL::time_info.month, HAL::time_info.day);
+    View.SetClockHour(HAL::time_info.hour, HAL::time_info.minute);
 }
 
 void Weather::updateWeather() {
-    View.SetWeather(weaInfo.weather);
-    View.SetAirLevel(weaInfo.airQulity);
-    View.SetCityName(weaInfo.cityname);
-    View.SetHuminature(weaInfo.humidity);
-    View.SetTemperatue(weaInfo.temperature);
-    View.SetTextInfo(weaInfo.minTemp, weaInfo.maxTmep, weaInfo.windDir, weaInfo.windLevel);
+    View.SetWeather(HAL::weaInfo.weather);
+    View.SetAirLevel(HAL::weaInfo.airQulity);
+    View.SetCityName(HAL::weaInfo.cityname);
+    View.SetHuminature(HAL::weaInfo.humidity);
+    View.SetTemperatue(HAL::weaInfo.temperature);
+    View.SetTextInfo(HAL::weaInfo.minTemp, HAL::weaInfo.maxTmep, HAL::weaInfo.windDir, HAL::weaInfo.windLevel);
 }
 
-
+void Weather::img_animing()
+{
+    lv_obj_t *animimg1 = lv_animimg_create(root);
+    lv_animimg_set_src(animimg1,View.loveImage_map,27);
+    lv_animimg_set_duration(animimg1, 600);
+    lv_animimg_set_repeat_count(animimg1, LV_ANIM_REPEAT_INFINITE);
+    lv_animimg_start(animimg1);
+}
 
 void Weather::Update() {
     __IntervalExecute(updateSpaceImg(), 30);
@@ -124,13 +129,13 @@ void Weather::Update() {
     __IntervalExecute(updateWeather(), 1000 * 5);
     __IntervalExecute(notifyUrlThread(), (1000 * 60 * HAL::config.update_weather_interval_minute));
 
-    if (HAL::config.weather_url_get_sucess_flag) {
-        HAL::config.weather_url_get_sucess_flag = 0;
+    if (HAL::weather_url_get_sucess_flag) {
+        HAL::weather_url_get_sucess_flag = 0;
         updateWeather();
     }
 
-    if (HAL::config.clock_url_get_sucess_flag) {
-        HAL::config.clock_url_get_sucess_flag = 0;
+    if (HAL::clock_url_get_sucess_flag) {
+        HAL::clock_url_get_sucess_flag = 0;
         updateClockInfo();
         updateSeconds();
     }

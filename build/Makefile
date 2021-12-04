@@ -155,6 +155,54 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
 .PHONY : Z_DUMMY_TARGET/fast
 
+lib/Arduino-MPU6050/I2Cdev.obj: lib/Arduino-MPU6050/I2Cdev.cpp.obj
+.PHONY : lib/Arduino-MPU6050/I2Cdev.obj
+
+# target to build an object file
+lib/Arduino-MPU6050/I2Cdev.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/I2Cdev.cpp.obj
+.PHONY : lib/Arduino-MPU6050/I2Cdev.cpp.obj
+
+lib/Arduino-MPU6050/I2Cdev.i: lib/Arduino-MPU6050/I2Cdev.cpp.i
+.PHONY : lib/Arduino-MPU6050/I2Cdev.i
+
+# target to preprocess a source file
+lib/Arduino-MPU6050/I2Cdev.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/I2Cdev.cpp.i
+.PHONY : lib/Arduino-MPU6050/I2Cdev.cpp.i
+
+lib/Arduino-MPU6050/I2Cdev.s: lib/Arduino-MPU6050/I2Cdev.cpp.s
+.PHONY : lib/Arduino-MPU6050/I2Cdev.s
+
+# target to generate assembly for a file
+lib/Arduino-MPU6050/I2Cdev.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/I2Cdev.cpp.s
+.PHONY : lib/Arduino-MPU6050/I2Cdev.cpp.s
+
+lib/Arduino-MPU6050/MPU6050.obj: lib/Arduino-MPU6050/MPU6050.cpp.obj
+.PHONY : lib/Arduino-MPU6050/MPU6050.obj
+
+# target to build an object file
+lib/Arduino-MPU6050/MPU6050.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/MPU6050.cpp.obj
+.PHONY : lib/Arduino-MPU6050/MPU6050.cpp.obj
+
+lib/Arduino-MPU6050/MPU6050.i: lib/Arduino-MPU6050/MPU6050.cpp.i
+.PHONY : lib/Arduino-MPU6050/MPU6050.i
+
+# target to preprocess a source file
+lib/Arduino-MPU6050/MPU6050.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/MPU6050.cpp.i
+.PHONY : lib/Arduino-MPU6050/MPU6050.cpp.i
+
+lib/Arduino-MPU6050/MPU6050.s: lib/Arduino-MPU6050/MPU6050.cpp.s
+.PHONY : lib/Arduino-MPU6050/MPU6050.s
+
+# target to generate assembly for a file
+lib/Arduino-MPU6050/MPU6050.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Arduino-MPU6050/MPU6050.cpp.s
+.PHONY : lib/Arduino-MPU6050/MPU6050.cpp.s
+
 lib/ArduinoJson/extras/fuzzing/json_fuzzer.obj: lib/ArduinoJson/extras/fuzzing/json_fuzzer.cpp.obj
 .PHONY : lib/ArduinoJson/extras/fuzzing/json_fuzzer.obj
 
@@ -4139,53 +4187,29 @@ lib/ESP32Time/ESP32Time.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32Time/ESP32Time.cpp.s
 .PHONY : lib/ESP32Time/ESP32Time.cpp.s
 
-lib/MPU6050/src/I2Cdev.obj: lib/MPU6050/src/I2Cdev.cpp.obj
-.PHONY : lib/MPU6050/src/I2Cdev.obj
+lib/ESP32_FTPServer_SD/ESP32FtpServer.obj: lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.obj
+.PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.obj
 
 # target to build an object file
-lib/MPU6050/src/I2Cdev.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/I2Cdev.cpp.obj
-.PHONY : lib/MPU6050/src/I2Cdev.cpp.obj
+lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.obj
+.PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.obj
 
-lib/MPU6050/src/I2Cdev.i: lib/MPU6050/src/I2Cdev.cpp.i
-.PHONY : lib/MPU6050/src/I2Cdev.i
-
-# target to preprocess a source file
-lib/MPU6050/src/I2Cdev.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/I2Cdev.cpp.i
-.PHONY : lib/MPU6050/src/I2Cdev.cpp.i
-
-lib/MPU6050/src/I2Cdev.s: lib/MPU6050/src/I2Cdev.cpp.s
-.PHONY : lib/MPU6050/src/I2Cdev.s
-
-# target to generate assembly for a file
-lib/MPU6050/src/I2Cdev.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/I2Cdev.cpp.s
-.PHONY : lib/MPU6050/src/I2Cdev.cpp.s
-
-lib/MPU6050/src/MPU6050.obj: lib/MPU6050/src/MPU6050.cpp.obj
-.PHONY : lib/MPU6050/src/MPU6050.obj
-
-# target to build an object file
-lib/MPU6050/src/MPU6050.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/MPU6050.cpp.obj
-.PHONY : lib/MPU6050/src/MPU6050.cpp.obj
-
-lib/MPU6050/src/MPU6050.i: lib/MPU6050/src/MPU6050.cpp.i
-.PHONY : lib/MPU6050/src/MPU6050.i
+lib/ESP32_FTPServer_SD/ESP32FtpServer.i: lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.i
+.PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.i
 
 # target to preprocess a source file
-lib/MPU6050/src/MPU6050.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/MPU6050.cpp.i
-.PHONY : lib/MPU6050/src/MPU6050.cpp.i
+lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.i
+.PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.i
 
-lib/MPU6050/src/MPU6050.s: lib/MPU6050/src/MPU6050.cpp.s
-.PHONY : lib/MPU6050/src/MPU6050.s
+lib/ESP32_FTPServer_SD/ESP32FtpServer.s: lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
+.PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.s
 
 # target to generate assembly for a file
-lib/MPU6050/src/MPU6050.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MPU6050/src/MPU6050.cpp.s
-.PHONY : lib/MPU6050/src/MPU6050.cpp.s
+lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
+.PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
 
 lib/SD/src/SD.obj: lib/SD/src/SD.cpp.obj
 .PHONY : lib/SD/src/SD.obj
@@ -13163,6 +13187,846 @@ src/App/Pages/AppList/AppListView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.s
 .PHONY : src/App/Pages/AppList/AppListView.cpp.s
 
+src/App/Pages/Games/Game/Arduboy/Arduboy.obj: src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy/Arduboy.i: src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.i
+
+src/App/Pages/Games/Game/Arduboy/Arduboy.s: src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.s
+
+src/App/Pages/Games/Game/Arduboy/audio/audio.obj: src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/audio/audio.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy/audio/audio.i: src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/audio/audio.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.i
+
+src/App/Pages/Games/Game/Arduboy/audio/audio.s: src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/audio/audio.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/audio/audio.cpp.s
+
+src/App/Pages/Games/Game/Arduboy/core/core.obj: src/App/Pages/Games/Game/Arduboy/core/core.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/core/core.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy/core/core.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/core/core.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/core/core.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy/core/core.i: src/App/Pages/Games/Game/Arduboy/core/core.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/core/core.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy/core/core.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/core/core.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/core/core.cpp.i
+
+src/App/Pages/Games/Game/Arduboy/core/core.s: src/App/Pages/Games/Game/Arduboy/core/core.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/core/core.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy/core/core.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/core/core.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/core/core.cpp.s
+
+src/App/Pages/Games/Game/Arduboy/glcdfont.obj: src/App/Pages/Games/Game/Arduboy/glcdfont.c.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/glcdfont.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy/glcdfont.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/glcdfont.c.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy/glcdfont.c.obj
+
+src/App/Pages/Games/Game/Arduboy/glcdfont.i: src/App/Pages/Games/Game/Arduboy/glcdfont.c.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/glcdfont.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy/glcdfont.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/glcdfont.c.i
+.PHONY : src/App/Pages/Games/Game/Arduboy/glcdfont.c.i
+
+src/App/Pages/Games/Game/Arduboy/glcdfont.s: src/App/Pages/Games/Game/Arduboy/glcdfont.c.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/glcdfont.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy/glcdfont.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy/glcdfont.c.s
+.PHONY : src/App/Pages/Games/Game/Arduboy/glcdfont.c.s
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2.obj: src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2.i: src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2.s: src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.obj: src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.i: src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.s: src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.obj: src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.i: src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.s: src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.obj: src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.i: src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.s: src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/Sprites.obj: src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Sprites.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/Sprites.i: src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Sprites.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/Sprites.s: src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Sprites.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/Sprites.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/SpritesB.obj: src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/SpritesB.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/SpritesB.i: src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/SpritesB.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/SpritesB.s: src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/SpritesB.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/SpritesB.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/ab_logo.obj: src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/ab_logo.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.obj
+
+src/App/Pages/Games/Game/Arduboy2/ab_logo.i: src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/ab_logo.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.i
+
+src/App/Pages/Games/Game/Arduboy2/ab_logo.s: src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/ab_logo.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/ab_logo.cpp.s
+
+src/App/Pages/Games/Game/Arduboy2/glcdfont.obj: src/App/Pages/Games/Game/Arduboy2/glcdfont.c.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/glcdfont.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/Arduboy2/glcdfont.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/glcdfont.c.obj
+.PHONY : src/App/Pages/Games/Game/Arduboy2/glcdfont.c.obj
+
+src/App/Pages/Games/Game/Arduboy2/glcdfont.i: src/App/Pages/Games/Game/Arduboy2/glcdfont.c.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/glcdfont.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/Arduboy2/glcdfont.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/glcdfont.c.i
+.PHONY : src/App/Pages/Games/Game/Arduboy2/glcdfont.c.i
+
+src/App/Pages/Games/Game/Arduboy2/glcdfont.s: src/App/Pages/Games/Game/Arduboy2/glcdfont.c.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/glcdfont.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/Arduboy2/glcdfont.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/Arduboy2/glcdfont.c.s
+.PHONY : src/App/Pages/Games/Game/Arduboy2/glcdfont.c.s
+
+src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.obj: src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.obj
+.PHONY : src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.obj
+.PHONY : src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.obj
+
+src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.i: src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.i
+.PHONY : src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.i
+.PHONY : src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.i
+
+src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.s: src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.s
+.PHONY : src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.s
+.PHONY : src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.obj: src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.i: src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.s: src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.obj: src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.i: src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.s: src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Draw.obj: src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Draw.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Draw.i: src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Draw.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Draw.s: src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Draw.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Draw.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Enemy.obj: src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Enemy.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Enemy.i: src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Enemy.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Enemy.s: src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Enemy.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Enemy.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Entity.obj: src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Entity.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Entity.i: src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Entity.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Entity.s: src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Entity.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Entity.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/FixedMath.obj: src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/FixedMath.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/FixedMath.i: src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/FixedMath.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/FixedMath.s: src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/FixedMath.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/FixedMath.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Font.obj: src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Font.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Font.i: src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Font.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Font.s: src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Font.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Font.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Map.obj: src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Map.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Map.i: src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Map.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Map.s: src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Map.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Map.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.obj: src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.i: src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.s: src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Menu.obj: src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Menu.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Menu.i: src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Menu.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Menu.s: src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Menu.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Menu.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Particle.obj: src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Particle.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Particle.i: src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Particle.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Particle.s: src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Particle.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Particle.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Player.obj: src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Player.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Player.i: src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Player.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Player.s: src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Player.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Player.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Projectile.obj: src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Projectile.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Projectile.i: src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Projectile.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Projectile.s: src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Projectile.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Projectile.cpp.s
+
+src/App/Pages/Games/Game/GameArduboy3D/Sounds.obj: src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Sounds.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.obj
+
+src/App/Pages/Games/Game/GameArduboy3D/Sounds.i: src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Sounds.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.i
+
+src/App/Pages/Games/Game/GameArduboy3D/Sounds.s: src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Sounds.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameArduboy3D/Sounds.cpp.s
+
+src/App/Pages/Games/Game/GameChribocchi/MyArduboy.obj: src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/MyArduboy.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.obj
+
+src/App/Pages/Games/Game/GameChribocchi/MyArduboy.i: src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/MyArduboy.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.i
+
+src/App/Pages/Games/Game/GameChribocchi/MyArduboy.s: src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/MyArduboy.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/MyArduboy.cpp.s
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi.obj: src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.obj
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi.i: src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.i
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi.s: src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi.cpp.s
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.obj: src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.obj
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.i: src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.i
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.s: src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.cpp.s
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.obj: src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.obj
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.i: src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.i
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.s: src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.cpp.s
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.obj: src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.obj
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.i: src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.i
+
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.s: src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.cpp.s
+
+src/App/Pages/Games/Game/GameDisp.obj: src/App/Pages/Games/Game/GameDisp.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameDisp.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameDisp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameDisp.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameDisp.cpp.obj
+
+src/App/Pages/Games/Game/GameDisp.i: src/App/Pages/Games/Game/GameDisp.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameDisp.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameDisp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameDisp.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameDisp.cpp.i
+
+src/App/Pages/Games/Game/GameDisp.s: src/App/Pages/Games/Game/GameDisp.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameDisp.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameDisp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameDisp.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameDisp.cpp.s
+
+src/App/Pages/Games/Game/GameManager.obj: src/App/Pages/Games/Game/GameManager.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameManager.obj
+
+# target to build an object file
+src/App/Pages/Games/Game/GameManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameManager.cpp.obj
+.PHONY : src/App/Pages/Games/Game/GameManager.cpp.obj
+
+src/App/Pages/Games/Game/GameManager.i: src/App/Pages/Games/Game/GameManager.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameManager.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Game/GameManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameManager.cpp.i
+.PHONY : src/App/Pages/Games/Game/GameManager.cpp.i
+
+src/App/Pages/Games/Game/GameManager.s: src/App/Pages/Games/Game/GameManager.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameManager.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Game/GameManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Game/GameManager.cpp.s
+.PHONY : src/App/Pages/Games/Game/GameManager.cpp.s
+
+src/App/Pages/Games/Games.obj: src/App/Pages/Games/Games.cpp.obj
+.PHONY : src/App/Pages/Games/Games.obj
+
+# target to build an object file
+src/App/Pages/Games/Games.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Games.cpp.obj
+.PHONY : src/App/Pages/Games/Games.cpp.obj
+
+src/App/Pages/Games/Games.i: src/App/Pages/Games/Games.cpp.i
+.PHONY : src/App/Pages/Games/Games.i
+
+# target to preprocess a source file
+src/App/Pages/Games/Games.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Games.cpp.i
+.PHONY : src/App/Pages/Games/Games.cpp.i
+
+src/App/Pages/Games/Games.s: src/App/Pages/Games/Games.cpp.s
+.PHONY : src/App/Pages/Games/Games.s
+
+# target to generate assembly for a file
+src/App/Pages/Games/Games.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Games.cpp.s
+.PHONY : src/App/Pages/Games/Games.cpp.s
+
 src/App/Pages/NumTweak/NumTweak.obj: src/App/Pages/NumTweak/NumTweak.cpp.obj
 .PHONY : src/App/Pages/NumTweak/NumTweak.obj
 
@@ -13619,6 +14483,726 @@ src/App/Pages/Weather/WeatherView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.s
 .PHONY : src/App/Pages/Weather/WeatherView.cpp.s
 
+src/App/Pages/Weather/love/love_1.obj: src/App/Pages/Weather/love/love_1.c.obj
+.PHONY : src/App/Pages/Weather/love/love_1.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_1.c.obj
+.PHONY : src/App/Pages/Weather/love/love_1.c.obj
+
+src/App/Pages/Weather/love/love_1.i: src/App/Pages/Weather/love/love_1.c.i
+.PHONY : src/App/Pages/Weather/love/love_1.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_1.c.i
+.PHONY : src/App/Pages/Weather/love/love_1.c.i
+
+src/App/Pages/Weather/love/love_1.s: src/App/Pages/Weather/love/love_1.c.s
+.PHONY : src/App/Pages/Weather/love/love_1.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_1.c.s
+.PHONY : src/App/Pages/Weather/love/love_1.c.s
+
+src/App/Pages/Weather/love/love_10.obj: src/App/Pages/Weather/love/love_10.c.obj
+.PHONY : src/App/Pages/Weather/love/love_10.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_10.c.obj
+.PHONY : src/App/Pages/Weather/love/love_10.c.obj
+
+src/App/Pages/Weather/love/love_10.i: src/App/Pages/Weather/love/love_10.c.i
+.PHONY : src/App/Pages/Weather/love/love_10.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_10.c.i
+.PHONY : src/App/Pages/Weather/love/love_10.c.i
+
+src/App/Pages/Weather/love/love_10.s: src/App/Pages/Weather/love/love_10.c.s
+.PHONY : src/App/Pages/Weather/love/love_10.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_10.c.s
+.PHONY : src/App/Pages/Weather/love/love_10.c.s
+
+src/App/Pages/Weather/love/love_11.obj: src/App/Pages/Weather/love/love_11.c.obj
+.PHONY : src/App/Pages/Weather/love/love_11.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_11.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_11.c.obj
+.PHONY : src/App/Pages/Weather/love/love_11.c.obj
+
+src/App/Pages/Weather/love/love_11.i: src/App/Pages/Weather/love/love_11.c.i
+.PHONY : src/App/Pages/Weather/love/love_11.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_11.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_11.c.i
+.PHONY : src/App/Pages/Weather/love/love_11.c.i
+
+src/App/Pages/Weather/love/love_11.s: src/App/Pages/Weather/love/love_11.c.s
+.PHONY : src/App/Pages/Weather/love/love_11.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_11.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_11.c.s
+.PHONY : src/App/Pages/Weather/love/love_11.c.s
+
+src/App/Pages/Weather/love/love_12.obj: src/App/Pages/Weather/love/love_12.c.obj
+.PHONY : src/App/Pages/Weather/love/love_12.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_12.c.obj
+.PHONY : src/App/Pages/Weather/love/love_12.c.obj
+
+src/App/Pages/Weather/love/love_12.i: src/App/Pages/Weather/love/love_12.c.i
+.PHONY : src/App/Pages/Weather/love/love_12.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_12.c.i
+.PHONY : src/App/Pages/Weather/love/love_12.c.i
+
+src/App/Pages/Weather/love/love_12.s: src/App/Pages/Weather/love/love_12.c.s
+.PHONY : src/App/Pages/Weather/love/love_12.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_12.c.s
+.PHONY : src/App/Pages/Weather/love/love_12.c.s
+
+src/App/Pages/Weather/love/love_13.obj: src/App/Pages/Weather/love/love_13.c.obj
+.PHONY : src/App/Pages/Weather/love/love_13.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_13.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_13.c.obj
+.PHONY : src/App/Pages/Weather/love/love_13.c.obj
+
+src/App/Pages/Weather/love/love_13.i: src/App/Pages/Weather/love/love_13.c.i
+.PHONY : src/App/Pages/Weather/love/love_13.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_13.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_13.c.i
+.PHONY : src/App/Pages/Weather/love/love_13.c.i
+
+src/App/Pages/Weather/love/love_13.s: src/App/Pages/Weather/love/love_13.c.s
+.PHONY : src/App/Pages/Weather/love/love_13.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_13.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_13.c.s
+.PHONY : src/App/Pages/Weather/love/love_13.c.s
+
+src/App/Pages/Weather/love/love_14.obj: src/App/Pages/Weather/love/love_14.c.obj
+.PHONY : src/App/Pages/Weather/love/love_14.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_14.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_14.c.obj
+.PHONY : src/App/Pages/Weather/love/love_14.c.obj
+
+src/App/Pages/Weather/love/love_14.i: src/App/Pages/Weather/love/love_14.c.i
+.PHONY : src/App/Pages/Weather/love/love_14.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_14.c.i
+.PHONY : src/App/Pages/Weather/love/love_14.c.i
+
+src/App/Pages/Weather/love/love_14.s: src/App/Pages/Weather/love/love_14.c.s
+.PHONY : src/App/Pages/Weather/love/love_14.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_14.c.s
+.PHONY : src/App/Pages/Weather/love/love_14.c.s
+
+src/App/Pages/Weather/love/love_15.obj: src/App/Pages/Weather/love/love_15.c.obj
+.PHONY : src/App/Pages/Weather/love/love_15.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_15.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_15.c.obj
+.PHONY : src/App/Pages/Weather/love/love_15.c.obj
+
+src/App/Pages/Weather/love/love_15.i: src/App/Pages/Weather/love/love_15.c.i
+.PHONY : src/App/Pages/Weather/love/love_15.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_15.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_15.c.i
+.PHONY : src/App/Pages/Weather/love/love_15.c.i
+
+src/App/Pages/Weather/love/love_15.s: src/App/Pages/Weather/love/love_15.c.s
+.PHONY : src/App/Pages/Weather/love/love_15.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_15.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_15.c.s
+.PHONY : src/App/Pages/Weather/love/love_15.c.s
+
+src/App/Pages/Weather/love/love_16.obj: src/App/Pages/Weather/love/love_16.c.obj
+.PHONY : src/App/Pages/Weather/love/love_16.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_16.c.obj
+.PHONY : src/App/Pages/Weather/love/love_16.c.obj
+
+src/App/Pages/Weather/love/love_16.i: src/App/Pages/Weather/love/love_16.c.i
+.PHONY : src/App/Pages/Weather/love/love_16.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_16.c.i
+.PHONY : src/App/Pages/Weather/love/love_16.c.i
+
+src/App/Pages/Weather/love/love_16.s: src/App/Pages/Weather/love/love_16.c.s
+.PHONY : src/App/Pages/Weather/love/love_16.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_16.c.s
+.PHONY : src/App/Pages/Weather/love/love_16.c.s
+
+src/App/Pages/Weather/love/love_17.obj: src/App/Pages/Weather/love/love_17.c.obj
+.PHONY : src/App/Pages/Weather/love/love_17.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_17.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_17.c.obj
+.PHONY : src/App/Pages/Weather/love/love_17.c.obj
+
+src/App/Pages/Weather/love/love_17.i: src/App/Pages/Weather/love/love_17.c.i
+.PHONY : src/App/Pages/Weather/love/love_17.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_17.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_17.c.i
+.PHONY : src/App/Pages/Weather/love/love_17.c.i
+
+src/App/Pages/Weather/love/love_17.s: src/App/Pages/Weather/love/love_17.c.s
+.PHONY : src/App/Pages/Weather/love/love_17.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_17.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_17.c.s
+.PHONY : src/App/Pages/Weather/love/love_17.c.s
+
+src/App/Pages/Weather/love/love_18.obj: src/App/Pages/Weather/love/love_18.c.obj
+.PHONY : src/App/Pages/Weather/love/love_18.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_18.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_18.c.obj
+.PHONY : src/App/Pages/Weather/love/love_18.c.obj
+
+src/App/Pages/Weather/love/love_18.i: src/App/Pages/Weather/love/love_18.c.i
+.PHONY : src/App/Pages/Weather/love/love_18.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_18.c.i
+.PHONY : src/App/Pages/Weather/love/love_18.c.i
+
+src/App/Pages/Weather/love/love_18.s: src/App/Pages/Weather/love/love_18.c.s
+.PHONY : src/App/Pages/Weather/love/love_18.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_18.c.s
+.PHONY : src/App/Pages/Weather/love/love_18.c.s
+
+src/App/Pages/Weather/love/love_19.obj: src/App/Pages/Weather/love/love_19.c.obj
+.PHONY : src/App/Pages/Weather/love/love_19.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_19.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_19.c.obj
+.PHONY : src/App/Pages/Weather/love/love_19.c.obj
+
+src/App/Pages/Weather/love/love_19.i: src/App/Pages/Weather/love/love_19.c.i
+.PHONY : src/App/Pages/Weather/love/love_19.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_19.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_19.c.i
+.PHONY : src/App/Pages/Weather/love/love_19.c.i
+
+src/App/Pages/Weather/love/love_19.s: src/App/Pages/Weather/love/love_19.c.s
+.PHONY : src/App/Pages/Weather/love/love_19.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_19.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_19.c.s
+.PHONY : src/App/Pages/Weather/love/love_19.c.s
+
+src/App/Pages/Weather/love/love_2.obj: src/App/Pages/Weather/love/love_2.c.obj
+.PHONY : src/App/Pages/Weather/love/love_2.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_2.c.obj
+.PHONY : src/App/Pages/Weather/love/love_2.c.obj
+
+src/App/Pages/Weather/love/love_2.i: src/App/Pages/Weather/love/love_2.c.i
+.PHONY : src/App/Pages/Weather/love/love_2.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_2.c.i
+.PHONY : src/App/Pages/Weather/love/love_2.c.i
+
+src/App/Pages/Weather/love/love_2.s: src/App/Pages/Weather/love/love_2.c.s
+.PHONY : src/App/Pages/Weather/love/love_2.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_2.c.s
+.PHONY : src/App/Pages/Weather/love/love_2.c.s
+
+src/App/Pages/Weather/love/love_20.obj: src/App/Pages/Weather/love/love_20.c.obj
+.PHONY : src/App/Pages/Weather/love/love_20.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_20.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_20.c.obj
+.PHONY : src/App/Pages/Weather/love/love_20.c.obj
+
+src/App/Pages/Weather/love/love_20.i: src/App/Pages/Weather/love/love_20.c.i
+.PHONY : src/App/Pages/Weather/love/love_20.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_20.c.i
+.PHONY : src/App/Pages/Weather/love/love_20.c.i
+
+src/App/Pages/Weather/love/love_20.s: src/App/Pages/Weather/love/love_20.c.s
+.PHONY : src/App/Pages/Weather/love/love_20.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_20.c.s
+.PHONY : src/App/Pages/Weather/love/love_20.c.s
+
+src/App/Pages/Weather/love/love_21.obj: src/App/Pages/Weather/love/love_21.c.obj
+.PHONY : src/App/Pages/Weather/love/love_21.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_21.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_21.c.obj
+.PHONY : src/App/Pages/Weather/love/love_21.c.obj
+
+src/App/Pages/Weather/love/love_21.i: src/App/Pages/Weather/love/love_21.c.i
+.PHONY : src/App/Pages/Weather/love/love_21.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_21.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_21.c.i
+.PHONY : src/App/Pages/Weather/love/love_21.c.i
+
+src/App/Pages/Weather/love/love_21.s: src/App/Pages/Weather/love/love_21.c.s
+.PHONY : src/App/Pages/Weather/love/love_21.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_21.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_21.c.s
+.PHONY : src/App/Pages/Weather/love/love_21.c.s
+
+src/App/Pages/Weather/love/love_22.obj: src/App/Pages/Weather/love/love_22.c.obj
+.PHONY : src/App/Pages/Weather/love/love_22.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_22.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_22.c.obj
+.PHONY : src/App/Pages/Weather/love/love_22.c.obj
+
+src/App/Pages/Weather/love/love_22.i: src/App/Pages/Weather/love/love_22.c.i
+.PHONY : src/App/Pages/Weather/love/love_22.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_22.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_22.c.i
+.PHONY : src/App/Pages/Weather/love/love_22.c.i
+
+src/App/Pages/Weather/love/love_22.s: src/App/Pages/Weather/love/love_22.c.s
+.PHONY : src/App/Pages/Weather/love/love_22.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_22.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_22.c.s
+.PHONY : src/App/Pages/Weather/love/love_22.c.s
+
+src/App/Pages/Weather/love/love_23.obj: src/App/Pages/Weather/love/love_23.c.obj
+.PHONY : src/App/Pages/Weather/love/love_23.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_23.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_23.c.obj
+.PHONY : src/App/Pages/Weather/love/love_23.c.obj
+
+src/App/Pages/Weather/love/love_23.i: src/App/Pages/Weather/love/love_23.c.i
+.PHONY : src/App/Pages/Weather/love/love_23.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_23.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_23.c.i
+.PHONY : src/App/Pages/Weather/love/love_23.c.i
+
+src/App/Pages/Weather/love/love_23.s: src/App/Pages/Weather/love/love_23.c.s
+.PHONY : src/App/Pages/Weather/love/love_23.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_23.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_23.c.s
+.PHONY : src/App/Pages/Weather/love/love_23.c.s
+
+src/App/Pages/Weather/love/love_24.obj: src/App/Pages/Weather/love/love_24.c.obj
+.PHONY : src/App/Pages/Weather/love/love_24.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_24.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_24.c.obj
+.PHONY : src/App/Pages/Weather/love/love_24.c.obj
+
+src/App/Pages/Weather/love/love_24.i: src/App/Pages/Weather/love/love_24.c.i
+.PHONY : src/App/Pages/Weather/love/love_24.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_24.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_24.c.i
+.PHONY : src/App/Pages/Weather/love/love_24.c.i
+
+src/App/Pages/Weather/love/love_24.s: src/App/Pages/Weather/love/love_24.c.s
+.PHONY : src/App/Pages/Weather/love/love_24.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_24.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_24.c.s
+.PHONY : src/App/Pages/Weather/love/love_24.c.s
+
+src/App/Pages/Weather/love/love_25.obj: src/App/Pages/Weather/love/love_25.c.obj
+.PHONY : src/App/Pages/Weather/love/love_25.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_25.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_25.c.obj
+.PHONY : src/App/Pages/Weather/love/love_25.c.obj
+
+src/App/Pages/Weather/love/love_25.i: src/App/Pages/Weather/love/love_25.c.i
+.PHONY : src/App/Pages/Weather/love/love_25.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_25.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_25.c.i
+.PHONY : src/App/Pages/Weather/love/love_25.c.i
+
+src/App/Pages/Weather/love/love_25.s: src/App/Pages/Weather/love/love_25.c.s
+.PHONY : src/App/Pages/Weather/love/love_25.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_25.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_25.c.s
+.PHONY : src/App/Pages/Weather/love/love_25.c.s
+
+src/App/Pages/Weather/love/love_26.obj: src/App/Pages/Weather/love/love_26.c.obj
+.PHONY : src/App/Pages/Weather/love/love_26.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_26.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_26.c.obj
+.PHONY : src/App/Pages/Weather/love/love_26.c.obj
+
+src/App/Pages/Weather/love/love_26.i: src/App/Pages/Weather/love/love_26.c.i
+.PHONY : src/App/Pages/Weather/love/love_26.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_26.c.i
+.PHONY : src/App/Pages/Weather/love/love_26.c.i
+
+src/App/Pages/Weather/love/love_26.s: src/App/Pages/Weather/love/love_26.c.s
+.PHONY : src/App/Pages/Weather/love/love_26.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_26.c.s
+.PHONY : src/App/Pages/Weather/love/love_26.c.s
+
+src/App/Pages/Weather/love/love_27.obj: src/App/Pages/Weather/love/love_27.c.obj
+.PHONY : src/App/Pages/Weather/love/love_27.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_27.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_27.c.obj
+.PHONY : src/App/Pages/Weather/love/love_27.c.obj
+
+src/App/Pages/Weather/love/love_27.i: src/App/Pages/Weather/love/love_27.c.i
+.PHONY : src/App/Pages/Weather/love/love_27.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_27.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_27.c.i
+.PHONY : src/App/Pages/Weather/love/love_27.c.i
+
+src/App/Pages/Weather/love/love_27.s: src/App/Pages/Weather/love/love_27.c.s
+.PHONY : src/App/Pages/Weather/love/love_27.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_27.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_27.c.s
+.PHONY : src/App/Pages/Weather/love/love_27.c.s
+
+src/App/Pages/Weather/love/love_28.obj: src/App/Pages/Weather/love/love_28.c.obj
+.PHONY : src/App/Pages/Weather/love/love_28.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_28.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_28.c.obj
+.PHONY : src/App/Pages/Weather/love/love_28.c.obj
+
+src/App/Pages/Weather/love/love_28.i: src/App/Pages/Weather/love/love_28.c.i
+.PHONY : src/App/Pages/Weather/love/love_28.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_28.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_28.c.i
+.PHONY : src/App/Pages/Weather/love/love_28.c.i
+
+src/App/Pages/Weather/love/love_28.s: src/App/Pages/Weather/love/love_28.c.s
+.PHONY : src/App/Pages/Weather/love/love_28.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_28.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_28.c.s
+.PHONY : src/App/Pages/Weather/love/love_28.c.s
+
+src/App/Pages/Weather/love/love_29.obj: src/App/Pages/Weather/love/love_29.c.obj
+.PHONY : src/App/Pages/Weather/love/love_29.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_29.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_29.c.obj
+.PHONY : src/App/Pages/Weather/love/love_29.c.obj
+
+src/App/Pages/Weather/love/love_29.i: src/App/Pages/Weather/love/love_29.c.i
+.PHONY : src/App/Pages/Weather/love/love_29.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_29.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_29.c.i
+.PHONY : src/App/Pages/Weather/love/love_29.c.i
+
+src/App/Pages/Weather/love/love_29.s: src/App/Pages/Weather/love/love_29.c.s
+.PHONY : src/App/Pages/Weather/love/love_29.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_29.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_29.c.s
+.PHONY : src/App/Pages/Weather/love/love_29.c.s
+
+src/App/Pages/Weather/love/love_3.obj: src/App/Pages/Weather/love/love_3.c.obj
+.PHONY : src/App/Pages/Weather/love/love_3.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_3.c.obj
+.PHONY : src/App/Pages/Weather/love/love_3.c.obj
+
+src/App/Pages/Weather/love/love_3.i: src/App/Pages/Weather/love/love_3.c.i
+.PHONY : src/App/Pages/Weather/love/love_3.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_3.c.i
+.PHONY : src/App/Pages/Weather/love/love_3.c.i
+
+src/App/Pages/Weather/love/love_3.s: src/App/Pages/Weather/love/love_3.c.s
+.PHONY : src/App/Pages/Weather/love/love_3.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_3.c.s
+.PHONY : src/App/Pages/Weather/love/love_3.c.s
+
+src/App/Pages/Weather/love/love_30.obj: src/App/Pages/Weather/love/love_30.c.obj
+.PHONY : src/App/Pages/Weather/love/love_30.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_30.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_30.c.obj
+.PHONY : src/App/Pages/Weather/love/love_30.c.obj
+
+src/App/Pages/Weather/love/love_30.i: src/App/Pages/Weather/love/love_30.c.i
+.PHONY : src/App/Pages/Weather/love/love_30.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_30.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_30.c.i
+.PHONY : src/App/Pages/Weather/love/love_30.c.i
+
+src/App/Pages/Weather/love/love_30.s: src/App/Pages/Weather/love/love_30.c.s
+.PHONY : src/App/Pages/Weather/love/love_30.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_30.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_30.c.s
+.PHONY : src/App/Pages/Weather/love/love_30.c.s
+
+src/App/Pages/Weather/love/love_4.obj: src/App/Pages/Weather/love/love_4.c.obj
+.PHONY : src/App/Pages/Weather/love/love_4.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_4.c.obj
+.PHONY : src/App/Pages/Weather/love/love_4.c.obj
+
+src/App/Pages/Weather/love/love_4.i: src/App/Pages/Weather/love/love_4.c.i
+.PHONY : src/App/Pages/Weather/love/love_4.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_4.c.i
+.PHONY : src/App/Pages/Weather/love/love_4.c.i
+
+src/App/Pages/Weather/love/love_4.s: src/App/Pages/Weather/love/love_4.c.s
+.PHONY : src/App/Pages/Weather/love/love_4.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_4.c.s
+.PHONY : src/App/Pages/Weather/love/love_4.c.s
+
+src/App/Pages/Weather/love/love_5.obj: src/App/Pages/Weather/love/love_5.c.obj
+.PHONY : src/App/Pages/Weather/love/love_5.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_5.c.obj
+.PHONY : src/App/Pages/Weather/love/love_5.c.obj
+
+src/App/Pages/Weather/love/love_5.i: src/App/Pages/Weather/love/love_5.c.i
+.PHONY : src/App/Pages/Weather/love/love_5.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_5.c.i
+.PHONY : src/App/Pages/Weather/love/love_5.c.i
+
+src/App/Pages/Weather/love/love_5.s: src/App/Pages/Weather/love/love_5.c.s
+.PHONY : src/App/Pages/Weather/love/love_5.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_5.c.s
+.PHONY : src/App/Pages/Weather/love/love_5.c.s
+
+src/App/Pages/Weather/love/love_6.obj: src/App/Pages/Weather/love/love_6.c.obj
+.PHONY : src/App/Pages/Weather/love/love_6.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_6.c.obj
+.PHONY : src/App/Pages/Weather/love/love_6.c.obj
+
+src/App/Pages/Weather/love/love_6.i: src/App/Pages/Weather/love/love_6.c.i
+.PHONY : src/App/Pages/Weather/love/love_6.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_6.c.i
+.PHONY : src/App/Pages/Weather/love/love_6.c.i
+
+src/App/Pages/Weather/love/love_6.s: src/App/Pages/Weather/love/love_6.c.s
+.PHONY : src/App/Pages/Weather/love/love_6.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_6.c.s
+.PHONY : src/App/Pages/Weather/love/love_6.c.s
+
+src/App/Pages/Weather/love/love_7.obj: src/App/Pages/Weather/love/love_7.c.obj
+.PHONY : src/App/Pages/Weather/love/love_7.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_7.c.obj
+.PHONY : src/App/Pages/Weather/love/love_7.c.obj
+
+src/App/Pages/Weather/love/love_7.i: src/App/Pages/Weather/love/love_7.c.i
+.PHONY : src/App/Pages/Weather/love/love_7.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_7.c.i
+.PHONY : src/App/Pages/Weather/love/love_7.c.i
+
+src/App/Pages/Weather/love/love_7.s: src/App/Pages/Weather/love/love_7.c.s
+.PHONY : src/App/Pages/Weather/love/love_7.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_7.c.s
+.PHONY : src/App/Pages/Weather/love/love_7.c.s
+
+src/App/Pages/Weather/love/love_8.obj: src/App/Pages/Weather/love/love_8.c.obj
+.PHONY : src/App/Pages/Weather/love/love_8.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_8.c.obj
+.PHONY : src/App/Pages/Weather/love/love_8.c.obj
+
+src/App/Pages/Weather/love/love_8.i: src/App/Pages/Weather/love/love_8.c.i
+.PHONY : src/App/Pages/Weather/love/love_8.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_8.c.i
+.PHONY : src/App/Pages/Weather/love/love_8.c.i
+
+src/App/Pages/Weather/love/love_8.s: src/App/Pages/Weather/love/love_8.c.s
+.PHONY : src/App/Pages/Weather/love/love_8.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_8.c.s
+.PHONY : src/App/Pages/Weather/love/love_8.c.s
+
+src/App/Pages/Weather/love/love_9.obj: src/App/Pages/Weather/love/love_9.c.obj
+.PHONY : src/App/Pages/Weather/love/love_9.obj
+
+# target to build an object file
+src/App/Pages/Weather/love/love_9.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_9.c.obj
+.PHONY : src/App/Pages/Weather/love/love_9.c.obj
+
+src/App/Pages/Weather/love/love_9.i: src/App/Pages/Weather/love/love_9.c.i
+.PHONY : src/App/Pages/Weather/love/love_9.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/love/love_9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_9.c.i
+.PHONY : src/App/Pages/Weather/love/love_9.c.i
+
+src/App/Pages/Weather/love/love_9.s: src/App/Pages/Weather/love/love_9.c.s
+.PHONY : src/App/Pages/Weather/love/love_9.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/love/love_9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_9.c.s
+.PHONY : src/App/Pages/Weather/love/love_9.c.s
+
 src/App/Pages/Weather/weather_image.obj: src/App/Pages/Weather/weather_image.c.obj
 .PHONY : src/App/Pages/Weather/weather_image.obj
 
@@ -13667,6 +15251,246 @@ src/App/Pages/WifiText/WifiText.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/WifiText/WifiText.cpp.s
 .PHONY : src/App/Pages/WifiText/WifiText.cpp.s
 
+src/App/Resources/Font/font_EuroStar_26.obj: src/App/Resources/Font/font_EuroStar_26.c.obj
+.PHONY : src/App/Resources/Font/font_EuroStar_26.obj
+
+# target to build an object file
+src/App/Resources/Font/font_EuroStar_26.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroStar_26.c.obj
+.PHONY : src/App/Resources/Font/font_EuroStar_26.c.obj
+
+src/App/Resources/Font/font_EuroStar_26.i: src/App/Resources/Font/font_EuroStar_26.c.i
+.PHONY : src/App/Resources/Font/font_EuroStar_26.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_EuroStar_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroStar_26.c.i
+.PHONY : src/App/Resources/Font/font_EuroStar_26.c.i
+
+src/App/Resources/Font/font_EuroStar_26.s: src/App/Resources/Font/font_EuroStar_26.c.s
+.PHONY : src/App/Resources/Font/font_EuroStar_26.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_EuroStar_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroStar_26.c.s
+.PHONY : src/App/Resources/Font/font_EuroStar_26.c.s
+
+src/App/Resources/Font/font_EuroStar_60.obj: src/App/Resources/Font/font_EuroStar_60.c.obj
+.PHONY : src/App/Resources/Font/font_EuroStar_60.obj
+
+# target to build an object file
+src/App/Resources/Font/font_EuroStar_60.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroStar_60.c.obj
+.PHONY : src/App/Resources/Font/font_EuroStar_60.c.obj
+
+src/App/Resources/Font/font_EuroStar_60.i: src/App/Resources/Font/font_EuroStar_60.c.i
+.PHONY : src/App/Resources/Font/font_EuroStar_60.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_EuroStar_60.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroStar_60.c.i
+.PHONY : src/App/Resources/Font/font_EuroStar_60.c.i
+
+src/App/Resources/Font/font_EuroStar_60.s: src/App/Resources/Font/font_EuroStar_60.c.s
+.PHONY : src/App/Resources/Font/font_EuroStar_60.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_EuroStar_60.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_EuroStar_60.c.s
+.PHONY : src/App/Resources/Font/font_EuroStar_60.c.s
+
+src/App/Resources/Font/font_HandGotn_14.obj: src/App/Resources/Font/font_HandGotn_14.c.obj
+.PHONY : src/App/Resources/Font/font_HandGotn_14.obj
+
+# target to build an object file
+src/App/Resources/Font/font_HandGotn_14.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_14.c.obj
+.PHONY : src/App/Resources/Font/font_HandGotn_14.c.obj
+
+src/App/Resources/Font/font_HandGotn_14.i: src/App/Resources/Font/font_HandGotn_14.c.i
+.PHONY : src/App/Resources/Font/font_HandGotn_14.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_HandGotn_14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_14.c.i
+.PHONY : src/App/Resources/Font/font_HandGotn_14.c.i
+
+src/App/Resources/Font/font_HandGotn_14.s: src/App/Resources/Font/font_HandGotn_14.c.s
+.PHONY : src/App/Resources/Font/font_HandGotn_14.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_HandGotn_14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_14.c.s
+.PHONY : src/App/Resources/Font/font_HandGotn_14.c.s
+
+src/App/Resources/Font/font_HandGotn_20.obj: src/App/Resources/Font/font_HandGotn_20.c.obj
+.PHONY : src/App/Resources/Font/font_HandGotn_20.obj
+
+# target to build an object file
+src/App/Resources/Font/font_HandGotn_20.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_20.c.obj
+.PHONY : src/App/Resources/Font/font_HandGotn_20.c.obj
+
+src/App/Resources/Font/font_HandGotn_20.i: src/App/Resources/Font/font_HandGotn_20.c.i
+.PHONY : src/App/Resources/Font/font_HandGotn_20.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_HandGotn_20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_20.c.i
+.PHONY : src/App/Resources/Font/font_HandGotn_20.c.i
+
+src/App/Resources/Font/font_HandGotn_20.s: src/App/Resources/Font/font_HandGotn_20.c.s
+.PHONY : src/App/Resources/Font/font_HandGotn_20.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_HandGotn_20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_20.c.s
+.PHONY : src/App/Resources/Font/font_HandGotn_20.c.s
+
+src/App/Resources/Font/font_HandGotn_26.obj: src/App/Resources/Font/font_HandGotn_26.c.obj
+.PHONY : src/App/Resources/Font/font_HandGotn_26.obj
+
+# target to build an object file
+src/App/Resources/Font/font_HandGotn_26.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.obj
+.PHONY : src/App/Resources/Font/font_HandGotn_26.c.obj
+
+src/App/Resources/Font/font_HandGotn_26.i: src/App/Resources/Font/font_HandGotn_26.c.i
+.PHONY : src/App/Resources/Font/font_HandGotn_26.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_HandGotn_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.i
+.PHONY : src/App/Resources/Font/font_HandGotn_26.c.i
+
+src/App/Resources/Font/font_HandGotn_26.s: src/App/Resources/Font/font_HandGotn_26.c.s
+.PHONY : src/App/Resources/Font/font_HandGotn_26.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_HandGotn_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_HandGotn_26.c.s
+.PHONY : src/App/Resources/Font/font_HandGotn_26.c.s
+
+src/App/Resources/Font/font_Morganite_100.obj: src/App/Resources/Font/font_Morganite_100.c.obj
+.PHONY : src/App/Resources/Font/font_Morganite_100.obj
+
+# target to build an object file
+src/App/Resources/Font/font_Morganite_100.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.obj
+.PHONY : src/App/Resources/Font/font_Morganite_100.c.obj
+
+src/App/Resources/Font/font_Morganite_100.i: src/App/Resources/Font/font_Morganite_100.c.i
+.PHONY : src/App/Resources/Font/font_Morganite_100.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_Morganite_100.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.i
+.PHONY : src/App/Resources/Font/font_Morganite_100.c.i
+
+src/App/Resources/Font/font_Morganite_100.s: src/App/Resources/Font/font_Morganite_100.c.s
+.PHONY : src/App/Resources/Font/font_Morganite_100.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_Morganite_100.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_100.c.s
+.PHONY : src/App/Resources/Font/font_Morganite_100.c.s
+
+src/App/Resources/Font/font_Morganite_36.obj: src/App/Resources/Font/font_Morganite_36.c.obj
+.PHONY : src/App/Resources/Font/font_Morganite_36.obj
+
+# target to build an object file
+src/App/Resources/Font/font_Morganite_36.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.obj
+.PHONY : src/App/Resources/Font/font_Morganite_36.c.obj
+
+src/App/Resources/Font/font_Morganite_36.i: src/App/Resources/Font/font_Morganite_36.c.i
+.PHONY : src/App/Resources/Font/font_Morganite_36.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_Morganite_36.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.i
+.PHONY : src/App/Resources/Font/font_Morganite_36.c.i
+
+src/App/Resources/Font/font_Morganite_36.s: src/App/Resources/Font/font_Morganite_36.c.s
+.PHONY : src/App/Resources/Font/font_Morganite_36.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_Morganite_36.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_Morganite_36.c.s
+.PHONY : src/App/Resources/Font/font_Morganite_36.c.s
+
+src/App/Resources/Font/font_RexBold_28.obj: src/App/Resources/Font/font_RexBold_28.c.obj
+.PHONY : src/App/Resources/Font/font_RexBold_28.obj
+
+# target to build an object file
+src/App/Resources/Font/font_RexBold_28.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.obj
+.PHONY : src/App/Resources/Font/font_RexBold_28.c.obj
+
+src/App/Resources/Font/font_RexBold_28.i: src/App/Resources/Font/font_RexBold_28.c.i
+.PHONY : src/App/Resources/Font/font_RexBold_28.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_RexBold_28.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.i
+.PHONY : src/App/Resources/Font/font_RexBold_28.c.i
+
+src/App/Resources/Font/font_RexBold_28.s: src/App/Resources/Font/font_RexBold_28.c.s
+.PHONY : src/App/Resources/Font/font_RexBold_28.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_RexBold_28.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_28.c.s
+.PHONY : src/App/Resources/Font/font_RexBold_28.c.s
+
+src/App/Resources/Font/font_RexBold_68.obj: src/App/Resources/Font/font_RexBold_68.c.obj
+.PHONY : src/App/Resources/Font/font_RexBold_68.obj
+
+# target to build an object file
+src/App/Resources/Font/font_RexBold_68.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.obj
+.PHONY : src/App/Resources/Font/font_RexBold_68.c.obj
+
+src/App/Resources/Font/font_RexBold_68.i: src/App/Resources/Font/font_RexBold_68.c.i
+.PHONY : src/App/Resources/Font/font_RexBold_68.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_RexBold_68.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.i
+.PHONY : src/App/Resources/Font/font_RexBold_68.c.i
+
+src/App/Resources/Font/font_RexBold_68.s: src/App/Resources/Font/font_RexBold_68.c.s
+.PHONY : src/App/Resources/Font/font_RexBold_68.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_RexBold_68.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_68.c.s
+.PHONY : src/App/Resources/Font/font_RexBold_68.c.s
+
+src/App/Resources/Font/font_RexBold_89.obj: src/App/Resources/Font/font_RexBold_89.c.obj
+.PHONY : src/App/Resources/Font/font_RexBold_89.obj
+
+# target to build an object file
+src/App/Resources/Font/font_RexBold_89.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.obj
+.PHONY : src/App/Resources/Font/font_RexBold_89.c.obj
+
+src/App/Resources/Font/font_RexBold_89.i: src/App/Resources/Font/font_RexBold_89.c.i
+.PHONY : src/App/Resources/Font/font_RexBold_89.i
+
+# target to preprocess a source file
+src/App/Resources/Font/font_RexBold_89.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.i
+.PHONY : src/App/Resources/Font/font_RexBold_89.c.i
+
+src/App/Resources/Font/font_RexBold_89.s: src/App/Resources/Font/font_RexBold_89.c.s
+.PHONY : src/App/Resources/Font/font_RexBold_89.s
+
+# target to generate assembly for a file
+src/App/Resources/Font/font_RexBold_89.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_RexBold_89.c.s
+.PHONY : src/App/Resources/Font/font_RexBold_89.c.s
+
 src/App/Resources/Font/font_agencyb_36.obj: src/App/Resources/Font/font_agencyb_36.c.obj
 .PHONY : src/App/Resources/Font/font_agencyb_36.obj
 
@@ -13691,101 +15515,29 @@ src/App/Resources/Font/font_agencyb_36.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_agencyb_36.c.s
 .PHONY : src/App/Resources/Font/font_agencyb_36.c.s
 
-src/App/Resources/Font/font_bahnschrift_13.obj: src/App/Resources/Font/font_bahnschrift_13.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_13.obj
+src/App/Resources/Image/img_src_3d.obj: src/App/Resources/Image/img_src_3d.c.obj
+.PHONY : src/App/Resources/Image/img_src_3d.obj
 
 # target to build an object file
-src/App/Resources/Font/font_bahnschrift_13.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_13.c.obj
+src/App/Resources/Image/img_src_3d.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.obj
+.PHONY : src/App/Resources/Image/img_src_3d.c.obj
 
-src/App/Resources/Font/font_bahnschrift_13.i: src/App/Resources/Font/font_bahnschrift_13.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_13.i
-
-# target to preprocess a source file
-src/App/Resources/Font/font_bahnschrift_13.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_13.c.i
-
-src/App/Resources/Font/font_bahnschrift_13.s: src/App/Resources/Font/font_bahnschrift_13.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_13.s
-
-# target to generate assembly for a file
-src/App/Resources/Font/font_bahnschrift_13.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_13.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_13.c.s
-
-src/App/Resources/Font/font_bahnschrift_17.obj: src/App/Resources/Font/font_bahnschrift_17.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_17.obj
-
-# target to build an object file
-src/App/Resources/Font/font_bahnschrift_17.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_17.c.obj
-
-src/App/Resources/Font/font_bahnschrift_17.i: src/App/Resources/Font/font_bahnschrift_17.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_17.i
+src/App/Resources/Image/img_src_3d.i: src/App/Resources/Image/img_src_3d.c.i
+.PHONY : src/App/Resources/Image/img_src_3d.i
 
 # target to preprocess a source file
-src/App/Resources/Font/font_bahnschrift_17.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_17.c.i
+src/App/Resources/Image/img_src_3d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.i
+.PHONY : src/App/Resources/Image/img_src_3d.c.i
 
-src/App/Resources/Font/font_bahnschrift_17.s: src/App/Resources/Font/font_bahnschrift_17.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_17.s
-
-# target to generate assembly for a file
-src/App/Resources/Font/font_bahnschrift_17.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_17.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_17.c.s
-
-src/App/Resources/Font/font_bahnschrift_32.obj: src/App/Resources/Font/font_bahnschrift_32.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_32.obj
-
-# target to build an object file
-src/App/Resources/Font/font_bahnschrift_32.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_32.c.obj
-
-src/App/Resources/Font/font_bahnschrift_32.i: src/App/Resources/Font/font_bahnschrift_32.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_32.i
-
-# target to preprocess a source file
-src/App/Resources/Font/font_bahnschrift_32.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_32.c.i
-
-src/App/Resources/Font/font_bahnschrift_32.s: src/App/Resources/Font/font_bahnschrift_32.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_32.s
+src/App/Resources/Image/img_src_3d.s: src/App/Resources/Image/img_src_3d.c.s
+.PHONY : src/App/Resources/Image/img_src_3d.s
 
 # target to generate assembly for a file
-src/App/Resources/Font/font_bahnschrift_32.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_32.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_32.c.s
-
-src/App/Resources/Font/font_bahnschrift_65.obj: src/App/Resources/Font/font_bahnschrift_65.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_65.obj
-
-# target to build an object file
-src/App/Resources/Font/font_bahnschrift_65.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.obj
-.PHONY : src/App/Resources/Font/font_bahnschrift_65.c.obj
-
-src/App/Resources/Font/font_bahnschrift_65.i: src/App/Resources/Font/font_bahnschrift_65.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_65.i
-
-# target to preprocess a source file
-src/App/Resources/Font/font_bahnschrift_65.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.i
-.PHONY : src/App/Resources/Font/font_bahnschrift_65.c.i
-
-src/App/Resources/Font/font_bahnschrift_65.s: src/App/Resources/Font/font_bahnschrift_65.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_65.s
-
-# target to generate assembly for a file
-src/App/Resources/Font/font_bahnschrift_65.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Font/font_bahnschrift_65.c.s
-.PHONY : src/App/Resources/Font/font_bahnschrift_65.c.s
+src/App/Resources/Image/img_src_3d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_3d.c.s
+.PHONY : src/App/Resources/Image/img_src_3d.c.s
 
 src/App/Resources/Image/img_src_alarm.obj: src/App/Resources/Image/img_src_alarm.c.obj
 .PHONY : src/App/Resources/Image/img_src_alarm.obj
@@ -14219,6 +15971,30 @@ src/App/Resources/Image/img_src_joints.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joints.c.s
 .PHONY : src/App/Resources/Image/img_src_joints.c.s
 
+src/App/Resources/Image/img_src_joystick.obj: src/App/Resources/Image/img_src_joystick.c.obj
+.PHONY : src/App/Resources/Image/img_src_joystick.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_joystick.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joystick.c.obj
+.PHONY : src/App/Resources/Image/img_src_joystick.c.obj
+
+src/App/Resources/Image/img_src_joystick.i: src/App/Resources/Image/img_src_joystick.c.i
+.PHONY : src/App/Resources/Image/img_src_joystick.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_joystick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joystick.c.i
+.PHONY : src/App/Resources/Image/img_src_joystick.c.i
+
+src/App/Resources/Image/img_src_joystick.s: src/App/Resources/Image/img_src_joystick.c.s
+.PHONY : src/App/Resources/Image/img_src_joystick.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_joystick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_joystick.c.s
+.PHONY : src/App/Resources/Image/img_src_joystick.c.s
+
 src/App/Resources/Image/img_src_locate.obj: src/App/Resources/Image/img_src_locate.c.obj
 .PHONY : src/App/Resources/Image/img_src_locate.obj
 
@@ -14290,6 +16066,30 @@ src/App/Resources/Image/img_src_map_location.s: src/App/Resources/Image/img_src_
 src/App/Resources/Image/img_src_map_location.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_map_location.c.s
 .PHONY : src/App/Resources/Image/img_src_map_location.c.s
+
+src/App/Resources/Image/img_src_mc.obj: src/App/Resources/Image/img_src_mc.c.obj
+.PHONY : src/App/Resources/Image/img_src_mc.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_mc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_mc.c.obj
+.PHONY : src/App/Resources/Image/img_src_mc.c.obj
+
+src/App/Resources/Image/img_src_mc.i: src/App/Resources/Image/img_src_mc.c.i
+.PHONY : src/App/Resources/Image/img_src_mc.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_mc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_mc.c.i
+.PHONY : src/App/Resources/Image/img_src_mc.c.i
+
+src/App/Resources/Image/img_src_mc.s: src/App/Resources/Image/img_src_mc.c.s
+.PHONY : src/App/Resources/Image/img_src_mc.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_mc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_mc.c.s
+.PHONY : src/App/Resources/Image/img_src_mc.c.s
 
 src/App/Resources/Image/img_src_menu.obj: src/App/Resources/Image/img_src_menu.c.obj
 .PHONY : src/App/Resources/Image/img_src_menu.obj
@@ -14770,6 +16570,30 @@ src/App/Resources/Image/img_src_video.s: src/App/Resources/Image/img_src_video.c
 src/App/Resources/Image/img_src_video.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_video.c.s
 .PHONY : src/App/Resources/Image/img_src_video.c.s
+
+src/App/Resources/Image/img_src_vr.obj: src/App/Resources/Image/img_src_vr.c.obj
+.PHONY : src/App/Resources/Image/img_src_vr.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_vr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_vr.c.obj
+.PHONY : src/App/Resources/Image/img_src_vr.c.obj
+
+src/App/Resources/Image/img_src_vr.i: src/App/Resources/Image/img_src_vr.c.i
+.PHONY : src/App/Resources/Image/img_src_vr.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_vr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_vr.c.i
+.PHONY : src/App/Resources/Image/img_src_vr.c.i
+
+src/App/Resources/Image/img_src_vr.s: src/App/Resources/Image/img_src_vr.c.s
+.PHONY : src/App/Resources/Image/img_src_vr.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_vr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_vr.c.s
+.PHONY : src/App/Resources/Image/img_src_vr.c.s
 
 src/App/Resources/Image/img_src_weather.obj: src/App/Resources/Image/img_src_weather.c.obj
 .PHONY : src/App/Resources/Image/img_src_weather.obj
@@ -15982,6 +17806,12 @@ help:
 	@echo "... Debug"
 	@echo "... Production"
 	@echo "... Z_DUMMY_TARGET"
+	@echo "... lib/Arduino-MPU6050/I2Cdev.obj"
+	@echo "... lib/Arduino-MPU6050/I2Cdev.i"
+	@echo "... lib/Arduino-MPU6050/I2Cdev.s"
+	@echo "... lib/Arduino-MPU6050/MPU6050.obj"
+	@echo "... lib/Arduino-MPU6050/MPU6050.i"
+	@echo "... lib/Arduino-MPU6050/MPU6050.s"
 	@echo "... lib/ArduinoJson/extras/fuzzing/json_fuzzer.obj"
 	@echo "... lib/ArduinoJson/extras/fuzzing/json_fuzzer.i"
 	@echo "... lib/ArduinoJson/extras/fuzzing/json_fuzzer.s"
@@ -16480,12 +18310,9 @@ help:
 	@echo "... lib/ESP32Time/ESP32Time.obj"
 	@echo "... lib/ESP32Time/ESP32Time.i"
 	@echo "... lib/ESP32Time/ESP32Time.s"
-	@echo "... lib/MPU6050/src/I2Cdev.obj"
-	@echo "... lib/MPU6050/src/I2Cdev.i"
-	@echo "... lib/MPU6050/src/I2Cdev.s"
-	@echo "... lib/MPU6050/src/MPU6050.obj"
-	@echo "... lib/MPU6050/src/MPU6050.i"
-	@echo "... lib/MPU6050/src/MPU6050.s"
+	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.obj"
+	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.i"
+	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.s"
 	@echo "... lib/SD/src/SD.obj"
 	@echo "... lib/SD/src/SD.i"
 	@echo "... lib/SD/src/SD.s"
@@ -17608,6 +19435,111 @@ help:
 	@echo "... src/App/Pages/AppList/AppListView.obj"
 	@echo "... src/App/Pages/AppList/AppListView.i"
 	@echo "... src/App/Pages/AppList/AppListView.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy/Arduboy.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy/Arduboy.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy/Arduboy.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy/audio/audio.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy/audio/audio.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy/audio/audio.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy/core/core.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy/core/core.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy/core/core.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy/glcdfont.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy/glcdfont.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy/glcdfont.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Audio.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Beep.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Arduboy2Core.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Sprites.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Sprites.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/Sprites.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/SpritesB.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/SpritesB.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/SpritesB.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/ab_logo.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/ab_logo.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/ab_logo.s"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/glcdfont.obj"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/glcdfont.i"
+	@echo "... src/App/Pages/Games/Game/Arduboy2/glcdfont.s"
+	@echo "... src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.obj"
+	@echo "... src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.i"
+	@echo "... src/App/Pages/Games/Game/ArduboyTones/ArduboyTones.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Arduboy3D_Game.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Draw.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Draw.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Draw.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Enemy.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Enemy.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Enemy.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Entity.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Entity.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Entity.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/FixedMath.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/FixedMath.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/FixedMath.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Font.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Font.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Font.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Map.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Map.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Map.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/MapGenerator.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Menu.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Menu.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Menu.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Particle.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Particle.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Particle.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Player.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Player.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Player.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Projectile.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Projectile.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Projectile.s"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Sounds.obj"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Sounds.i"
+	@echo "... src/App/Pages/Games/Game/GameArduboy3D/Sounds.s"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/MyArduboy.obj"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/MyArduboy.i"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/MyArduboy.s"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi.obj"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi.i"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi.s"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.obj"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.i"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_game.s"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.obj"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.i"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_logo.s"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.obj"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.i"
+	@echo "... src/App/Pages/Games/Game/GameChribocchi/chribocchi_title.s"
+	@echo "... src/App/Pages/Games/Game/GameDisp.obj"
+	@echo "... src/App/Pages/Games/Game/GameDisp.i"
+	@echo "... src/App/Pages/Games/Game/GameDisp.s"
+	@echo "... src/App/Pages/Games/Game/GameManager.obj"
+	@echo "... src/App/Pages/Games/Game/GameManager.i"
+	@echo "... src/App/Pages/Games/Game/GameManager.s"
+	@echo "... src/App/Pages/Games/Games.obj"
+	@echo "... src/App/Pages/Games/Games.i"
+	@echo "... src/App/Pages/Games/Games.s"
 	@echo "... src/App/Pages/NumTweak/NumTweak.obj"
 	@echo "... src/App/Pages/NumTweak/NumTweak.i"
 	@echo "... src/App/Pages/NumTweak/NumTweak.s"
@@ -17665,27 +19597,138 @@ help:
 	@echo "... src/App/Pages/Weather/WeatherView.obj"
 	@echo "... src/App/Pages/Weather/WeatherView.i"
 	@echo "... src/App/Pages/Weather/WeatherView.s"
+	@echo "... src/App/Pages/Weather/love/love_1.obj"
+	@echo "... src/App/Pages/Weather/love/love_1.i"
+	@echo "... src/App/Pages/Weather/love/love_1.s"
+	@echo "... src/App/Pages/Weather/love/love_10.obj"
+	@echo "... src/App/Pages/Weather/love/love_10.i"
+	@echo "... src/App/Pages/Weather/love/love_10.s"
+	@echo "... src/App/Pages/Weather/love/love_11.obj"
+	@echo "... src/App/Pages/Weather/love/love_11.i"
+	@echo "... src/App/Pages/Weather/love/love_11.s"
+	@echo "... src/App/Pages/Weather/love/love_12.obj"
+	@echo "... src/App/Pages/Weather/love/love_12.i"
+	@echo "... src/App/Pages/Weather/love/love_12.s"
+	@echo "... src/App/Pages/Weather/love/love_13.obj"
+	@echo "... src/App/Pages/Weather/love/love_13.i"
+	@echo "... src/App/Pages/Weather/love/love_13.s"
+	@echo "... src/App/Pages/Weather/love/love_14.obj"
+	@echo "... src/App/Pages/Weather/love/love_14.i"
+	@echo "... src/App/Pages/Weather/love/love_14.s"
+	@echo "... src/App/Pages/Weather/love/love_15.obj"
+	@echo "... src/App/Pages/Weather/love/love_15.i"
+	@echo "... src/App/Pages/Weather/love/love_15.s"
+	@echo "... src/App/Pages/Weather/love/love_16.obj"
+	@echo "... src/App/Pages/Weather/love/love_16.i"
+	@echo "... src/App/Pages/Weather/love/love_16.s"
+	@echo "... src/App/Pages/Weather/love/love_17.obj"
+	@echo "... src/App/Pages/Weather/love/love_17.i"
+	@echo "... src/App/Pages/Weather/love/love_17.s"
+	@echo "... src/App/Pages/Weather/love/love_18.obj"
+	@echo "... src/App/Pages/Weather/love/love_18.i"
+	@echo "... src/App/Pages/Weather/love/love_18.s"
+	@echo "... src/App/Pages/Weather/love/love_19.obj"
+	@echo "... src/App/Pages/Weather/love/love_19.i"
+	@echo "... src/App/Pages/Weather/love/love_19.s"
+	@echo "... src/App/Pages/Weather/love/love_2.obj"
+	@echo "... src/App/Pages/Weather/love/love_2.i"
+	@echo "... src/App/Pages/Weather/love/love_2.s"
+	@echo "... src/App/Pages/Weather/love/love_20.obj"
+	@echo "... src/App/Pages/Weather/love/love_20.i"
+	@echo "... src/App/Pages/Weather/love/love_20.s"
+	@echo "... src/App/Pages/Weather/love/love_21.obj"
+	@echo "... src/App/Pages/Weather/love/love_21.i"
+	@echo "... src/App/Pages/Weather/love/love_21.s"
+	@echo "... src/App/Pages/Weather/love/love_22.obj"
+	@echo "... src/App/Pages/Weather/love/love_22.i"
+	@echo "... src/App/Pages/Weather/love/love_22.s"
+	@echo "... src/App/Pages/Weather/love/love_23.obj"
+	@echo "... src/App/Pages/Weather/love/love_23.i"
+	@echo "... src/App/Pages/Weather/love/love_23.s"
+	@echo "... src/App/Pages/Weather/love/love_24.obj"
+	@echo "... src/App/Pages/Weather/love/love_24.i"
+	@echo "... src/App/Pages/Weather/love/love_24.s"
+	@echo "... src/App/Pages/Weather/love/love_25.obj"
+	@echo "... src/App/Pages/Weather/love/love_25.i"
+	@echo "... src/App/Pages/Weather/love/love_25.s"
+	@echo "... src/App/Pages/Weather/love/love_26.obj"
+	@echo "... src/App/Pages/Weather/love/love_26.i"
+	@echo "... src/App/Pages/Weather/love/love_26.s"
+	@echo "... src/App/Pages/Weather/love/love_27.obj"
+	@echo "... src/App/Pages/Weather/love/love_27.i"
+	@echo "... src/App/Pages/Weather/love/love_27.s"
+	@echo "... src/App/Pages/Weather/love/love_28.obj"
+	@echo "... src/App/Pages/Weather/love/love_28.i"
+	@echo "... src/App/Pages/Weather/love/love_28.s"
+	@echo "... src/App/Pages/Weather/love/love_29.obj"
+	@echo "... src/App/Pages/Weather/love/love_29.i"
+	@echo "... src/App/Pages/Weather/love/love_29.s"
+	@echo "... src/App/Pages/Weather/love/love_3.obj"
+	@echo "... src/App/Pages/Weather/love/love_3.i"
+	@echo "... src/App/Pages/Weather/love/love_3.s"
+	@echo "... src/App/Pages/Weather/love/love_30.obj"
+	@echo "... src/App/Pages/Weather/love/love_30.i"
+	@echo "... src/App/Pages/Weather/love/love_30.s"
+	@echo "... src/App/Pages/Weather/love/love_4.obj"
+	@echo "... src/App/Pages/Weather/love/love_4.i"
+	@echo "... src/App/Pages/Weather/love/love_4.s"
+	@echo "... src/App/Pages/Weather/love/love_5.obj"
+	@echo "... src/App/Pages/Weather/love/love_5.i"
+	@echo "... src/App/Pages/Weather/love/love_5.s"
+	@echo "... src/App/Pages/Weather/love/love_6.obj"
+	@echo "... src/App/Pages/Weather/love/love_6.i"
+	@echo "... src/App/Pages/Weather/love/love_6.s"
+	@echo "... src/App/Pages/Weather/love/love_7.obj"
+	@echo "... src/App/Pages/Weather/love/love_7.i"
+	@echo "... src/App/Pages/Weather/love/love_7.s"
+	@echo "... src/App/Pages/Weather/love/love_8.obj"
+	@echo "... src/App/Pages/Weather/love/love_8.i"
+	@echo "... src/App/Pages/Weather/love/love_8.s"
+	@echo "... src/App/Pages/Weather/love/love_9.obj"
+	@echo "... src/App/Pages/Weather/love/love_9.i"
+	@echo "... src/App/Pages/Weather/love/love_9.s"
 	@echo "... src/App/Pages/Weather/weather_image.obj"
 	@echo "... src/App/Pages/Weather/weather_image.i"
 	@echo "... src/App/Pages/Weather/weather_image.s"
 	@echo "... src/App/Pages/WifiText/WifiText.obj"
 	@echo "... src/App/Pages/WifiText/WifiText.i"
 	@echo "... src/App/Pages/WifiText/WifiText.s"
+	@echo "... src/App/Resources/Font/font_EuroStar_26.obj"
+	@echo "... src/App/Resources/Font/font_EuroStar_26.i"
+	@echo "... src/App/Resources/Font/font_EuroStar_26.s"
+	@echo "... src/App/Resources/Font/font_EuroStar_60.obj"
+	@echo "... src/App/Resources/Font/font_EuroStar_60.i"
+	@echo "... src/App/Resources/Font/font_EuroStar_60.s"
+	@echo "... src/App/Resources/Font/font_HandGotn_14.obj"
+	@echo "... src/App/Resources/Font/font_HandGotn_14.i"
+	@echo "... src/App/Resources/Font/font_HandGotn_14.s"
+	@echo "... src/App/Resources/Font/font_HandGotn_20.obj"
+	@echo "... src/App/Resources/Font/font_HandGotn_20.i"
+	@echo "... src/App/Resources/Font/font_HandGotn_20.s"
+	@echo "... src/App/Resources/Font/font_HandGotn_26.obj"
+	@echo "... src/App/Resources/Font/font_HandGotn_26.i"
+	@echo "... src/App/Resources/Font/font_HandGotn_26.s"
+	@echo "... src/App/Resources/Font/font_Morganite_100.obj"
+	@echo "... src/App/Resources/Font/font_Morganite_100.i"
+	@echo "... src/App/Resources/Font/font_Morganite_100.s"
+	@echo "... src/App/Resources/Font/font_Morganite_36.obj"
+	@echo "... src/App/Resources/Font/font_Morganite_36.i"
+	@echo "... src/App/Resources/Font/font_Morganite_36.s"
+	@echo "... src/App/Resources/Font/font_RexBold_28.obj"
+	@echo "... src/App/Resources/Font/font_RexBold_28.i"
+	@echo "... src/App/Resources/Font/font_RexBold_28.s"
+	@echo "... src/App/Resources/Font/font_RexBold_68.obj"
+	@echo "... src/App/Resources/Font/font_RexBold_68.i"
+	@echo "... src/App/Resources/Font/font_RexBold_68.s"
+	@echo "... src/App/Resources/Font/font_RexBold_89.obj"
+	@echo "... src/App/Resources/Font/font_RexBold_89.i"
+	@echo "... src/App/Resources/Font/font_RexBold_89.s"
 	@echo "... src/App/Resources/Font/font_agencyb_36.obj"
 	@echo "... src/App/Resources/Font/font_agencyb_36.i"
 	@echo "... src/App/Resources/Font/font_agencyb_36.s"
-	@echo "... src/App/Resources/Font/font_bahnschrift_13.obj"
-	@echo "... src/App/Resources/Font/font_bahnschrift_13.i"
-	@echo "... src/App/Resources/Font/font_bahnschrift_13.s"
-	@echo "... src/App/Resources/Font/font_bahnschrift_17.obj"
-	@echo "... src/App/Resources/Font/font_bahnschrift_17.i"
-	@echo "... src/App/Resources/Font/font_bahnschrift_17.s"
-	@echo "... src/App/Resources/Font/font_bahnschrift_32.obj"
-	@echo "... src/App/Resources/Font/font_bahnschrift_32.i"
-	@echo "... src/App/Resources/Font/font_bahnschrift_32.s"
-	@echo "... src/App/Resources/Font/font_bahnschrift_65.obj"
-	@echo "... src/App/Resources/Font/font_bahnschrift_65.i"
-	@echo "... src/App/Resources/Font/font_bahnschrift_65.s"
+	@echo "... src/App/Resources/Image/img_src_3d.obj"
+	@echo "... src/App/Resources/Image/img_src_3d.i"
+	@echo "... src/App/Resources/Image/img_src_3d.s"
 	@echo "... src/App/Resources/Image/img_src_alarm.obj"
 	@echo "... src/App/Resources/Image/img_src_alarm.i"
 	@echo "... src/App/Resources/Image/img_src_alarm.s"
@@ -17740,6 +19783,9 @@ help:
 	@echo "... src/App/Resources/Image/img_src_joints.obj"
 	@echo "... src/App/Resources/Image/img_src_joints.i"
 	@echo "... src/App/Resources/Image/img_src_joints.s"
+	@echo "... src/App/Resources/Image/img_src_joystick.obj"
+	@echo "... src/App/Resources/Image/img_src_joystick.i"
+	@echo "... src/App/Resources/Image/img_src_joystick.s"
 	@echo "... src/App/Resources/Image/img_src_locate.obj"
 	@echo "... src/App/Resources/Image/img_src_locate.i"
 	@echo "... src/App/Resources/Image/img_src_locate.s"
@@ -17749,6 +19795,9 @@ help:
 	@echo "... src/App/Resources/Image/img_src_map_location.obj"
 	@echo "... src/App/Resources/Image/img_src_map_location.i"
 	@echo "... src/App/Resources/Image/img_src_map_location.s"
+	@echo "... src/App/Resources/Image/img_src_mc.obj"
+	@echo "... src/App/Resources/Image/img_src_mc.i"
+	@echo "... src/App/Resources/Image/img_src_mc.s"
 	@echo "... src/App/Resources/Image/img_src_menu.obj"
 	@echo "... src/App/Resources/Image/img_src_menu.i"
 	@echo "... src/App/Resources/Image/img_src_menu.s"
@@ -17809,6 +19858,9 @@ help:
 	@echo "... src/App/Resources/Image/img_src_video.obj"
 	@echo "... src/App/Resources/Image/img_src_video.i"
 	@echo "... src/App/Resources/Image/img_src_video.s"
+	@echo "... src/App/Resources/Image/img_src_vr.obj"
+	@echo "... src/App/Resources/Image/img_src_vr.i"
+	@echo "... src/App/Resources/Image/img_src_vr.s"
 	@echo "... src/App/Resources/Image/img_src_weather.obj"
 	@echo "... src/App/Resources/Image/img_src_weather.i"
 	@echo "... src/App/Resources/Image/img_src_weather.s"

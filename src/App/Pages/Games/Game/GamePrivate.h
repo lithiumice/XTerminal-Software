@@ -2,43 +2,7 @@
 #define __GAMEPRIVATE_H
 
 #include <cstdint>
-// #include "algorithm"
-// // using namespace std;
-// using std::max;
-
 #include "HAL/CommonMacro.h"
-// #include "PageManager/PageManager.h"       
-
-// extern PageManager GamePage;
-
-// #define GAME_FILE_PATH "/Game/"
-// #define GAME_SETUP_ONCE()\
-// do{\
-//     static bool isSetup = false;\
-//     if(isSetup)return;\
-//     isSetup = true;\
-// }while(0)
-
-// #define GAME_EXPORT(name)\
-// static void setup(void);\
-// static void loop(void);\
-// static void exit(void);\
-// static void Game_EventHandler(void* obj, uint8_t msg)\
-// {\
-//     if (obj == &GamePage)\
-//     {\
-//         switch (msg)\
-//         {\
-//         case PageManager::MSG_Setup: setup(); break;\
-//         case PageManager::MSG_Loop:  loop();  break;\
-//         case PageManager::MSG_Exit:  exit();  break; \
-//         }\
-//     }\
-// }\
-// void GameRegister_##name(uint8_t gameID)\
-// {\
-//     GamePage.Register(gameID, Game_EventHandler, #name);\
-// }\
 
 typedef enum {
     GAME_BUTTON_A,

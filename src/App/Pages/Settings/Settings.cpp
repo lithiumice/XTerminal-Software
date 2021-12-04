@@ -140,15 +140,15 @@ void Settings::onEvent(lv_event_t* event)
 
 	if (code == LV_EVENT_RELEASED)
 	{
-		if (obj == instance->ui.GetWeatherInfo)
-		{
-			notifyUrlThread();
-		}
-		else if (obj == instance->ui.GetClockFromWeb)
-		{
-			notifyUrlThread();
-		}
-		else if(obj==instance->ui.ExitApp)
+		// if (obj == instance->ui.GetWeatherInfo)
+		// {
+		// 	notifyUrlThread();
+		// }
+		// else if (obj == instance->ui.GetClockFromWeb)
+		// {
+		// 	notifyUrlThread();
+		// }
+		if(obj==instance->ui.ExitThisApp)
 		{
 			instance->Manager->Pop();
 		}
@@ -157,25 +157,18 @@ void Settings::onEvent(lv_event_t* event)
 #ifdef ARDUINO
 			HAL::wifi_connect();
 #endif
-			// instance->Manager->Pop();
 		}
 		else if (obj == instance->ui.WifiSmarConfig)
 		{
 #ifdef ARDUINO
 			HAL::wifi_smartConfig();
 #endif
-			// instance->Manager->Pop();
-		}
-		else if (obj == instance->ui.UrlUpdateInter)
-		{
-			instance->Manager->Push("Pages/NumTweak");
 		}
 		else if (obj == instance->ui.RestartDevice)
 		{
 #ifdef ARDUINO
 			ESP.restart();
 #endif
-			instance->Manager->Pop();
 		}
         else if (obj == instance->ui.RestoreConfig)
         {
@@ -183,24 +176,32 @@ void Settings::onEvent(lv_event_t* event)
             HAL::config_clear();
             ESP.restart();
 #endif
-            instance->Manager->Pop();
         }
+		else if (obj == instance->ui.ModifyBlackLight)
+		{
+			instance->Manager->Push("Pages/NumTweak");
+		}
+		
+		else if (obj == instance->ui.UrlUpdateInter)
+		{
+			instance->Manager->Push("Pages/NumTweak");
+		}
 		else if (obj == instance->ui.ModifyWifiName)
 		{
-            HAL::config.wifi_name_passswd=WIFI_SET_NAME;
+            HAL::wifi_name_passswd=WIFI_SET_NAME;
 			instance->Manager->Push("Pages/WifiText");
 		}
 		else if (obj == instance->ui.ModifyWifiPasswd)
 		{
-            HAL::config.wifi_name_passswd=WIFI_SET_PWD;
+            HAL::wifi_name_passswd=WIFI_SET_PWD;
 			instance->Manager->Push("Pages/WifiText");
 		}
 
 		HAL::TerminalPrintln("Pictures LV_EVENT_PRESSED");
 	}
-	else if (code == LV_EVENT_LONG_PRESSED)
-	{
-		HAL::TerminalPrintln("Pictures LV_EVENT_LONG_PRESSED");
-		instance->Manager->Pop();
-	}
+	// else if (code == LV_EVENT_LONG_PRESSED)
+	// {
+	// 	HAL::TerminalPrintln("Pictures LV_EVENT_LONG_PRESSED");
+	// 	instance->Manager->Pop();
+	// }
 }

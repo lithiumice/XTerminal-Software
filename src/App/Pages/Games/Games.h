@@ -12,12 +12,10 @@ namespace Page
 class Games : public PageBase
 {
 public:
-    struct
-    {
-        lv_obj_t* arc;
-        lv_obj_t* indicateText;
-        lv_group_t* group;
-    } ui;
+    // struct
+    // {
+    //     lv_group_t* group;
+    // } ui;
 
     Games();
     virtual ~Games();

@@ -19,11 +19,13 @@
 //{"cityid":"101040100","city":"重庆","update_time":"22:52","wea":"晴","wea_img":"qing","tem":"9","tem_day":"16","tem_night":"9","win":"西北风","win_speed":"1级","win_meter":"2km\/h","air":"82"}
 
 ESP32Time esp_rtc;
-HAL::Weather_Info_t weaInfo;
-HAL::TimeStamp_t time_stamp_info;
-HAL::Time_str_t time_info;
 uint8_t fisrt_get_weather_flag=0;
 uint8_t fisrt_get_clock_flag=0;
+namespace HAL {
+    Weather_Info_t weaInfo;
+    TimeStamp_t time_stamp_info;
+    Time_str_t time_info;
+};
 
 extern  std::map<String, String> city_cn;
 extern std::map<String, String> windir_cn2en;
@@ -122,7 +124,7 @@ bool HAL::getWeatherNowUrl(Weather_Info_t* info)
 
             config_weather_save(info);
             fisrt_get_weather_flag=1;
-            HAL::config.weather_url_get_sucess_flag=1;
+            HAL::weather_url_get_sucess_flag=1;
             ret=true;
         }
     }
@@ -211,7 +213,7 @@ int64_t HAL::getTimestampUrl()
             time_stamp_info.preLocalTimestamp = millis();
 
             config_clock_save(time_stamp_info.preNetTimestamp);
-            HAL::config.clock_url_get_sucess_flag=1;
+            HAL::clock_url_get_sucess_flag=1;
             fisrt_get_clock_flag=1;
         }
     }

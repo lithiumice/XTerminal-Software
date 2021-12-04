@@ -19,6 +19,6 @@ typedef struct {
     lv_coord_t x_mod;
     lv_coord_t y_mod;
 }BtnCfg_TypeDef;
-void CanvasGame_DrawBuf(uint8_t* buf, int16_t w, int16_t h);
+void Game_Canvas_DrawBuf(uint8_t* buf, int16_t w, int16_t h);
 
 #endif

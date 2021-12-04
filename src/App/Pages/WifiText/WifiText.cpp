@@ -107,7 +107,7 @@ void WifiText::onViewWillAppear()
 
 	lv_obj_fade_in(root, 300, 0);
 
-	if (HAL::config.wifi_name_passswd==WIFI_SET_PWD)
+	if (HAL::wifi_name_passswd==WIFI_SET_PWD)
 	{
 		lv_obj_add_flag(ui.name_textarea, LV_OBJ_FLAG_HIDDEN);
 		lv_obj_add_flag(ui.name_label, LV_OBJ_FLAG_HIDDEN);
@@ -116,7 +116,7 @@ void WifiText::onViewWillAppear()
 		lv_obj_clear_flag(ui.pwd_label, LV_OBJ_FLAG_HIDDEN);
 		lv_keyboard_set_textarea(kb, ui.pwd_textarea);
 	}
-	else if (HAL::config.wifi_name_passswd==WIFI_SET_NAME)
+	else if (HAL::wifi_name_passswd==WIFI_SET_NAME)
 	{
 		lv_obj_add_flag(ui.pwd_textarea, LV_OBJ_FLAG_HIDDEN);
 		lv_obj_add_flag(ui.pwd_label, LV_OBJ_FLAG_HIDDEN);

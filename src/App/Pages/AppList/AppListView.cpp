@@ -23,15 +23,54 @@ void AppListView::Create(lv_obj_t* root)
 	);
 
 	Style_Init();
+	
+	Item_Create(
+		&ui.weather,
+		root,
+		"weather",
+		"weather",
+	
+		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+	);
+	
 
 	Item_Create(
+		&ui.gametetris,
+		root,
+		"TetrisGame",
+		"playboy",
+	
+		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
+	);
+	
+	Item_Create(
+		&ui.gamecat,
+		root,
+		"GameCat",
+		"vr",
+	
+		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
+	);
+	
+	Item_Create(
+		&ui.game3d,
+		root,
+		"Game3d",
+		"joystick",
+	
+		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
+	);
+	
+Item_Create(
 		&ui.cubedemo,
 		root,
-		"CubeDemo",
-		"sandbox",
+		"GameCube",
+		"mc",
 
-		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our"
+		"use encoder to scale cube\n"
+		"The first press of the encoder will focus on the square and the second press will exit the program\n"
 	);
+	// 编码器第一次按下会聚焦到方块上第二次按下退出程序
 
 	Item_Create(
 		&ui.terminal,
@@ -39,11 +78,13 @@ void AppListView::Create(lv_obj_t* root)
 		"Terminal",
 		"terminal",
 
-		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
+		"a terminal app"
+		"This command is used to display logs and running information about the startup of the device"
 	);
+	// 用于显示设备从开机启动依赖的日志和运行信息
 
 	Item_Create(
-		&ui.pictures,
+		&ui.sysinfo,
 		root,
 		"SystemInfo",
 		"system",
@@ -59,42 +100,88 @@ void AppListView::Create(lv_obj_t* root)
 
 		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
 	);
+	// Item_Create(
+	// 	&ui.fandisplay,
+	// 	root,
+	// 	"fandisplay",
+	// 	"zhihu",
+	
+	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+	// );
+	
+	
 
-	Item_Create(
-		&ui.filemanager,
-		root,
-		"TetrisGame",
-		"playboy",
+	// Item_Create(
+	// 	&ui.cubedemo,
+	// 	root,
+	// 	"CubeDemo",
+	// 	"sandbox",
+
+	// 	"Men at some time are masters of their fates. The fault, dear Brutus, is not in our"
+	// );
+
+	// Item_Create(
+	// 	&ui.terminal,
+	// 	root,
+	// 	"Terminal",
+	// 	"terminal",
+
+	// 	"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
+	// );
+
+	// Item_Create(
+	// 	&ui.pictures,
+	// 	root,
+	// 	"SystemInfo",
+	// 	"system",
+
+	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+	// );
+
+	// Item_Create(
+	// 	&ui.settings,
+	// 	root,
+	// 	"Settings",
+	// 	"setting",
+
+	// 	"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
+	// );
+
+	// Item_Create(
+	// 	&ui.filemanager,
+	// 	root,
+	// 	"TetrisGame",
+	// 	"playboy",
 	
-		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
-	);
+	// 	"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
+	// );
 	
-	Item_Create(
-		&ui.videoplayer,
-		root,
-		"videoplayer",
-		"video",
+	// Item_Create(
+	// 	&ui.videoplayer,
+	// 	root,
+	// 	"videoplayer",
+	// 	"video",
 	
-		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
-	);
+	// 	"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
+	// );
 	
-	Item_Create(
-		&ui.fandisplay,
-		root,
-		"fandisplay",
-		"zhihu",
+	// Item_Create(
+	// 	&ui.fandisplay,
+	// 	root,
+	// 	"fandisplay",
+	// 	"zhihu",
 	
-		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	);
+	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+	// );
 	
-	Item_Create(
-		&ui.weather,
-		root,
-		"weather",
-		"weather",
+	// Item_Create(
+	// 	&ui.weather,
+	// 	root,
+	// 	"weather",
+	// 	"weather",
 	
-		"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	);
+	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
+	// );
 	
 	// Item_Create(
 	// 	&ui.clock,
@@ -119,7 +206,7 @@ void AppListView::Group_Init()
 #include "_APPLIST_DEF.inc"
 #undef APPLIST_DEF
 	
-	lv_group_focus_obj(ui.terminal.icon);
+	lv_group_focus_obj(ui.gamecat.icon);
 }
 
 void AppListView::Delete()

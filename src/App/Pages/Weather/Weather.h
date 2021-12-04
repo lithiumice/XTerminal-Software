@@ -31,6 +31,7 @@ public:
 
 private:
     void updateWeather();
+    void img_animing();
     void Update();
     void AttachEvent(lv_obj_t* obj);
     void updateSeconds();
@@ -40,6 +41,7 @@ private:
     static int onWeatherEvent(Account* account, Account::EventParam_t* param);
     int onClockEvent(Account* account, Account::EventParam_t* param);
     static void onEvent(lv_event_t* event);
+    
 
 private:
     WeatherView View;

@@ -1,12 +1,9 @@
 #include "GamePrivate.h"
 #include "GameDisp.h"
-
 #include <cstring>
 
 static volatile bool GameDispUpdating = false;
-
 static const uint8_t HEIGHT = GAME_DISP_HEIGHT, WIDTH = GAME_DISP_WIDTH;
-
 static uint8_t GameDispBuff[HEIGHT*WIDTH/8];
 static bool GameDispClear = false;
 
@@ -32,7 +29,7 @@ void Game_DispTaskUpdate()
     if(!GameDispUpdating)
         return;
 
-    CanvasGame_DrawBuf(GameDispBuff, WIDTH, HEIGHT);
+    Game_Canvas_DrawBuf(GameDispBuff, WIDTH, HEIGHT);
     
     if(GameDispClear)
     {

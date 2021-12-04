@@ -22,23 +22,44 @@ void NumTweak::onCustomAttrConfig()
 	SetCustomCacheEnable(true);
 	SetCustomLoadAnimType(PageManager::LOAD_ANIM_OVER_BOTTOM, 500, lv_anim_path_bounce);
 }
-
+static void set_angle(void * obj, int32_t v)
+{
+    lv_arc_set_value((lv_obj_t*)obj, v);
+}
 void NumTweak::onViewLoad()
 {
 	// View.Create(root);
 	lv_obj_remove_style_all(root);
 	lv_obj_set_size(root, LV_HOR_RES, LV_VER_RES);
 	StatusBar::SetStyle(StatusBar::STYLE_BLACK);
+	ui.group = lv_group_create();
 
-
-	 ui.arc = lv_arc_create(lv_scr_act());
+	ui.arc = lv_arc_create(lv_scr_act());
 	lv_obj_set_size(ui.arc, 150, 150);
-	lv_arc_set_rotation(ui.arc, 135);
-	lv_arc_set_bg_angles(ui.arc, 0, 270);
+	// lv_arc_set_rotation(ui.arc, 135);
+	// lv_arc_set_bg_angles(ui.arc, 0, 270);
+	lv_arc_set_rotation(ui.arc, 270);
+  	lv_arc_set_bg_angles(ui.arc, 0, 360);
 	lv_arc_set_value(ui.arc, 40);
+	lv_obj_remove_style(ui.arc, NULL, LV_PART_KNOB);
+	lv_obj_set_style_shadow_opa(ui.arc, LV_OPA_COVER,0);
+	lv_obj_set_style_shadow_color(ui.arc, lv_palette_main(LV_PALETTE_RED),0);
+	lv_obj_set_style_shadow_width(ui.arc, 10,0);
 	lv_obj_set_style_bg_color(ui.arc, lv_palette_main(LV_PALETTE_RED), LV_PART_KNOB);
-	lv_obj_set_style_bg_color(ui.arc, lv_palette_main(LV_PALETTE_DEEP_ORANGE), LV_PART_INDICATOR);
+	lv_obj_set_style_bg_color(ui.arc, lv_palette_main(LV_PALETTE_GREY), LV_PART_INDICATOR);
+	lv_obj_set_style_bg_color(ui.arc, lv_palette_main(LV_PALETTE_GREEN), LV_PART_MAIN);
 	lv_obj_center(ui.arc);
+	lv_group_add_obj(ui.group, ui.arc);
+
+	lv_anim_t a;
+	lv_anim_init(&a);
+	lv_anim_set_var(&a, ui.arc);
+	lv_anim_set_exec_cb(&a, set_angle);
+	lv_anim_set_time(&a, 1000);
+	lv_anim_set_repeat_count(&a, LV_ANIM_REPEAT_INFINITE);    /*Just for the demo*/
+	lv_anim_set_repeat_delay(&a, 500);
+	lv_anim_set_values(&a, 0, 100);
+	lv_anim_start(&a);
 
 
 	ui.indicateText = lv_label_create(root);

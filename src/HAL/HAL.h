@@ -13,9 +13,11 @@
 extern TaskHandle_t handleTaskUrl;
 extern lv_color_t *lv_disp_buf_p;
 #endif
-
-extern HAL::Weather_Info_t weaInfo;
-extern HAL::TimeStamp_t time_stamp_info;
+// extern HAL::Weather_Info_t weaInfo;
+// extern HAL::TimeStamp_t time_stamp_info;
+// extern HAL::Time_str_t time_info;
+// extern HAL::Weather_Info_t weaInfo;
+// extern HAL::TimeStamp_t time_stamp_info;
 extern uint8_t fisrt_get_weather_flag;
 extern uint8_t fisrt_get_clock_flag;
 void notifyUrlThread();
@@ -28,6 +30,12 @@ namespace HAL
 
 /* Config */
     extern Config_t config;
+    extern uint8_t wifi_name_passswd;
+    extern uint8_t clock_url_get_sucess_flag;
+    extern uint8_t weather_url_get_sucess_flag;
+    extern uint8_t enc_btn_first_push_flag;
+    extern uint8_t game_select_index;
+
     void config_weather_save(HAL::Weather_Info_t *info);
     void config_weather_load(HAL::Weather_Info_t *info);
     void config_clock_save(int64_t Timestamp);
@@ -41,7 +49,9 @@ namespace HAL
     void config_wifi_load();
 
 /* Weather */
-
+    extern Weather_Info_t weaInfo;
+    extern TimeStamp_t time_stamp_info;
+    extern Time_str_t time_info;
     int64_t getTimestampLocal();
     int64_t getTimestampUrl();
     bool getWeatherWeekUrl(short maxT[], short minT[]);

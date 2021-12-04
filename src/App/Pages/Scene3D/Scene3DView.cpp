@@ -52,7 +52,8 @@ void Scene3DView::Create(lv_obj_t* root)
 	lv_obj_set_style_text_font(label, &lv_font_montserrat_14, 0);
 	lv_obj_set_style_text_color(label, lv_color_white(), 0);
 	lv_obj_align(label, LV_ALIGN_TOP_MID, 0, 30);
-	lv_label_set_text(label, "use encoder to scale cube");
+	lv_label_set_text(label, "");
+	// lv_label_set_text(label, "use encoder to scale cube");
 
 	ui.labelTitle = label;
 	ui.canvas = canvas;

@@ -84,7 +84,7 @@ void AppList::Update()
     static uint8_t auto_entered_weather_flag=0;
 	if( 
 		// HAL::config.auto_enter_weather&&
-        HAL::config.enc_btn_first_push_flag==0&&
+        HAL::enc_btn_first_push_flag==0&&
         auto_entered_weather_flag==0&&
         millis()-enter_time>= 1000*HAL::config.auto_enter_weather_delay_sec)
     {
@@ -105,7 +105,7 @@ void AppList::onEvent(lv_event_t* event)
 	lv_obj_t* obj = lv_event_get_target(event);
 	lv_event_code_t code = lv_event_get_code(event);
 	auto* instance = (AppList*)lv_obj_get_user_data(obj);
-
+	// extern uint8_t game_select_index;
 	if (code == LV_EVENT_RELEASED)
 	{
 		//tools
@@ -116,7 +116,7 @@ void AppList::onEvent(lv_event_t* event)
 		else if (obj == instance->View.ui.terminal.icon)
 		{
 			instance->Manager->Push("Pages/Terminal");
-		}else if (obj == instance->View.ui.pictures.icon)
+		}else if (obj == instance->View.ui.sysinfo.icon)
 		{
 			instance->Manager->Push("Pages/SystemInfos");
 		}
@@ -124,27 +124,28 @@ void AppList::onEvent(lv_event_t* event)
 		{
 			instance->Manager->Push("Pages/Settings");
 		}
-		// none
-		else if (obj == instance->View.ui.filemanager.icon)
-		{
-			instance->Manager->Push("Pages/Russian");
-		}
-		else if (obj == instance->View.ui.fandisplay.icon)
-		{
-			instance->Manager->Push("Pages/SystemInfos");
-		}
-		else if (obj == instance->View.ui.videoplayer.icon)
-		{
-			instance->Manager->Push("Pages/Games");
-		}
-		//weather clock
 		else if (obj == instance->View.ui.weather.icon)
 		{
 			instance->Manager->Push("Pages/Weather");
 		}
+		// game
+		else if (obj == instance->View.ui.gametetris.icon)
+		{
+			instance->Manager->Push("Pages/Russian");
+		}
+		else if (obj == instance->View.ui.gamecat.icon)
+		{
+			HAL::game_select_index = 0;
+			instance->Manager->Push("Pages/Games");
+		}
+		else if (obj == instance->View.ui.game3d.icon)
+		{
+			HAL::game_select_index = 1;
+			instance->Manager->Push("Pages/Games");
+		}
 	}
-	else if (code == LV_EVENT_LONG_PRESSED)
-	{
-		instance->Manager->Pop();
-	}
+	// else if (code == LV_EVENT_LONG_PRESSED)
+	// {
+	// 	instance->Manager->Pop();
+	// }
 }

@@ -5,7 +5,8 @@
 #include "../Arduboy2/ab_logo.cpp"
 // extern const uint8_t arduboy_logo[];
 #include "../../Game/GamePrivate.h"
-
+#define max(a,b) ((a)>(b)?(a):(b))
+#define min(a,b) ((a)<(b)?(a):(b))
 Arduboy::Arduboy()
 {
     sBuffer = Game_DispGetBuffer();

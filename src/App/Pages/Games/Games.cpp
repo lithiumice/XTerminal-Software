@@ -17,18 +17,21 @@ extern void chribocchi_setup();
 extern void GameArduboy3D_setup();
 extern void GameArduboy3D_loop();
 
-uint8_t game_select_index = 1;
-
+// uint8_t game_select_index = 1;
+static lv_group_t* game_group;
 static lv_obj_t* contGameDisp;
 static lv_obj_t* canvasGame;
 static lv_color_t canvasBuf[LV_CANVAS_BUF_SIZE_INDEXED_1BIT(GAME_DISP_WIDTH, GAME_DISP_HEIGHT)];
 static lv_obj_t* contBtnGrp;
 static lv_obj_t* btnGrp[GAME_BUTTON_MAX];
+uint32_t enc_dir_event_time = 0;
+uint8_t enc_btn_down_flag = 0;
+uint8_t enc_exit_flag = 0;
 
 static BtnCfg_TypeDef btnCfg[GAME_BUTTON_MAX] =
 {
-    {"A",  LV_ALIGN_BOTTOM_RIGHT, -20, -90},
-    {"B",  LV_ALIGN_BOTTOM_RIGHT, -20, -30},
+    {"A",  LV_ALIGN_BOTTOM_RIGHT, -20, -70},
+    {"B",  LV_ALIGN_BOTTOM_RIGHT, -20, -10},
     {"U",  LV_ALIGN_TOP_MID,        0,  5},
     {"D",  LV_ALIGN_BOTTOM_MID,     0,  -5},
     {"L",  LV_ALIGN_LEFT_MID,       5,  0},
@@ -61,15 +64,57 @@ static void ButtonGrp_EventHandler(lv_event_t* event)
             }
         }
     }
+
+    // static uint8_t enc_btn_down_flag = 0;
+    // if (code == LV_EVENT_PRESSED&&
+    //     enc_btn_down_flag==1)
+    // {
+    //     enc_btn_down_flag = 0;
+    //     Game_ClearButtonState();
+    // }
+	if (code == LV_EVENT_KEY)
+	{
+		HAL::TerminalPrintln("Game LV_EVENT_KEY");
+		uint32_t key = (*(uint32_t*)event->param);
+		if (key == LV_KEY_LEFT)
+		{
+            enc_btn_down_flag = 1;
+            enc_dir_event_time = millis();
+			HAL::TerminalPrintln("Game KEY_LEFT");
+            Game_SetButtonState(GAME_BUTTON_LEFT, true);
+            Game_SetButtonState(GAME_BUTTON_UP, true);
+		}
+		else if (key == LV_KEY_RIGHT)
+		{
+            enc_btn_down_flag = 1;
+            enc_dir_event_time = millis();
+			HAL::TerminalPrintln("Game KEY_RIGHT");
+			Game_SetButtonState(GAME_BUTTON_RIGHT, true);
+            Game_SetButtonState(GAME_BUTTON_DOWN, true);
+		}
+		else if (key == LV_KEY_ENTER)
+		{
+            enc_btn_down_flag = 1;
+            enc_dir_event_time = millis();
+			HAL::TerminalPrintln("Game LV_KEY_DOWN");
+			Game_SetButtonState(GAME_BUTTON_A, true);
+            Game_SetButtonState(GAME_BUTTON_B, true);
+		}
+	}
+    if (code == LV_EVENT_LONG_PRESSED)
+    {
+        HAL::TerminalPrintln("Scene3D LV_EVENT_LONG_PRESSED");
+        enc_exit_flag = 1;
+    }
 }
 
-static void ButtonGrp_Create(lv_obj_t* par)
+void Game_BtnGrp_Create(lv_obj_t* par)
 {
     lv_obj_t* contBtn = lv_obj_create(par);
     lv_obj_set_size(contBtn, BTN_SIZE * 3 + 10, BTN_SIZE * 3 + 10);
     lv_obj_set_style_radius(contBtn,  5,0);
     lv_obj_set_style_border_width(contBtn, 0, 0);
-    lv_obj_align(contBtn, LV_ALIGN_BOTTOM_LEFT, 10, -5);
+    lv_obj_align(contBtn, LV_ALIGN_BOTTOM_LEFT, 10, 15);
     lv_obj_set_style_bg_color(contBtn, lv_color_black(), 0);
     contBtnGrp = contBtn;
 
@@ -78,6 +123,7 @@ static void ButtonGrp_Create(lv_obj_t* par)
         lv_obj_t* btn = lv_btn_create((i >= GAME_BUTTON_UP) ? contBtn : par);
         lv_obj_set_size(btn, BTN_SIZE, BTN_SIZE);
         lv_obj_align(btn, btnCfg[i].align, btnCfg[i].x_mod, btnCfg[i].y_mod);
+        lv_obj_set_style_text_font(btn, &lv_font_montserrat_16, 0);
         lv_obj_set_style_bg_color(btn, lv_color_black(),0);
         lv_obj_set_style_radius(btn, 0,0);
         lv_obj_set_style_border_color(btn,  lv_color_black(),0);
@@ -93,20 +139,23 @@ static void ButtonGrp_Create(lv_obj_t* par)
     }
 }
 
-static void CanvasGame_Create(lv_obj_t* par)
+void Game_Canvas_Create(lv_obj_t* par)
 {
     lv_obj_t* canvas = lv_canvas_create(par);
     lv_canvas_set_buffer(canvas, canvasBuf, GAME_DISP_WIDTH, GAME_DISP_HEIGHT, LV_IMG_CF_INDEXED_1BIT);
     lv_canvas_set_palette(canvas, 0, lv_color_black());
     lv_canvas_set_palette(canvas, 1, lv_color_white());
     lv_obj_align(canvas, LV_ALIGN_CENTER, 0, 0);
-    lv_obj_clear_flag(canvas, LV_OBJ_FLAG_SCROLLABLE);
+    lv_obj_set_scrollbar_mode(canvas, LV_SCROLLBAR_MODE_OFF);
+    lv_group_add_obj(game_group,canvas);
+    lv_obj_add_event_cb(canvas, ButtonGrp_EventHandler,LV_EVENT_ALL,NULL);
+
     canvasGame = canvas;
 }
 
-void CanvasGame_DrawBuf(uint8_t* buf, int16_t w, int16_t h)
+void Game_Canvas_DrawBuf(uint8_t* buf, int16_t w, int16_t h)
 {
-#   define IsWhite ((buf[(row*w) + x] & (1 << bit_position)) >> bit_position)
+    // #   define IsWhite ((buf[(row*w) + x] & (1 << bit_position)) >> bit_position)
     lv_color_t c;
     lv_obj_t* canvas = canvasGame;
 	lv_img_dsc_t *dsc= lv_canvas_get_img(canvas);
@@ -117,7 +166,7 @@ void CanvasGame_DrawBuf(uint8_t* buf, int16_t w, int16_t h)
         {
             uint8_t row = y / 8;
             uint8_t bit_position = y % 8;
-            c.full = IsWhite;
+            c.full = ((buf[(row*w) + x] & (1 << bit_position)) >> bit_position);
             lv_img_buf_set_px_color(dsc, x, y, c);
         }
     }
@@ -125,16 +174,19 @@ void CanvasGame_DrawBuf(uint8_t* buf, int16_t w, int16_t h)
     lv_obj_invalidate(canvas);
 }
 
-static void ContGameDisp_Create(lv_obj_t* par)
+void Game_ContDisp_Create(lv_obj_t* par)
 {
     lv_obj_t* cont = lv_obj_create(par);
     lv_obj_set_size(cont, GAME_DISP_WIDTH + 4, GAME_DISP_HEIGHT + 4);
-    lv_obj_align(cont, LV_ALIGN_TOP_MID, 0, 10);
-	lv_obj_set_style_border_color(cont, LV_COLOR_MAKE(0x33, 0x99, 0x99), 0);
+    lv_obj_align(cont, LV_ALIGN_TOP_MID, 0, 25);
+    lv_obj_set_style_radius(cont, 0, 0);
+    lv_obj_set_style_border_color(cont, LV_COLOR_MAKE(0x33, 0x99, 0x99), 0);
+    lv_obj_set_scrollbar_mode(cont, LV_SCROLLBAR_MODE_OFF);
 	contGameDisp = cont;
+    // lv_group_add_obj(game_group,contGameDisp);
 }
 
-static void LED_Create(lv_obj_t* par)
+void Game_LED_Create(lv_obj_t* par)
 {
     for (int i = 0; i < GAME_LED_MAX; i++)
     {
@@ -182,23 +234,23 @@ void Games::onCustomAttrConfig()
 	SetCustomLoadAnimType(PageManager::LOAD_ANIM_OVER_BOTTOM, 500, lv_anim_path_bounce);
 }
 
-
 void Games::onViewLoad()
 {
 	// View.Create(root);
 	lv_obj_remove_style_all(root);
 	lv_obj_set_size(root, LV_HOR_RES, LV_VER_RES);
-	StatusBar::SetStyle(StatusBar::STYLE_BLACK);
+	StatusBar::SetStyle(StatusBar::STYLE_TRANSP);
+    game_group = lv_group_create();
 
-    if(game_select_index==0)
-	chribocchi_setup();
-    else if (game_select_index == 1)
+    if(HAL::game_select_index==0)
+	    chribocchi_setup();
+    else if (HAL::game_select_index == 1)
         GameArduboy3D_setup();
 
-	ContGameDisp_Create(root);
-	LED_Create(root);
-    CanvasGame_Create(contGameDisp);
-    ButtonGrp_Create(root);
+	Game_ContDisp_Create(root);
+	Game_LED_Create(root);
+    Game_Canvas_Create(contGameDisp);
+    Game_BtnGrp_Create(root);
 }
 
 void Games::onViewDidLoad()
@@ -208,7 +260,7 @@ void Games::onViewDidLoad()
 
 void Games::onViewWillAppear()
 {
-	lv_indev_set_group(lv_get_indev(LV_INDEV_TYPE_ENCODER), ui.group);
+	lv_indev_set_group(lv_get_indev(LV_INDEV_TYPE_ENCODER), game_group);
 	StatusBar::SetStyle(StatusBar::STYLE_TRANSP);
 
 	lv_obj_set_style_bg_color(root, lv_color_white(), LV_PART_MAIN);
@@ -248,12 +300,25 @@ void Games::AttachEvent(lv_obj_t* obj)
 
 void Games::Update()
 {
-    if (game_select_index == 0)
+    if (HAL::game_select_index == 0)
         chribocchi_loop();
-    else if (game_select_index == 1)
+    else if (HAL::game_select_index == 1)
         GameArduboy3D_loop();
 
 	Game_DispTaskUpdate();
+
+    if(enc_btn_down_flag==1&&
+    millis()-enc_dir_event_time>200
+    ){
+        enc_btn_down_flag = 0;
+        Game_ClearButtonState();
+    }
+
+    if(enc_exit_flag ==1)
+    {
+        enc_exit_flag = 0;
+        Manager->Pop();
+    }
 }
 
 void Games::onTimerUpdate(lv_timer_t* timer)

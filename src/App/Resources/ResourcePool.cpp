@@ -19,13 +19,24 @@ do{\
     static void Resource_Init()
     {
         /* Import Fonts */
-        IMPORT_FONT(bahnschrift_13);
-        IMPORT_FONT(bahnschrift_17);
-        IMPORT_FONT(bahnschrift_32);
+        // IMPORT_FONT(bahnschrift_13);
+        // IMPORT_FONT(bahnschrift_17);
+        // IMPORT_FONT(bahnschrift_32);
         // IMPORT_FONT(bahnschrift_65);
-        IMPORT_FONT(agencyb_36);
-        // IMPORT_FONT(MicrosoftDengL_14);
+
         // IMPORT_FONT(msDengL_10);
+
+        IMPORT_FONT(agencyb_36);
+        IMPORT_FONT(RexBold_28);
+        IMPORT_FONT(RexBold_68);
+        IMPORT_FONT(RexBold_89);
+        IMPORT_FONT(Morganite_36);
+        IMPORT_FONT(Morganite_100);
+        IMPORT_FONT(HandGotn_14);
+        IMPORT_FONT(HandGotn_20);
+        IMPORT_FONT(HandGotn_26);
+        IMPORT_FONT(EuroStar_26);
+        IMPORT_FONT(EuroStar_60);
         
         /* Import Images */
         IMPORT_IMG(logo);
@@ -48,6 +59,10 @@ do{\
         IMPORT_IMG(sandbox);
         IMPORT_IMG(playboy);
         IMPORT_IMG(sd);
+        IMPORT_IMG(3d);
+        IMPORT_IMG(vr);
+        IMPORT_IMG(mc);
+        IMPORT_IMG(joystick);
 
         IMPORT_IMG(alarm);
         IMPORT_IMG(battery);
@@ -85,7 +100,6 @@ void ResourcePool::Init()
     lv_obj_remove_style_all(lv_scr_act());
     lv_disp_set_bg_color(lv_disp_get_default(), lv_color_black());
 
-    // Font_.SetDefault((void*)Resource.GetFont("bahnschrift_17"));
     Font_.SetDefault((void*)&lv_font_montserrat_14);
     
     Resource_Init();

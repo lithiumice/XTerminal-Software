@@ -41,10 +41,8 @@ int SRS[7][4] = {
 	{0x4159,0x4596,0x1596,0x4156},
 	{0x0459,0x8596,0x156A,0x4152} };
 
-// void DrawBlock(int x,int y,const char* c)
-// {
-// 	printf("%s %d %d\n", c, x, y);
-// }
+
+
 
 /***********ÏÔÊ¾·½¿é*************/
 void Russian::DrawBlock(int x, int y, int block_type)
@@ -440,17 +438,9 @@ void Russian::onEvent(lv_event_t* event)
 	lv_event_code_t code = lv_event_get_code(event);
 	auto* instance = (Russian*)lv_obj_get_user_data(obj);
 
-	// if (code == LV_EVENT_RELEASED)
-	// {
-	// 	HAL::TerminalPrintln("Russian LV_EVENT_RELEASED");
-	// 	// instance->Manager->Pop();
-	// 	KEY_V = KEY_TURN;
-	// }
-
 	if (code == LV_EVENT_KEY)
 	{
 		HAL::TerminalPrintln("Russian LV_EVENT_KEY");
-		// int key=lv_indev_get_key(lv_get_indev(LV_INDEV_TYPE_ENCODER));
 		uint32_t key = (*(uint32_t*)event->param);
 		if (key == LV_KEY_LEFT)
 		{
@@ -468,13 +458,4 @@ void Russian::onEvent(lv_event_t* event)
 			KEY_V = KEY_TURN;
 		}
 	}
-	// else if (
-	// 	code == LV_EVENT_READY ||
-	// 	code == LV_EVENT_LONG_PRESSED ||
-	// 	code == LV_EVENT_CLICKED ||
-	// 	code == LV_EVENT_FOCUSED
-	// 	) {
-	//
-	// 	instance->Manager->Pop();
-	// }
 }

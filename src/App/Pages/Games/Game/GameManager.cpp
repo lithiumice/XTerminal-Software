@@ -1,8 +1,6 @@
 #include "GamePrivate.h"
 #include "WString.h"
 
-// PageManager GamePage(GAME_MAX);
-
 static const char* GameNameList[GAME_MAX];
 static bool ButtonState_Grp[GAME_BUTTON_MAX];
 
@@ -66,27 +64,3 @@ static void Game_AddName(uint8_t id, const char* name)
 {
     GameNameList[id] = name;
 }
-
-// #define GAME_IMPORT(name)\
-// do{\
-//     extern void GameRegister_##name(uint8_t gameID);\
-//     GameRegister_##name(GAME_##name);\
-//     Game_AddName(GAME_##name,#name);\
-// }while(0)
-
-// void Game_Begin()
-// {
-//     //TODO
-//     //GAME_IMPORT(chribocchi);
-//     // GAME_IMPORT(Arduboy3D);
-
-//     // extern void GameRegister_Arduboy3D(uint8_t gameID);
-//     // GameRegister_Arduboy3D(GAME_Arduboy3D);
-//     // GamePage.Register(GAME_Arduboy3D, Game_EventHandler, "Arduboy3D");
-//     // Game_AddName(GAME_Arduboy3D,"Arduboy3D");
-
-//     // GamePage.ChangeTo(GAME_Arduboy3D);
-
-//     extern void chribocchi_loop();
-//     extern void chribocchi_setup();
-// }

@@ -12,7 +12,8 @@
 #include "glcdfont.c"
 //#include "WMath.h"
 // #include <algorithm>
-
+#define max(a,b) ((a)>(b)?(a):(b))
+#define min(a,b) ((a)<(b)?(a):(b))
 #include "Game/GamePrivate.h"
 
 #define power_timer0_disable()
@@ -1340,6 +1341,7 @@ uint8_t Arduboy2::getTextBackground()
 {
     return textBackground;
 }
+
 
 void Arduboy2::setTextSize(uint8_t s)
 {

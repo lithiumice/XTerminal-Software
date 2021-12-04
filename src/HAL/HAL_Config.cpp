@@ -5,25 +5,14 @@
 #include "HAL.h"
 
 namespace HAL {
-    Config_t config={
-            .wifi_name="LithiumMe",
-            .wifi_pwd="1234qwer",
-            .host_name="LithiumPeak",
-
-            .auto_enter_weather=true,
-            .auto_enter_weather_delay_sec=4,
-
-            .backlight_256=256,
-            .update_clock_interval_minute=4,
-            .update_weather_interval_minute=5,
-
-            .wifi_name_passswd = WIFI_SET_NAME,
-            .clock_url_get_sucess_flag=0,
-            .weather_url_get_sucess_flag=0,
-            .enc_btn_first_push_flag=0,
-    };
+    Config_t config;
+    Preferences prefs;
+    uint8_t wifi_name_passswd;
+    uint8_t clock_url_get_sucess_flag;
+    uint8_t weather_url_get_sucess_flag;
+    uint8_t enc_btn_first_push_flag;
+    uint8_t game_select_index;
 }
-Preferences prefs;
 
 #define AUTO_ENTER_WEATHER "K1"
 #define AUTO_ENTER_WEATHER_DELAY_SEC "K2"

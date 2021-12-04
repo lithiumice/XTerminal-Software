@@ -38,13 +38,6 @@ namespace HAL
         int update_clock_interval_minute;//min
         int update_weather_interval_minute;//min
 
-        //flag
-        uint8_t wifi_name_passswd;
-        uint8_t clock_url_get_sucess_flag;
-        uint8_t weather_url_get_sucess_flag;
-        uint8_t enc_btn_first_push_flag;
-
-
     } Config_t;
 
 	/* Time */

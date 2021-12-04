@@ -42,8 +42,8 @@ void HAL::Init() {
 
 
     config_load();
-    config_weather_load(&weaInfo);
-    config_clock_load(&time_stamp_info.preNetTimestamp);
+    config_weather_load(&HAL::weaInfo);
+    config_clock_load(&HAL::time_stamp_info.preNetTimestamp);
     time_stamp_info.preLocalTimestamp = millis();
 
     HAL::Power_Init();

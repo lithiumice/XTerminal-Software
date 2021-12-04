@@ -99,9 +99,10 @@ void WeatherView::weather_gui_init(lv_obj_t* root)
 	ui.clockLabel_1 = lv_label_create(root);
 	lv_label_set_recolor(ui.clockLabel_1, true);
 	lv_label_set_text_fmt(ui.clockLabel_1, "%02d : #ffa500 %02d#", 10, 52);
-	lv_obj_set_style_text_font(ui.clockLabel_1, &lv_font_montserrat_26, 0);
+	lv_obj_set_style_text_font(ui.clockLabel_1, Resource.GetFont("RexBold_28"), 0);
+	// lv_obj_set_style_text_font(ui.clockLabel_1, &lv_font_montserrat_26, 0);
 	lv_obj_set_style_text_color(ui.clockLabel_1, lv_color_white(), 0);
-	lv_obj_align(ui.clockLabel_1, LV_ALIGN_TOP_MID, 0, 110);
+	lv_obj_align(ui.clockLabel_1, LV_ALIGN_TOP_MID, 0, 105);
 	ui.clockLabel_2 = lv_label_create(root);
 	lv_label_set_recolor(ui.clockLabel_2, true);
 	lv_label_set_text_fmt(ui.clockLabel_2, " %02d", 00);

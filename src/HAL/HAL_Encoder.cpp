@@ -2,13 +2,14 @@
 #include "App/Utils/ButtonEvent/ButtonEvent.h"
 #include "App/Accounts/Account_Master.h"
 
-static ButtonEvent EncoderPush(5000);
+static ButtonEvent EncoderPush(2000);
+// static ButtonEvent EncoderPush(5000);
 
 static bool EncoderEnable = true;
 static volatile int16_t EncoderDiff = 0;
 static bool EncoderDiffDisable = false;
-
-Account* actEncoder;
+uint8_t enc_long_push_flag = 0;
+Account *actEncoder;
 
 static void Encoder_IrqHandler()
 {
@@ -48,7 +49,7 @@ static void Encoder_PushHandler(ButtonEvent* btn, int event)
 {
     if (event == ButtonEvent::EVENT_PRESSED)
     {
-        HAL::config.enc_btn_first_push_flag=1;
+        HAL::enc_btn_first_push_flag=1;
         Serial.println("Encoder btn EVENT_PRESSED");
 
         HAL::Buzz_Tone(500, 20);
@@ -61,15 +62,16 @@ static void Encoder_PushHandler(ButtonEvent* btn, int event)
     {
         Serial.println("Encoder btn EVENT_LONG_PRESSED");
 
+        enc_long_push_flag = 1;
         HAL::Audio_PlayMusic("Shutdown");
-        HAL::Power_Shutdown();
+        // HAL::Power_Shutdown();
     }
 }
 
 static void Encoder_RotateHandler(int16_t diff)
 {
     HAL::Buzz_Tone(300, 5);
-
+    HAL::enc_btn_first_push_flag=1;
     actEncoder->Commit((const void*) &diff, sizeof(int16_t));
     actEncoder->Publish();
 }
