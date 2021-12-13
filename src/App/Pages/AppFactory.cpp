@@ -34,13 +34,9 @@
 #include "NumTweak/NumTweak.h"
 #include "Settings/Settings.h"
 #include "Games/Games.h"
+#include "Clock/Clock.h"
+#include "HeartBeat/HeartBeat.h"
 
-// #define APP_DEF(className) \
-// 	#include #className
-//
-// #include "_APP_DEF.inc"
-
-#undef APP_DEF
 
 PageBase* AppFactory::CreatePage(const char* name)
 {

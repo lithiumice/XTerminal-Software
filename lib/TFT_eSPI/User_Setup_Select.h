@@ -22,6 +22,8 @@
 //#include <User_Setup.h>           // Default setup is root library folder
 #ifdef BOARD_WROOM32
 #include <User_Setups/Setup1_ILI9341.h>  // Setup file configured for my ILI9341
+#elif defined(BOARD_WROVER32) 
+#include <User_Setups/Setup0_ILI9341.h>  // Setup file configured for my ILI9341
 #else
 #include <User_Setups/Setup24_ST7789.h>            // Setup file configured for ST7789 240 x 240
 #endif

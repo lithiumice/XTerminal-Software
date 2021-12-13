@@ -4211,6 +4211,78 @@ lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
 .PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
 
+lib/MAX30102/src/MAX30105.obj: lib/MAX30102/src/MAX30105.cpp.obj
+.PHONY : lib/MAX30102/src/MAX30105.obj
+
+# target to build an object file
+lib/MAX30102/src/MAX30105.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/MAX30105.cpp.obj
+.PHONY : lib/MAX30102/src/MAX30105.cpp.obj
+
+lib/MAX30102/src/MAX30105.i: lib/MAX30102/src/MAX30105.cpp.i
+.PHONY : lib/MAX30102/src/MAX30105.i
+
+# target to preprocess a source file
+lib/MAX30102/src/MAX30105.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/MAX30105.cpp.i
+.PHONY : lib/MAX30102/src/MAX30105.cpp.i
+
+lib/MAX30102/src/MAX30105.s: lib/MAX30102/src/MAX30105.cpp.s
+.PHONY : lib/MAX30102/src/MAX30105.s
+
+# target to generate assembly for a file
+lib/MAX30102/src/MAX30105.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/MAX30105.cpp.s
+.PHONY : lib/MAX30102/src/MAX30105.cpp.s
+
+lib/MAX30102/src/heartRate.obj: lib/MAX30102/src/heartRate.cpp.obj
+.PHONY : lib/MAX30102/src/heartRate.obj
+
+# target to build an object file
+lib/MAX30102/src/heartRate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/heartRate.cpp.obj
+.PHONY : lib/MAX30102/src/heartRate.cpp.obj
+
+lib/MAX30102/src/heartRate.i: lib/MAX30102/src/heartRate.cpp.i
+.PHONY : lib/MAX30102/src/heartRate.i
+
+# target to preprocess a source file
+lib/MAX30102/src/heartRate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/heartRate.cpp.i
+.PHONY : lib/MAX30102/src/heartRate.cpp.i
+
+lib/MAX30102/src/heartRate.s: lib/MAX30102/src/heartRate.cpp.s
+.PHONY : lib/MAX30102/src/heartRate.s
+
+# target to generate assembly for a file
+lib/MAX30102/src/heartRate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/heartRate.cpp.s
+.PHONY : lib/MAX30102/src/heartRate.cpp.s
+
+lib/MAX30102/src/spo2_algorithm.obj: lib/MAX30102/src/spo2_algorithm.cpp.obj
+.PHONY : lib/MAX30102/src/spo2_algorithm.obj
+
+# target to build an object file
+lib/MAX30102/src/spo2_algorithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/spo2_algorithm.cpp.obj
+.PHONY : lib/MAX30102/src/spo2_algorithm.cpp.obj
+
+lib/MAX30102/src/spo2_algorithm.i: lib/MAX30102/src/spo2_algorithm.cpp.i
+.PHONY : lib/MAX30102/src/spo2_algorithm.i
+
+# target to preprocess a source file
+lib/MAX30102/src/spo2_algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/spo2_algorithm.cpp.i
+.PHONY : lib/MAX30102/src/spo2_algorithm.cpp.i
+
+lib/MAX30102/src/spo2_algorithm.s: lib/MAX30102/src/spo2_algorithm.cpp.s
+.PHONY : lib/MAX30102/src/spo2_algorithm.s
+
+# target to generate assembly for a file
+lib/MAX30102/src/spo2_algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/MAX30102/src/spo2_algorithm.cpp.s
+.PHONY : lib/MAX30102/src/spo2_algorithm.cpp.s
+
 lib/SD/src/SD.obj: lib/SD/src/SD.cpp.obj
 .PHONY : lib/SD/src/SD.obj
 
@@ -13187,6 +13259,30 @@ src/App/Pages/AppList/AppListView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/AppList/AppListView.cpp.s
 .PHONY : src/App/Pages/AppList/AppListView.cpp.s
 
+src/App/Pages/Clock/Clock.obj: src/App/Pages/Clock/Clock.cpp.obj
+.PHONY : src/App/Pages/Clock/Clock.obj
+
+# target to build an object file
+src/App/Pages/Clock/Clock.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/Clock.cpp.obj
+.PHONY : src/App/Pages/Clock/Clock.cpp.obj
+
+src/App/Pages/Clock/Clock.i: src/App/Pages/Clock/Clock.cpp.i
+.PHONY : src/App/Pages/Clock/Clock.i
+
+# target to preprocess a source file
+src/App/Pages/Clock/Clock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/Clock.cpp.i
+.PHONY : src/App/Pages/Clock/Clock.cpp.i
+
+src/App/Pages/Clock/Clock.s: src/App/Pages/Clock/Clock.cpp.s
+.PHONY : src/App/Pages/Clock/Clock.s
+
+# target to generate assembly for a file
+src/App/Pages/Clock/Clock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/Clock.cpp.s
+.PHONY : src/App/Pages/Clock/Clock.cpp.s
+
 src/App/Pages/Games/Game/Arduboy/Arduboy.obj: src/App/Pages/Games/Game/Arduboy/Arduboy.cpp.obj
 .PHONY : src/App/Pages/Games/Game/Arduboy/Arduboy.obj
 
@@ -14027,6 +14123,30 @@ src/App/Pages/Games/Games.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Games/Games.cpp.s
 .PHONY : src/App/Pages/Games/Games.cpp.s
 
+src/App/Pages/HeartBeat/HeartBeat.obj: src/App/Pages/HeartBeat/HeartBeat.cpp.obj
+.PHONY : src/App/Pages/HeartBeat/HeartBeat.obj
+
+# target to build an object file
+src/App/Pages/HeartBeat/HeartBeat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/HeartBeat/HeartBeat.cpp.obj
+.PHONY : src/App/Pages/HeartBeat/HeartBeat.cpp.obj
+
+src/App/Pages/HeartBeat/HeartBeat.i: src/App/Pages/HeartBeat/HeartBeat.cpp.i
+.PHONY : src/App/Pages/HeartBeat/HeartBeat.i
+
+# target to preprocess a source file
+src/App/Pages/HeartBeat/HeartBeat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/HeartBeat/HeartBeat.cpp.i
+.PHONY : src/App/Pages/HeartBeat/HeartBeat.cpp.i
+
+src/App/Pages/HeartBeat/HeartBeat.s: src/App/Pages/HeartBeat/HeartBeat.cpp.s
+.PHONY : src/App/Pages/HeartBeat/HeartBeat.s
+
+# target to generate assembly for a file
+src/App/Pages/HeartBeat/HeartBeat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/HeartBeat/HeartBeat.cpp.s
+.PHONY : src/App/Pages/HeartBeat/HeartBeat.cpp.s
+
 src/App/Pages/NumTweak/NumTweak.obj: src/App/Pages/NumTweak/NumTweak.cpp.obj
 .PHONY : src/App/Pages/NumTweak/NumTweak.obj
 
@@ -14483,725 +14603,77 @@ src/App/Pages/Weather/WeatherView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/WeatherView.cpp.s
 .PHONY : src/App/Pages/Weather/WeatherView.cpp.s
 
-src/App/Pages/Weather/love/love_1.obj: src/App/Pages/Weather/love/love_1.c.obj
-.PHONY : src/App/Pages/Weather/love/love_1.obj
+src/App/Pages/Weather/love_gif.obj: src/App/Pages/Weather/love_gif.c.obj
+.PHONY : src/App/Pages/Weather/love_gif.obj
 
 # target to build an object file
-src/App/Pages/Weather/love/love_1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_1.c.obj
-.PHONY : src/App/Pages/Weather/love/love_1.c.obj
+src/App/Pages/Weather/love_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love_gif.c.obj
+.PHONY : src/App/Pages/Weather/love_gif.c.obj
 
-src/App/Pages/Weather/love/love_1.i: src/App/Pages/Weather/love/love_1.c.i
-.PHONY : src/App/Pages/Weather/love/love_1.i
+src/App/Pages/Weather/love_gif.i: src/App/Pages/Weather/love_gif.c.i
+.PHONY : src/App/Pages/Weather/love_gif.i
 
 # target to preprocess a source file
-src/App/Pages/Weather/love/love_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_1.c.i
-.PHONY : src/App/Pages/Weather/love/love_1.c.i
+src/App/Pages/Weather/love_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love_gif.c.i
+.PHONY : src/App/Pages/Weather/love_gif.c.i
 
-src/App/Pages/Weather/love/love_1.s: src/App/Pages/Weather/love/love_1.c.s
-.PHONY : src/App/Pages/Weather/love/love_1.s
+src/App/Pages/Weather/love_gif.s: src/App/Pages/Weather/love_gif.c.s
+.PHONY : src/App/Pages/Weather/love_gif.s
 
 # target to generate assembly for a file
-src/App/Pages/Weather/love/love_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_1.c.s
-.PHONY : src/App/Pages/Weather/love/love_1.c.s
+src/App/Pages/Weather/love_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love_gif.c.s
+.PHONY : src/App/Pages/Weather/love_gif.c.s
 
-src/App/Pages/Weather/love/love_10.obj: src/App/Pages/Weather/love/love_10.c.obj
-.PHONY : src/App/Pages/Weather/love/love_10.obj
+src/App/Pages/Weather/plus_gif.obj: src/App/Pages/Weather/plus_gif.c.obj
+.PHONY : src/App/Pages/Weather/plus_gif.obj
 
 # target to build an object file
-src/App/Pages/Weather/love/love_10.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_10.c.obj
-.PHONY : src/App/Pages/Weather/love/love_10.c.obj
+src/App/Pages/Weather/plus_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/plus_gif.c.obj
+.PHONY : src/App/Pages/Weather/plus_gif.c.obj
 
-src/App/Pages/Weather/love/love_10.i: src/App/Pages/Weather/love/love_10.c.i
-.PHONY : src/App/Pages/Weather/love/love_10.i
+src/App/Pages/Weather/plus_gif.i: src/App/Pages/Weather/plus_gif.c.i
+.PHONY : src/App/Pages/Weather/plus_gif.i
 
 # target to preprocess a source file
-src/App/Pages/Weather/love/love_10.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_10.c.i
-.PHONY : src/App/Pages/Weather/love/love_10.c.i
+src/App/Pages/Weather/plus_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/plus_gif.c.i
+.PHONY : src/App/Pages/Weather/plus_gif.c.i
 
-src/App/Pages/Weather/love/love_10.s: src/App/Pages/Weather/love/love_10.c.s
-.PHONY : src/App/Pages/Weather/love/love_10.s
+src/App/Pages/Weather/plus_gif.s: src/App/Pages/Weather/plus_gif.c.s
+.PHONY : src/App/Pages/Weather/plus_gif.s
 
 # target to generate assembly for a file
-src/App/Pages/Weather/love/love_10.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_10.c.s
-.PHONY : src/App/Pages/Weather/love/love_10.c.s
+src/App/Pages/Weather/plus_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/plus_gif.c.s
+.PHONY : src/App/Pages/Weather/plus_gif.c.s
 
-src/App/Pages/Weather/love/love_11.obj: src/App/Pages/Weather/love/love_11.c.obj
-.PHONY : src/App/Pages/Weather/love/love_11.obj
+src/App/Pages/Weather/tree_gif.obj: src/App/Pages/Weather/tree_gif.c.obj
+.PHONY : src/App/Pages/Weather/tree_gif.obj
 
 # target to build an object file
-src/App/Pages/Weather/love/love_11.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_11.c.obj
-.PHONY : src/App/Pages/Weather/love/love_11.c.obj
+src/App/Pages/Weather/tree_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/tree_gif.c.obj
+.PHONY : src/App/Pages/Weather/tree_gif.c.obj
 
-src/App/Pages/Weather/love/love_11.i: src/App/Pages/Weather/love/love_11.c.i
-.PHONY : src/App/Pages/Weather/love/love_11.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_11.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_11.c.i
-.PHONY : src/App/Pages/Weather/love/love_11.c.i
-
-src/App/Pages/Weather/love/love_11.s: src/App/Pages/Weather/love/love_11.c.s
-.PHONY : src/App/Pages/Weather/love/love_11.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_11.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_11.c.s
-.PHONY : src/App/Pages/Weather/love/love_11.c.s
-
-src/App/Pages/Weather/love/love_12.obj: src/App/Pages/Weather/love/love_12.c.obj
-.PHONY : src/App/Pages/Weather/love/love_12.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_12.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_12.c.obj
-.PHONY : src/App/Pages/Weather/love/love_12.c.obj
-
-src/App/Pages/Weather/love/love_12.i: src/App/Pages/Weather/love/love_12.c.i
-.PHONY : src/App/Pages/Weather/love/love_12.i
+src/App/Pages/Weather/tree_gif.i: src/App/Pages/Weather/tree_gif.c.i
+.PHONY : src/App/Pages/Weather/tree_gif.i
 
 # target to preprocess a source file
-src/App/Pages/Weather/love/love_12.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_12.c.i
-.PHONY : src/App/Pages/Weather/love/love_12.c.i
+src/App/Pages/Weather/tree_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/tree_gif.c.i
+.PHONY : src/App/Pages/Weather/tree_gif.c.i
 
-src/App/Pages/Weather/love/love_12.s: src/App/Pages/Weather/love/love_12.c.s
-.PHONY : src/App/Pages/Weather/love/love_12.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_12.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_12.c.s
-.PHONY : src/App/Pages/Weather/love/love_12.c.s
-
-src/App/Pages/Weather/love/love_13.obj: src/App/Pages/Weather/love/love_13.c.obj
-.PHONY : src/App/Pages/Weather/love/love_13.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_13.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_13.c.obj
-.PHONY : src/App/Pages/Weather/love/love_13.c.obj
-
-src/App/Pages/Weather/love/love_13.i: src/App/Pages/Weather/love/love_13.c.i
-.PHONY : src/App/Pages/Weather/love/love_13.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_13.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_13.c.i
-.PHONY : src/App/Pages/Weather/love/love_13.c.i
-
-src/App/Pages/Weather/love/love_13.s: src/App/Pages/Weather/love/love_13.c.s
-.PHONY : src/App/Pages/Weather/love/love_13.s
+src/App/Pages/Weather/tree_gif.s: src/App/Pages/Weather/tree_gif.c.s
+.PHONY : src/App/Pages/Weather/tree_gif.s
 
 # target to generate assembly for a file
-src/App/Pages/Weather/love/love_13.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_13.c.s
-.PHONY : src/App/Pages/Weather/love/love_13.c.s
-
-src/App/Pages/Weather/love/love_14.obj: src/App/Pages/Weather/love/love_14.c.obj
-.PHONY : src/App/Pages/Weather/love/love_14.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_14.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_14.c.obj
-.PHONY : src/App/Pages/Weather/love/love_14.c.obj
-
-src/App/Pages/Weather/love/love_14.i: src/App/Pages/Weather/love/love_14.c.i
-.PHONY : src/App/Pages/Weather/love/love_14.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_14.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_14.c.i
-.PHONY : src/App/Pages/Weather/love/love_14.c.i
-
-src/App/Pages/Weather/love/love_14.s: src/App/Pages/Weather/love/love_14.c.s
-.PHONY : src/App/Pages/Weather/love/love_14.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_14.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_14.c.s
-.PHONY : src/App/Pages/Weather/love/love_14.c.s
-
-src/App/Pages/Weather/love/love_15.obj: src/App/Pages/Weather/love/love_15.c.obj
-.PHONY : src/App/Pages/Weather/love/love_15.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_15.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_15.c.obj
-.PHONY : src/App/Pages/Weather/love/love_15.c.obj
-
-src/App/Pages/Weather/love/love_15.i: src/App/Pages/Weather/love/love_15.c.i
-.PHONY : src/App/Pages/Weather/love/love_15.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_15.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_15.c.i
-.PHONY : src/App/Pages/Weather/love/love_15.c.i
-
-src/App/Pages/Weather/love/love_15.s: src/App/Pages/Weather/love/love_15.c.s
-.PHONY : src/App/Pages/Weather/love/love_15.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_15.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_15.c.s
-.PHONY : src/App/Pages/Weather/love/love_15.c.s
-
-src/App/Pages/Weather/love/love_16.obj: src/App/Pages/Weather/love/love_16.c.obj
-.PHONY : src/App/Pages/Weather/love/love_16.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_16.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_16.c.obj
-.PHONY : src/App/Pages/Weather/love/love_16.c.obj
-
-src/App/Pages/Weather/love/love_16.i: src/App/Pages/Weather/love/love_16.c.i
-.PHONY : src/App/Pages/Weather/love/love_16.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_16.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_16.c.i
-.PHONY : src/App/Pages/Weather/love/love_16.c.i
-
-src/App/Pages/Weather/love/love_16.s: src/App/Pages/Weather/love/love_16.c.s
-.PHONY : src/App/Pages/Weather/love/love_16.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_16.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_16.c.s
-.PHONY : src/App/Pages/Weather/love/love_16.c.s
-
-src/App/Pages/Weather/love/love_17.obj: src/App/Pages/Weather/love/love_17.c.obj
-.PHONY : src/App/Pages/Weather/love/love_17.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_17.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_17.c.obj
-.PHONY : src/App/Pages/Weather/love/love_17.c.obj
-
-src/App/Pages/Weather/love/love_17.i: src/App/Pages/Weather/love/love_17.c.i
-.PHONY : src/App/Pages/Weather/love/love_17.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_17.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_17.c.i
-.PHONY : src/App/Pages/Weather/love/love_17.c.i
-
-src/App/Pages/Weather/love/love_17.s: src/App/Pages/Weather/love/love_17.c.s
-.PHONY : src/App/Pages/Weather/love/love_17.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_17.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_17.c.s
-.PHONY : src/App/Pages/Weather/love/love_17.c.s
-
-src/App/Pages/Weather/love/love_18.obj: src/App/Pages/Weather/love/love_18.c.obj
-.PHONY : src/App/Pages/Weather/love/love_18.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_18.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_18.c.obj
-.PHONY : src/App/Pages/Weather/love/love_18.c.obj
-
-src/App/Pages/Weather/love/love_18.i: src/App/Pages/Weather/love/love_18.c.i
-.PHONY : src/App/Pages/Weather/love/love_18.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_18.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_18.c.i
-.PHONY : src/App/Pages/Weather/love/love_18.c.i
-
-src/App/Pages/Weather/love/love_18.s: src/App/Pages/Weather/love/love_18.c.s
-.PHONY : src/App/Pages/Weather/love/love_18.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_18.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_18.c.s
-.PHONY : src/App/Pages/Weather/love/love_18.c.s
-
-src/App/Pages/Weather/love/love_19.obj: src/App/Pages/Weather/love/love_19.c.obj
-.PHONY : src/App/Pages/Weather/love/love_19.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_19.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_19.c.obj
-.PHONY : src/App/Pages/Weather/love/love_19.c.obj
-
-src/App/Pages/Weather/love/love_19.i: src/App/Pages/Weather/love/love_19.c.i
-.PHONY : src/App/Pages/Weather/love/love_19.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_19.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_19.c.i
-.PHONY : src/App/Pages/Weather/love/love_19.c.i
-
-src/App/Pages/Weather/love/love_19.s: src/App/Pages/Weather/love/love_19.c.s
-.PHONY : src/App/Pages/Weather/love/love_19.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_19.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_19.c.s
-.PHONY : src/App/Pages/Weather/love/love_19.c.s
-
-src/App/Pages/Weather/love/love_2.obj: src/App/Pages/Weather/love/love_2.c.obj
-.PHONY : src/App/Pages/Weather/love/love_2.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_2.c.obj
-.PHONY : src/App/Pages/Weather/love/love_2.c.obj
-
-src/App/Pages/Weather/love/love_2.i: src/App/Pages/Weather/love/love_2.c.i
-.PHONY : src/App/Pages/Weather/love/love_2.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_2.c.i
-.PHONY : src/App/Pages/Weather/love/love_2.c.i
-
-src/App/Pages/Weather/love/love_2.s: src/App/Pages/Weather/love/love_2.c.s
-.PHONY : src/App/Pages/Weather/love/love_2.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_2.c.s
-.PHONY : src/App/Pages/Weather/love/love_2.c.s
-
-src/App/Pages/Weather/love/love_20.obj: src/App/Pages/Weather/love/love_20.c.obj
-.PHONY : src/App/Pages/Weather/love/love_20.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_20.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_20.c.obj
-.PHONY : src/App/Pages/Weather/love/love_20.c.obj
-
-src/App/Pages/Weather/love/love_20.i: src/App/Pages/Weather/love/love_20.c.i
-.PHONY : src/App/Pages/Weather/love/love_20.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_20.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_20.c.i
-.PHONY : src/App/Pages/Weather/love/love_20.c.i
-
-src/App/Pages/Weather/love/love_20.s: src/App/Pages/Weather/love/love_20.c.s
-.PHONY : src/App/Pages/Weather/love/love_20.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_20.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_20.c.s
-.PHONY : src/App/Pages/Weather/love/love_20.c.s
-
-src/App/Pages/Weather/love/love_21.obj: src/App/Pages/Weather/love/love_21.c.obj
-.PHONY : src/App/Pages/Weather/love/love_21.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_21.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_21.c.obj
-.PHONY : src/App/Pages/Weather/love/love_21.c.obj
-
-src/App/Pages/Weather/love/love_21.i: src/App/Pages/Weather/love/love_21.c.i
-.PHONY : src/App/Pages/Weather/love/love_21.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_21.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_21.c.i
-.PHONY : src/App/Pages/Weather/love/love_21.c.i
-
-src/App/Pages/Weather/love/love_21.s: src/App/Pages/Weather/love/love_21.c.s
-.PHONY : src/App/Pages/Weather/love/love_21.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_21.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_21.c.s
-.PHONY : src/App/Pages/Weather/love/love_21.c.s
-
-src/App/Pages/Weather/love/love_22.obj: src/App/Pages/Weather/love/love_22.c.obj
-.PHONY : src/App/Pages/Weather/love/love_22.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_22.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_22.c.obj
-.PHONY : src/App/Pages/Weather/love/love_22.c.obj
-
-src/App/Pages/Weather/love/love_22.i: src/App/Pages/Weather/love/love_22.c.i
-.PHONY : src/App/Pages/Weather/love/love_22.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_22.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_22.c.i
-.PHONY : src/App/Pages/Weather/love/love_22.c.i
-
-src/App/Pages/Weather/love/love_22.s: src/App/Pages/Weather/love/love_22.c.s
-.PHONY : src/App/Pages/Weather/love/love_22.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_22.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_22.c.s
-.PHONY : src/App/Pages/Weather/love/love_22.c.s
-
-src/App/Pages/Weather/love/love_23.obj: src/App/Pages/Weather/love/love_23.c.obj
-.PHONY : src/App/Pages/Weather/love/love_23.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_23.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_23.c.obj
-.PHONY : src/App/Pages/Weather/love/love_23.c.obj
-
-src/App/Pages/Weather/love/love_23.i: src/App/Pages/Weather/love/love_23.c.i
-.PHONY : src/App/Pages/Weather/love/love_23.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_23.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_23.c.i
-.PHONY : src/App/Pages/Weather/love/love_23.c.i
-
-src/App/Pages/Weather/love/love_23.s: src/App/Pages/Weather/love/love_23.c.s
-.PHONY : src/App/Pages/Weather/love/love_23.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_23.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_23.c.s
-.PHONY : src/App/Pages/Weather/love/love_23.c.s
-
-src/App/Pages/Weather/love/love_24.obj: src/App/Pages/Weather/love/love_24.c.obj
-.PHONY : src/App/Pages/Weather/love/love_24.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_24.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_24.c.obj
-.PHONY : src/App/Pages/Weather/love/love_24.c.obj
-
-src/App/Pages/Weather/love/love_24.i: src/App/Pages/Weather/love/love_24.c.i
-.PHONY : src/App/Pages/Weather/love/love_24.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_24.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_24.c.i
-.PHONY : src/App/Pages/Weather/love/love_24.c.i
-
-src/App/Pages/Weather/love/love_24.s: src/App/Pages/Weather/love/love_24.c.s
-.PHONY : src/App/Pages/Weather/love/love_24.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_24.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_24.c.s
-.PHONY : src/App/Pages/Weather/love/love_24.c.s
-
-src/App/Pages/Weather/love/love_25.obj: src/App/Pages/Weather/love/love_25.c.obj
-.PHONY : src/App/Pages/Weather/love/love_25.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_25.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_25.c.obj
-.PHONY : src/App/Pages/Weather/love/love_25.c.obj
-
-src/App/Pages/Weather/love/love_25.i: src/App/Pages/Weather/love/love_25.c.i
-.PHONY : src/App/Pages/Weather/love/love_25.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_25.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_25.c.i
-.PHONY : src/App/Pages/Weather/love/love_25.c.i
-
-src/App/Pages/Weather/love/love_25.s: src/App/Pages/Weather/love/love_25.c.s
-.PHONY : src/App/Pages/Weather/love/love_25.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_25.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_25.c.s
-.PHONY : src/App/Pages/Weather/love/love_25.c.s
-
-src/App/Pages/Weather/love/love_26.obj: src/App/Pages/Weather/love/love_26.c.obj
-.PHONY : src/App/Pages/Weather/love/love_26.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_26.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_26.c.obj
-.PHONY : src/App/Pages/Weather/love/love_26.c.obj
-
-src/App/Pages/Weather/love/love_26.i: src/App/Pages/Weather/love/love_26.c.i
-.PHONY : src/App/Pages/Weather/love/love_26.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_26.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_26.c.i
-.PHONY : src/App/Pages/Weather/love/love_26.c.i
-
-src/App/Pages/Weather/love/love_26.s: src/App/Pages/Weather/love/love_26.c.s
-.PHONY : src/App/Pages/Weather/love/love_26.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_26.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_26.c.s
-.PHONY : src/App/Pages/Weather/love/love_26.c.s
-
-src/App/Pages/Weather/love/love_27.obj: src/App/Pages/Weather/love/love_27.c.obj
-.PHONY : src/App/Pages/Weather/love/love_27.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_27.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_27.c.obj
-.PHONY : src/App/Pages/Weather/love/love_27.c.obj
-
-src/App/Pages/Weather/love/love_27.i: src/App/Pages/Weather/love/love_27.c.i
-.PHONY : src/App/Pages/Weather/love/love_27.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_27.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_27.c.i
-.PHONY : src/App/Pages/Weather/love/love_27.c.i
-
-src/App/Pages/Weather/love/love_27.s: src/App/Pages/Weather/love/love_27.c.s
-.PHONY : src/App/Pages/Weather/love/love_27.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_27.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_27.c.s
-.PHONY : src/App/Pages/Weather/love/love_27.c.s
-
-src/App/Pages/Weather/love/love_28.obj: src/App/Pages/Weather/love/love_28.c.obj
-.PHONY : src/App/Pages/Weather/love/love_28.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_28.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_28.c.obj
-.PHONY : src/App/Pages/Weather/love/love_28.c.obj
-
-src/App/Pages/Weather/love/love_28.i: src/App/Pages/Weather/love/love_28.c.i
-.PHONY : src/App/Pages/Weather/love/love_28.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_28.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_28.c.i
-.PHONY : src/App/Pages/Weather/love/love_28.c.i
-
-src/App/Pages/Weather/love/love_28.s: src/App/Pages/Weather/love/love_28.c.s
-.PHONY : src/App/Pages/Weather/love/love_28.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_28.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_28.c.s
-.PHONY : src/App/Pages/Weather/love/love_28.c.s
-
-src/App/Pages/Weather/love/love_29.obj: src/App/Pages/Weather/love/love_29.c.obj
-.PHONY : src/App/Pages/Weather/love/love_29.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_29.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_29.c.obj
-.PHONY : src/App/Pages/Weather/love/love_29.c.obj
-
-src/App/Pages/Weather/love/love_29.i: src/App/Pages/Weather/love/love_29.c.i
-.PHONY : src/App/Pages/Weather/love/love_29.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_29.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_29.c.i
-.PHONY : src/App/Pages/Weather/love/love_29.c.i
-
-src/App/Pages/Weather/love/love_29.s: src/App/Pages/Weather/love/love_29.c.s
-.PHONY : src/App/Pages/Weather/love/love_29.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_29.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_29.c.s
-.PHONY : src/App/Pages/Weather/love/love_29.c.s
-
-src/App/Pages/Weather/love/love_3.obj: src/App/Pages/Weather/love/love_3.c.obj
-.PHONY : src/App/Pages/Weather/love/love_3.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_3.c.obj
-.PHONY : src/App/Pages/Weather/love/love_3.c.obj
-
-src/App/Pages/Weather/love/love_3.i: src/App/Pages/Weather/love/love_3.c.i
-.PHONY : src/App/Pages/Weather/love/love_3.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_3.c.i
-.PHONY : src/App/Pages/Weather/love/love_3.c.i
-
-src/App/Pages/Weather/love/love_3.s: src/App/Pages/Weather/love/love_3.c.s
-.PHONY : src/App/Pages/Weather/love/love_3.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_3.c.s
-.PHONY : src/App/Pages/Weather/love/love_3.c.s
-
-src/App/Pages/Weather/love/love_30.obj: src/App/Pages/Weather/love/love_30.c.obj
-.PHONY : src/App/Pages/Weather/love/love_30.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_30.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_30.c.obj
-.PHONY : src/App/Pages/Weather/love/love_30.c.obj
-
-src/App/Pages/Weather/love/love_30.i: src/App/Pages/Weather/love/love_30.c.i
-.PHONY : src/App/Pages/Weather/love/love_30.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_30.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_30.c.i
-.PHONY : src/App/Pages/Weather/love/love_30.c.i
-
-src/App/Pages/Weather/love/love_30.s: src/App/Pages/Weather/love/love_30.c.s
-.PHONY : src/App/Pages/Weather/love/love_30.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_30.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_30.c.s
-.PHONY : src/App/Pages/Weather/love/love_30.c.s
-
-src/App/Pages/Weather/love/love_4.obj: src/App/Pages/Weather/love/love_4.c.obj
-.PHONY : src/App/Pages/Weather/love/love_4.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_4.c.obj
-.PHONY : src/App/Pages/Weather/love/love_4.c.obj
-
-src/App/Pages/Weather/love/love_4.i: src/App/Pages/Weather/love/love_4.c.i
-.PHONY : src/App/Pages/Weather/love/love_4.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_4.c.i
-.PHONY : src/App/Pages/Weather/love/love_4.c.i
-
-src/App/Pages/Weather/love/love_4.s: src/App/Pages/Weather/love/love_4.c.s
-.PHONY : src/App/Pages/Weather/love/love_4.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_4.c.s
-.PHONY : src/App/Pages/Weather/love/love_4.c.s
-
-src/App/Pages/Weather/love/love_5.obj: src/App/Pages/Weather/love/love_5.c.obj
-.PHONY : src/App/Pages/Weather/love/love_5.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_5.c.obj
-.PHONY : src/App/Pages/Weather/love/love_5.c.obj
-
-src/App/Pages/Weather/love/love_5.i: src/App/Pages/Weather/love/love_5.c.i
-.PHONY : src/App/Pages/Weather/love/love_5.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_5.c.i
-.PHONY : src/App/Pages/Weather/love/love_5.c.i
-
-src/App/Pages/Weather/love/love_5.s: src/App/Pages/Weather/love/love_5.c.s
-.PHONY : src/App/Pages/Weather/love/love_5.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_5.c.s
-.PHONY : src/App/Pages/Weather/love/love_5.c.s
-
-src/App/Pages/Weather/love/love_6.obj: src/App/Pages/Weather/love/love_6.c.obj
-.PHONY : src/App/Pages/Weather/love/love_6.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_6.c.obj
-.PHONY : src/App/Pages/Weather/love/love_6.c.obj
-
-src/App/Pages/Weather/love/love_6.i: src/App/Pages/Weather/love/love_6.c.i
-.PHONY : src/App/Pages/Weather/love/love_6.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_6.c.i
-.PHONY : src/App/Pages/Weather/love/love_6.c.i
-
-src/App/Pages/Weather/love/love_6.s: src/App/Pages/Weather/love/love_6.c.s
-.PHONY : src/App/Pages/Weather/love/love_6.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_6.c.s
-.PHONY : src/App/Pages/Weather/love/love_6.c.s
-
-src/App/Pages/Weather/love/love_7.obj: src/App/Pages/Weather/love/love_7.c.obj
-.PHONY : src/App/Pages/Weather/love/love_7.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_7.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_7.c.obj
-.PHONY : src/App/Pages/Weather/love/love_7.c.obj
-
-src/App/Pages/Weather/love/love_7.i: src/App/Pages/Weather/love/love_7.c.i
-.PHONY : src/App/Pages/Weather/love/love_7.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_7.c.i
-.PHONY : src/App/Pages/Weather/love/love_7.c.i
-
-src/App/Pages/Weather/love/love_7.s: src/App/Pages/Weather/love/love_7.c.s
-.PHONY : src/App/Pages/Weather/love/love_7.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_7.c.s
-.PHONY : src/App/Pages/Weather/love/love_7.c.s
-
-src/App/Pages/Weather/love/love_8.obj: src/App/Pages/Weather/love/love_8.c.obj
-.PHONY : src/App/Pages/Weather/love/love_8.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_8.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_8.c.obj
-.PHONY : src/App/Pages/Weather/love/love_8.c.obj
-
-src/App/Pages/Weather/love/love_8.i: src/App/Pages/Weather/love/love_8.c.i
-.PHONY : src/App/Pages/Weather/love/love_8.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_8.c.i
-.PHONY : src/App/Pages/Weather/love/love_8.c.i
-
-src/App/Pages/Weather/love/love_8.s: src/App/Pages/Weather/love/love_8.c.s
-.PHONY : src/App/Pages/Weather/love/love_8.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_8.c.s
-.PHONY : src/App/Pages/Weather/love/love_8.c.s
-
-src/App/Pages/Weather/love/love_9.obj: src/App/Pages/Weather/love/love_9.c.obj
-.PHONY : src/App/Pages/Weather/love/love_9.obj
-
-# target to build an object file
-src/App/Pages/Weather/love/love_9.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_9.c.obj
-.PHONY : src/App/Pages/Weather/love/love_9.c.obj
-
-src/App/Pages/Weather/love/love_9.i: src/App/Pages/Weather/love/love_9.c.i
-.PHONY : src/App/Pages/Weather/love/love_9.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/love/love_9.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_9.c.i
-.PHONY : src/App/Pages/Weather/love/love_9.c.i
-
-src/App/Pages/Weather/love/love_9.s: src/App/Pages/Weather/love/love_9.c.s
-.PHONY : src/App/Pages/Weather/love/love_9.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/love/love_9.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love/love_9.c.s
-.PHONY : src/App/Pages/Weather/love/love_9.c.s
+src/App/Pages/Weather/tree_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/tree_gif.c.s
+.PHONY : src/App/Pages/Weather/tree_gif.c.s
 
 src/App/Pages/Weather/weather_image.obj: src/App/Pages/Weather/weather_image.c.obj
 .PHONY : src/App/Pages/Weather/weather_image.obj
@@ -18313,6 +17785,15 @@ help:
 	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.obj"
 	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.i"
 	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.s"
+	@echo "... lib/MAX30102/src/MAX30105.obj"
+	@echo "... lib/MAX30102/src/MAX30105.i"
+	@echo "... lib/MAX30102/src/MAX30105.s"
+	@echo "... lib/MAX30102/src/heartRate.obj"
+	@echo "... lib/MAX30102/src/heartRate.i"
+	@echo "... lib/MAX30102/src/heartRate.s"
+	@echo "... lib/MAX30102/src/spo2_algorithm.obj"
+	@echo "... lib/MAX30102/src/spo2_algorithm.i"
+	@echo "... lib/MAX30102/src/spo2_algorithm.s"
 	@echo "... lib/SD/src/SD.obj"
 	@echo "... lib/SD/src/SD.i"
 	@echo "... lib/SD/src/SD.s"
@@ -19435,6 +18916,9 @@ help:
 	@echo "... src/App/Pages/AppList/AppListView.obj"
 	@echo "... src/App/Pages/AppList/AppListView.i"
 	@echo "... src/App/Pages/AppList/AppListView.s"
+	@echo "... src/App/Pages/Clock/Clock.obj"
+	@echo "... src/App/Pages/Clock/Clock.i"
+	@echo "... src/App/Pages/Clock/Clock.s"
 	@echo "... src/App/Pages/Games/Game/Arduboy/Arduboy.obj"
 	@echo "... src/App/Pages/Games/Game/Arduboy/Arduboy.i"
 	@echo "... src/App/Pages/Games/Game/Arduboy/Arduboy.s"
@@ -19540,6 +19024,9 @@ help:
 	@echo "... src/App/Pages/Games/Games.obj"
 	@echo "... src/App/Pages/Games/Games.i"
 	@echo "... src/App/Pages/Games/Games.s"
+	@echo "... src/App/Pages/HeartBeat/HeartBeat.obj"
+	@echo "... src/App/Pages/HeartBeat/HeartBeat.i"
+	@echo "... src/App/Pages/HeartBeat/HeartBeat.s"
 	@echo "... src/App/Pages/NumTweak/NumTweak.obj"
 	@echo "... src/App/Pages/NumTweak/NumTweak.i"
 	@echo "... src/App/Pages/NumTweak/NumTweak.s"
@@ -19597,96 +19084,15 @@ help:
 	@echo "... src/App/Pages/Weather/WeatherView.obj"
 	@echo "... src/App/Pages/Weather/WeatherView.i"
 	@echo "... src/App/Pages/Weather/WeatherView.s"
-	@echo "... src/App/Pages/Weather/love/love_1.obj"
-	@echo "... src/App/Pages/Weather/love/love_1.i"
-	@echo "... src/App/Pages/Weather/love/love_1.s"
-	@echo "... src/App/Pages/Weather/love/love_10.obj"
-	@echo "... src/App/Pages/Weather/love/love_10.i"
-	@echo "... src/App/Pages/Weather/love/love_10.s"
-	@echo "... src/App/Pages/Weather/love/love_11.obj"
-	@echo "... src/App/Pages/Weather/love/love_11.i"
-	@echo "... src/App/Pages/Weather/love/love_11.s"
-	@echo "... src/App/Pages/Weather/love/love_12.obj"
-	@echo "... src/App/Pages/Weather/love/love_12.i"
-	@echo "... src/App/Pages/Weather/love/love_12.s"
-	@echo "... src/App/Pages/Weather/love/love_13.obj"
-	@echo "... src/App/Pages/Weather/love/love_13.i"
-	@echo "... src/App/Pages/Weather/love/love_13.s"
-	@echo "... src/App/Pages/Weather/love/love_14.obj"
-	@echo "... src/App/Pages/Weather/love/love_14.i"
-	@echo "... src/App/Pages/Weather/love/love_14.s"
-	@echo "... src/App/Pages/Weather/love/love_15.obj"
-	@echo "... src/App/Pages/Weather/love/love_15.i"
-	@echo "... src/App/Pages/Weather/love/love_15.s"
-	@echo "... src/App/Pages/Weather/love/love_16.obj"
-	@echo "... src/App/Pages/Weather/love/love_16.i"
-	@echo "... src/App/Pages/Weather/love/love_16.s"
-	@echo "... src/App/Pages/Weather/love/love_17.obj"
-	@echo "... src/App/Pages/Weather/love/love_17.i"
-	@echo "... src/App/Pages/Weather/love/love_17.s"
-	@echo "... src/App/Pages/Weather/love/love_18.obj"
-	@echo "... src/App/Pages/Weather/love/love_18.i"
-	@echo "... src/App/Pages/Weather/love/love_18.s"
-	@echo "... src/App/Pages/Weather/love/love_19.obj"
-	@echo "... src/App/Pages/Weather/love/love_19.i"
-	@echo "... src/App/Pages/Weather/love/love_19.s"
-	@echo "... src/App/Pages/Weather/love/love_2.obj"
-	@echo "... src/App/Pages/Weather/love/love_2.i"
-	@echo "... src/App/Pages/Weather/love/love_2.s"
-	@echo "... src/App/Pages/Weather/love/love_20.obj"
-	@echo "... src/App/Pages/Weather/love/love_20.i"
-	@echo "... src/App/Pages/Weather/love/love_20.s"
-	@echo "... src/App/Pages/Weather/love/love_21.obj"
-	@echo "... src/App/Pages/Weather/love/love_21.i"
-	@echo "... src/App/Pages/Weather/love/love_21.s"
-	@echo "... src/App/Pages/Weather/love/love_22.obj"
-	@echo "... src/App/Pages/Weather/love/love_22.i"
-	@echo "... src/App/Pages/Weather/love/love_22.s"
-	@echo "... src/App/Pages/Weather/love/love_23.obj"
-	@echo "... src/App/Pages/Weather/love/love_23.i"
-	@echo "... src/App/Pages/Weather/love/love_23.s"
-	@echo "... src/App/Pages/Weather/love/love_24.obj"
-	@echo "... src/App/Pages/Weather/love/love_24.i"
-	@echo "... src/App/Pages/Weather/love/love_24.s"
-	@echo "... src/App/Pages/Weather/love/love_25.obj"
-	@echo "... src/App/Pages/Weather/love/love_25.i"
-	@echo "... src/App/Pages/Weather/love/love_25.s"
-	@echo "... src/App/Pages/Weather/love/love_26.obj"
-	@echo "... src/App/Pages/Weather/love/love_26.i"
-	@echo "... src/App/Pages/Weather/love/love_26.s"
-	@echo "... src/App/Pages/Weather/love/love_27.obj"
-	@echo "... src/App/Pages/Weather/love/love_27.i"
-	@echo "... src/App/Pages/Weather/love/love_27.s"
-	@echo "... src/App/Pages/Weather/love/love_28.obj"
-	@echo "... src/App/Pages/Weather/love/love_28.i"
-	@echo "... src/App/Pages/Weather/love/love_28.s"
-	@echo "... src/App/Pages/Weather/love/love_29.obj"
-	@echo "... src/App/Pages/Weather/love/love_29.i"
-	@echo "... src/App/Pages/Weather/love/love_29.s"
-	@echo "... src/App/Pages/Weather/love/love_3.obj"
-	@echo "... src/App/Pages/Weather/love/love_3.i"
-	@echo "... src/App/Pages/Weather/love/love_3.s"
-	@echo "... src/App/Pages/Weather/love/love_30.obj"
-	@echo "... src/App/Pages/Weather/love/love_30.i"
-	@echo "... src/App/Pages/Weather/love/love_30.s"
-	@echo "... src/App/Pages/Weather/love/love_4.obj"
-	@echo "... src/App/Pages/Weather/love/love_4.i"
-	@echo "... src/App/Pages/Weather/love/love_4.s"
-	@echo "... src/App/Pages/Weather/love/love_5.obj"
-	@echo "... src/App/Pages/Weather/love/love_5.i"
-	@echo "... src/App/Pages/Weather/love/love_5.s"
-	@echo "... src/App/Pages/Weather/love/love_6.obj"
-	@echo "... src/App/Pages/Weather/love/love_6.i"
-	@echo "... src/App/Pages/Weather/love/love_6.s"
-	@echo "... src/App/Pages/Weather/love/love_7.obj"
-	@echo "... src/App/Pages/Weather/love/love_7.i"
-	@echo "... src/App/Pages/Weather/love/love_7.s"
-	@echo "... src/App/Pages/Weather/love/love_8.obj"
-	@echo "... src/App/Pages/Weather/love/love_8.i"
-	@echo "... src/App/Pages/Weather/love/love_8.s"
-	@echo "... src/App/Pages/Weather/love/love_9.obj"
-	@echo "... src/App/Pages/Weather/love/love_9.i"
-	@echo "... src/App/Pages/Weather/love/love_9.s"
+	@echo "... src/App/Pages/Weather/love_gif.obj"
+	@echo "... src/App/Pages/Weather/love_gif.i"
+	@echo "... src/App/Pages/Weather/love_gif.s"
+	@echo "... src/App/Pages/Weather/plus_gif.obj"
+	@echo "... src/App/Pages/Weather/plus_gif.i"
+	@echo "... src/App/Pages/Weather/plus_gif.s"
+	@echo "... src/App/Pages/Weather/tree_gif.obj"
+	@echo "... src/App/Pages/Weather/tree_gif.i"
+	@echo "... src/App/Pages/Weather/tree_gif.s"
 	@echo "... src/App/Pages/Weather/weather_image.obj"
 	@echo "... src/App/Pages/Weather/weather_image.i"
 	@echo "... src/App/Pages/Weather/weather_image.s"

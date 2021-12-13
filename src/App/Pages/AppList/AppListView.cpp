@@ -41,6 +41,16 @@ void AppListView::Create(lv_obj_t* root)
 	
 		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
 	);
+
+	Item_Create(
+		&ui.heart,
+		root,
+		"HeartBeat",
+		"monitor",
+	
+		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
+	);
+	
 	
 
 	Item_Create(

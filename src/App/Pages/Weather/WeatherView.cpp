@@ -108,7 +108,8 @@ void WeatherView::weather_gui_init(lv_obj_t* root)
 	lv_label_set_text_fmt(ui.clockLabel_2, "%02d", 00);
 	lv_obj_set_style_text_font(ui.clockLabel_2, &lv_font_montserrat_12, 0);
 	lv_obj_set_style_text_color(ui.clockLabel_2, lv_color_white(), 0);
-	lv_obj_set_pos(ui.clockLabel_2, 170, 105);
+	// lv_obj_set_pos(ui.clockLabel_2, 170, 105);
+	lv_obj_align(ui.clockLabel_2, LV_ALIGN_RIGHT_MID, -60, -10);
 
 
 
@@ -281,7 +282,8 @@ void WeatherView::SetClockSec(const int sec)
 
 	lv_label_set_text_fmt(
 		ui.clockLabel_2,
-		" %02d",
+		"%02d sec",
+		// "%02d\nseconds",
 		sec
 	);
 }

@@ -48,7 +48,16 @@ void Port_Init()
 
     /* 屏幕初始化 */
     screen.begin();
+
+#ifdef BOARD_WROOM32
     screen.setRotation(0);
+#elif defined(BOARD_WROVER32) 
+    screen.setRotation(1);
+#else
+    screen.setRotation(0);
+#endif
+
+
     screen.fillScreen(TFT_BLACK);
 
     /* lvgl初始化 */

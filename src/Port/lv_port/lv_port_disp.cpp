@@ -4,6 +4,10 @@
 #define DISP_HOR_RES         240
 #define DISP_VER_RES         320
 #define DISP_BUF_SIZE        (240*320/8)
+#elif defined(BOARD_WROVER32) 
+#define DISP_HOR_RES         240
+#define DISP_VER_RES         320
+#define DISP_BUF_SIZE        (240*320/6)//9.3KB
 #else
 #define DISP_HOR_RES         240
 #define DISP_VER_RES         240

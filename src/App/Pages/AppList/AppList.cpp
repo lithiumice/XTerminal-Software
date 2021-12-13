@@ -82,16 +82,16 @@ void AppList::AttachEvent(lv_obj_t* obj)
 
 void AppList::Update()
 {
-    static uint8_t auto_entered_weather_flag=0;
-	if( 
-		// HAL::config.auto_enter_weather&&
-        HAL::enc_btn_first_push_flag==0&&
-        auto_entered_weather_flag==0&&
-        millis()-enter_time>= 1000*HAL::config.auto_enter_weather_delay_sec)
-    {
-        auto_entered_weather_flag=1;
-        Manager->Push("Pages/Weather");
-    }
+    // static uint8_t auto_entered_weather_flag=0;
+	// if( 
+	// 	// HAL::config.auto_enter_weather&&
+    //     HAL::enc_btn_first_push_flag==0&&
+    //     auto_entered_weather_flag==0&&
+    //     millis()-enter_time>= 1000*HAL::config.auto_enter_weather_delay_sec)
+    // {
+    //     auto_entered_weather_flag=1;
+    //     Manager->Push("Pages/Weather");
+    // }
 }
 
 void AppList::onTimerUpdate(lv_timer_t* timer)
@@ -131,10 +131,15 @@ void AppList::onEvent(lv_event_t* event)
 			anim_img_select = 1;
 			instance->Manager->Push("Pages/Weather");
 		}
+		//clock
 		else if (obj == instance->View.ui.clock.icon)
 		{
-			anim_img_select = 0;
-			instance->Manager->Push("Pages/Weather");
+			instance->Manager->Push("Pages/Clock");
+		}
+		//heart
+		else if (obj == instance->View.ui.heart.icon)
+		{
+			instance->Manager->Push("Pages/HeartBeat");
 		}
 		// game
 		else if (obj == instance->View.ui.gametetris.icon)

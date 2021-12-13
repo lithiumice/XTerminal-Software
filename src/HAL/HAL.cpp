@@ -59,6 +59,7 @@ void HAL::Init() {
     HAL::IMU_Init();
     HAL::wifi_init();
     HAL::wifi_connect();
+    HAL::sensors_init();
     HAL::Audio_PlayMusic("Startup");
 
     Port_Init();
@@ -117,8 +118,8 @@ void HAL::Update() {
     lv_task_handler();
     __IntervalExecute(normal(), 20);
     __IntervalExecute(HAL::SD_Update(), 500);
-    // __IntervalExecute(notify(), 600);
-    __IntervalExecute(upload(), HAL::config.data_upload_interval);
+    __IntervalExecute(notify(), 600);
+    // __IntervalExecute(upload(), HAL::config.data_upload_interval);
 
     // static uint8_t wifi_smartconfig_state = 0;
     // if(wifi_smartconfig_state==0)

@@ -39,6 +39,9 @@ do{\
         IMPORT_FONT(EuroStar_60);
         
         /* Import Images */
+        IMPORT_IMG(red_heart);
+        IMPORT_IMG(small_heart);
+        IMPORT_IMG(monitor);
         IMPORT_IMG(logo);
         IMPORT_IMG(system);
         IMPORT_IMG(setting);

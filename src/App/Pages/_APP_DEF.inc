@@ -1,4 +1,6 @@
 /* app def */
+APP_DEF(Clock);
+APP_DEF(HeartBeat);
 
 APP_DEF(Weather);
 APP_DEF(SystemInfos);

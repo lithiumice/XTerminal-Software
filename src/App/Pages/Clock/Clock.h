@@ -1,5 +1,5 @@
-#ifndef __NumTweak_PRESENTER_H
-#define __NumTweak_PRESENTER_H
+#ifndef __Clock_PRESENTER_H
+#define __Clock_PRESENTER_H
 
 #include "App/Utils/PageManager/PageBase.h"
 #include "HAL/HAL.h"
@@ -14,9 +14,8 @@ class Clock : public PageBase
 public:
     struct
     {
-        lv_obj_t* arc;
-        lv_obj_t* unitText;
-        lv_obj_t* indicateText;
+        lv_obj_t* clockLabel_1;
+        lv_obj_t* clockLabel_2;
         lv_group_t* group;
     } ui;
 
@@ -34,6 +33,7 @@ public:
 
     void ArcValueCtrl(int step);
     void GUICreate();
+    void updateSeconds();
 
 private:
     void Update();

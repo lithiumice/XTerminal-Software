@@ -21,27 +21,54 @@ void Clock::onCustomAttrConfig()
 	SetCustomLoadAnimType(PageManager::LOAD_ANIM_OVER_BOTTOM, 500, lv_anim_path_bounce);
 }
 
+/////////////////////////
 void Clock::GUICreate()
 {
 
 
-	ui.indicateText = lv_label_create(root);
-	lv_label_set_recolor(ui.indicateText, true);
-	lv_obj_set_style_text_font(ui.indicateText, &lv_font_montserrat_42, 0);
-	// lv_obj_set_style_text_font(ui.indicateText, Resource.GetFont("EuroStar_60"), 0);
-	lv_obj_set_style_text_color(ui.indicateText, lv_color_white(), 0);
-	// lv_obj_set_style_text_color(ui.indicateText, lv_palette_main(LV_PALETTE_BLUE), 0);
-	lv_obj_align(ui.indicateText, LV_ALIGN_CENTER, 0, 0);
-	// lv_obj_align(ui.indicateText, LV_ALIGN_CENTER,0,-10);
-	lv_label_set_text(ui.indicateText, "40");
-	// ui.unitText = lv_label_create(root);
-	// lv_label_set_recolor(ui.unitText, true);
-	// lv_obj_set_style_text_font(ui.unitText, Resource.GetFont("Morganite_36"), 0);
-	// lv_obj_set_style_text_color(ui.unitText, lv_color_white(), 0);
-	// lv_obj_align(ui.unitText, LV_ALIGN_CENTER,0,10);
-	// lv_label_set_text(ui.unitText, "min");
+
+	ui.clockLabel_1 = lv_label_create(root);
+	lv_label_set_recolor(ui.clockLabel_1, true);
+	lv_label_set_text_fmt(ui.clockLabel_1, "%02d : #ffa500 %02d#", 10, 52);
+	lv_obj_set_style_text_font(ui.clockLabel_1, Resource.GetFont("EuroStar_60"), 0);
+	// lv_obj_set_style_text_font(ui.clockLabel_1, &lv_font_montserrat_26, 0);
+	lv_obj_set_style_text_color(ui.clockLabel_1, lv_color_white(), 0);
+	lv_obj_align(ui.clockLabel_1, LV_ALIGN_CENTER, 0, 0);
+	ui.clockLabel_2 = lv_label_create(root);
+	lv_label_set_recolor(ui.clockLabel_2, true);
+	lv_label_set_text_fmt(ui.clockLabel_2, "%02d", 00);
+	lv_obj_set_style_text_font(ui.clockLabel_2, &lv_font_montserrat_12, 0);
+	lv_obj_set_style_text_color(ui.clockLabel_2, lv_color_white(), 0);
+	// lv_obj_set_pos(ui.clockLabel_2, 170, 105);
+	lv_obj_align(ui.clockLabel_2, LV_ALIGN_RIGHT_MID, 0, 0);
+
 
 }
+
+void Clock::updateSeconds()
+{
+    HAL::time_info.second++;
+    if (HAL::time_info.second >= 60) // 60s
+    {
+        HAL::time_info.second = 0;
+
+#ifdef ARDUINO
+        HAL::parseTimeStamp(HAL::getTimestampLocal());
+#endif
+        lv_label_set_text_fmt(
+		ui.clockLabel_1,
+		"%02d : #ffa500 %02d#",
+		HAL::time_info.hour, 
+		HAL::time_info.minute
+	);
+    }
+	lv_label_set_text_fmt(
+		ui.clockLabel_2,
+		" %02d",
+		HAL::time_info.second
+	);
+}
+/////////////////////////
 
 void Clock::onViewLoad()
 {
@@ -53,11 +80,8 @@ void Clock::onViewLoad()
 	ui.group = lv_group_create();
 
 	GUICreate();
-	lv_group_add_obj(ui.group, ui.arc);
-	ArcValueCtrl(0);
-	AttachEvent(ui.arc);
-
-	
+	lv_group_add_obj(ui.group, root);
+	AttachEvent(root);
 }
 
 void Clock::onViewDidLoad()
@@ -79,7 +103,6 @@ void Clock::onViewWillAppear()
 
 void Clock::onViewDidAppear()
 {
-	lv_group_focus_obj(ui.arc);
 }
 
 void Clock::onViewWillDisappear()
@@ -106,6 +129,9 @@ void Clock::AttachEvent(lv_obj_t *obj)
 
 void Clock::Update()
 {
+    __IntervalExecute(notifyUrlThread(), (1000 * 60 * HAL::config.update_weather_interval_minute));
+    __IntervalExecute(updateSeconds(), 1000);
+
 }
 
 void Clock::onTimerUpdate(lv_timer_t *timer)
@@ -122,13 +148,11 @@ void Clock::onEvent(lv_event_t *event)
 
 	if (code == LV_EVENT_RELEASED)
 	{
-		HAL::TerminalPrintln("Clock LV_EVENT_PRESSED");
 		instance->Manager->Pop();
 	}
 	else if (code == LV_EVENT_LONG_PRESSED)
 	{
 
-		HAL::TerminalPrintln("Clock LV_EVENT_LONG_PRESSED");
 		instance->Manager->Pop();
 	}
 }

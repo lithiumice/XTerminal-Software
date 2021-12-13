@@ -25,6 +25,10 @@ namespace HAL
     void Update();
 
 /* Config */
+    void sensors_init();
+    void sensors_max30102_data();
+
+    /* Config */
     extern Config_t config;
     extern uint8_t wifi_name_passswd;
     extern uint8_t clock_url_get_sucess_flag;
@@ -67,14 +71,11 @@ namespace HAL
     bool wifi_isconnected();
     void wifi_smartConfig();
 
-    /* Terminal */
+/* Terminal */
     extern std::string globalTermText;
     extern uint8_t term_text_update_flag;
-
     void TerminalPrint( char* text);
     void TerminalPrintln( char* text);
-    // void TerminalPrint( string text);
-    // void TerminalPrintln( string text);
     void TerminalPrintln( String text);
 
 /* Backlight */
@@ -94,7 +95,7 @@ namespace HAL
     void Weather_Update();
     void IMU_Calibrate();
 
-    /* SD */
+/* SD */
     bool SD_Init();
     void SD_Update();
     bool SD_GetReady();
