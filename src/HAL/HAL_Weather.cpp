@@ -5,7 +5,6 @@
 #include <App/Accounts/Account_Master.h>
 #include "HAL.h"
 #include "App/Utils/AccountSystem/Account.h"
-#include "HAL_Config.h"
 
 
 #define TIMEZERO_OFFSIZE (28800000) // 时区偏移(小时) 8*60*60
@@ -212,7 +211,7 @@ int64_t HAL::getTimestampUrl()
             time_stamp_info.preNetTimestamp = atoll(time.c_str()) + time_stamp_info.errorNetTimestamp + TIMEZERO_OFFSIZE;
             time_stamp_info.preLocalTimestamp = millis();
 
-            config_clock_save(time_stamp_info.preNetTimestamp);
+            config_clock_save(&time_stamp_info);
             HAL::clock_url_get_sucess_flag=1;
             fisrt_get_clock_flag=1;
         }

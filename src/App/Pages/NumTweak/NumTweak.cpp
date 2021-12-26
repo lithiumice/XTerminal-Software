@@ -115,9 +115,9 @@ void NumTweak::onViewLoad()
 {
 	if (num_tweak_type == BLACKLIGHT)
 	{
-		NumTweak_config.min = 200;
-		NumTweak_config.max = 800;
-		NumTweak_config.step = 40;
+		NumTweak_config.min = 50;
+		NumTweak_config.max = 950;
+		NumTweak_config.step = 10;
 		NumTweak_config.current = HAL::Backlight_GetValue();
 	}
 

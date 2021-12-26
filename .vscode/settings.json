@@ -8,6 +8,8 @@
     "RTT_Studio.Debuger.QEMU.Location": "D:/RT-ThreadStudio/repo/Extract/Debugger_Support_Packages/RealThread/QEMU/4.2.0.4",
     "files.associations": {
         "*.inc": "cpp",
-        "glcdfont.c": "cpp"
+        "glcdfont.c": "cpp",
+        "hal.h": "c",
+        "arduino.h": "c"
     }
 }

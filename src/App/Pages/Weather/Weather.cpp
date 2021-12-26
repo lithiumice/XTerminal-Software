@@ -47,13 +47,13 @@ void Weather::onViewWillAppear()
 
     lv_obj_fade_in(root, 600, 0);
 
-    // info init
-    notifyUrlThread();
-    updateWeather();
 #ifdef ARDUINO
+    notifyUrlThread();
     HAL::parseTimeStamp(HAL::getTimestampLocal());
 #endif
+
     updateClockInfo();
+    updateWeather();
 }
 
 void Weather::onViewDidAppear()

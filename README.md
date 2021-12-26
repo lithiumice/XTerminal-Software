@@ -10,11 +10,12 @@ st7789 240x280
 max30102
 
 devoce 2:
+esp-wrover32
+ili9341 240x320
+pcf keys
+
+devoce 3:
 esp-wroom32
 st7789 240x320
 pcf keys
 
-devoce 3:
-esp-wrover32
-ili9341 240x320
-pcf keys

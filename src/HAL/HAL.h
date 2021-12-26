@@ -6,13 +6,16 @@
 #include "HAL_Def.h"
 #include "App/Configs/Config.h"
 #include "CommonMacro.h"
-#include "HAL_Config.h"
 #include "lvgl/lvgl.h"
 
+
 #ifdef ARDUINO
+#include "Wire.h"
 extern TaskHandle_t handleTaskUrl;
 extern lv_color_t *lv_disp_buf_p;
 #endif
+
+
 extern HAL::IMU_Info_t imuInfo;
 extern uint8_t fisrt_get_weather_flag;
 extern uint8_t fisrt_get_clock_flag;
@@ -38,8 +41,10 @@ namespace HAL
 
     void config_weather_save(HAL::Weather_Info_t *info);
     void config_weather_load(HAL::Weather_Info_t *info);
-    void config_clock_save(int64_t Timestamp);
-    void config_clock_load(int64_t *Timestamp);
+    // void config_clock_save(int64_t Timestamp);
+    // void config_clock_load(int64_t *Timestamp);
+    void config_clock_load(TimeStamp_t *time_stamp_info);
+     void config_clock_save(TimeStamp_t *time_stamp_info);
     void config_load();
     void config_save();
     void config_clear();
@@ -87,6 +92,10 @@ namespace HAL
 
 /* I2C */
     void I2C_Init(bool startScan);
+
+#ifdef ARDUINO
+    void I2C_Scan(TwoWire* Wire);
+#endif
 
 /* IMU */
     void IMU_Init();

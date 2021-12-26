@@ -1,4 +1,3 @@
-#include <HAL/HAL_Config.h>
 #include "SystemInfos.h"
 #include "App/Configs/Version.h"
 #include "HAL/HAL.h"
@@ -119,8 +118,8 @@ void SystemInfos::Update()
 	int used_spiram;
 #ifdef ARDUINO
 	used_heap=ESP.getFreeHeap();
-	// total_heap=ESP.getHeapSize();
-    total_heap=320*1024;
+	total_heap=ESP.getHeapSize();
+    // total_heap=320*1024;
 	used_heap_percent = (total_heap-used_heap) * 100 / total_heap;
 	used_spiram=heap_caps_get_free_size(MALLOC_CAP_SPIRAM);
 #else

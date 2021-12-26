@@ -1,11 +1,10 @@
 #include "AppList.h"
-
 #include "App/App.h"
 #include "App/Configs/Version.h"
 #include "HAL/HAL.h"
 using namespace Page;
 uint64_t enter_time=0;
-		extern uint8_t anim_img_select;
+extern uint8_t anim_img_select;
 
 AppList::AppList()
 {
@@ -25,7 +24,6 @@ void AppList::onViewLoad()
 {
 	enter_time = millis();
 
-	Model.Init();
 	View.Create(root);
 	AttachEvent(root);
 
@@ -37,8 +35,6 @@ void AppList::onViewLoad()
 
 void AppList::onViewDidLoad()
 {
-	// App_Remove("Startup");
-	// lv_group_set_default(g);
 }
 
 void AppList::onViewWillAppear()
@@ -71,7 +67,6 @@ void AppList::onViewDidDisappear()
 void AppList::onViewDidUnload()
 {
 	View.Delete();
-	Model.Deinit();
 }
 
 void AppList::AttachEvent(lv_obj_t* obj)
@@ -106,14 +101,14 @@ void AppList::onEvent(lv_event_t* event)
 	lv_obj_t* obj = lv_event_get_target(event);
 	lv_event_code_t code = lv_event_get_code(event);
 	auto* instance = (AppList*)lv_obj_get_user_data(obj);
-	// extern uint8_t game_select_index;
 	if (code == LV_EVENT_RELEASED)
 	{
 		//tools
-		if (obj == instance->View.ui.cubedemo.icon)
-		{
-			instance->Manager->Push("Pages/Scene3D");
-		}
+		if(0){}
+		// else if (obj == instance->View.ui.cubedemo.icon)
+		// {
+		// 	instance->Manager->Push("Pages/Scene3D");
+		// }
 		else if (obj == instance->View.ui.terminal.icon)
 		{
 			instance->Manager->Push("Pages/Terminal");
@@ -142,23 +137,10 @@ void AppList::onEvent(lv_event_t* event)
 			instance->Manager->Push("Pages/HeartBeat");
 		}
 		// game
-		else if (obj == instance->View.ui.gametetris.icon)
+		else if (obj == instance->View.ui.gamelist.icon)
 		{
-			instance->Manager->Push("Pages/Russian");
-		}
-		else if (obj == instance->View.ui.gamecat.icon)
-		{
-			HAL::game_select_index = 0;
-			instance->Manager->Push("Pages/Games");
-		}
-		else if (obj == instance->View.ui.game3d.icon)
-		{
-			HAL::game_select_index = 1;
-			instance->Manager->Push("Pages/Games");
+			instance->Manager->Push("Pages/GameList");
+			// instance->Manager->Push("Pages/Russian");
 		}
 	}
-	// else if (code == LV_EVENT_LONG_PRESSED)
-	// {
-	// 	instance->Manager->Pop();
-	// }
 }

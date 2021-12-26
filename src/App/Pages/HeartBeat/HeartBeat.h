@@ -15,7 +15,9 @@ public:
     struct
     {
         lv_obj_t* rate_text;
+        lv_obj_t* avg_bpm_text;
         lv_chart_series_t* rate_ser;
+        lv_chart_series_t* bmp_ser;
         lv_obj_t* rate_chart;
         lv_group_t* group;
     } ui;
@@ -33,7 +35,13 @@ public:
     virtual void onViewDidUnload();
 
     void ArcValueCtrl(int step);
+    void Chart_Create();
+    void Ser_Create();
+    void Anim_Create();
+    void Labels_Create();
     void GUICreate();
+    void Chart_AutoRangeProcess();
+    void Chart_AutoRangeProcess(lv_obj_t *chart, lv_chart_series_t *series, lv_chart_axis_t axis);
 
 private:
     void Update();

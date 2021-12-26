@@ -2,7 +2,6 @@
 #define __AppList_PRESENTER_H
 
 #include "AppListView.h"
-#include "AppListModel.h"
 
 namespace Page
 {
@@ -30,10 +29,8 @@ private:
     static void onTimerUpdate(lv_timer_t* timer);
     static void onEvent(lv_event_t* event);
 
-// private:
-public:
+private:
     AppListView View;
-    AppListModel Model;
     lv_timer_t* timer;
 };
 

@@ -135,26 +135,29 @@ void HAL::config_num_load()
     prefs.end();
 }
 
-void HAL::config_clock_save(int64_t Timestamp)
+void HAL::config_clock_save(TimeStamp_t* time_stamp_info)
 {
 //prefs.remove("naisu");
-//
 //prefs.end();
 //Serial.println(prefs.freeEntries());
     prefs.begin("Config");
 
-    prefs.putLong64("Timestamp",Timestamp);
+    prefs.putLong64("Timestamp",time_stamp_info->preNetTimestamp);
 
     prefs.end();
 }
 
-void HAL::config_clock_load(int64_t* Timestamp)
+void HAL::config_clock_load(TimeStamp_t* time_stamp_info)
 {
     prefs.begin("Config");
 
-    *Timestamp=prefs.getLong64("Timestamp",0);
+    time_stamp_info->preNetTimestamp=prefs.getLong64("Timestamp",0);
+    // *Timestamp=prefs.getLong64("Timestamp",0);
+    time_stamp_info->preLocalTimestamp = millis();
 
     prefs.end();
+
+
 }
 
 void HAL::config_weather_save(HAL::Weather_Info_t* info)

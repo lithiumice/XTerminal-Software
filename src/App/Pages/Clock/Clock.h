@@ -34,6 +34,7 @@ public:
     void ArcValueCtrl(int step);
     void GUICreate();
     void updateSeconds();
+    void updateClock();
 
 private:
     void Update();

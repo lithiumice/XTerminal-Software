@@ -21,17 +21,12 @@ do{\
         /* Import Fonts */
         IMPORT_FONT(bahnschrift_13);
         IMPORT_FONT(bahnschrift_17);
-        // IMPORT_FONT(bahnschrift_32);
-        // IMPORT_FONT(bahnschrift_65);
-
-        // IMPORT_FONT(msDengL_10);
-
         IMPORT_FONT(agencyb_36);
         IMPORT_FONT(RexBold_28);
         IMPORT_FONT(RexBold_68);
-        // IMPORT_FONT(RexBold_89);
+        IMPORT_FONT(RexBold_89);
         IMPORT_FONT(Morganite_36);
-        // IMPORT_FONT(Morganite_100);
+        IMPORT_FONT(Morganite_100);
         IMPORT_FONT(HandGotn_14);
         IMPORT_FONT(HandGotn_20);
         IMPORT_FONT(HandGotn_26);
@@ -39,10 +34,11 @@ do{\
         IMPORT_FONT(EuroStar_60);
         
         /* Import Images */
+        IMPORT_IMG(heart_white_48);
         IMPORT_IMG(red_heart);
         IMPORT_IMG(small_heart);
         IMPORT_IMG(monitor);
-        IMPORT_IMG(logo);
+        // IMPORT_IMG(logo);
         IMPORT_IMG(system);
         IMPORT_IMG(setting);
         IMPORT_IMG(cube);
@@ -53,7 +49,7 @@ do{\
         IMPORT_IMG(zhihu);
         IMPORT_IMG(weather);
         IMPORT_IMG(clock);
-        IMPORT_IMG(bluetooth);
+        // IMPORT_IMG(bluetooth);
         IMPORT_IMG(bt);
         IMPORT_IMG(bt_off);
         IMPORT_IMG(wifi);
@@ -70,26 +66,26 @@ do{\
         IMPORT_IMG(alarm);
         IMPORT_IMG(battery);
         IMPORT_IMG(battery_info);
-        IMPORT_IMG(bicycle);
+        // IMPORT_IMG(bicycle);
         IMPORT_IMG(compass);
-        IMPORT_IMG(gps_arrow_default);
-        IMPORT_IMG(gps_arrow_dark);
-        IMPORT_IMG(gps_arrow_light);
-        IMPORT_IMG(gps_pin);
+        // IMPORT_IMG(gps_arrow_default);
+        // IMPORT_IMG(gps_arrow_dark);
+        // IMPORT_IMG(gps_arrow_light);
+        // IMPORT_IMG(gps_pin);
         IMPORT_IMG(gyroscope);
-        IMPORT_IMG(locate);
-        IMPORT_IMG(map_location);
+        // IMPORT_IMG(locate);
+        // IMPORT_IMG(map_location);
         IMPORT_IMG(menu);
-        IMPORT_IMG(origin_point);
-        IMPORT_IMG(pause);
-        IMPORT_IMG(satellite);
+        // IMPORT_IMG(origin_point);
+        // IMPORT_IMG(pause);
+        // IMPORT_IMG(satellite);
         IMPORT_IMG(sd_card);
-        IMPORT_IMG(start);
-        IMPORT_IMG(stop);
+        // IMPORT_IMG(start);
+        // IMPORT_IMG(stop);
         IMPORT_IMG(storage);
         IMPORT_IMG(system_info);
         IMPORT_IMG(time_info);
-        IMPORT_IMG(trip);
+        // IMPORT_IMG(trip);
 
         // IMPORT_IMG(arm);
         // IMPORT_IMG(pose6d);

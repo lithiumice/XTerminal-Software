@@ -22,59 +22,56 @@
  */
 #include "Display.h"
 #include "HAL/HAL.h"
+TaskHandle_t handleTaskLvgl;
+void TaskLvglUpdate(void *parameter)
+{
+  // ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
-// TaskHandle_t handleTaskLvgl;
-// void TaskLvglUpdate(void* parameter)
-// {
-//     ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
-
-//     for (;;)
-//     {
-//         lv_task_handler();
-//         delay(5);
-// //        __IntervalExecute(lv_task_handler(), 5);
-//     }
-// }
-
-
+  for (;;)
+  {
+    lv_task_handler();
+    delay(5);
+  }
+}
 /**
-  * @brief  显示初始化
-  * @param  无
-  * @retval 无
-  */
+ * @brief  显示初始化
+ * @param  无
+ * @retval 无
+ */
 void Port_Init()
 {
-    static SCREEN_CLASS screen;
+  static SCREEN_CLASS screen;
 
-    /* 屏幕初始化 */
-    screen.begin();
+  /* 屏幕初始化 */
+  screen.begin();
+  screen.setRotation(DISP_ROTATE);
+  screen.fillScreen(TFT_BLACK);
 
-#ifdef BOARD_WROOM32
-    screen.setRotation(0);
-#elif defined(BOARD_WROVER32) 
-    screen.setRotation(1);
-#else
-    screen.setRotation(0);
-#endif
+  /* lvgl初始化 */
+  lv_init();
+  lv_port_disp_init(&screen);
+  lv_port_indev_init();
+  lv_fs_if_init();
 
+  // Update display in parallel thread.
+  // xTaskCreate(
+  //     TaskLvglUpdate,
+  //     "LvglThread",
+  //     1024*25,//20000=19.5KB
+  //     nullptr,
+  //     configMAX_PRIORITIES - 1,
+  //     &handleTaskLvgl);
 
-    screen.fillScreen(TFT_BLACK);
+  // xTaskCreatePinnedToCore(
+  //         TaskUrlUpdate,
+  //             "GetWeather",
+  //             1024*30, //KB
+  //             NULL,
+  //             configMAX_PRIORITIES - 1,
+  //             &handleTaskUrl,
+  //             0
+  //         );
 
-    /* lvgl初始化 */
-    lv_init();
-    lv_port_disp_init(&screen);
-    lv_port_indev_init();
-    lv_fs_if_init();
-
-    // Update display in parallel thread.
-    // xTaskCreate(
-    //     TaskLvglUpdate,
-    //     "LvglThread",
-    //     1024*25,//20000=19.5KB
-    //     nullptr,
-    //     configMAX_PRIORITIES - 1,
-    //     &handleTaskLvgl);
-
-    /* 背光渐亮 */
-    HAL::Backlight_SetGradual(500, 1000);
+  /* 背光渐亮 */
+  HAL::Backlight_SetGradual(500, 1000);
 }

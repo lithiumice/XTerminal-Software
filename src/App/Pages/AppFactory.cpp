@@ -24,19 +24,16 @@
 #include "Weather/Weather.h"
 #include "SystemInfos/SystemInfos.h"
 #include "StartUp/StartUp.h"
-#include "Scene3D/Scene3D.h"
-#include "Terminal/Terminal.h"
 #include "AppList/AppList.h"
 #include "WifiText/WifiText.h"
-
-//todo
-#include "Russian/Russian.h"
 #include "NumTweak/NumTweak.h"
 #include "Settings/Settings.h"
-#include "Games/Games.h"
 #include "Clock/Clock.h"
 #include "HeartBeat/HeartBeat.h"
 
+//game
+#include "GameList/GameList.h"
+#include "GameArduboy/GameArduboy.h"
 
 PageBase* AppFactory::CreatePage(const char* name)
 {

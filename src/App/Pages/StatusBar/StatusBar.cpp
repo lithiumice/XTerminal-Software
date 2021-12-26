@@ -171,8 +171,8 @@ static void StatusBar_Update(lv_timer_t* timer)
     actStatusBar->Pull("Power", &power, sizeof(power));
     lv_label_set_text_fmt(ui.battery.label, "%d%%", power.usage);
 
-    bool Is_BattCharging = 1;
-    // bool Is_BattCharging = power.isCharging;
+    // bool Is_BattCharging = 1;
+    bool Is_BattCharging = power.isCharging;
     lv_obj_t* contBatt = ui.battery.objUsage;
     static bool Is_BattChargingAnimActive = false;
     if(Is_BattCharging)
@@ -198,6 +198,15 @@ static void StatusBar_Update(lv_timer_t* timer)
 
 static lv_obj_t* StatusBar_Create(lv_obj_t* par)
 {
+    
+  #ifdef DEVICE0
+    int left_offset = 25;
+    int right_offset = 48;
+#else
+    int left_offset = 14;
+    int right_offset = 30;
+#endif
+
     lv_obj_t* cont = lv_obj_create(par);
     lv_obj_remove_style_all(cont);
 
@@ -238,61 +247,32 @@ static lv_obj_t* StatusBar_Create(lv_obj_t* par)
     lv_style_set_text_color(&style, lv_color_white());
     lv_style_set_text_font(&style, Resource.GetFont("bahnschrift_13"));
 
-//    /* satellite */
-    // lv_obj_t* img = lv_img_create(cont);
-//    lv_img_set_src(img, Resource.GetImage("satellite"));
-//    lv_obj_align(img, LV_ALIGN_LEFT_MID, 14, 0);
-//    ui.satellite.img = img;
-
-    // lv_obj_t* label = lv_label_create(cont);
-    // lv_obj_add_style(label, &style, 0);
-    // lv_obj_align_to(label, ui.satellite.img, LV_ALIGN_OUT_RIGHT_MID, 5, 0);
-    // lv_label_set_text(label, "0");
-    // ui.satellite.label = label;
-
-    lv_obj_t* img = lv_img_create(cont);
-    lv_obj_t* label = lv_label_create(cont);
-
     /* sd card */
-    img = lv_img_create(cont);
+    lv_obj_t* img = lv_img_create(cont);
     lv_img_set_src(img, Resource.GetImage("sd_card"));
-    lv_obj_align(img, LV_ALIGN_LEFT_MID, 14, -1);
+    lv_obj_align(img, LV_ALIGN_LEFT_MID, left_offset, -1);
     lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgSD = img;
 
     /* wifi */
     img = lv_img_create(cont);
     lv_img_set_src(img, Resource.GetImage("wifi_off"));
-    lv_obj_align(img, LV_ALIGN_LEFT_MID, 14+18, 0);
+    lv_obj_align(img, LV_ALIGN_LEFT_MID, left_offset+18, 0);
     lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgWifi = img;
 
     /* bluetooth */
     img = lv_img_create(cont);
     lv_img_set_src(img, Resource.GetImage("bt_off"));
-    lv_obj_align(img, LV_ALIGN_LEFT_MID, 14+18+18, 0);
+    lv_obj_align(img, LV_ALIGN_LEFT_MID, left_offset+18+18, 0);
     lv_obj_add_flag(img, LV_OBJ_FLAG_HIDDEN);
     ui.imgBT = img;
 
-    /* clock */
-    //label = lv_label_create(cont);
-    //lv_obj_add_style(label, &style, 0);
-    //lv_label_set_text(label, "00:00");
-    //lv_obj_center(label);
-    //ui.labelClock = label;
-
-    /* recorder */
-    // label = lv_label_create(cont);
-    // lv_obj_add_style(label, &style, 0);
-    // lv_obj_align(label, LV_ALIGN_RIGHT_MID, -50, 0);
-    // lv_label_set_text(label, "");
-    // lv_obj_add_flag(label, LV_OBJ_FLAG_HIDDEN);
-    // ui.labelRec = label;
 
     /* battery */
     img = lv_img_create(cont);
     lv_img_set_src(img, Resource.GetImage("battery"));
-    lv_obj_align(img, LV_ALIGN_RIGHT_MID, -30, 0);
+    lv_obj_align(img, LV_ALIGN_RIGHT_MID, -right_offset, 0);
     lv_img_t* img_ext = (lv_img_t*)img;
     lv_obj_set_size(img, img_ext->w, img_ext->h);
     ui.battery.img = img;
@@ -306,11 +286,20 @@ static lv_obj_t* StatusBar_Create(lv_obj_t* par)
     lv_obj_align(obj, LV_ALIGN_BOTTOM_MID, 0, -2);
     ui.battery.objUsage = obj;
 
-    label = lv_label_create(cont);
+    lv_obj_t* label = lv_label_create(cont);
     lv_obj_add_style(label, &style, 0);
     lv_obj_align_to(label, ui.battery.img, LV_ALIGN_OUT_RIGHT_MID, 3, 0);
     lv_label_set_text(label, "100%");
     ui.battery.label = label;
+
+
+    /* clock */
+    label = lv_label_create(cont);
+    lv_obj_add_style(label, &style, 0);
+    lv_label_set_text(label, "00:00");
+    lv_obj_center(label);
+    ui.labelClock = label;
+
 
     StatusBar::SetStyle(StatusBar::STYLE_TRANSP);
 

@@ -31,19 +31,19 @@ do{\
     AccountSystem::Broker()->AccountMaster.Notify(#ACT, &info, sizeof(info));\
 }while(0)
 
-#ifdef ARDUINO
-#include "Port/Display.h"
-#define INIT_DONE() \
-do{                 \
-    xTaskNotifyGive(handleTaskLvgl); \
-}while(0) \
+// #ifdef ARDUINO
+// #include "Port/Display.h"
+// #define INIT_DONE() \
+// do{                 \
+//     xTaskNotifyGive(handleTaskLvgl); \
+// }while(0) \
 
-#else
-#define INIT_DONE() \
-do{                 \
-}while(0) \
-
-#endif
+// #else
+// #define INIT_DONE() \
+// do{                 \
+// }while(0) \
+//
+// #endif
 #include <string>
 
 void App_Init();

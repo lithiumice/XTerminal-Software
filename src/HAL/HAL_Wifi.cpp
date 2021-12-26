@@ -1,6 +1,5 @@
 #include "Arduino.h"
 #include "HAL.h"
-#include "HAL_Config.h"
 
 void HAL::wifi_init()
 {
@@ -20,18 +19,20 @@ void HAL::wifi_smartConfig()
   WiFi.mode(WIFI_MODE_STA);
   Serial.println("wifi_smartConfig:");
   WiFi.beginSmartConfig();
-//   while (1)
-//   {
-//     Serial.print(".");
-//     delay(500);
-//     if (WiFi.smartConfigDone())
-//     {
-//       Serial.println("配网成功");
-//       Serial.printf("SSID:%s", WiFi.SSID().c_str());
-//       Serial.printf("PSW:%s", WiFi.psk().c_str());
-//       break;
-//     }
-//   }
+  while (1)
+  {
+    Serial.print(".");
+    delay(500);
+    if (WiFi.smartConfigDone())
+    {
+      Serial.println("配网成功");
+    //   HAL::TerminalPrintln("SSID:%s"+WiFi.SSID().c_str());
+    //   HAL::TerminalPrintln("PSW:%s"+ WiFi.psk().c_str());
+    HAL::TerminalPrintln(WiFi.SSID().c_str());
+      HAL::TerminalPrintln(WiFi.psk().c_str());
+      break;
+    }
+  }
 }
 
 void HAL::wifi_search()

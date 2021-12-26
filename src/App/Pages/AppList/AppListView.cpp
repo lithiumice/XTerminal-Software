@@ -2,11 +2,10 @@
 
 using namespace Page;
 
-#define ITEM_HEIGHT_MIN   100
-#define ITEM_PAD          ((LV_VER_RES - ITEM_HEIGHT_MIN) / 2)
+#define ITEM_HEIGHT_MIN 100
+#define ITEM_PAD ((LV_VER_RES - ITEM_HEIGHT_MIN) / 2)
 
-
-void AppListView::Create(lv_obj_t* root)
+void AppListView::Create(lv_obj_t *root)
 {
 	lv_obj_remove_style_all(root);
 	lv_obj_set_size(root, LV_HOR_RES, LV_VER_RES);
@@ -19,76 +18,48 @@ void AppListView::Create(lv_obj_t* root)
 		root,
 		LV_FLEX_ALIGN_START,
 		LV_FLEX_ALIGN_START,
-		LV_FLEX_ALIGN_CENTER
-	);
+		LV_FLEX_ALIGN_CENTER);
 
 	Style_Init();
-	
+
+#define DEFUALT_QUOTE "When I got enough confidence, the stage was gone. When I was sure of losing,"                      \
+					  "I won. When I needed people the most, they left me. When I learnt to dry my tears, "               \
+					  "I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. " \
+					  "--William Shakespeare"
+
 	Item_Create(
 		&ui.weather,
 		root,
 		"Weather",
 		"weather",
-	
-		"it fetch weather and clock data from webserver for every 5 minutes,make sure to open you wifi before using it >_"
-	);
+
+		"it fetch weather and clock data from webserver for every 5 minutes,"
+		"make sure to open you wifi before using it >_");
 
 	Item_Create(
 		&ui.clock,
 		root,
-		"Clock",
+		"SimpleClock",
 		"clock",
-	
-		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
-	);
+		DEFUALT_QUOTE);
 
 	Item_Create(
 		&ui.heart,
 		root,
-		"HeartBeat",
+		"Altitude",
 		"monitor",
-	
-		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
-	);
-	
-	
+
+		DEFUALT_QUOTE);
 
 	Item_Create(
-		&ui.gametetris,
+		&ui.gamelist,
 		root,
-		"GameTetris",
+		"GameCenter",
 		"playboy",
-	
-		"I wrote this game for one and a half day,though it work fine on my PC,it still would crash on this device XD"
-	);
-	
-	Item_Create(
-		&ui.gamecat,
-		root,
-		"GameCat",
-		"vr",
-	
-		"a game ported from Arduboy,move left/right to control the cat and win score through bounce the snow,just have a happy holiday"
-	);
-	
-	Item_Create(
-		&ui.game3d,
-		root,
-		"Game3d",
-		"joystick",
-	
-		"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
-	);
-	
-Item_Create(
-		&ui.cubedemo,
-		root,
-		"DemoCube",
-		"mc",
 
-		"push th encoder first and rotate to scale cube, the second press will exit the program"
-	);
-	// 编码器第一次按下会聚焦到方块上第二次按下退出程序
+		"I wrote this game for one and a half day,"
+		"though it work fine on my PC,"
+		"it still would crash on this device XD");
 
 	Item_Create(
 		&ui.terminal,
@@ -96,8 +67,8 @@ Item_Create(
 		"Terminal",
 		"terminal",
 
-		"a terminal app used to record the running logs/informations since the device boot from startup"
-	);
+		"a terminal app used to record the running logs/informations "
+		"since the device boot from startup");
 	// 用于显示设备从开机启动依赖的日志和运行信息
 
 	Item_Create(
@@ -106,8 +77,8 @@ Item_Create(
 		"SystemInfo",
 		"system",
 
-		"get insight to the system and device, gyrometers and accelermeter,wifi,storge,author infomation etc"
-	);
+		"get insight to the system and device, gyrometers and "
+		"accelermeter,wifi,storge,author infomation etc");
 
 	Item_Create(
 		&ui.settings,
@@ -115,99 +86,7 @@ Item_Create(
 		"Settings",
 		"setting",
 
-		"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
-	);
-	// Item_Create(
-	// 	&ui.fandisplay,
-	// 	root,
-	// 	"fandisplay",
-	// 	"zhihu",
-	
-	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	// );
-	
-	
-
-	// Item_Create(
-	// 	&ui.cubedemo,
-	// 	root,
-	// 	"CubeDemo",
-	// 	"sandbox",
-
-	// 	"Men at some time are masters of their fates. The fault, dear Brutus, is not in our"
-	// );
-
-	// Item_Create(
-	// 	&ui.terminal,
-	// 	root,
-	// 	"Terminal",
-	// 	"terminal",
-
-	// 	"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
-	// );
-
-	// Item_Create(
-	// 	&ui.pictures,
-	// 	root,
-	// 	"SystemInfo",
-	// 	"system",
-
-	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	// );
-
-	// Item_Create(
-	// 	&ui.settings,
-	// 	root,
-	// 	"Settings",
-	// 	"setting",
-
-	// 	"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me."
-	// );
-
-	// Item_Create(
-	// 	&ui.filemanager,
-	// 	root,
-	// 	"TetrisGame",
-	// 	"playboy",
-	
-	// 	"When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. When I learnt to dry my tears, I found a shoulder to cry on. And when I mastered the art of hating, somebody started loving me. --William Shakespeare"
-	// );
-	
-	// Item_Create(
-	// 	&ui.videoplayer,
-	// 	root,
-	// 	"videoplayer",
-	// 	"video",
-	
-	// 	"Men at some time are masters of their fates. The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings. --William Shakespeare, Julius Caesar"
-	// );
-	
-	// Item_Create(
-	// 	&ui.fandisplay,
-	// 	root,
-	// 	"fandisplay",
-	// 	"zhihu",
-	
-	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	// );
-	
-	// Item_Create(
-	// 	&ui.weather,
-	// 	root,
-	// 	"weather",
-	// 	"weather",
-	
-	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	// );
-	
-	// Item_Create(
-	// 	&ui.clock,
-	// 	root,
-	// 	"clock",
-	// 	"clock",
-	
-	// 	"Never play with the feelings of others, because you may win the game but the risk is that you will surely lose the person for life time"
-	// );
+		DEFUALT_QUOTE);
 
 	Group_Init();
 }
@@ -218,12 +97,12 @@ void AppListView::Group_Init()
 	lv_group_set_focus_cb(ui.group, onFocus);
 	lv_indev_set_group(lv_get_indev(LV_INDEV_TYPE_ENCODER), ui.group);
 
-#define APPLIST_DEF(className)\
+#define APPLIST_DEF(className) \
 	lv_group_add_obj(ui.group, ui.className.icon);
 #include "_APPLIST_DEF.inc"
 #undef APPLIST_DEF
-	
-	lv_group_focus_obj(ui.gamecat.icon);
+
+	lv_group_focus_obj(ui.heart.icon);
 }
 
 void AppListView::Delete()
@@ -232,7 +111,7 @@ void AppListView::Delete()
 	Style_Reset();
 }
 
-void AppListView::SetScrollToY(lv_obj_t* obj, lv_coord_t y, lv_anim_enable_t en)
+void AppListView::SetScrollToY(lv_obj_t *obj, lv_coord_t y, lv_anim_enable_t en)
 {
 	lv_coord_t scroll_y = lv_obj_get_scroll_y(obj);
 	lv_coord_t diff = -y + scroll_y;
@@ -240,10 +119,10 @@ void AppListView::SetScrollToY(lv_obj_t* obj, lv_coord_t y, lv_anim_enable_t en)
 	lv_obj_scroll_by(obj, 0, diff, en);
 }
 
-void AppListView::onFocus(lv_group_t* g)
+void AppListView::onFocus(lv_group_t *g)
 {
-	lv_obj_t* icon = lv_group_get_focused(g);
-	lv_obj_t* cont = lv_obj_get_parent(icon);
+	lv_obj_t *icon = lv_group_get_focused(g);
+	lv_obj_t *cont = lv_obj_get_parent(icon);
 	lv_coord_t y = lv_obj_get_y(cont);
 	lv_obj_scroll_to_y(lv_obj_get_parent(cont), y, LV_ANIM_ON);
 }
@@ -258,16 +137,15 @@ void AppListView::Style_Init()
 	lv_style_set_text_color(&style.icon, lv_color_white());
 
 	lv_style_init(&style.focus);
-	lv_style_set_width(&style.focus, 95);
+	lv_style_set_width(&style.focus, 105);
 	lv_style_set_border_side(&style.focus, LV_BORDER_SIDE_RIGHT);
 	lv_style_set_border_width(&style.focus, 2);
 	lv_style_set_border_color(&style.focus, lv_color_hex(0xff0000));
 
 	static const lv_style_prop_t style_prop[] =
-	{
-		LV_STYLE_WIDTH,
-		LV_STYLE_PROP_INV
-	};
+		{
+			LV_STYLE_WIDTH,
+			LV_STYLE_PROP_INV};
 
 	static lv_style_transition_dsc_t trans;
 	lv_style_transition_dsc_init(
@@ -276,8 +154,7 @@ void AppListView::Style_Init()
 		lv_anim_path_overshoot,
 		200,
 		0,
-		nullptr
-	);
+		nullptr);
 	lv_style_set_transition(&style.focus, &trans);
 	lv_style_set_transition(&style.icon, &trans);
 
@@ -299,14 +176,13 @@ void AppListView::Style_Reset()
 }
 
 void AppListView::Item_Create(
-	item_t* item,
-	lv_obj_t* par,
-	const char* name,
-	const char* img_src,
-	const char* infos
-)
+	item_t *item,
+	lv_obj_t *par,
+	const char *name,
+	const char *img_src,
+	const char *infos)
 {
-	lv_obj_t* cont = lv_obj_create(par);
+	lv_obj_t *cont = lv_obj_create(par);
 	lv_obj_remove_style_all(cont);
 	lv_obj_set_width(cont, 220);
 
@@ -314,7 +190,7 @@ void AppListView::Item_Create(
 	item->cont = cont;
 
 	/* icon */
-	lv_obj_t* icon = lv_obj_create(cont);
+	lv_obj_t *icon = lv_obj_create(cont);
 	lv_obj_remove_style_all(icon);
 	lv_obj_clear_flag(icon, LV_OBJ_FLAG_SCROLLABLE);
 
@@ -327,13 +203,12 @@ void AppListView::Item_Create(
 		icon,
 		LV_FLEX_ALIGN_SPACE_AROUND,
 		LV_FLEX_ALIGN_CENTER,
-		LV_FLEX_ALIGN_CENTER
-	);
+		LV_FLEX_ALIGN_CENTER);
 
-	lv_obj_t* img = lv_img_create(icon);
+	lv_obj_t *img = lv_img_create(icon);
 	lv_img_set_src(img, Resource.GetImage(img_src));
 
-	lv_obj_t* label = lv_label_create(icon);
+	lv_obj_t *label = lv_label_create(icon);
 	lv_label_set_text(label, name);
 	item->icon = icon;
 
@@ -355,4 +230,3 @@ void AppListView::Item_Create(
 	lv_obj_set_height(cont, height);
 	lv_obj_set_height(icon, height);
 }
-
