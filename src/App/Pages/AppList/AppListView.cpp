@@ -28,7 +28,7 @@ void AppListView::Create(lv_obj_t *root)
 					  "--William Shakespeare"
 
 	Item_Create(
-		&ui.weather,
+		&ui.Weather,
 		root,
 		"Weather",
 		"weather",
@@ -37,14 +37,24 @@ void AppListView::Create(lv_obj_t *root)
 		"make sure to open you wifi before using it >_");
 
 	Item_Create(
-		&ui.clock,
+		&ui.Clock,
 		root,
 		"SimpleClock",
 		"clock",
 		DEFUALT_QUOTE);
 
+		Item_Create(
+		&ui.MusicDetail,
+		root,
+		"MusicPlayer",
+		"video",
+		// "IMPORTANT!!:you cannot switch from other app to run music player, due to the memory issue."
+		"IMPORTANT!!:you can only open this app from boot start, due to the memory issue."
+		);
+
+
 	Item_Create(
-		&ui.heart,
+		&ui.HeartBeat,
 		root,
 		"Altitude",
 		"monitor",
@@ -52,7 +62,7 @@ void AppListView::Create(lv_obj_t *root)
 		DEFUALT_QUOTE);
 
 	Item_Create(
-		&ui.gamelist,
+		&ui.GameList,
 		root,
 		"GameCenter",
 		"playboy",
@@ -61,18 +71,18 @@ void AppListView::Create(lv_obj_t *root)
 		"though it work fine on my PC,"
 		"it still would crash on this device XD");
 
-	Item_Create(
-		&ui.terminal,
-		root,
-		"Terminal",
-		"terminal",
+	// Item_Create(
+	// 	&ui.Terminal,
+	// 	root,
+	// 	"Terminal",
+	// 	"terminal",
 
-		"a terminal app used to record the running logs/informations "
-		"since the device boot from startup");
-	// 用于显示设备从开机启动依赖的日志和运行信息
+	// 	"a terminal app used to record the running logs/informations "
+	// 	"since the device boot from startup");
+	// // 用于显示设备从开机启动依赖的日志和运行信息
 
 	Item_Create(
-		&ui.sysinfo,
+		&ui.SystemInfos,
 		root,
 		"SystemInfo",
 		"system",
@@ -81,7 +91,7 @@ void AppListView::Create(lv_obj_t *root)
 		"accelermeter,wifi,storge,author infomation etc");
 
 	Item_Create(
-		&ui.settings,
+		&ui.Settings,
 		root,
 		"Settings",
 		"setting",
@@ -102,7 +112,7 @@ void AppListView::Group_Init()
 #include "_APPLIST_DEF.inc"
 #undef APPLIST_DEF
 
-	lv_group_focus_obj(ui.heart.icon);
+	lv_group_focus_obj(ui.MusicDetail.icon);
 }
 
 void AppListView::Delete()

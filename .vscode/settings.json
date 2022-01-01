@@ -10,6 +10,7 @@
         "*.inc": "cpp",
         "glcdfont.c": "cpp",
         "hal.h": "c",
-        "arduino.h": "c"
+        "arduino.h": "c",
+        "lv_100ask_stm32_tool_file_browser.h": "c"
     }
 }

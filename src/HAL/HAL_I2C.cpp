@@ -1,6 +1,8 @@
 #include "HAL/HAL.h"
-#define USE_IIC1
-#define USE_IIC2
+
+//todo
+#undef USE_IIC1
+#undef USE_IIC2
 
 void HAL::I2C_Scan(TwoWire *Wire)
 {

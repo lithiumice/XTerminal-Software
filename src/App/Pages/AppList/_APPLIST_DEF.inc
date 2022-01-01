@@ -1,8 +1,8 @@
-APPLIST_DEF(weather);
-APPLIST_DEF(clock);
-APPLIST_DEF(heart);
-APPLIST_DEF(gamelist);
-// APPLIST_DEF(cubedemo);
-APPLIST_DEF(terminal);
-APPLIST_DEF(sysinfo);
-APPLIST_DEF(settings);
+APPLIST_DEF(Weather);
+APPLIST_DEF(Clock);
+APPLIST_DEF(MusicDetail);
+APPLIST_DEF(HeartBeat);
+APPLIST_DEF(GameList);
+// APPLIST_DEF(Terminal);
+APPLIST_DEF(SystemInfos);
+APPLIST_DEF(Settings);

@@ -33,54 +33,58 @@
  *=========================*/
 
 
-// #if defined(TFT240X320)
-// #define DISP_HOR_RES 320
-// #define DISP_VER_RES 240
-// #define DISP_ROTATE 1
-// #elif defined(TFT240X240)
-// #define DISP_HOR_RES 240
-// #define DISP_VER_RES 240
-// #elif defined(TFT240X280)
-// #define DISP_HOR_RES 280
-// #define DISP_VER_RES 240
-// #endif
+#if defined(TFT240X320)
+#define HOR_RES 320
+#define VER_RES 240
 #define DISP_ROTATE 1
-#if DISP_ROTATE==0
-#define DISP_HOR_RES 240
-#define DISP_VER_RES 280
-#elif DISP_ROTATE==1
-#define DISP_HOR_RES 280
-#define DISP_VER_RES 240
+#elif defined(TFT240X240)
+#define HOR_RES 240
+#define VER_RES 240
+#define DISP_ROTATE 1
+#elif defined(TFT240X280)
+#define HOR_RES 280
+#define VER_RES 240
+#define DISP_ROTATE 1
 #endif
 
-#define DISP_BUF_SIZE (DISP_HOR_RES * DISP_VER_RES / 8) 
+#if DISP_ROTATE==0
+#define DISP_HOR_RES VER_RES
+#define DISP_VER_RES HOR_RES
+#elif DISP_ROTATE==1
+#define DISP_HOR_RES HOR_RES
+#define DISP_VER_RES VER_RES
+#endif
+
+#define DISP_BUF_SIZE (DISP_HOR_RES * DISP_VER_RES / 10) 
 #define CONFIG_BUZZ_CHANNEL 2
 #define CONFIG_SOUND_ENABLE_DEFAULT true
 
 #if defined(DEVICE0)
 
 #define CONFIG_POWER_EN_PIN 21
-#define CONFIG_SD_DET_PIN 22
+#define CONFIG_SD_DET_PIN 37
 #define CONFIG_BUZZ_PIN 5
 #define CONFIG_SCREEN_BLK_PIN 12
 #define CONFIG_BAT_DET_PIN 37
 #define CONFIG_BAT_CHG_DET_PIN 38
-#define CONFIG_IIC1_SDA_PIN 32
-#define CONFIG_IIC1_SCL_PIN 33
+#define CONFIG_IIC1_SDA_PIN -1
+#define CONFIG_IIC1_SCL_PIN -1
 #define CONFIG_IIC2_SDA_PIN 10
 #define CONFIG_IIC2_SCL_PIN 9
 #define CONFIG_ENCODER_DOWN_PIN 34
 #define CONFIG_ENCODER_UP_PIN 35
 #define CONFIG_ENCODER_PUSH_PIN 27
-#define CONFIG_BTN_A_PIN 19
-#define CONFIG_BTN_B_PIN 25
+#define CONFIG_BTN_A_PIN 32
+#define CONFIG_BTN_B_PIN 33
+// #define CONFIG_BTN_A_PIN 19
+// #define CONFIG_BTN_B_PIN 25
 #define CONFIG_SD_CS 15
 #define CONFIG_SPI_MOSI 13
 #define CONFIG_SPI_MISO 26
 #define CONFIG_SPI_SCK 14
-#define CONFIG_I2S_DOUT -1
-#define CONFIG_I2S_BCLK -1
-#define CONFIG_I2S_LRC -1
+#define CONFIG_I2S_DOUT 25
+#define CONFIG_I2S_BCLK 19
+#define CONFIG_I2S_LRC 22
 
 #elif defined(DEVICE3)
 
@@ -90,15 +94,15 @@
 #define CONFIG_SCREEN_BLK_PIN 27
 #define CONFIG_BAT_DET_PIN 39
 #define CONFIG_BAT_CHG_DET_PIN 32
-#define CONFIG_MCU_SDA_PIN 21
-#define CONFIG_MCU_SCL_PIN 22
+#define CONFIG_IIC1_SDA_PIN 15
+#define CONFIG_IIC1_SCL_PIN 2
+#define CONFIG_IIC2_SDA_PIN 21
+#define CONFIG_IIC2_SCL_PIN 22
 #define CONFIG_ENCODER_DOWN_PIN 34
 #define CONFIG_ENCODER_UP_PIN 36
 #define CONFIG_ENCODER_PUSH_PIN 35
 #define CONFIG_BTN_A_PIN -1
 #define CONFIG_BTN_B_PIN -1
-#define CONFIG_PCF_SDA_PIN 15
-#define CONFIG_PCF_SCL_PIN 2
 #define CONFIG_SD_CS 4
 #define CONFIG_SPI_MOSI 15
 #define CONFIG_SPI_MISO 2

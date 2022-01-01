@@ -20,20 +20,23 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include "AppFactory.h"
-#include "Weather/Weather.h"
-#include "SystemInfos/SystemInfos.h"
-#include "StartUp/StartUp.h"
-#include "AppList/AppList.h"
-#include "WifiText/WifiText.h"
-#include "NumTweak/NumTweak.h"
-#include "Settings/Settings.h"
-#include "Clock/Clock.h"
-#include "HeartBeat/HeartBeat.h"
+// #include "AppFactory.h"
+// #include "Weather/Weather.h"
+// #include "SystemInfos/SystemInfos.h"
+// #include "StartUp/StartUp.h"
+// #include "AppList/AppList.h"
+// #include "WifiText/WifiText.h"
+// #include "NumTweak/NumTweak.h"
+// #include "Settings/Settings.h"
+// #include "Clock/Clock.h"
+// #include "HeartBeat/HeartBeat.h"
 
-//game
-#include "GameList/GameList.h"
-#include "GameArduboy/GameArduboy.h"
+// //game
+// #include "GameList/GameList.h"
+// #include "GameArduboy/GameArduboy.h"
+// #include "MusicPlayer/MusicPlayer.h"
+// #include "MusicPlayer/MusicPlayer.h"
+#include "_APP_INC.inc"
 
 PageBase* AppFactory::CreatePage(const char* name)
 {

@@ -16,7 +16,7 @@ static uint16_t Power_ADCValue_last[10] = {4095};
 
 static HAL::Power_CallbackFunction_t Power_EventCallback = NULL;
 
-#define BATT_MAX_VOLTAGE    3900
+#define BATT_MAX_VOLTAGE    4100
 #define BATT_MIN_VOLTAGE    3300
 
 
@@ -154,6 +154,7 @@ void HAL::Power_GetInfo(Power_Info_t* info)
     );
 
     info->usage = usage;
-    info->isCharging = usage != 100 && !digitalRead(CONFIG_BAT_CHG_DET_PIN);
+    info->isCharging = !digitalRead(CONFIG_BAT_CHG_DET_PIN);
+    // info->isCharging = usage != 100 && !digitalRead(CONFIG_BAT_CHG_DET_PIN);
     info->voltage = voltage;
 }

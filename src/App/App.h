@@ -49,6 +49,14 @@ do{\
 void App_Init();
 void App_UnInit();
 void App_Install();
-void App_Remove(std::string app_name);
+void App_UnInstall();   
+
+void App_keep_music();   
+
+void App_remove(const char* app_name);
+void App_install(const char* app_name);
+
+// extern AppFactory factory;
+// extern PageManager manager;
 
 #endif

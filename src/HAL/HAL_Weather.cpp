@@ -2,9 +2,7 @@
 #include "ArduinoJson.h"
 #include <map>
 #include <string>
-#include <App/Accounts/Account_Master.h>
 #include "HAL.h"
-#include "App/Utils/AccountSystem/Account.h"
 
 
 #define TIMEZERO_OFFSIZE (28800000) // 时区偏移(小时) 8*60*60
@@ -18,16 +16,12 @@
 //{"cityid":"101040100","city":"重庆","update_time":"22:52","wea":"晴","wea_img":"qing","tem":"9","tem_day":"16","tem_night":"9","win":"西北风","win_speed":"1级","win_meter":"2km\/h","air":"82"}
 
 ESP32Time esp_rtc;
-uint8_t fisrt_get_weather_flag=0;
-uint8_t fisrt_get_clock_flag=0;
+
 namespace HAL {
     Weather_Info_t weaInfo;
     TimeStamp_t time_stamp_info;
     Time_str_t time_info;
 };
-
-extern  std::map<String, String> city_cn;
-extern std::map<String, String> windir_cn2en;
 
 static int parseWindLevel(String str)
 {
@@ -122,7 +116,7 @@ bool HAL::getWeatherNowUrl(Weather_Info_t* info)
             info->airQulity = parseAirLevel(sk["air"].as<int>());
 
             config_weather_save(info);
-            fisrt_get_weather_flag=1;
+            gflag.fisrt_get_weather_flag=1;
             HAL::weather_url_get_sucess_flag=1;
             ret=true;
         }
@@ -165,7 +159,7 @@ bool HAL::getWeatherWeekUrl(short maxT[], short minT[])
                 maxT[gDW_i] = sk["data"][gDW_i]["tem_day"].as<int>();
                 minT[gDW_i] = sk["data"][gDW_i]["tem_night"].as<int>();
             }
-            fisrt_get_weather_flag=1;
+            gflag.fisrt_get_weather_flag=1;
             ret=true;
         }
     }
@@ -213,7 +207,7 @@ int64_t HAL::getTimestampUrl()
 
             config_clock_save(&time_stamp_info);
             HAL::clock_url_get_sucess_flag=1;
-            fisrt_get_clock_flag=1;
+            gflag.fisrt_get_clock_flag=1;
         }
     }
     else
@@ -231,7 +225,7 @@ int64_t HAL::getTimestampUrl()
 void HAL::Weather_Update()
 {
     HAL::getWeatherNowUrl(&weaInfo);
-    AccountSystem::Weather_Commit(&weaInfo);
+    // AccountSystem::Weather_Commit(&weaInfo);
 }
 
 void HAL::Clock_Update()

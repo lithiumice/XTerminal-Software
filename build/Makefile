@@ -155,6 +155,150 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
 .PHONY : Z_DUMMY_TARGET/fast
 
+lib/Adafruit_AHTX0/Adafruit_AHTX0.obj: lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.obj
+.PHONY : lib/Adafruit_AHTX0/Adafruit_AHTX0.obj
+
+# target to build an object file
+lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.obj
+.PHONY : lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.obj
+
+lib/Adafruit_AHTX0/Adafruit_AHTX0.i: lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.i
+.PHONY : lib/Adafruit_AHTX0/Adafruit_AHTX0.i
+
+# target to preprocess a source file
+lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.i
+.PHONY : lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.i
+
+lib/Adafruit_AHTX0/Adafruit_AHTX0.s: lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.s
+.PHONY : lib/Adafruit_AHTX0/Adafruit_AHTX0.s
+
+# target to generate assembly for a file
+lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.s
+.PHONY : lib/Adafruit_AHTX0/Adafruit_AHTX0.cpp.s
+
+lib/Adafruit_BMP280_Library/Adafruit_BMP280.obj: lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.obj
+.PHONY : lib/Adafruit_BMP280_Library/Adafruit_BMP280.obj
+
+# target to build an object file
+lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.obj
+.PHONY : lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.obj
+
+lib/Adafruit_BMP280_Library/Adafruit_BMP280.i: lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.i
+.PHONY : lib/Adafruit_BMP280_Library/Adafruit_BMP280.i
+
+# target to preprocess a source file
+lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.i
+.PHONY : lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.i
+
+lib/Adafruit_BMP280_Library/Adafruit_BMP280.s: lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.s
+.PHONY : lib/Adafruit_BMP280_Library/Adafruit_BMP280.s
+
+# target to generate assembly for a file
+lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.s
+.PHONY : lib/Adafruit_BMP280_Library/Adafruit_BMP280.cpp.s
+
+lib/Adafruit_BusIO/Adafruit_BusIO_Register.obj: lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.obj
+.PHONY : lib/Adafruit_BusIO/Adafruit_BusIO_Register.obj
+
+# target to build an object file
+lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.obj
+.PHONY : lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.obj
+
+lib/Adafruit_BusIO/Adafruit_BusIO_Register.i: lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.i
+.PHONY : lib/Adafruit_BusIO/Adafruit_BusIO_Register.i
+
+# target to preprocess a source file
+lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.i
+.PHONY : lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.i
+
+lib/Adafruit_BusIO/Adafruit_BusIO_Register.s: lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.s
+.PHONY : lib/Adafruit_BusIO/Adafruit_BusIO_Register.s
+
+# target to generate assembly for a file
+lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.s
+.PHONY : lib/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.s
+
+lib/Adafruit_BusIO/Adafruit_I2CDevice.obj: lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.obj
+.PHONY : lib/Adafruit_BusIO/Adafruit_I2CDevice.obj
+
+# target to build an object file
+lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.obj
+.PHONY : lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.obj
+
+lib/Adafruit_BusIO/Adafruit_I2CDevice.i: lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.i
+.PHONY : lib/Adafruit_BusIO/Adafruit_I2CDevice.i
+
+# target to preprocess a source file
+lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.i
+.PHONY : lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.i
+
+lib/Adafruit_BusIO/Adafruit_I2CDevice.s: lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.s
+.PHONY : lib/Adafruit_BusIO/Adafruit_I2CDevice.s
+
+# target to generate assembly for a file
+lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.s
+.PHONY : lib/Adafruit_BusIO/Adafruit_I2CDevice.cpp.s
+
+lib/Adafruit_BusIO/Adafruit_SPIDevice.obj: lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.obj
+.PHONY : lib/Adafruit_BusIO/Adafruit_SPIDevice.obj
+
+# target to build an object file
+lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.obj
+.PHONY : lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.obj
+
+lib/Adafruit_BusIO/Adafruit_SPIDevice.i: lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.i
+.PHONY : lib/Adafruit_BusIO/Adafruit_SPIDevice.i
+
+# target to preprocess a source file
+lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.i
+.PHONY : lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.i
+
+lib/Adafruit_BusIO/Adafruit_SPIDevice.s: lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.s
+.PHONY : lib/Adafruit_BusIO/Adafruit_SPIDevice.s
+
+# target to generate assembly for a file
+lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.s
+.PHONY : lib/Adafruit_BusIO/Adafruit_SPIDevice.cpp.s
+
+lib/Adafruit_Unified_Sensor/Adafruit_Sensor.obj: lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+.PHONY : lib/Adafruit_Unified_Sensor/Adafruit_Sensor.obj
+
+# target to build an object file
+lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+.PHONY : lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+
+lib/Adafruit_Unified_Sensor/Adafruit_Sensor.i: lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+.PHONY : lib/Adafruit_Unified_Sensor/Adafruit_Sensor.i
+
+# target to preprocess a source file
+lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+.PHONY : lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+
+lib/Adafruit_Unified_Sensor/Adafruit_Sensor.s: lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+.PHONY : lib/Adafruit_Unified_Sensor/Adafruit_Sensor.s
+
+# target to generate assembly for a file
+lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+.PHONY : lib/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+
 lib/Arduino-MPU6050/I2Cdev.obj: lib/Arduino-MPU6050/I2Cdev.cpp.obj
 .PHONY : lib/Arduino-MPU6050/I2Cdev.obj
 
@@ -4163,6 +4307,102 @@ lib/ArduinoJson/extras/tests/catch/catch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ArduinoJson/extras/tests/catch/catch.cpp.s
 .PHONY : lib/ArduinoJson/extras/tests/catch/catch.cpp.s
 
+lib/ESP32-A2DP/src/BluetoothA2DPCommon.obj: lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPCommon.obj
+
+# target to build an object file
+lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.obj
+
+lib/ESP32-A2DP/src/BluetoothA2DPCommon.i: lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.i
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPCommon.i
+
+# target to preprocess a source file
+lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.i
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.i
+
+lib/ESP32-A2DP/src/BluetoothA2DPCommon.s: lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.s
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPCommon.s
+
+# target to generate assembly for a file
+lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.s
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPCommon.cpp.s
+
+lib/ESP32-A2DP/src/BluetoothA2DPSink.obj: lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSink.obj
+
+# target to build an object file
+lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.obj
+
+lib/ESP32-A2DP/src/BluetoothA2DPSink.i: lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.i
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSink.i
+
+# target to preprocess a source file
+lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.i
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.i
+
+lib/ESP32-A2DP/src/BluetoothA2DPSink.s: lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.s
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSink.s
+
+# target to generate assembly for a file
+lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.s
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSink.cpp.s
+
+lib/ESP32-A2DP/src/BluetoothA2DPSource.obj: lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSource.obj
+
+# target to build an object file
+lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.obj
+
+lib/ESP32-A2DP/src/BluetoothA2DPSource.i: lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.i
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSource.i
+
+# target to preprocess a source file
+lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.i
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.i
+
+lib/ESP32-A2DP/src/BluetoothA2DPSource.s: lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.s
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSource.s
+
+# target to generate assembly for a file
+lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.s
+.PHONY : lib/ESP32-A2DP/src/BluetoothA2DPSource.cpp.s
+
+lib/ESP32-A2DP/src/SoundData.obj: lib/ESP32-A2DP/src/SoundData.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/SoundData.obj
+
+# target to build an object file
+lib/ESP32-A2DP/src/SoundData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/SoundData.cpp.obj
+.PHONY : lib/ESP32-A2DP/src/SoundData.cpp.obj
+
+lib/ESP32-A2DP/src/SoundData.i: lib/ESP32-A2DP/src/SoundData.cpp.i
+.PHONY : lib/ESP32-A2DP/src/SoundData.i
+
+# target to preprocess a source file
+lib/ESP32-A2DP/src/SoundData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/SoundData.cpp.i
+.PHONY : lib/ESP32-A2DP/src/SoundData.cpp.i
+
+lib/ESP32-A2DP/src/SoundData.s: lib/ESP32-A2DP/src/SoundData.cpp.s
+.PHONY : lib/ESP32-A2DP/src/SoundData.s
+
+# target to generate assembly for a file
+lib/ESP32-A2DP/src/SoundData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32-A2DP/src/SoundData.cpp.s
+.PHONY : lib/ESP32-A2DP/src/SoundData.cpp.s
+
 lib/ESP32-audioI2S/src/Audio.obj: lib/ESP32-audioI2S/src/Audio.cpp.obj
 .PHONY : lib/ESP32-audioI2S/src/Audio.obj
 
@@ -4306,6 +4546,246 @@ lib/ESP32_FTPServer_SD/ESP32FtpServer.s: lib/ESP32_FTPServer_SD/ESP32FtpServer.c
 lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
 .PHONY : lib/ESP32_FTPServer_SD/ESP32FtpServer.cpp.s
+
+lib/FastLED/FastLED.obj: lib/FastLED/FastLED.cpp.obj
+.PHONY : lib/FastLED/FastLED.obj
+
+# target to build an object file
+lib/FastLED/FastLED.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/FastLED.cpp.obj
+.PHONY : lib/FastLED/FastLED.cpp.obj
+
+lib/FastLED/FastLED.i: lib/FastLED/FastLED.cpp.i
+.PHONY : lib/FastLED/FastLED.i
+
+# target to preprocess a source file
+lib/FastLED/FastLED.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/FastLED.cpp.i
+.PHONY : lib/FastLED/FastLED.cpp.i
+
+lib/FastLED/FastLED.s: lib/FastLED/FastLED.cpp.s
+.PHONY : lib/FastLED/FastLED.s
+
+# target to generate assembly for a file
+lib/FastLED/FastLED.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/FastLED.cpp.s
+.PHONY : lib/FastLED/FastLED.cpp.s
+
+lib/FastLED/bitswap.obj: lib/FastLED/bitswap.cpp.obj
+.PHONY : lib/FastLED/bitswap.obj
+
+# target to build an object file
+lib/FastLED/bitswap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/bitswap.cpp.obj
+.PHONY : lib/FastLED/bitswap.cpp.obj
+
+lib/FastLED/bitswap.i: lib/FastLED/bitswap.cpp.i
+.PHONY : lib/FastLED/bitswap.i
+
+# target to preprocess a source file
+lib/FastLED/bitswap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/bitswap.cpp.i
+.PHONY : lib/FastLED/bitswap.cpp.i
+
+lib/FastLED/bitswap.s: lib/FastLED/bitswap.cpp.s
+.PHONY : lib/FastLED/bitswap.s
+
+# target to generate assembly for a file
+lib/FastLED/bitswap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/bitswap.cpp.s
+.PHONY : lib/FastLED/bitswap.cpp.s
+
+lib/FastLED/colorpalettes.obj: lib/FastLED/colorpalettes.cpp.obj
+.PHONY : lib/FastLED/colorpalettes.obj
+
+# target to build an object file
+lib/FastLED/colorpalettes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/colorpalettes.cpp.obj
+.PHONY : lib/FastLED/colorpalettes.cpp.obj
+
+lib/FastLED/colorpalettes.i: lib/FastLED/colorpalettes.cpp.i
+.PHONY : lib/FastLED/colorpalettes.i
+
+# target to preprocess a source file
+lib/FastLED/colorpalettes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/colorpalettes.cpp.i
+.PHONY : lib/FastLED/colorpalettes.cpp.i
+
+lib/FastLED/colorpalettes.s: lib/FastLED/colorpalettes.cpp.s
+.PHONY : lib/FastLED/colorpalettes.s
+
+# target to generate assembly for a file
+lib/FastLED/colorpalettes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/colorpalettes.cpp.s
+.PHONY : lib/FastLED/colorpalettes.cpp.s
+
+lib/FastLED/colorutils.obj: lib/FastLED/colorutils.cpp.obj
+.PHONY : lib/FastLED/colorutils.obj
+
+# target to build an object file
+lib/FastLED/colorutils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/colorutils.cpp.obj
+.PHONY : lib/FastLED/colorutils.cpp.obj
+
+lib/FastLED/colorutils.i: lib/FastLED/colorutils.cpp.i
+.PHONY : lib/FastLED/colorutils.i
+
+# target to preprocess a source file
+lib/FastLED/colorutils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/colorutils.cpp.i
+.PHONY : lib/FastLED/colorutils.cpp.i
+
+lib/FastLED/colorutils.s: lib/FastLED/colorutils.cpp.s
+.PHONY : lib/FastLED/colorutils.s
+
+# target to generate assembly for a file
+lib/FastLED/colorutils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/colorutils.cpp.s
+.PHONY : lib/FastLED/colorutils.cpp.s
+
+lib/FastLED/hsv2rgb.obj: lib/FastLED/hsv2rgb.cpp.obj
+.PHONY : lib/FastLED/hsv2rgb.obj
+
+# target to build an object file
+lib/FastLED/hsv2rgb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/hsv2rgb.cpp.obj
+.PHONY : lib/FastLED/hsv2rgb.cpp.obj
+
+lib/FastLED/hsv2rgb.i: lib/FastLED/hsv2rgb.cpp.i
+.PHONY : lib/FastLED/hsv2rgb.i
+
+# target to preprocess a source file
+lib/FastLED/hsv2rgb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/hsv2rgb.cpp.i
+.PHONY : lib/FastLED/hsv2rgb.cpp.i
+
+lib/FastLED/hsv2rgb.s: lib/FastLED/hsv2rgb.cpp.s
+.PHONY : lib/FastLED/hsv2rgb.s
+
+# target to generate assembly for a file
+lib/FastLED/hsv2rgb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/hsv2rgb.cpp.s
+.PHONY : lib/FastLED/hsv2rgb.cpp.s
+
+lib/FastLED/lib8tion.obj: lib/FastLED/lib8tion.cpp.obj
+.PHONY : lib/FastLED/lib8tion.obj
+
+# target to build an object file
+lib/FastLED/lib8tion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/lib8tion.cpp.obj
+.PHONY : lib/FastLED/lib8tion.cpp.obj
+
+lib/FastLED/lib8tion.i: lib/FastLED/lib8tion.cpp.i
+.PHONY : lib/FastLED/lib8tion.i
+
+# target to preprocess a source file
+lib/FastLED/lib8tion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/lib8tion.cpp.i
+.PHONY : lib/FastLED/lib8tion.cpp.i
+
+lib/FastLED/lib8tion.s: lib/FastLED/lib8tion.cpp.s
+.PHONY : lib/FastLED/lib8tion.s
+
+# target to generate assembly for a file
+lib/FastLED/lib8tion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/lib8tion.cpp.s
+.PHONY : lib/FastLED/lib8tion.cpp.s
+
+lib/FastLED/noise.obj: lib/FastLED/noise.cpp.obj
+.PHONY : lib/FastLED/noise.obj
+
+# target to build an object file
+lib/FastLED/noise.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/noise.cpp.obj
+.PHONY : lib/FastLED/noise.cpp.obj
+
+lib/FastLED/noise.i: lib/FastLED/noise.cpp.i
+.PHONY : lib/FastLED/noise.i
+
+# target to preprocess a source file
+lib/FastLED/noise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/noise.cpp.i
+.PHONY : lib/FastLED/noise.cpp.i
+
+lib/FastLED/noise.s: lib/FastLED/noise.cpp.s
+.PHONY : lib/FastLED/noise.s
+
+# target to generate assembly for a file
+lib/FastLED/noise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/noise.cpp.s
+.PHONY : lib/FastLED/noise.cpp.s
+
+lib/FastLED/platforms.obj: lib/FastLED/platforms.cpp.obj
+.PHONY : lib/FastLED/platforms.obj
+
+# target to build an object file
+lib/FastLED/platforms.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/platforms.cpp.obj
+.PHONY : lib/FastLED/platforms.cpp.obj
+
+lib/FastLED/platforms.i: lib/FastLED/platforms.cpp.i
+.PHONY : lib/FastLED/platforms.i
+
+# target to preprocess a source file
+lib/FastLED/platforms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/platforms.cpp.i
+.PHONY : lib/FastLED/platforms.cpp.i
+
+lib/FastLED/platforms.s: lib/FastLED/platforms.cpp.s
+.PHONY : lib/FastLED/platforms.s
+
+# target to generate assembly for a file
+lib/FastLED/platforms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/platforms.cpp.s
+.PHONY : lib/FastLED/platforms.cpp.s
+
+lib/FastLED/power_mgt.obj: lib/FastLED/power_mgt.cpp.obj
+.PHONY : lib/FastLED/power_mgt.obj
+
+# target to build an object file
+lib/FastLED/power_mgt.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/power_mgt.cpp.obj
+.PHONY : lib/FastLED/power_mgt.cpp.obj
+
+lib/FastLED/power_mgt.i: lib/FastLED/power_mgt.cpp.i
+.PHONY : lib/FastLED/power_mgt.i
+
+# target to preprocess a source file
+lib/FastLED/power_mgt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/power_mgt.cpp.i
+.PHONY : lib/FastLED/power_mgt.cpp.i
+
+lib/FastLED/power_mgt.s: lib/FastLED/power_mgt.cpp.s
+.PHONY : lib/FastLED/power_mgt.s
+
+# target to generate assembly for a file
+lib/FastLED/power_mgt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/power_mgt.cpp.s
+.PHONY : lib/FastLED/power_mgt.cpp.s
+
+lib/FastLED/wiring.obj: lib/FastLED/wiring.cpp.obj
+.PHONY : lib/FastLED/wiring.obj
+
+# target to build an object file
+lib/FastLED/wiring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/wiring.cpp.obj
+.PHONY : lib/FastLED/wiring.cpp.obj
+
+lib/FastLED/wiring.i: lib/FastLED/wiring.cpp.i
+.PHONY : lib/FastLED/wiring.i
+
+# target to preprocess a source file
+lib/FastLED/wiring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/wiring.cpp.i
+.PHONY : lib/FastLED/wiring.cpp.i
+
+lib/FastLED/wiring.s: lib/FastLED/wiring.cpp.s
+.PHONY : lib/FastLED/wiring.s
+
+# target to generate assembly for a file
+lib/FastLED/wiring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/FastLED/wiring.cpp.s
+.PHONY : lib/FastLED/wiring.cpp.s
 
 lib/MAX30102/src/MAX30105.obj: lib/MAX30102/src/MAX30105.cpp.obj
 .PHONY : lib/MAX30102/src/MAX30105.obj
@@ -13331,6 +13811,102 @@ src/App/Pages/Clock/Clock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/Clock.cpp.s
 .PHONY : src/App/Pages/Clock/Clock.cpp.s
 
+src/App/Pages/Clock/ClockModel.obj: src/App/Pages/Clock/ClockModel.cpp.obj
+.PHONY : src/App/Pages/Clock/ClockModel.obj
+
+# target to build an object file
+src/App/Pages/Clock/ClockModel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/ClockModel.cpp.obj
+.PHONY : src/App/Pages/Clock/ClockModel.cpp.obj
+
+src/App/Pages/Clock/ClockModel.i: src/App/Pages/Clock/ClockModel.cpp.i
+.PHONY : src/App/Pages/Clock/ClockModel.i
+
+# target to preprocess a source file
+src/App/Pages/Clock/ClockModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/ClockModel.cpp.i
+.PHONY : src/App/Pages/Clock/ClockModel.cpp.i
+
+src/App/Pages/Clock/ClockModel.s: src/App/Pages/Clock/ClockModel.cpp.s
+.PHONY : src/App/Pages/Clock/ClockModel.s
+
+# target to generate assembly for a file
+src/App/Pages/Clock/ClockModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Clock/ClockModel.cpp.s
+.PHONY : src/App/Pages/Clock/ClockModel.cpp.s
+
+src/App/Pages/Game2048/Game2048.obj: src/App/Pages/Game2048/Game2048.cpp.obj
+.PHONY : src/App/Pages/Game2048/Game2048.obj
+
+# target to build an object file
+src/App/Pages/Game2048/Game2048.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/Game2048.cpp.obj
+.PHONY : src/App/Pages/Game2048/Game2048.cpp.obj
+
+src/App/Pages/Game2048/Game2048.i: src/App/Pages/Game2048/Game2048.cpp.i
+.PHONY : src/App/Pages/Game2048/Game2048.i
+
+# target to preprocess a source file
+src/App/Pages/Game2048/Game2048.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/Game2048.cpp.i
+.PHONY : src/App/Pages/Game2048/Game2048.cpp.i
+
+src/App/Pages/Game2048/Game2048.s: src/App/Pages/Game2048/Game2048.cpp.s
+.PHONY : src/App/Pages/Game2048/Game2048.s
+
+# target to generate assembly for a file
+src/App/Pages/Game2048/Game2048.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/Game2048.cpp.s
+.PHONY : src/App/Pages/Game2048/Game2048.cpp.s
+
+src/App/Pages/Game2048/lv_100ask_game_2048.obj: src/App/Pages/Game2048/lv_100ask_game_2048.c.obj
+.PHONY : src/App/Pages/Game2048/lv_100ask_game_2048.obj
+
+# target to build an object file
+src/App/Pages/Game2048/lv_100ask_game_2048.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/lv_100ask_game_2048.c.obj
+.PHONY : src/App/Pages/Game2048/lv_100ask_game_2048.c.obj
+
+src/App/Pages/Game2048/lv_100ask_game_2048.i: src/App/Pages/Game2048/lv_100ask_game_2048.c.i
+.PHONY : src/App/Pages/Game2048/lv_100ask_game_2048.i
+
+# target to preprocess a source file
+src/App/Pages/Game2048/lv_100ask_game_2048.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/lv_100ask_game_2048.c.i
+.PHONY : src/App/Pages/Game2048/lv_100ask_game_2048.c.i
+
+src/App/Pages/Game2048/lv_100ask_game_2048.s: src/App/Pages/Game2048/lv_100ask_game_2048.c.s
+.PHONY : src/App/Pages/Game2048/lv_100ask_game_2048.s
+
+# target to generate assembly for a file
+src/App/Pages/Game2048/lv_100ask_game_2048.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/lv_100ask_game_2048.c.s
+.PHONY : src/App/Pages/Game2048/lv_100ask_game_2048.c.s
+
+src/App/Pages/Game2048/lv_100ask_stm32_game_snake.obj: src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.obj
+.PHONY : src/App/Pages/Game2048/lv_100ask_stm32_game_snake.obj
+
+# target to build an object file
+src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.obj
+.PHONY : src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.obj
+
+src/App/Pages/Game2048/lv_100ask_stm32_game_snake.i: src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.i
+.PHONY : src/App/Pages/Game2048/lv_100ask_stm32_game_snake.i
+
+# target to preprocess a source file
+src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.i
+.PHONY : src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.i
+
+src/App/Pages/Game2048/lv_100ask_stm32_game_snake.s: src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.s
+.PHONY : src/App/Pages/Game2048/lv_100ask_stm32_game_snake.s
+
+# target to generate assembly for a file
+src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.s
+.PHONY : src/App/Pages/Game2048/lv_100ask_stm32_game_snake.c.s
+
 src/App/Pages/GameArduboy/Game/Arduboy/Arduboy.obj: src/App/Pages/GameArduboy/Game/Arduboy/Arduboy.cpp.obj
 .PHONY : src/App/Pages/GameArduboy/Game/Arduboy/Arduboy.obj
 
@@ -14531,53 +15107,77 @@ src/App/Pages/HeartBeat/HeartBeat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/HeartBeat/HeartBeat.cpp.s
 .PHONY : src/App/Pages/HeartBeat/HeartBeat.cpp.s
 
-src/App/Pages/MuiscPlayer/MuiscPlayer.obj: src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.obj
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayer.obj
+src/App/Pages/MusicDetail/MusicDetail.obj: src/App/Pages/MusicDetail/MusicDetail.cpp.obj
+.PHONY : src/App/Pages/MusicDetail/MusicDetail.obj
 
 # target to build an object file
-src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.obj
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.obj
+src/App/Pages/MusicDetail/MusicDetail.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicDetail/MusicDetail.cpp.obj
+.PHONY : src/App/Pages/MusicDetail/MusicDetail.cpp.obj
 
-src/App/Pages/MuiscPlayer/MuiscPlayer.i: src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.i
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayer.i
+src/App/Pages/MusicDetail/MusicDetail.i: src/App/Pages/MusicDetail/MusicDetail.cpp.i
+.PHONY : src/App/Pages/MusicDetail/MusicDetail.i
 
 # target to preprocess a source file
-src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.i
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.i
+src/App/Pages/MusicDetail/MusicDetail.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicDetail/MusicDetail.cpp.i
+.PHONY : src/App/Pages/MusicDetail/MusicDetail.cpp.i
 
-src/App/Pages/MuiscPlayer/MuiscPlayer.s: src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.s
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayer.s
+src/App/Pages/MusicDetail/MusicDetail.s: src/App/Pages/MusicDetail/MusicDetail.cpp.s
+.PHONY : src/App/Pages/MusicDetail/MusicDetail.s
 
 # target to generate assembly for a file
-src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.s
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayer.cpp.s
+src/App/Pages/MusicDetail/MusicDetail.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicDetail/MusicDetail.cpp.s
+.PHONY : src/App/Pages/MusicDetail/MusicDetail.cpp.s
 
-src/App/Pages/MuiscPlayer/MuiscPlayerView.obj: src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.obj
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayerView.obj
+src/App/Pages/MusicPlayer/MusicPlayer.obj: src/App/Pages/MusicPlayer/MusicPlayer.cpp.obj
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayer.obj
 
 # target to build an object file
-src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.obj
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.obj
+src/App/Pages/MusicPlayer/MusicPlayer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicPlayer/MusicPlayer.cpp.obj
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayer.cpp.obj
 
-src/App/Pages/MuiscPlayer/MuiscPlayerView.i: src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.i
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayerView.i
+src/App/Pages/MusicPlayer/MusicPlayer.i: src/App/Pages/MusicPlayer/MusicPlayer.cpp.i
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayer.i
 
 # target to preprocess a source file
-src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.i
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.i
+src/App/Pages/MusicPlayer/MusicPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicPlayer/MusicPlayer.cpp.i
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayer.cpp.i
 
-src/App/Pages/MuiscPlayer/MuiscPlayerView.s: src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.s
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayerView.s
+src/App/Pages/MusicPlayer/MusicPlayer.s: src/App/Pages/MusicPlayer/MusicPlayer.cpp.s
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayer.s
 
 # target to generate assembly for a file
-src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.s
-.PHONY : src/App/Pages/MuiscPlayer/MuiscPlayerView.cpp.s
+src/App/Pages/MusicPlayer/MusicPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicPlayer/MusicPlayer.cpp.s
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayer.cpp.s
+
+src/App/Pages/MusicPlayer/MusicPlayerView.obj: src/App/Pages/MusicPlayer/MusicPlayerView.cpp.obj
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayerView.obj
+
+# target to build an object file
+src/App/Pages/MusicPlayer/MusicPlayerView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicPlayer/MusicPlayerView.cpp.obj
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayerView.cpp.obj
+
+src/App/Pages/MusicPlayer/MusicPlayerView.i: src/App/Pages/MusicPlayer/MusicPlayerView.cpp.i
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayerView.i
+
+# target to preprocess a source file
+src/App/Pages/MusicPlayer/MusicPlayerView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicPlayer/MusicPlayerView.cpp.i
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayerView.cpp.i
+
+src/App/Pages/MusicPlayer/MusicPlayerView.s: src/App/Pages/MusicPlayer/MusicPlayerView.cpp.s
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayerView.s
+
+# target to generate assembly for a file
+src/App/Pages/MusicPlayer/MusicPlayerView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/MusicPlayer/MusicPlayerView.cpp.s
+.PHONY : src/App/Pages/MusicPlayer/MusicPlayerView.cpp.s
 
 src/App/Pages/NumTweak/NumTweak.obj: src/App/Pages/NumTweak/NumTweak.cpp.obj
 .PHONY : src/App/Pages/NumTweak/NumTweak.obj
@@ -14795,6 +15395,78 @@ src/App/Pages/SystemInfos/SystemInfosView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/SystemInfos/SystemInfosView.cpp.s
 .PHONY : src/App/Pages/SystemInfos/SystemInfosView.cpp.s
 
+src/App/Pages/Terminal/Terminal.obj: src/App/Pages/Terminal/Terminal.cpp.obj
+.PHONY : src/App/Pages/Terminal/Terminal.obj
+
+# target to build an object file
+src/App/Pages/Terminal/Terminal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.obj
+.PHONY : src/App/Pages/Terminal/Terminal.cpp.obj
+
+src/App/Pages/Terminal/Terminal.i: src/App/Pages/Terminal/Terminal.cpp.i
+.PHONY : src/App/Pages/Terminal/Terminal.i
+
+# target to preprocess a source file
+src/App/Pages/Terminal/Terminal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.i
+.PHONY : src/App/Pages/Terminal/Terminal.cpp.i
+
+src/App/Pages/Terminal/Terminal.s: src/App/Pages/Terminal/Terminal.cpp.s
+.PHONY : src/App/Pages/Terminal/Terminal.s
+
+# target to generate assembly for a file
+src/App/Pages/Terminal/Terminal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/Terminal.cpp.s
+.PHONY : src/App/Pages/Terminal/Terminal.cpp.s
+
+src/App/Pages/Terminal/TerminalModel.obj: src/App/Pages/Terminal/TerminalModel.cpp.obj
+.PHONY : src/App/Pages/Terminal/TerminalModel.obj
+
+# target to build an object file
+src/App/Pages/Terminal/TerminalModel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.obj
+.PHONY : src/App/Pages/Terminal/TerminalModel.cpp.obj
+
+src/App/Pages/Terminal/TerminalModel.i: src/App/Pages/Terminal/TerminalModel.cpp.i
+.PHONY : src/App/Pages/Terminal/TerminalModel.i
+
+# target to preprocess a source file
+src/App/Pages/Terminal/TerminalModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.i
+.PHONY : src/App/Pages/Terminal/TerminalModel.cpp.i
+
+src/App/Pages/Terminal/TerminalModel.s: src/App/Pages/Terminal/TerminalModel.cpp.s
+.PHONY : src/App/Pages/Terminal/TerminalModel.s
+
+# target to generate assembly for a file
+src/App/Pages/Terminal/TerminalModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalModel.cpp.s
+.PHONY : src/App/Pages/Terminal/TerminalModel.cpp.s
+
+src/App/Pages/Terminal/TerminalView.obj: src/App/Pages/Terminal/TerminalView.cpp.obj
+.PHONY : src/App/Pages/Terminal/TerminalView.obj
+
+# target to build an object file
+src/App/Pages/Terminal/TerminalView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.obj
+.PHONY : src/App/Pages/Terminal/TerminalView.cpp.obj
+
+src/App/Pages/Terminal/TerminalView.i: src/App/Pages/Terminal/TerminalView.cpp.i
+.PHONY : src/App/Pages/Terminal/TerminalView.i
+
+# target to preprocess a source file
+src/App/Pages/Terminal/TerminalView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.i
+.PHONY : src/App/Pages/Terminal/TerminalView.cpp.i
+
+src/App/Pages/Terminal/TerminalView.s: src/App/Pages/Terminal/TerminalView.cpp.s
+.PHONY : src/App/Pages/Terminal/TerminalView.s
+
+# target to generate assembly for a file
+src/App/Pages/Terminal/TerminalView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Terminal/TerminalView.cpp.s
+.PHONY : src/App/Pages/Terminal/TerminalView.cpp.s
+
 src/App/Pages/Weather/Weather.obj: src/App/Pages/Weather/Weather.cpp.obj
 .PHONY : src/App/Pages/Weather/Weather.obj
 
@@ -14891,6 +15563,30 @@ src/App/Pages/Weather/love_gif.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/love_gif.c.s
 .PHONY : src/App/Pages/Weather/love_gif.c.s
 
+src/App/Pages/Weather/man_gif.obj: src/App/Pages/Weather/man_gif.c.obj
+.PHONY : src/App/Pages/Weather/man_gif.obj
+
+# target to build an object file
+src/App/Pages/Weather/man_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/man_gif.c.obj
+.PHONY : src/App/Pages/Weather/man_gif.c.obj
+
+src/App/Pages/Weather/man_gif.i: src/App/Pages/Weather/man_gif.c.i
+.PHONY : src/App/Pages/Weather/man_gif.i
+
+# target to preprocess a source file
+src/App/Pages/Weather/man_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/man_gif.c.i
+.PHONY : src/App/Pages/Weather/man_gif.c.i
+
+src/App/Pages/Weather/man_gif.s: src/App/Pages/Weather/man_gif.c.s
+.PHONY : src/App/Pages/Weather/man_gif.s
+
+# target to generate assembly for a file
+src/App/Pages/Weather/man_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/man_gif.c.s
+.PHONY : src/App/Pages/Weather/man_gif.c.s
+
 src/App/Pages/Weather/plus_gif.obj: src/App/Pages/Weather/plus_gif.c.obj
 .PHONY : src/App/Pages/Weather/plus_gif.obj
 
@@ -14938,30 +15634,6 @@ src/App/Pages/Weather/tree_gif.s: src/App/Pages/Weather/tree_gif.c.s
 src/App/Pages/Weather/tree_gif.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/tree_gif.c.s
 .PHONY : src/App/Pages/Weather/tree_gif.c.s
-
-src/App/Pages/Weather/weather_image.obj: src/App/Pages/Weather/weather_image.c.obj
-.PHONY : src/App/Pages/Weather/weather_image.obj
-
-# target to build an object file
-src/App/Pages/Weather/weather_image.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.obj
-.PHONY : src/App/Pages/Weather/weather_image.c.obj
-
-src/App/Pages/Weather/weather_image.i: src/App/Pages/Weather/weather_image.c.i
-.PHONY : src/App/Pages/Weather/weather_image.i
-
-# target to preprocess a source file
-src/App/Pages/Weather/weather_image.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.i
-.PHONY : src/App/Pages/Weather/weather_image.c.i
-
-src/App/Pages/Weather/weather_image.s: src/App/Pages/Weather/weather_image.c.s
-.PHONY : src/App/Pages/Weather/weather_image.s
-
-# target to generate assembly for a file
-src/App/Pages/Weather/weather_image.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Pages/Weather/weather_image.c.s
-.PHONY : src/App/Pages/Weather/weather_image.c.s
 
 src/App/Pages/WifiText/WifiText.obj: src/App/Pages/WifiText/WifiText.cpp.obj
 .PHONY : src/App/Pages/WifiText/WifiText.obj
@@ -15346,6 +16018,54 @@ src/App/Resources/Image/img_src_alarm.s: src/App/Resources/Image/img_src_alarm.c
 src/App/Resources/Image/img_src_alarm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_alarm.c.s
 .PHONY : src/App/Resources/Image/img_src_alarm.c.s
+
+src/App/Resources/Image/img_src_album.obj: src/App/Resources/Image/img_src_album.c.obj
+.PHONY : src/App/Resources/Image/img_src_album.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_album.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_album.c.obj
+.PHONY : src/App/Resources/Image/img_src_album.c.obj
+
+src/App/Resources/Image/img_src_album.i: src/App/Resources/Image/img_src_album.c.i
+.PHONY : src/App/Resources/Image/img_src_album.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_album.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_album.c.i
+.PHONY : src/App/Resources/Image/img_src_album.c.i
+
+src/App/Resources/Image/img_src_album.s: src/App/Resources/Image/img_src_album.c.s
+.PHONY : src/App/Resources/Image/img_src_album.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_album.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_album.c.s
+.PHONY : src/App/Resources/Image/img_src_album.c.s
+
+src/App/Resources/Image/img_src_album_gray.obj: src/App/Resources/Image/img_src_album_gray.c.obj
+.PHONY : src/App/Resources/Image/img_src_album_gray.obj
+
+# target to build an object file
+src/App/Resources/Image/img_src_album_gray.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_album_gray.c.obj
+.PHONY : src/App/Resources/Image/img_src_album_gray.c.obj
+
+src/App/Resources/Image/img_src_album_gray.i: src/App/Resources/Image/img_src_album_gray.c.i
+.PHONY : src/App/Resources/Image/img_src_album_gray.i
+
+# target to preprocess a source file
+src/App/Resources/Image/img_src_album_gray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_album_gray.c.i
+.PHONY : src/App/Resources/Image/img_src_album_gray.c.i
+
+src/App/Resources/Image/img_src_album_gray.s: src/App/Resources/Image/img_src_album_gray.c.s
+.PHONY : src/App/Resources/Image/img_src_album_gray.s
+
+# target to generate assembly for a file
+src/App/Resources/Image/img_src_album_gray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Resources/Image/img_src_album_gray.c.s
+.PHONY : src/App/Resources/Image/img_src_album_gray.c.s
 
 src/App/Resources/Image/img_src_battery.obj: src/App/Resources/Image/img_src_battery.c.obj
 .PHONY : src/App/Resources/Image/img_src_battery.obj
@@ -16379,78 +17099,6 @@ src/App/Utils/ButtonEvent/ButtonEvent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/ButtonEvent/ButtonEvent.cpp.s
 .PHONY : src/App/Utils/ButtonEvent/ButtonEvent.cpp.s
 
-src/App/Utils/MapConv/GPS_Transform/GPS_Transform.obj: src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj
-.PHONY : src/App/Utils/MapConv/GPS_Transform/GPS_Transform.obj
-
-# target to build an object file
-src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj
-.PHONY : src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.obj
-
-src/App/Utils/MapConv/GPS_Transform/GPS_Transform.i: src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.i
-.PHONY : src/App/Utils/MapConv/GPS_Transform/GPS_Transform.i
-
-# target to preprocess a source file
-src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.i
-.PHONY : src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.i
-
-src/App/Utils/MapConv/GPS_Transform/GPS_Transform.s: src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.s
-.PHONY : src/App/Utils/MapConv/GPS_Transform/GPS_Transform.s
-
-# target to generate assembly for a file
-src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.s
-.PHONY : src/App/Utils/MapConv/GPS_Transform/GPS_Transform.c.s
-
-src/App/Utils/MapConv/MapConv.obj: src/App/Utils/MapConv/MapConv.cpp.obj
-.PHONY : src/App/Utils/MapConv/MapConv.obj
-
-# target to build an object file
-src/App/Utils/MapConv/MapConv.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.obj
-.PHONY : src/App/Utils/MapConv/MapConv.cpp.obj
-
-src/App/Utils/MapConv/MapConv.i: src/App/Utils/MapConv/MapConv.cpp.i
-.PHONY : src/App/Utils/MapConv/MapConv.i
-
-# target to preprocess a source file
-src/App/Utils/MapConv/MapConv.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.i
-.PHONY : src/App/Utils/MapConv/MapConv.cpp.i
-
-src/App/Utils/MapConv/MapConv.s: src/App/Utils/MapConv/MapConv.cpp.s
-.PHONY : src/App/Utils/MapConv/MapConv.s
-
-# target to generate assembly for a file
-src/App/Utils/MapConv/MapConv.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/MapConv.cpp.s
-.PHONY : src/App/Utils/MapConv/MapConv.cpp.s
-
-src/App/Utils/MapConv/TileSystem/TileSystem.obj: src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj
-.PHONY : src/App/Utils/MapConv/TileSystem/TileSystem.obj
-
-# target to build an object file
-src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj
-.PHONY : src/App/Utils/MapConv/TileSystem/TileSystem.cpp.obj
-
-src/App/Utils/MapConv/TileSystem/TileSystem.i: src/App/Utils/MapConv/TileSystem/TileSystem.cpp.i
-.PHONY : src/App/Utils/MapConv/TileSystem/TileSystem.i
-
-# target to preprocess a source file
-src/App/Utils/MapConv/TileSystem/TileSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.i
-.PHONY : src/App/Utils/MapConv/TileSystem/TileSystem.cpp.i
-
-src/App/Utils/MapConv/TileSystem/TileSystem.s: src/App/Utils/MapConv/TileSystem/TileSystem.cpp.s
-.PHONY : src/App/Utils/MapConv/TileSystem/TileSystem.s
-
-# target to generate assembly for a file
-src/App/Utils/MapConv/TileSystem/TileSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/MapConv/TileSystem/TileSystem.cpp.s
-.PHONY : src/App/Utils/MapConv/TileSystem/TileSystem.cpp.s
-
 src/App/Utils/PageManager/PM_Anim.obj: src/App/Utils/PageManager/PM_Anim.cpp.obj
 .PHONY : src/App/Utils/PageManager/PM_Anim.obj
 
@@ -16619,30 +17267,6 @@ src/App/Utils/StorageService/StorageService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/StorageService/StorageService.cpp.s
 .PHONY : src/App/Utils/StorageService/StorageService.cpp.s
 
-src/App/Utils/TileConv/TileConv.obj: src/App/Utils/TileConv/TileConv.cpp.obj
-.PHONY : src/App/Utils/TileConv/TileConv.obj
-
-# target to build an object file
-src/App/Utils/TileConv/TileConv.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.obj
-.PHONY : src/App/Utils/TileConv/TileConv.cpp.obj
-
-src/App/Utils/TileConv/TileConv.i: src/App/Utils/TileConv/TileConv.cpp.i
-.PHONY : src/App/Utils/TileConv/TileConv.i
-
-# target to preprocess a source file
-src/App/Utils/TileConv/TileConv.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.i
-.PHONY : src/App/Utils/TileConv/TileConv.cpp.i
-
-src/App/Utils/TileConv/TileConv.s: src/App/Utils/TileConv/TileConv.cpp.s
-.PHONY : src/App/Utils/TileConv/TileConv.s
-
-# target to generate assembly for a file
-src/App/Utils/TileConv/TileConv.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/TileConv/TileConv.cpp.s
-.PHONY : src/App/Utils/TileConv/TileConv.cpp.s
-
 src/App/Utils/Time/DateStrings.obj: src/App/Utils/Time/DateStrings.cpp.obj
 .PHONY : src/App/Utils/Time/DateStrings.obj
 
@@ -16787,6 +17411,78 @@ src/App/Utils/lv_ext/lv_obj_ext_func.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_ext/lv_obj_ext_func.cpp.s
 .PHONY : src/App/Utils/lv_ext/lv_obj_ext_func.cpp.s
 
+src/App/Utils/lv_lib_gif/example_gif.obj: src/App/Utils/lv_lib_gif/example_gif.c.obj
+.PHONY : src/App/Utils/lv_lib_gif/example_gif.obj
+
+# target to build an object file
+src/App/Utils/lv_lib_gif/example_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/example_gif.c.obj
+.PHONY : src/App/Utils/lv_lib_gif/example_gif.c.obj
+
+src/App/Utils/lv_lib_gif/example_gif.i: src/App/Utils/lv_lib_gif/example_gif.c.i
+.PHONY : src/App/Utils/lv_lib_gif/example_gif.i
+
+# target to preprocess a source file
+src/App/Utils/lv_lib_gif/example_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/example_gif.c.i
+.PHONY : src/App/Utils/lv_lib_gif/example_gif.c.i
+
+src/App/Utils/lv_lib_gif/example_gif.s: src/App/Utils/lv_lib_gif/example_gif.c.s
+.PHONY : src/App/Utils/lv_lib_gif/example_gif.s
+
+# target to generate assembly for a file
+src/App/Utils/lv_lib_gif/example_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/example_gif.c.s
+.PHONY : src/App/Utils/lv_lib_gif/example_gif.c.s
+
+src/App/Utils/lv_lib_gif/gifdec.obj: src/App/Utils/lv_lib_gif/gifdec.c.obj
+.PHONY : src/App/Utils/lv_lib_gif/gifdec.obj
+
+# target to build an object file
+src/App/Utils/lv_lib_gif/gifdec.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/gifdec.c.obj
+.PHONY : src/App/Utils/lv_lib_gif/gifdec.c.obj
+
+src/App/Utils/lv_lib_gif/gifdec.i: src/App/Utils/lv_lib_gif/gifdec.c.i
+.PHONY : src/App/Utils/lv_lib_gif/gifdec.i
+
+# target to preprocess a source file
+src/App/Utils/lv_lib_gif/gifdec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/gifdec.c.i
+.PHONY : src/App/Utils/lv_lib_gif/gifdec.c.i
+
+src/App/Utils/lv_lib_gif/gifdec.s: src/App/Utils/lv_lib_gif/gifdec.c.s
+.PHONY : src/App/Utils/lv_lib_gif/gifdec.s
+
+# target to generate assembly for a file
+src/App/Utils/lv_lib_gif/gifdec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/gifdec.c.s
+.PHONY : src/App/Utils/lv_lib_gif/gifdec.c.s
+
+src/App/Utils/lv_lib_gif/lv_gif.obj: src/App/Utils/lv_lib_gif/lv_gif.c.obj
+.PHONY : src/App/Utils/lv_lib_gif/lv_gif.obj
+
+# target to build an object file
+src/App/Utils/lv_lib_gif/lv_gif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/lv_gif.c.obj
+.PHONY : src/App/Utils/lv_lib_gif/lv_gif.c.obj
+
+src/App/Utils/lv_lib_gif/lv_gif.i: src/App/Utils/lv_lib_gif/lv_gif.c.i
+.PHONY : src/App/Utils/lv_lib_gif/lv_gif.i
+
+# target to preprocess a source file
+src/App/Utils/lv_lib_gif/lv_gif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/lv_gif.c.i
+.PHONY : src/App/Utils/lv_lib_gif/lv_gif.c.i
+
+src/App/Utils/lv_lib_gif/lv_gif.s: src/App/Utils/lv_lib_gif/lv_gif.c.s
+.PHONY : src/App/Utils/lv_lib_gif/lv_gif.s
+
+# target to generate assembly for a file
+src/App/Utils/lv_lib_gif/lv_gif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/Utils/lv_lib_gif/lv_gif.c.s
+.PHONY : src/App/Utils/lv_lib_gif/lv_gif.c.s
+
 src/App/icm20602_i2c.obj: src/App/icm20602_i2c.cpp.obj
 .PHONY : src/App/icm20602_i2c.obj
 
@@ -16810,6 +17506,30 @@ src/App/icm20602_i2c.s: src/App/icm20602_i2c.cpp.s
 src/App/icm20602_i2c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/icm20602_i2c.cpp.s
 .PHONY : src/App/icm20602_i2c.cpp.s
+
+src/App/rgb_led.obj: src/App/rgb_led.cpp.obj
+.PHONY : src/App/rgb_led.obj
+
+# target to build an object file
+src/App/rgb_led.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/rgb_led.cpp.obj
+.PHONY : src/App/rgb_led.cpp.obj
+
+src/App/rgb_led.i: src/App/rgb_led.cpp.i
+.PHONY : src/App/rgb_led.i
+
+# target to preprocess a source file
+src/App/rgb_led.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/rgb_led.cpp.i
+.PHONY : src/App/rgb_led.cpp.i
+
+src/App/rgb_led.s: src/App/rgb_led.cpp.s
+.PHONY : src/App/rgb_led.s
+
+# target to generate assembly for a file
+src/App/rgb_led.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/App/rgb_led.cpp.s
+.PHONY : src/App/rgb_led.cpp.s
 
 src/HAL/HAL.obj: src/HAL/HAL.cpp.obj
 .PHONY : src/HAL/HAL.obj
@@ -16931,53 +17651,53 @@ src/HAL/HAL_Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Config.cpp.s
 .PHONY : src/HAL/HAL_Config.cpp.s
 
-src/HAL/HAL_Encoder.obj: src/HAL/HAL_Encoder.cpp.obj
-.PHONY : src/HAL/HAL_Encoder.obj
+src/HAL/HAL_ENC.obj: src/HAL/HAL_ENC.cpp.obj
+.PHONY : src/HAL/HAL_ENC.obj
 
 # target to build an object file
-src/HAL/HAL_Encoder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.obj
-.PHONY : src/HAL/HAL_Encoder.cpp.obj
+src/HAL/HAL_ENC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_ENC.cpp.obj
+.PHONY : src/HAL/HAL_ENC.cpp.obj
 
-src/HAL/HAL_Encoder.i: src/HAL/HAL_Encoder.cpp.i
-.PHONY : src/HAL/HAL_Encoder.i
+src/HAL/HAL_ENC.i: src/HAL/HAL_ENC.cpp.i
+.PHONY : src/HAL/HAL_ENC.i
 
 # target to preprocess a source file
-src/HAL/HAL_Encoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.i
-.PHONY : src/HAL/HAL_Encoder.cpp.i
+src/HAL/HAL_ENC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_ENC.cpp.i
+.PHONY : src/HAL/HAL_ENC.cpp.i
 
-src/HAL/HAL_Encoder.s: src/HAL/HAL_Encoder.cpp.s
-.PHONY : src/HAL/HAL_Encoder.s
+src/HAL/HAL_ENC.s: src/HAL/HAL_ENC.cpp.s
+.PHONY : src/HAL/HAL_ENC.s
 
 # target to generate assembly for a file
-src/HAL/HAL_Encoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_Encoder.cpp.s
-.PHONY : src/HAL/HAL_Encoder.cpp.s
+src/HAL/HAL_ENC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_ENC.cpp.s
+.PHONY : src/HAL/HAL_ENC.cpp.s
 
-src/HAL/HAL_I2C_Scan.obj: src/HAL/HAL_I2C_Scan.cpp.obj
-.PHONY : src/HAL/HAL_I2C_Scan.obj
+src/HAL/HAL_I2C.obj: src/HAL/HAL_I2C.cpp.obj
+.PHONY : src/HAL/HAL_I2C.obj
 
 # target to build an object file
-src/HAL/HAL_I2C_Scan.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.obj
-.PHONY : src/HAL/HAL_I2C_Scan.cpp.obj
+src/HAL/HAL_I2C.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C.cpp.obj
+.PHONY : src/HAL/HAL_I2C.cpp.obj
 
-src/HAL/HAL_I2C_Scan.i: src/HAL/HAL_I2C_Scan.cpp.i
-.PHONY : src/HAL/HAL_I2C_Scan.i
+src/HAL/HAL_I2C.i: src/HAL/HAL_I2C.cpp.i
+.PHONY : src/HAL/HAL_I2C.i
 
 # target to preprocess a source file
-src/HAL/HAL_I2C_Scan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.i
-.PHONY : src/HAL/HAL_I2C_Scan.cpp.i
+src/HAL/HAL_I2C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C.cpp.i
+.PHONY : src/HAL/HAL_I2C.cpp.i
 
-src/HAL/HAL_I2C_Scan.s: src/HAL/HAL_I2C_Scan.cpp.s
-.PHONY : src/HAL/HAL_I2C_Scan.s
+src/HAL/HAL_I2C.s: src/HAL/HAL_I2C.cpp.s
+.PHONY : src/HAL/HAL_I2C.s
 
 # target to generate assembly for a file
-src/HAL/HAL_I2C_Scan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C_Scan.cpp.s
-.PHONY : src/HAL/HAL_I2C_Scan.cpp.s
+src/HAL/HAL_I2C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/HAL/HAL_I2C.cpp.s
+.PHONY : src/HAL/HAL_I2C.cpp.s
 
 src/HAL/HAL_IMU.obj: src/HAL/HAL_IMU.cpp.obj
 .PHONY : src/HAL/HAL_IMU.obj
@@ -17302,6 +18022,24 @@ help:
 	@echo "... Debug"
 	@echo "... Production"
 	@echo "... Z_DUMMY_TARGET"
+	@echo "... lib/Adafruit_AHTX0/Adafruit_AHTX0.obj"
+	@echo "... lib/Adafruit_AHTX0/Adafruit_AHTX0.i"
+	@echo "... lib/Adafruit_AHTX0/Adafruit_AHTX0.s"
+	@echo "... lib/Adafruit_BMP280_Library/Adafruit_BMP280.obj"
+	@echo "... lib/Adafruit_BMP280_Library/Adafruit_BMP280.i"
+	@echo "... lib/Adafruit_BMP280_Library/Adafruit_BMP280.s"
+	@echo "... lib/Adafruit_BusIO/Adafruit_BusIO_Register.obj"
+	@echo "... lib/Adafruit_BusIO/Adafruit_BusIO_Register.i"
+	@echo "... lib/Adafruit_BusIO/Adafruit_BusIO_Register.s"
+	@echo "... lib/Adafruit_BusIO/Adafruit_I2CDevice.obj"
+	@echo "... lib/Adafruit_BusIO/Adafruit_I2CDevice.i"
+	@echo "... lib/Adafruit_BusIO/Adafruit_I2CDevice.s"
+	@echo "... lib/Adafruit_BusIO/Adafruit_SPIDevice.obj"
+	@echo "... lib/Adafruit_BusIO/Adafruit_SPIDevice.i"
+	@echo "... lib/Adafruit_BusIO/Adafruit_SPIDevice.s"
+	@echo "... lib/Adafruit_Unified_Sensor/Adafruit_Sensor.obj"
+	@echo "... lib/Adafruit_Unified_Sensor/Adafruit_Sensor.i"
+	@echo "... lib/Adafruit_Unified_Sensor/Adafruit_Sensor.s"
 	@echo "... lib/Arduino-MPU6050/I2Cdev.obj"
 	@echo "... lib/Arduino-MPU6050/I2Cdev.i"
 	@echo "... lib/Arduino-MPU6050/I2Cdev.s"
@@ -17803,6 +18541,18 @@ help:
 	@echo "... lib/ArduinoJson/extras/tests/catch/catch.obj"
 	@echo "... lib/ArduinoJson/extras/tests/catch/catch.i"
 	@echo "... lib/ArduinoJson/extras/tests/catch/catch.s"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPCommon.obj"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPCommon.i"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPCommon.s"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPSink.obj"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPSink.i"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPSink.s"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPSource.obj"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPSource.i"
+	@echo "... lib/ESP32-A2DP/src/BluetoothA2DPSource.s"
+	@echo "... lib/ESP32-A2DP/src/SoundData.obj"
+	@echo "... lib/ESP32-A2DP/src/SoundData.i"
+	@echo "... lib/ESP32-A2DP/src/SoundData.s"
 	@echo "... lib/ESP32-audioI2S/src/Audio.obj"
 	@echo "... lib/ESP32-audioI2S/src/Audio.i"
 	@echo "... lib/ESP32-audioI2S/src/Audio.s"
@@ -17821,6 +18571,36 @@ help:
 	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.obj"
 	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.i"
 	@echo "... lib/ESP32_FTPServer_SD/ESP32FtpServer.s"
+	@echo "... lib/FastLED/FastLED.obj"
+	@echo "... lib/FastLED/FastLED.i"
+	@echo "... lib/FastLED/FastLED.s"
+	@echo "... lib/FastLED/bitswap.obj"
+	@echo "... lib/FastLED/bitswap.i"
+	@echo "... lib/FastLED/bitswap.s"
+	@echo "... lib/FastLED/colorpalettes.obj"
+	@echo "... lib/FastLED/colorpalettes.i"
+	@echo "... lib/FastLED/colorpalettes.s"
+	@echo "... lib/FastLED/colorutils.obj"
+	@echo "... lib/FastLED/colorutils.i"
+	@echo "... lib/FastLED/colorutils.s"
+	@echo "... lib/FastLED/hsv2rgb.obj"
+	@echo "... lib/FastLED/hsv2rgb.i"
+	@echo "... lib/FastLED/hsv2rgb.s"
+	@echo "... lib/FastLED/lib8tion.obj"
+	@echo "... lib/FastLED/lib8tion.i"
+	@echo "... lib/FastLED/lib8tion.s"
+	@echo "... lib/FastLED/noise.obj"
+	@echo "... lib/FastLED/noise.i"
+	@echo "... lib/FastLED/noise.s"
+	@echo "... lib/FastLED/platforms.obj"
+	@echo "... lib/FastLED/platforms.i"
+	@echo "... lib/FastLED/platforms.s"
+	@echo "... lib/FastLED/power_mgt.obj"
+	@echo "... lib/FastLED/power_mgt.i"
+	@echo "... lib/FastLED/power_mgt.s"
+	@echo "... lib/FastLED/wiring.obj"
+	@echo "... lib/FastLED/wiring.i"
+	@echo "... lib/FastLED/wiring.s"
 	@echo "... lib/MAX30102/src/MAX30105.obj"
 	@echo "... lib/MAX30102/src/MAX30105.i"
 	@echo "... lib/MAX30102/src/MAX30105.s"
@@ -18949,6 +19729,18 @@ help:
 	@echo "... src/App/Pages/Clock/Clock.obj"
 	@echo "... src/App/Pages/Clock/Clock.i"
 	@echo "... src/App/Pages/Clock/Clock.s"
+	@echo "... src/App/Pages/Clock/ClockModel.obj"
+	@echo "... src/App/Pages/Clock/ClockModel.i"
+	@echo "... src/App/Pages/Clock/ClockModel.s"
+	@echo "... src/App/Pages/Game2048/Game2048.obj"
+	@echo "... src/App/Pages/Game2048/Game2048.i"
+	@echo "... src/App/Pages/Game2048/Game2048.s"
+	@echo "... src/App/Pages/Game2048/lv_100ask_game_2048.obj"
+	@echo "... src/App/Pages/Game2048/lv_100ask_game_2048.i"
+	@echo "... src/App/Pages/Game2048/lv_100ask_game_2048.s"
+	@echo "... src/App/Pages/Game2048/lv_100ask_stm32_game_snake.obj"
+	@echo "... src/App/Pages/Game2048/lv_100ask_stm32_game_snake.i"
+	@echo "... src/App/Pages/Game2048/lv_100ask_stm32_game_snake.s"
 	@echo "... src/App/Pages/GameArduboy/Game/Arduboy/Arduboy.obj"
 	@echo "... src/App/Pages/GameArduboy/Game/Arduboy/Arduboy.i"
 	@echo "... src/App/Pages/GameArduboy/Game/Arduboy/Arduboy.s"
@@ -19099,12 +19891,15 @@ help:
 	@echo "... src/App/Pages/HeartBeat/HeartBeat.obj"
 	@echo "... src/App/Pages/HeartBeat/HeartBeat.i"
 	@echo "... src/App/Pages/HeartBeat/HeartBeat.s"
-	@echo "... src/App/Pages/MuiscPlayer/MuiscPlayer.obj"
-	@echo "... src/App/Pages/MuiscPlayer/MuiscPlayer.i"
-	@echo "... src/App/Pages/MuiscPlayer/MuiscPlayer.s"
-	@echo "... src/App/Pages/MuiscPlayer/MuiscPlayerView.obj"
-	@echo "... src/App/Pages/MuiscPlayer/MuiscPlayerView.i"
-	@echo "... src/App/Pages/MuiscPlayer/MuiscPlayerView.s"
+	@echo "... src/App/Pages/MusicDetail/MusicDetail.obj"
+	@echo "... src/App/Pages/MusicDetail/MusicDetail.i"
+	@echo "... src/App/Pages/MusicDetail/MusicDetail.s"
+	@echo "... src/App/Pages/MusicPlayer/MusicPlayer.obj"
+	@echo "... src/App/Pages/MusicPlayer/MusicPlayer.i"
+	@echo "... src/App/Pages/MusicPlayer/MusicPlayer.s"
+	@echo "... src/App/Pages/MusicPlayer/MusicPlayerView.obj"
+	@echo "... src/App/Pages/MusicPlayer/MusicPlayerView.i"
+	@echo "... src/App/Pages/MusicPlayer/MusicPlayerView.s"
 	@echo "... src/App/Pages/NumTweak/NumTweak.obj"
 	@echo "... src/App/Pages/NumTweak/NumTweak.i"
 	@echo "... src/App/Pages/NumTweak/NumTweak.s"
@@ -19132,6 +19927,15 @@ help:
 	@echo "... src/App/Pages/SystemInfos/SystemInfosView.obj"
 	@echo "... src/App/Pages/SystemInfos/SystemInfosView.i"
 	@echo "... src/App/Pages/SystemInfos/SystemInfosView.s"
+	@echo "... src/App/Pages/Terminal/Terminal.obj"
+	@echo "... src/App/Pages/Terminal/Terminal.i"
+	@echo "... src/App/Pages/Terminal/Terminal.s"
+	@echo "... src/App/Pages/Terminal/TerminalModel.obj"
+	@echo "... src/App/Pages/Terminal/TerminalModel.i"
+	@echo "... src/App/Pages/Terminal/TerminalModel.s"
+	@echo "... src/App/Pages/Terminal/TerminalView.obj"
+	@echo "... src/App/Pages/Terminal/TerminalView.i"
+	@echo "... src/App/Pages/Terminal/TerminalView.s"
 	@echo "... src/App/Pages/Weather/Weather.obj"
 	@echo "... src/App/Pages/Weather/Weather.i"
 	@echo "... src/App/Pages/Weather/Weather.s"
@@ -19144,15 +19948,15 @@ help:
 	@echo "... src/App/Pages/Weather/love_gif.obj"
 	@echo "... src/App/Pages/Weather/love_gif.i"
 	@echo "... src/App/Pages/Weather/love_gif.s"
+	@echo "... src/App/Pages/Weather/man_gif.obj"
+	@echo "... src/App/Pages/Weather/man_gif.i"
+	@echo "... src/App/Pages/Weather/man_gif.s"
 	@echo "... src/App/Pages/Weather/plus_gif.obj"
 	@echo "... src/App/Pages/Weather/plus_gif.i"
 	@echo "... src/App/Pages/Weather/plus_gif.s"
 	@echo "... src/App/Pages/Weather/tree_gif.obj"
 	@echo "... src/App/Pages/Weather/tree_gif.i"
 	@echo "... src/App/Pages/Weather/tree_gif.s"
-	@echo "... src/App/Pages/Weather/weather_image.obj"
-	@echo "... src/App/Pages/Weather/weather_image.i"
-	@echo "... src/App/Pages/Weather/weather_image.s"
 	@echo "... src/App/Pages/WifiText/WifiText.obj"
 	@echo "... src/App/Pages/WifiText/WifiText.i"
 	@echo "... src/App/Pages/WifiText/WifiText.s"
@@ -19201,6 +20005,12 @@ help:
 	@echo "... src/App/Resources/Image/img_src_alarm.obj"
 	@echo "... src/App/Resources/Image/img_src_alarm.i"
 	@echo "... src/App/Resources/Image/img_src_alarm.s"
+	@echo "... src/App/Resources/Image/img_src_album.obj"
+	@echo "... src/App/Resources/Image/img_src_album.i"
+	@echo "... src/App/Resources/Image/img_src_album.s"
+	@echo "... src/App/Resources/Image/img_src_album_gray.obj"
+	@echo "... src/App/Resources/Image/img_src_album_gray.i"
+	@echo "... src/App/Resources/Image/img_src_album_gray.s"
 	@echo "... src/App/Resources/Image/img_src_battery.obj"
 	@echo "... src/App/Resources/Image/img_src_battery.i"
 	@echo "... src/App/Resources/Image/img_src_battery.s"
@@ -19330,15 +20140,6 @@ help:
 	@echo "... src/App/Utils/ButtonEvent/ButtonEvent.obj"
 	@echo "... src/App/Utils/ButtonEvent/ButtonEvent.i"
 	@echo "... src/App/Utils/ButtonEvent/ButtonEvent.s"
-	@echo "... src/App/Utils/MapConv/GPS_Transform/GPS_Transform.obj"
-	@echo "... src/App/Utils/MapConv/GPS_Transform/GPS_Transform.i"
-	@echo "... src/App/Utils/MapConv/GPS_Transform/GPS_Transform.s"
-	@echo "... src/App/Utils/MapConv/MapConv.obj"
-	@echo "... src/App/Utils/MapConv/MapConv.i"
-	@echo "... src/App/Utils/MapConv/MapConv.s"
-	@echo "... src/App/Utils/MapConv/TileSystem/TileSystem.obj"
-	@echo "... src/App/Utils/MapConv/TileSystem/TileSystem.i"
-	@echo "... src/App/Utils/MapConv/TileSystem/TileSystem.s"
 	@echo "... src/App/Utils/PageManager/PM_Anim.obj"
 	@echo "... src/App/Utils/PageManager/PM_Anim.i"
 	@echo "... src/App/Utils/PageManager/PM_Anim.s"
@@ -19360,9 +20161,6 @@ help:
 	@echo "... src/App/Utils/StorageService/StorageService.obj"
 	@echo "... src/App/Utils/StorageService/StorageService.i"
 	@echo "... src/App/Utils/StorageService/StorageService.s"
-	@echo "... src/App/Utils/TileConv/TileConv.obj"
-	@echo "... src/App/Utils/TileConv/TileConv.i"
-	@echo "... src/App/Utils/TileConv/TileConv.s"
 	@echo "... src/App/Utils/Time/DateStrings.obj"
 	@echo "... src/App/Utils/Time/DateStrings.i"
 	@echo "... src/App/Utils/Time/DateStrings.s"
@@ -19381,9 +20179,21 @@ help:
 	@echo "... src/App/Utils/lv_ext/lv_obj_ext_func.obj"
 	@echo "... src/App/Utils/lv_ext/lv_obj_ext_func.i"
 	@echo "... src/App/Utils/lv_ext/lv_obj_ext_func.s"
+	@echo "... src/App/Utils/lv_lib_gif/example_gif.obj"
+	@echo "... src/App/Utils/lv_lib_gif/example_gif.i"
+	@echo "... src/App/Utils/lv_lib_gif/example_gif.s"
+	@echo "... src/App/Utils/lv_lib_gif/gifdec.obj"
+	@echo "... src/App/Utils/lv_lib_gif/gifdec.i"
+	@echo "... src/App/Utils/lv_lib_gif/gifdec.s"
+	@echo "... src/App/Utils/lv_lib_gif/lv_gif.obj"
+	@echo "... src/App/Utils/lv_lib_gif/lv_gif.i"
+	@echo "... src/App/Utils/lv_lib_gif/lv_gif.s"
 	@echo "... src/App/icm20602_i2c.obj"
 	@echo "... src/App/icm20602_i2c.i"
 	@echo "... src/App/icm20602_i2c.s"
+	@echo "... src/App/rgb_led.obj"
+	@echo "... src/App/rgb_led.i"
+	@echo "... src/App/rgb_led.s"
 	@echo "... src/HAL/HAL.obj"
 	@echo "... src/HAL/HAL.i"
 	@echo "... src/HAL/HAL.s"
@@ -19399,12 +20209,12 @@ help:
 	@echo "... src/HAL/HAL_Config.obj"
 	@echo "... src/HAL/HAL_Config.i"
 	@echo "... src/HAL/HAL_Config.s"
-	@echo "... src/HAL/HAL_Encoder.obj"
-	@echo "... src/HAL/HAL_Encoder.i"
-	@echo "... src/HAL/HAL_Encoder.s"
-	@echo "... src/HAL/HAL_I2C_Scan.obj"
-	@echo "... src/HAL/HAL_I2C_Scan.i"
-	@echo "... src/HAL/HAL_I2C_Scan.s"
+	@echo "... src/HAL/HAL_ENC.obj"
+	@echo "... src/HAL/HAL_ENC.i"
+	@echo "... src/HAL/HAL_ENC.s"
+	@echo "... src/HAL/HAL_I2C.obj"
+	@echo "... src/HAL/HAL_I2C.i"
+	@echo "... src/HAL/HAL_I2C.s"
 	@echo "... src/HAL/HAL_IMU.obj"
 	@echo "... src/HAL/HAL_IMU.i"
 	@echo "... src/HAL/HAL_IMU.s"

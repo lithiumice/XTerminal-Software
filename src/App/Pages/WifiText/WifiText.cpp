@@ -8,7 +8,6 @@ WifiText::WifiText()
 
 WifiText::~WifiText()
 {
-
 }
 
 void WifiText::onCustomAttrConfig()
@@ -37,11 +36,11 @@ void WifiText::onViewLoad()
 	lv_obj_set_style_radius(ui.pwd_textarea, 0, 0);
 	// lv_obj_add_event_cb(ui.pwd_textarea, ta_event_cb, LV_EVENT_ALL, NULL);
 	lv_obj_add_flag(ui.pwd_textarea, LV_OBJ_FLAG_HIDDEN);
-	if (LV_HOR_RES == 240)
-	{
-		// lv_obj_set_height(ui.pwd_textarea, 25);
-		lv_obj_align(ui.pwd_textarea, LV_ALIGN_TOP_MID, 0, 22 + 30);
-	}
+	// if (LV_HOR_RES == 240)
+	// {
+	// lv_obj_set_height(ui.pwd_textarea, 25);
+	lv_obj_align(ui.pwd_textarea, LV_ALIGN_TOP_MID, 0, 22 + 30);
+	// }
 
 	ui.pwd_label = lv_label_create(root);
 	lv_label_set_text(ui.pwd_label, "wifi passwd:");
@@ -62,11 +61,11 @@ void WifiText::onViewLoad()
 	lv_obj_set_style_radius(ui.name_textarea, 0, 0);
 	// lv_obj_add_event_cb(ui.name_textarea, ta_event_cb, LV_EVENT_ALL, NULL);
 	lv_obj_add_flag(ui.name_textarea, LV_OBJ_FLAG_HIDDEN);
-	if (LV_HOR_RES == 240)
-	{
-		// lv_obj_set_height(ui.name_textarea, 25);
-		lv_obj_align(ui.name_textarea, LV_ALIGN_TOP_MID, 0, 22 + 30);
-	}
+	// if (LV_HOR_RES == 240)
+	// {
+	// lv_obj_set_height(ui.name_textarea, 25);
+	lv_obj_align(ui.name_textarea, LV_ALIGN_TOP_MID, 0, 22 + 30);
+	// }
 
 	ui.name_label = lv_label_create(root);
 	lv_label_set_text(ui.name_label, "wifi name:");
@@ -80,10 +79,10 @@ void WifiText::onViewLoad()
 	lv_group_add_obj(ui.group, kb);
 	lv_group_focus_obj(kb);
 
-	if (LV_HOR_RES == 240)
-	{
-		lv_obj_set_size(kb, LV_HOR_RES, LV_VER_RES / 2);
-	}
+	// if (LV_HOR_RES == 240)
+	// {
+	lv_obj_set_size(kb, LV_HOR_RES, LV_VER_RES / 2);
+	// }
 
 	AttachEvent(root);
 	AttachEvent(ui.name_textarea);
@@ -92,14 +91,13 @@ void WifiText::onViewLoad()
 
 void WifiText::onViewDidLoad()
 {
-
 }
 
 void WifiText::onViewWillAppear()
 {
 	lv_indev_set_group(lv_get_indev(LV_INDEV_TYPE_ENCODER), ui.group);
 	StatusBar::SetStyle(StatusBar::STYLE_TRANSP);
-	
+
 	lv_obj_set_style_bg_color(root, lv_color_white(), LV_PART_MAIN);
 
 	timer = lv_timer_create(onTimerUpdate, 500, this);
@@ -107,7 +105,7 @@ void WifiText::onViewWillAppear()
 
 	lv_obj_fade_in(root, 300, 0);
 
-	if (HAL::wifi_name_passswd==WIFI_SET_PWD)
+	if (HAL::wifi_name_passswd == WIFI_SET_PWD)
 	{
 		lv_obj_add_flag(ui.name_textarea, LV_OBJ_FLAG_HIDDEN);
 		lv_obj_add_flag(ui.name_label, LV_OBJ_FLAG_HIDDEN);
@@ -116,7 +114,7 @@ void WifiText::onViewWillAppear()
 		lv_obj_clear_flag(ui.pwd_label, LV_OBJ_FLAG_HIDDEN);
 		lv_keyboard_set_textarea(kb, ui.pwd_textarea);
 	}
-	else if (HAL::wifi_name_passswd==WIFI_SET_NAME)
+	else if (HAL::wifi_name_passswd == WIFI_SET_NAME)
 	{
 		lv_obj_add_flag(ui.pwd_textarea, LV_OBJ_FLAG_HIDDEN);
 		lv_obj_add_flag(ui.pwd_label, LV_OBJ_FLAG_HIDDEN);
@@ -125,7 +123,6 @@ void WifiText::onViewWillAppear()
 		lv_obj_clear_flag(ui.name_label, LV_OBJ_FLAG_HIDDEN);
 		lv_keyboard_set_textarea(kb, ui.name_textarea);
 	}
-
 }
 
 void WifiText::onViewDidAppear()
@@ -149,7 +146,7 @@ void WifiText::onViewDidUnload()
 	// Model.DeInit();
 }
 
-void WifiText::AttachEvent(lv_obj_t* obj)
+void WifiText::AttachEvent(lv_obj_t *obj)
 {
 	lv_obj_set_user_data(obj, this);
 	lv_obj_add_event_cb(obj, onEvent, LV_EVENT_ALL, this);
@@ -157,33 +154,31 @@ void WifiText::AttachEvent(lv_obj_t* obj)
 
 void WifiText::Update()
 {
-	
 }
 
-void WifiText::onTimerUpdate(lv_timer_t* timer)
+void WifiText::onTimerUpdate(lv_timer_t *timer)
 {
-	WifiText* instance = (WifiText*)timer->user_data;
+	WifiText *instance = (WifiText *)timer->user_data;
 	instance->Update();
 }
 
-void WifiText::onEvent(lv_event_t* event)
+void WifiText::onEvent(lv_event_t *event)
 {
-	lv_obj_t* obj = lv_event_get_target(event);
+	lv_obj_t *obj = lv_event_get_target(event);
 	lv_event_code_t code = lv_event_get_code(event);
-	auto* instance = (WifiText*)lv_obj_get_user_data(obj);
+	auto *instance = (WifiText *)lv_obj_get_user_data(obj);
 
 	if (code == LV_EVENT_RELEASED)
 	{
-        HAL::TerminalPrintln("WifiText LV_EVENT_PRESSED");
+		HAL::TerminalPrintln("WifiText LV_EVENT_PRESSED");
 		instance->Manager->Pop();
 	}
 	else if (
-		code == LV_EVENT_READY||
-		code == LV_EVENT_LONG_PRESSED||
-		code == LV_EVENT_CLICKED||
-		code == LV_EVENT_FOCUSED
-		) {
-
+		code == LV_EVENT_READY ||
+		code == LV_EVENT_LONG_PRESSED ||
+		code == LV_EVENT_CLICKED ||
+		code == LV_EVENT_FOCUSED)
+	{
 
 		String text = lv_textarea_get_text(obj);
 		LV_LOG_USER("Ready, current text: %s", text.c_str());

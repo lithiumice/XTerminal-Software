@@ -38,12 +38,16 @@ void Startup::onViewWillAppear()
 
 void Startup::onViewDidAppear()
 {
-    
+
 }
 
 void Startup::onViewWillDisappear()
 {
     StatusBar::Appear(true);
+
+        #ifdef ARDUINO
+	HAL::SD_Init();
+#endif
 }
 
 void Startup::onViewDidDisappear()

@@ -22,7 +22,7 @@
 
 Adafruit_BMP280 bmp; // use I2C interface
 Adafruit_Sensor *bmp_temp = bmp.getTemperatureSensor();
-Adafruit_Sensor *bmp_pressure = bmp.getPressureSensor();
+Adafruit_Sensor *gvar.bmp_pressure = bmp.getPressureSensor();
 
 void setup() {
   Serial.begin(9600);

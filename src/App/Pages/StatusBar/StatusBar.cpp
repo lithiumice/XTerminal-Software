@@ -140,6 +140,13 @@ static void StatusBar_Update(lv_timer_t* timer)
     lv_obj_clear_flag(ui.imgWifi, LV_OBJ_FLAG_HIDDEN);
     lv_obj_clear_flag(ui.imgBT, LV_OBJ_FLAG_HIDDEN);
 
+	lv_label_set_text_fmt(
+		ui.labelClock,
+		"%02d:%02d",
+		HAL::time_info.hour, 
+        HAL::time_info.minute
+	);
+
     /* wifi */
     static uint8_t wifi_last_status = 0;
     static uint8_t wifi_cur_status = 0;
@@ -171,7 +178,6 @@ static void StatusBar_Update(lv_timer_t* timer)
     actStatusBar->Pull("Power", &power, sizeof(power));
     lv_label_set_text_fmt(ui.battery.label, "%d%%", power.usage);
 
-    // bool Is_BattCharging = 1;
     bool Is_BattCharging = power.isCharging;
     lv_obj_t* contBatt = ui.battery.objUsage;
     static bool Is_BattChargingAnimActive = false;

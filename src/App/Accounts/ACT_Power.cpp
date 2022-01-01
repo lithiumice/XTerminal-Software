@@ -56,5 +56,5 @@ ACCOUNT_INIT_DEF(Power)
 {
     account->Subscribe("MusicPlayer");
     account->SetEventCallback(onEvent);
-    account->SetTimerPeriod(500);
+    account->SetTimerPeriod(400);
 }

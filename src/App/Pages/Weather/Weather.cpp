@@ -6,7 +6,7 @@
 using namespace Page;
 extern std::map<String, int> weather_str2int;
 extern String *ari_level_int2str;
-uint8_t anim_img_select = 0;
+uint8_t anim_img_select = 1;
 #define MAX_ANIM_IMG_NUM 4 
 
 Weather::Weather()
@@ -19,8 +19,9 @@ Weather::~Weather()
 
 void Weather::onCustomAttrConfig()
 {
-    SetCustomCacheEnable(true);
-    SetCustomLoadAnimType(PageManager::LOAD_ANIM_OVER_BOTTOM, 500, lv_anim_path_bounce);
+    // SetCustomCacheEnable(true);
+    // SetCustomLoadAnimType(PageManager::LOAD_ANIM_FADE_ON, 500, lv_anim_path_bounce);
+    // SetCustomLoadAnimType(PageManager::LOAD_ANIM_OVER_BOTTOM, 500, lv_anim_path_bounce);
 }
 
 void Weather::onViewLoad()
@@ -49,7 +50,6 @@ void Weather::onViewWillAppear()
 
 #ifdef ARDUINO
     notifyUrlThread();
-    HAL::parseTimeStamp(HAL::getTimestampLocal());
 #endif
 
     updateClockInfo();
@@ -156,7 +156,6 @@ void Weather::updateWeather()
 void Weather::Update()
 {
     __IntervalExecute(updateSpaceImg(), 50);
-    // __IntervalExecute(updateSpaceImg(), 60);
     __IntervalExecute(updateSeconds(), 1000);
     __IntervalExecute(updateWeather(), 1000 * 5);
     __IntervalExecute(notifyUrlThread(), (1000 * 60 * HAL::config.update_weather_interval_minute));

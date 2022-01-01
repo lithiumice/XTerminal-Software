@@ -26,37 +26,12 @@ void Settings::onCustomAttrConfig()
 	SetCustomCacheEnable(true);
 	SetCustomLoadAnimType(PageManager::LOAD_ANIM_OVER_BOTTOM, 500, lv_anim_path_bounce);
 }
-
-#define ListAddItem(icon, name)                                         \
-	{                                                                   \
-		ui.name = lv_list_add_btn(ui.list1, icon, #name);               \
-		lv_obj_set_style_text_font(ui.name, &lv_font_montserrat_14, 0); \
-		lv_obj_set_style_text_color(ui.name, lv_color_white(), 0);      \
-		lv_group_add_obj(ui.group, ui.name);                            \
-		lv_obj_set_style_bg_color(ui.name, lv_color_black(), 0);        \
-	}
-#define ListAddText(name)                                            \
-	{                                                                \
-		lv_obj_t *name = lv_list_add_text(ui.list1, #name);          \
-		lv_obj_set_style_text_font(name, &lv_font_montserrat_12, 0); \
-		lv_obj_set_style_text_color(name, lv_color_white(), 0);      \
-		lv_obj_set_style_bg_color(name, lv_color_black(), 0);        \
-	}
-#define ListAddOption(icon, name)                                                                    \
-	{                                                                                                \
-		ListAddItem(icon, name);                                                                     \
-		ui.name##_sw = lv_switch_create(ui.name);                                                    \
-		lv_group_add_obj(ui.group, ui.name##_sw);                                                    \
-		lv_obj_set_height(ui.name##_sw, lv_pct(90));                                                 \
-		lv_obj_align(ui.name##_sw, LV_ALIGN_RIGHT_MID, 0, 0);                                        \
-		lv_obj_set_style_bg_color(ui.name##_sw, lv_palette_main(LV_PALETTE_RED), LV_PART_INDICATOR); \
-		lv_obj_set_style_bg_color(ui.name##_sw, lv_palette_main(LV_PALETTE_GREY), 0);                \
-		lv_obj_add_state(ui.name##_sw, LV_STATE_CHECKED);                                            \
-	}
+#include "../../Lvgl_Wrapper.h"
 
 void Settings::onViewLoad()
 {
 	lv_obj_remove_style_all(root);
+	
 	lv_obj_set_size(root, LV_HOR_RES, LV_VER_RES);
 	StatusBar::SetStyle(StatusBar::STYLE_BLACK);
 	lv_obj_set_style_bg_color(root, lv_color_black(), 0);
@@ -84,16 +59,6 @@ void Settings::onViewLoad()
 #undef SET_DEF3
 #undef SET_DEF2
 #undef SET_DEF
-
-	// lv_obj_t *sw = lv_switch_create(ui.EnDataUpload);
-	// lv_group_add_obj(ui.group, sw);
-	// // lv_obj_set_width(sw, 75);
-	// lv_obj_set_height(sw, lv_pct(90));
-	// lv_obj_align(sw, LV_ALIGN_RIGHT_MID, 0, 0);
-	// lv_obj_set_style_bg_color(sw, lv_palette_main(LV_PALETTE_RED), LV_PART_INDICATOR);
-	// lv_obj_set_style_bg_color(sw, lv_palette_main(LV_PALETTE_GREY), 0);
-	// lv_obj_add_state(sw, LV_STATE_CHECKED);
-	// // lv_obj_add_event_cb(sw, event_handler, LV_EVENT_ALL, NULL);
 }
 
 void Settings::onViewDidLoad()
@@ -157,7 +122,6 @@ void Settings::onEvent(lv_event_t *event)
 	lv_event_code_t code = lv_event_get_code(event);
 	auto *instance = (Settings *)lv_obj_get_user_data(obj);
 
-#ifdef ARDUINO
 
 	if (code == LV_EVENT_RELEASED)
 	{
@@ -167,39 +131,41 @@ void Settings::onEvent(lv_event_t *event)
 		}
 		else if (obj == instance->ui.ReconnectWifi)
 		{
-			HAL::I2C_Scan(&Wire1);
 			// HAL::IMU_Calibrate();
-			// 			HAL::wifi_connect();
-			// HAL::IMU_Init();
-			delay(50);
-			HAL::IMU_Update();
+#ifdef ARDUINO
+						HAL::wifi_connect();
+#endif
+			
 		}
-		else if (obj == instance->ui.WifiSmarConfig)
-		{
-			HAL::wifi_smartConfig();
-		}
+		// else if (obj == instance->ui.WifiSmarConfig)
+		// {
+		// 	HAL::wifi_smartConfig();
+		// }
 		else if (obj == instance->ui.RestartDevice)
 		{
+#ifdef ARDUINO
 			ESP.restart();
+#endif
 		}
 		else if (obj == instance->ui.RestoreConfig)
 		{
+#ifdef ARDUINO
 			HAL::config_clear();
 			ESP.restart();
+#endif
 		}
 		else if (obj == instance->ui.ModifyBlackLight)
 		{
-			// uint8_t num_tweak_type = BLACKLIGHT;
-			// instance->Manager->Push("Pages/NumTweak");
-			listDir(SD, "/", 0);
+			uint8_t num_tweak_type = BLACKLIGHT;
+			instance->Manager->Push("Pages/NumTweak");
 		}
 
-		else if (obj == instance->ui.UrlUpdateInterval)
-		{
-			audio_start();
-			// uint8_t num_tweak_type = BLACKLIGHT;
-			// instance->Manager->Push("Pages/NumTweak");
-		}
+		// else if (obj == instance->ui.UrlUpdateInterval)
+		// {
+		// 	audio_start();
+		// 	// uint8_t num_tweak_type = BLACKLIGHT;
+		// 	// instance->Manager->Push("Pages/NumTweak");
+		// }
 		else if (obj == instance->ui.ModifyWifiName)
 		{
 			HAL::wifi_name_passswd = WIFI_SET_NAME;
@@ -211,13 +177,10 @@ void Settings::onEvent(lv_event_t *event)
 			instance->Manager->Push("Pages/WifiText");
 		}
 
-		HAL::TerminalPrintln("Pictures LV_EVENT_PRESSED");
 	}
 	else if (code == LV_EVENT_LONG_PRESSED)
 	{
-		HAL::TerminalPrintln("Pictures LV_EVENT_LONG_PRESSED");
 		instance->Manager->Pop();
 	}
-#endif
 
 }

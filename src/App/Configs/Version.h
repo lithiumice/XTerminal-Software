@@ -24,10 +24,10 @@
 #define __VERSION_H
 
 /* Firmware Version */
-#define VERSION_FIRMWARE_NAME   "[LithiumPeak]"
-#define VERSION_SOFTWARE        "v1.0"
-#define VERSION_HARDWARE        "v1.0"
-#define VERSION_AUTHOR_NAME     "lithiumice"
+#define VERSION_FIRMWARE_NAME   "[XTerminal]"
+#define VERSION_SOFTWARE        "v1.0.2"
+#define VERSION_HARDWARE        "v1.0.1"
+#define VERSION_AUTHOR_NAME     "lithiumice(LHL)"
 
 /* Number to string macro */
 #define _VERSION_NUM_TO_STR_(n)  #n

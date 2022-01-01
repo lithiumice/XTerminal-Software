@@ -3,7 +3,7 @@
 #include "App/Configs/Version.h"
 #include "HAL/HAL.h"
 using namespace Page;
-uint64_t enter_time=0;
+uint64_t enter_time = 0;
 extern uint8_t anim_img_select;
 
 AppList::AppList()
@@ -12,12 +12,10 @@ AppList::AppList()
 
 AppList::~AppList()
 {
-
 }
 
 void AppList::onCustomAttrConfig()
 {
-
 }
 
 void AppList::onViewLoad()
@@ -27,7 +25,7 @@ void AppList::onViewLoad()
 	View.Create(root);
 	AttachEvent(root);
 
-#define APPLIST_DEF(className)\
+#define APPLIST_DEF(className) \
 	AttachEvent(View.ui.className.icon);
 #include "_APPLIST_DEF.inc"
 #undef APPLIST_DEF
@@ -35,6 +33,9 @@ void AppList::onViewLoad()
 
 void AppList::onViewDidLoad()
 {
+// #ifdef ARDUINO
+// 	HAL::SD_Init();
+// #endif
 }
 
 void AppList::onViewWillAppear()
@@ -69,7 +70,7 @@ void AppList::onViewDidUnload()
 	View.Delete();
 }
 
-void AppList::AttachEvent(lv_obj_t* obj)
+void AppList::AttachEvent(lv_obj_t *obj)
 {
 	lv_obj_set_user_data(obj, this);
 	lv_obj_add_event_cb(obj, onEvent, LV_EVENT_ALL, this);
@@ -77,70 +78,69 @@ void AppList::AttachEvent(lv_obj_t* obj)
 
 void AppList::Update()
 {
-    // static uint8_t auto_entered_weather_flag=0;
-	// if( 
+
+	// static uint8_t auto_entered_weather_flag=0;
+	// if(
 	// 	// HAL::config.auto_enter_weather&&
-    //     HAL::enc_btn_first_push_flag==0&&
-    //     auto_entered_weather_flag==0&&
-    //     millis()-enter_time>= 1000*HAL::config.auto_enter_weather_delay_sec)
-    // {
-    //     auto_entered_weather_flag=1;
-    //     Manager->Push("Pages/Weather");
-    // }
+	//     HAL::enc_btn_first_push_flag==0&&
+	//     auto_entered_weather_flag==0&&
+	//     millis()-enter_time>= 1000*HAL::config.auto_enter_weather_delay_sec)
+	// {
+	//     auto_entered_weather_flag=1;
+	//     Manager->Push("Pages/Weather");
+	// }
 }
 
-void AppList::onTimerUpdate(lv_timer_t* timer)
+void AppList::onTimerUpdate(lv_timer_t *timer)
 {
-	AppList* instance = (AppList*)timer->user_data;
+	AppList *instance = (AppList *)timer->user_data;
 
 	instance->Update();
 }
+void AudioUpdate(void *parameter);
 
-void AppList::onEvent(lv_event_t* event)
+void AppList::onEvent(lv_event_t *event)
 {
-	lv_obj_t* obj = lv_event_get_target(event);
+	lv_obj_t *obj = lv_event_get_target(event);
 	lv_event_code_t code = lv_event_get_code(event);
-	auto* instance = (AppList*)lv_obj_get_user_data(obj);
+	auto *instance = (AppList *)lv_obj_get_user_data(obj);
 	if (code == LV_EVENT_RELEASED)
 	{
-		//tools
-		if(0){}
-		// else if (obj == instance->View.ui.cubedemo.icon)
-		// {
-		// 	instance->Manager->Push("Pages/Scene3D");
-		// }
-		else if (obj == instance->View.ui.terminal.icon)
+		if (obj == instance->View.ui.MusicDetail.icon)
 		{
-			instance->Manager->Push("Pages/Terminal");
-		}else if (obj == instance->View.ui.sysinfo.icon)
-		{
-			instance->Manager->Push("Pages/SystemInfos");
+			instance->Manager->Pop();
+			App_keep_music();
+
+#ifdef ARDUINO
+			xTaskCreatePinnedToCore(
+				AudioUpdate,
+				"AudioUpdate",
+				1024 * 6, // KB
+				nullptr,
+				0,
+				nullptr,
+				0);
+
+#endif
 		}
-		else if (obj == instance->View.ui.settings.icon)
+
+		if (obj == instance->View.ui.HeartBeat.icon)
 		{
-			instance->Manager->Push("Pages/Settings");
+
+#ifdef ARDUINO
+			 Wire1.begin(CONFIG_IIC2_SDA_PIN, CONFIG_IIC2_SCL_PIN);
+			HAL::sensors_init();
+#endif
 		}
-		// weather
-		else if (obj == instance->View.ui.weather.icon)
-		{
-			anim_img_select = 1;
-			instance->Manager->Push("Pages/Weather");
-		}
-		//clock
-		else if (obj == instance->View.ui.clock.icon)
-		{
-			instance->Manager->Push("Pages/Clock");
-		}
-		//heart
-		else if (obj == instance->View.ui.heart.icon)
-		{
-			instance->Manager->Push("Pages/HeartBeat");
-		}
-		// game
-		else if (obj == instance->View.ui.gamelist.icon)
-		{
-			instance->Manager->Push("Pages/GameList");
-			// instance->Manager->Push("Pages/Russian");
-		}
+
+#define APPLIST_DEF(name)                        \
+	if (obj == instance->View.ui.name.icon)      \
+	{                                            \
+		instance->Manager->Push("Pages/" #name); \
+	}
+
+#include "_APPLIST_DEF.inc"
+
+#undef APPLIST_DEF
 	}
 }

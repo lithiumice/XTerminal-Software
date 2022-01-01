@@ -152,8 +152,8 @@ void HAL::config_clock_load(TimeStamp_t* time_stamp_info)
     prefs.begin("Config");
 
     time_stamp_info->preNetTimestamp=prefs.getLong64("Timestamp",0);
-    // *Timestamp=prefs.getLong64("Timestamp",0);
     time_stamp_info->preLocalTimestamp = millis();
+    HAL::parseTimeStamp(HAL::getTimestampLocal());
 
     prefs.end();
 
@@ -184,22 +184,16 @@ void HAL::config_weather_load(HAL::Weather_Info_t* info)
 
     String tmp=prefs.getString("cityname", "Chongqing");
     strcpy(info->cityname,tmp.c_str());
-//    HAL::TerminalPrintln(tmp);
-
     tmp=prefs.getString("weather", "yun").c_str();
     strcpy(info->weather,tmp.c_str());
-//    HAL::TerminalPrintln(tmp);
-
-    info->humidity=prefs.getInt("humidity", 0);
-    info->temperature=prefs.getInt("temperature", 0);
-    info->maxTmep=prefs.getInt("maxTmep", 0);
-    info->minTemp=prefs.getInt("minTemp", 0);
-    info->windLevel=prefs.getInt("windLevel", 0);
-    info->airQulity=prefs.getInt("airQulity", 0);
-
+    info->humidity=prefs.getInt("humidity", 25);
+    info->temperature=prefs.getInt("temperature", 12);
+    info->maxTmep=prefs.getInt("maxTmep", 15);
+    info->minTemp=prefs.getInt("minTemp", 10);
+    info->windLevel=prefs.getInt("windLevel", 1);
+    info->airQulity=prefs.getInt("airQulity", 1);
     tmp=prefs.getString("windDir", "east").c_str();
     strcpy(info->windDir,tmp.c_str());
-//    HAL::TerminalPrintln(tmp);
 
     prefs.end();
 }

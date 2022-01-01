@@ -1,11 +1,13 @@
 #include "HAL/HAL.h"
+#include "HAL_Audio.h"
 #include "App/Utils/TonePlayer/TonePlayer.h"
 #include "App/Utils/TonePlayer/MusicCode.h"
 #include "lvgl.h"
+#include "HAL/HAL_Audio.h"
 #include "Audio.h"
-
+Audio *audio;
+int audio_vol_num = 8;
 static TonePlayer player;
-static Audio audio;
 
 static void Tone_Callback(uint32_t freq, uint16_t volume)
 {
@@ -36,32 +38,115 @@ bool HAL::Audio_PlayMusic(const char *name)
     }
     return retval;
 }
-
+#define AUDIO_DBG printf
 void audio_init()
 {
 #ifdef USE_I2S
-    audio.setPinout(CONFIG_I2S_BCLK, CONFIG_I2S_LRC, CONFIG_I2S_DOUT);
-    audio.setVolume(12); // 0...21
+
+    audio = new Audio();
+
+    if (audio != nullptr)
+    {
+        AUDIO_DBG("audio_init");
+        audio->setPinout(CONFIG_I2S_BCLK, CONFIG_I2S_LRC, CONFIG_I2S_DOUT);
+        audio->setVolume(8); // 0...21
+        // audio->setFileLoop(true);
+    }
+
 #endif
-    //    audio.connecttoFS(SD, "test.wav");
-    //    audio.connecttohost("http://www.wdr.de/wdrlive/media/einslive.m3u");
-    //    audio.connecttohost("http://macslons-irish-pub-radio.com/media.asx");
-    //    audio.connecttohost("http://mp3.ffh.de/radioffh/hqlivestream.aac"); //  128k aac
-    //   audio.connecttohost("http://mp3.ffh.de/radioffh/hqlivestream.mp3"); //  128k mp3
-    //    audio.connecttospeech("Wenn die Hunde schlafen, kann der Wolf gut Schafe stehlen.", "de");
 }
 
 void audio_start()
 {
 #ifdef USE_I2S
-    audio.connecttoFS(SD, "/1.mp3");
+    if (audio != nullptr)
+    {
+        AUDIO_DBG("audio_play");
+        audio->connecttoFS(SD, "/Sweden-C418.mp3");
+    }
+#endif
+}
+
+void audio_play(const char *name)
+{
+#ifdef USE_I2S
+    if (audio != nullptr)
+    {
+        AUDIO_DBG("audio_play");
+        audio->connecttoFS(SD, name);
+    }
 #endif
 }
 
 void audio_loop()
 {
 #ifdef USE_I2S
-    audio.loop();
+    if (audio != nullptr)
+    {
+        audio->loop();
+    }
+#endif
+}
+
+void audio_delete()
+{
+#ifdef USE_I2S
+    if (audio != nullptr)
+    {
+        delete audio;
+    }
+#endif
+}
+
+void audio_pause()
+{
+#ifdef USE_I2S
+    if (audio != nullptr)
+    {
+        gflag.audio_en_flag = 0;
+        // audio->stopSong();
+        audio->pauseResume();
+        AUDIO_DBG("audio_pause");
+
+        gflag.audio_en_flag = 1;
+    }
+#endif
+}
+
+void audio_resume()
+{
+#ifdef USE_I2S
+    if (audio != nullptr)
+    {
+        gflag.audio_en_flag = 0;
+        AUDIO_DBG("audio_resume");
+        audio->pauseResume();
+        gflag.audio_en_flag = 1;
+    }
+#endif
+}
+
+void audio_vol_plus()
+{
+#ifdef USE_I2S
+    if (audio != nullptr)
+    {
+        audio_vol_num++;
+        __LimitValue(audio_vol_num, 1, 20);
+        audio->setVolume(audio_vol_num); // 0...21
+    }
+#endif
+}
+
+void audio_vol_minus()
+{
+#ifdef USE_I2S
+    if (audio != nullptr)
+    {
+        audio_vol_num--;
+        __LimitValue(audio_vol_num, 1, 20);
+        audio->setVolume(audio_vol_num); // 0...21
+    }
 #endif
 }
 
@@ -73,11 +158,6 @@ void audio_info(const char *info)
 void audio_id3data(const char *info)
 { // id3 metadata
     Serial.print("id3data     ");
-    Serial.println(info);
-}
-void audio_eof_mp3(const char *info)
-{ // end of file
-    Serial.print("eof_mp3     ");
     Serial.println(info);
 }
 void audio_showstation(const char *info)

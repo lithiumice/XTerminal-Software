@@ -27,18 +27,19 @@
 // #else
 // #include <User_Setups/Setup24_ST7789.h>            // Setup file configured for ST7789 240 x 240
 // #endif
-
-#if defined(DEVICE0) 
 #include <User_Setups/Setup0_DEVICE0.h> 
-#elif defined(DEVICE1) 
-#include <User_Setups/Setup0_DEVICE1.h>  
-#elif defined(DEVICE2) 
-#include <User_Setups/Setup0_DEVICE2.h>  
-#elif defined(DEVICE3) 
-#include <User_Setups/Setup0_DEVICE3.h>  
-#else
-#error use device 0-3      
-#endif
+
+// #if defined(DEVICE0) 
+// #include <User_Setups/Setup0_DEVICE0.h> 
+// #elif defined(DEVICE1) 
+// #include <User_Setups/Setup0_DEVICE1.h>  
+// #elif defined(DEVICE2) 
+// #include <User_Setups/Setup0_DEVICE2.h>  
+// #elif defined(DEVICE3) 
+// #include <User_Setups/Setup0_DEVICE3.h>  
+// #else
+// #error use device 0-3      
+// #endif
 
 //#include <User_Setups/Setup2_ST7735.h>   // Setup file configured for my ST7735
 //#include <User_Setups/Setup3_ILI9163.h>  // Setup file configured for my ILI9163

@@ -25,7 +25,7 @@ void SystemInfos::onViewLoad()
 	AttachEvent(root);
 	AttachEvent(View.ui.wifi.icon);
 	AttachEvent(View.ui.system.icon);
-	AttachEvent(View.ui.imu.icon);
+	// AttachEvent(View.ui.imu.icon);
 	AttachEvent(View.ui.battery.icon);
 	AttachEvent(View.ui.storage.icon);
 }
@@ -88,21 +88,21 @@ void SystemInfos::Update()
 
 	/* IMU */
 	// Model.GetIMUInfo(buf, sizeof(buf));
-	snprintf(
-        buf,
-        sizeof(buf),
-        "%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f",
-        imuInfo.ax,
-        imuInfo.ay,
-        imuInfo.az,
-        imuInfo.gx,
-        imuInfo.gy,
-        imuInfo.gz,
-        imuInfo.pitch,
-        imuInfo.roll,
-        imuInfo.yaw
-    );
-	View.SetIMU(buf);
+	// snprintf(
+    //     buf,
+    //     sizeof(buf),
+    //     "%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f\n%.3f",
+    //     imuInfo.ax,
+    //     imuInfo.ay,
+    //     imuInfo.az,
+    //     imuInfo.gx,
+    //     imuInfo.gy,
+    //     imuInfo.gz,
+    //     imuInfo.pitch,
+    //     imuInfo.roll,
+    //     imuInfo.yaw
+    // );
+	// View.SetIMU(buf);
 
 	/* Power */
 	int usage;

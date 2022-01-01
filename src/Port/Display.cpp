@@ -53,25 +53,5 @@ void Port_Init()
   lv_port_indev_init();
   lv_fs_if_init();
 
-  // Update display in parallel thread.
-  // xTaskCreate(
-  //     TaskLvglUpdate,
-  //     "LvglThread",
-  //     1024*25,//20000=19.5KB
-  //     nullptr,
-  //     configMAX_PRIORITIES - 1,
-  //     &handleTaskLvgl);
-
-  // xTaskCreatePinnedToCore(
-  //         TaskUrlUpdate,
-  //             "GetWeather",
-  //             1024*30, //KB
-  //             NULL,
-  //             configMAX_PRIORITIES - 1,
-  //             &handleTaskUrl,
-  //             0
-  //         );
-
-  /* ±≥π‚Ω•¡¡ */
-  HAL::Backlight_SetGradual(500, 1000);
+  HAL::Backlight_SetGradual(500, 1500);
 }

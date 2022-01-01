@@ -2,6 +2,7 @@
 #define __Clock_PRESENTER_H
 
 #include "App/Utils/PageManager/PageBase.h"
+#include "ClockModel.h"
 #include "HAL/HAL.h"
 #include "../Page.h"
 #include "lvgl.h"
@@ -17,6 +18,7 @@ public:
         lv_obj_t* clockLabel_1;
         lv_obj_t* clockLabel_2;
         lv_group_t* group;
+            lv_obj_t* canvas;
     } ui;
 
     Clock();
@@ -45,6 +47,7 @@ private:
 
 private:
     lv_timer_t* timer;
+    ClockModel Model;
 };
 
 }

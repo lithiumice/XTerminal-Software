@@ -2,27 +2,21 @@
 #include "App/Configs/Config.h"
 #include "SPI.h"
 #include "SD.h"
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include "ESP32FtpServer.h"
+
+FtpServer ftpSrv;
 uint64_t cardSize;
 static SPIClass spi;
+// #define USE_FTP
 
 bool HAL::SD_Init()
 {
-    // pinMode(CONFIG_SD_DET_PIN, INPUT);
-
-    //    SPIClass* sd_spi = new SPIClass(HSPI); // another SPI
-    //    if (!SD.begin(4, *sd_spi, 80000000))
-    // //    if (!SD.begin(15, *sd_spi, 80000000))
-    //    {
-    //        HAL::TerminalPrintln("Card Mount Failed");
-    //        return false;
-    //    }
-    //    uint8_t cardType = SD.cardType();
-
     pinMode(CONFIG_SD_CS, OUTPUT);
     digitalWrite(CONFIG_SD_CS, HIGH);
-    // SPIClass* sd_spi = new SPIClass(HSPI);
-    spi = SPIClass(VSPI);
-    // spi = SPIClass(HSPI);
+    spi = SPIClass(HSPI);
+    // spi = SPIClass(VSPI);
     spi.begin(CONFIG_SPI_SCK, CONFIG_SPI_MISO, CONFIG_SPI_MOSI);
     spi.setFrequency(4000000);
     if (!SD.begin(CONFIG_SD_CS, spi))
@@ -31,11 +25,9 @@ bool HAL::SD_Init()
         return false;
     }
 
-    // pinMode(SD_CS, OUTPUT);
-    // digitalWrite(SD_CS, HIGH);
-    // SPI.begin(SPI_SCK, SPI_MISO, SPI_MOSI);
-    // SPI.setFrequency(1000000);
-    // SD.begin(SD_CS);
+#ifdef USE_FTP
+ftpSrv.begin("esp32","esp32");
+#endif
 
     uint8_t cardType = SD.cardType();
 
@@ -100,6 +92,9 @@ void HAL::SD_SetEventCallback(SD_CallbackFunction_t callback)
 
 void HAL::SD_Update()
 {
+#ifdef USE_FTP
+    ftpSrv.handleFTP();
+    #endif
 }
 
 void listDir(fs::FS &fs, const char *dirname, uint8_t levels)

@@ -32,7 +32,8 @@
 AppFactory factory;
 PageManager manager(&factory);
 
-
+flag_collection_t gflag;
+global_var_t gvar;
 
 void App_Init()
 {
@@ -55,16 +56,17 @@ void App_Init()
     );
 }
 
-void App_insPush(std::string app_name)
+void App_install(const char* app_name)
 {
-    static std::string prev_app= "Startup";
-    manager.Install(app_name.c_str(), ("Pages/"+ app_name).c_str()); \
+    // static std::string prev_app= "Startup";
+    manager.Install(app_name, ("Pages/"+ std::string(app_name)).c_str()); \
 
 }
 
-void App_Remove(std::string app_name)
+void App_remove(const char* app_name)
 {
-    manager.Uninstall(("Pages/" + app_name).c_str()); \
+    manager.Uninstall(("Pages/"+ std::string(app_name)).c_str()); \
+
 }
 
 void App_Install()
@@ -84,6 +86,21 @@ void App_UnInstall()
 #define APP_DEF(className)\
 do{\
     manager.Uninstall("Pages/" #className); \
+}while(0)
+
+#include "Pages/_APP_DEF.inc"
+
+#undef APP_DEF
+}
+
+void App_keep_music()
+{
+#define APP_DEF(className)\
+do{\
+    if(#className!="MusicPlayer"&&\
+        #className!="MusicDetail"&&\
+        #className!="AppList")\
+        manager.Uninstall("Pages/" #className); \
 }while(0)
 
 #include "Pages/_APP_DEF.inc"

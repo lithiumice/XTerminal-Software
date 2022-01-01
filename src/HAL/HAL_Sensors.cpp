@@ -1,21 +1,21 @@
 #include "HAL.h"
 #include <Wire.h>
 
+// float gvar.bmp_pressure;
+// float gvar.bmp_altitude;
 
-
-#define USE_BMP280
 
 #if defined(USE_BMP280)
 #include <Adafruit_BMP280.h>
 Adafruit_BMP280 bmp;
 float bmp_temp;
-float bmp_pressure;
-float bmp_altitude;
+
 
 void bmp_get()
 {
-    bmp_pressure = bmp.readPressure()/1000;
-    bmp_altitude = bmp.readAltitude(1013.25);
+    gvar.bmp_pressure = bmp.readPressure()/1000;
+    // gvar.bmp_pressure = 0;
+    gvar.bmp_altitude = bmp.readAltitude(1013.25);
     bmp_temp = bmp.readTemperature();
 
     Serial.print(F("Temperature = "));
@@ -23,11 +23,11 @@ void bmp_get()
     Serial.println(" *C");
 
     Serial.print(F("Pressure = "));
-    Serial.print(bmp_pressure);
+    Serial.print(gvar.bmp_pressure);
     Serial.println(" Pa");
 
     Serial.print(F("Approx altitude = "));
-    Serial.print(bmp_altitude); /* Adjusted to local forecast! */
+    Serial.print(gvar.bmp_altitude); /* Adjusted to local forecast! */
     Serial.println(" m");
 }
 #endif

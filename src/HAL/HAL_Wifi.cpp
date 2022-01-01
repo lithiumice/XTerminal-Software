@@ -5,7 +5,7 @@ void HAL::wifi_init()
 {
     WiFi.enableSTA(false);
     WiFi.enableAP(false);
-//    WiFi.setSleep(true);
+    //    WiFi.setSleep(true);
     WiFi.setAutoReconnect(true);
 }
 
@@ -16,23 +16,23 @@ bool HAL::wifi_isconnected()
 
 void HAL::wifi_smartConfig()
 {
-  WiFi.mode(WIFI_MODE_STA);
-  Serial.println("wifi_smartConfig:");
-  WiFi.beginSmartConfig();
-  while (1)
-  {
-    Serial.print(".");
-    delay(500);
-    if (WiFi.smartConfigDone())
+    WiFi.mode(WIFI_MODE_STA);
+    Serial.println("wifi_smartConfig:");
+    WiFi.beginSmartConfig();
+    while (1)
     {
-      Serial.println("配网成功");
-    //   HAL::TerminalPrintln("SSID:%s"+WiFi.SSID().c_str());
-    //   HAL::TerminalPrintln("PSW:%s"+ WiFi.psk().c_str());
-    HAL::TerminalPrintln(WiFi.SSID().c_str());
-      HAL::TerminalPrintln(WiFi.psk().c_str());
-      break;
+        Serial.print(".");
+        delay(500);
+        if (WiFi.smartConfigDone())
+        {
+            Serial.println("配网成功");
+            //   HAL::TerminalPrintln("SSID:%s"+WiFi.SSID().c_str());
+            //   HAL::TerminalPrintln("PSW:%s"+ WiFi.psk().c_str());
+            HAL::TerminalPrintln(WiFi.SSID().c_str());
+            HAL::TerminalPrintln(WiFi.psk().c_str());
+            break;
+        }
     }
-  }
 }
 
 void HAL::wifi_search()
@@ -63,26 +63,23 @@ void HAL::wifi_search()
 
 bool HAL::wifi_connect()
 {
-//   const char *ssid=NET_SSID.c_str();
-//    const char *password=NET_PASS.c_str();
-
-
     if (WiFi.status() == WL_CONNECTED)
     {
         Serial.println(F("\nWiFi is OK.\n"));
         return false;
     }
 
-
-    HAL::TerminalPrintln("Connecting: "+config.wifi_name+" @"+config.wifi_pwd);
+    HAL::TerminalPrintln("Connecting: " + config.wifi_name + " @" + config.wifi_pwd);
     //设置为STA模式并连接WIFI
+    WiFi.mode(WIFI_MODE_APSTA);
     WiFi.enableSTA(true);
+    WiFi.enableAP(true);
     WiFi.setHostname(config.host_name.c_str());
     WiFi.begin(config.wifi_name.c_str(), config.wifi_pwd.c_str());
 
-    //Serial.println(F("\nWiFi connected"));
-//Serial.print(F("IP address: "));
-//Serial.println(WiFi.localIP());
+    // Serial.println(F("\nWiFi connected"));
+    // Serial.print(F("IP address: "));
+    // Serial.println(WiFi.localIP());
 
     // if (!WiFi.config(local_ip, gateway, subnet, dns))
     // { //WiFi.config(ip, gateway, subnet, dns1, dns2);
@@ -122,30 +119,30 @@ bool HAL::wifi_close()
     return true;
 }
 
-//bool HAL::wifi_open_ap()
+// bool HAL::wifi_open_ap()
 //{
-//    const char *ap_ssid=AP_SSID.c_str();
-//    const char *ap_password=AP_PASS.c_str();
+//     const char *ap_ssid=AP_SSID.c_str();
+//     const char *ap_password=AP_PASS.c_str();
 //
-//    IPAddress local_ip(192, 168, 4, 2); // Set your server's fixed IP address here
-//IPAddress gateway(192, 168, 4, 1);  // Set your network Gateway usually your Router base address
-//IPAddress subnet(255, 255, 255, 0); // Set your network sub-network mask here
-//IPAddress dns(192, 168, 4, 1);      // Set your network DNS usually your Router base address
+//     IPAddress local_ip(192, 168, 4, 2); // Set your server's fixed IP address here
+// IPAddress gateway(192, 168, 4, 1);  // Set your network Gateway usually your Router base address
+// IPAddress subnet(255, 255, 255, 0); // Set your network sub-network mask here
+// IPAddress dns(192, 168, 4, 1);      // Set your network DNS usually your Router base address
 //
-//    WiFi.enableAP(true); //配置为AP模式
-//    WiFi.setHostname(HOST_NAME.c_str());
-//    // WiFi.begin();
-//    bool result = WiFi.softAP(ap_ssid, ap_password); //开启WIFI热点
-//    if (result)
-//    {
-//        WiFi.softAPConfig(local_ip, gateway, subnet);
-//        IPAddress myIP = WiFi.softAPIP();
+//     WiFi.enableAP(true); //配置为AP模式
+//     WiFi.setHostname(HOST_NAME.c_str());
+//     // WiFi.begin();
+//     bool result = WiFi.softAP(ap_ssid, ap_password); //开启WIFI热点
+//     if (result)
+//     {
+//         WiFi.softAPConfig(local_ip, gateway, subnet);
+//         IPAddress myIP = WiFi.softAPIP();
 //
-//        //打印相关信息
-//        Serial.print(F("\nSoft-AP IP address = "));
-//        Serial.println(myIP);
-//        Serial.println(String("MAC address = ") + WiFi.softAPmacAddress().c_str());
-//        Serial.println(F("waiting ..."));
+//         //打印相关信息
+//         Serial.print(F("\nSoft-AP IP address = "));
+//         Serial.println(myIP);
+//         Serial.println(String("MAC address = ") + WiFi.softAPmacAddress().c_str());
+//         Serial.println(F("waiting ..."));
 ////        ap_timeout = 300; // 开始计时
 //        // xTimer_ap = xTimerCreate("ap time out", 1000 / portTICK_PERIOD_MS, pdTRUE, (void *)0, restCallback);
 //        // xTimerStart(xTimer_ap, 0); //开启定时器

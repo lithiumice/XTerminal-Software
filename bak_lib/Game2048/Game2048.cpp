@@ -7,7 +7,7 @@
 #include "lv_100ask_demo_2048.h"
 
 lv_dir_t Get_Btn();
-	extern uint8_t enc_long_push_flag;
+	
 
 using namespace Page;
 
@@ -92,9 +92,9 @@ void Game2048::Update()
 		game_2048_key_cb(dir);
 #endif
 
-	if (enc_long_push_flag == 1)
+	if (gflag.enc_long_push_flag == 1)
     {
-        enc_long_push_flag = 0;
+        gflag.enc_long_push_flag = 0;
         Manager->Pop();
     }
 }

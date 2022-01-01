@@ -103,13 +103,14 @@ void WeatherView::weather_gui_init(lv_obj_t* root)
 	// lv_obj_set_style_text_font(ui.clockLabel_1, &lv_font_montserrat_26, 0);
 	lv_obj_set_style_text_color(ui.clockLabel_1, lv_color_white(), 0);
 	lv_obj_align(ui.clockLabel_1, LV_ALIGN_TOP_MID, 0, 100);
+
 	ui.clockLabel_2 = lv_label_create(root);
 	lv_label_set_recolor(ui.clockLabel_2, true);
 	lv_label_set_text_fmt(ui.clockLabel_2, "%02d", 00);
 	lv_obj_set_style_text_font(ui.clockLabel_2, &lv_font_montserrat_12, 0);
+	// lv_obj_set_style_text_font(ui.clockLabel_2, Resource.GetFont("HandGotn_26"), 0);
 	lv_obj_set_style_text_color(ui.clockLabel_2, lv_color_white(), 0);
-	// lv_obj_set_pos(ui.clockLabel_2, 170, 105);
-	lv_obj_align(ui.clockLabel_2, LV_ALIGN_RIGHT_MID, -60, -10);
+	lv_obj_align_to(ui.clockLabel_2,ui.clockLabel_1, LV_ALIGN_OUT_RIGHT_BOTTOM, 6, 0);
 
 
 
@@ -282,7 +283,8 @@ void WeatherView::SetClockSec(const int sec)
 
 	lv_label_set_text_fmt(
 		ui.clockLabel_2,
-		"%02d sec",
+		"%02d",
+		// "%02d sec",
 		// "%02d\nseconds",
 		sec
 	);

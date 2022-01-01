@@ -17,8 +17,6 @@ extern lv_color_t *lv_disp_buf_p;
 
 
 extern HAL::IMU_Info_t imuInfo;
-extern uint8_t fisrt_get_weather_flag;
-extern uint8_t fisrt_get_clock_flag;
 void notifyUrlThread();
 
 namespace HAL

@@ -15,6 +15,7 @@
 
 #include <stdint.h>
 
+#define LV_USE_GIF
 
 /*====================
    COLOR SETTINGS

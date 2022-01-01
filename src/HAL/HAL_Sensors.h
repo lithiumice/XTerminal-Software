@@ -1,5 +1,5 @@
 #pragma once
 
-extern float bmp_temp;
-extern float bmp_pressure;
-extern float bmp_altitude;
+//extern float bmp_temp;
+//extern float gvar.bmp_pressure;
+//extern float gvar.bmp_altitude;

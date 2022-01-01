@@ -31,7 +31,7 @@ using namespace Page;
 //     if(i[-3:]=='cpp'):
 //         os.rename(i,f'{name}_'+i)
 
-extern uint8_t enc_long_push_flag;
+
 static lv_group_t *game_group;
 static lv_obj_t *contGameDisp;
 static lv_obj_t *canvasGame;
@@ -79,22 +79,22 @@ static void ButtonGrp_EventHandler(lv_event_t *event)
         }
     }
 
-    if (code == LV_EVENT_KEY)
-	{
-		uint32_t key = (*(uint32_t*)event->param);
-		if (key == LV_KEY_LEFT)
-		{
-            Game_SetButtonState(GAME_BUTTON_LEFT, true);
-            enc_btn_down_flag = 1;
-            enc_dir_event_time = millis();
-        }
-        else if (key == LV_KEY_RIGHT)
-		{
-            Game_SetButtonState(GAME_BUTTON_RIGHT, true);
-             enc_btn_down_flag = 1;
-            enc_dir_event_time = millis();
-		}
-	}
+//    if (code == LV_EVENT_KEY)
+//	{
+//		uint32_t key = (*(uint32_t*)event->param);
+//		if (key == LV_KEY_LEFT)
+//		{
+//            Game_SetButtonState(GAME_BUTTON_LEFT, true);
+//            enc_btn_down_flag = 1;
+//            enc_dir_event_time = millis();
+//        }
+//        else if (key == LV_KEY_RIGHT)
+//		{
+//            Game_SetButtonState(GAME_BUTTON_RIGHT, true);
+//             enc_btn_down_flag = 1;
+//            enc_dir_event_time = millis();
+//		}
+//	}
 }
 
 void Game_Setup()
@@ -325,9 +325,9 @@ void GameArduboy::Update()
         Game_ClearButtonState();
     }
 
-    if (enc_long_push_flag == 1)
+    if (gflag.enc_long_push_flag == 1)
     {
-        enc_long_push_flag = 0;
+        gflag.enc_long_push_flag = 0;
         Manager->Pop();
     }
 }

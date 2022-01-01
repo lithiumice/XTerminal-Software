@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 using namespace Page;
+static void* canvasbuf;
 
 Clock::Clock()
 {
@@ -32,7 +33,7 @@ void Clock::GUICreate()
 	lv_obj_set_style_text_font(ui.clockLabel_1, Resource.GetFont("Morganite_100"), 0);
 	// lv_obj_set_style_text_font(ui.clockLabel_1, &lv_font_montserrat_42, 0);
 	lv_obj_set_style_text_color(ui.clockLabel_1, lv_color_white(), 0);
-	lv_obj_align(ui.clockLabel_1, LV_ALIGN_CENTER, 0, 0);
+	lv_obj_align(ui.clockLabel_1, LV_ALIGN_CENTER, 0, -20);
 
 	// ui.clockLabel_2 = lv_label_create(root);
 	// lv_label_set_recolor(ui.clockLabel_2, true);
@@ -41,6 +42,7 @@ void Clock::GUICreate()
 	// lv_obj_set_style_text_color(ui.clockLabel_2, lv_color_white(), 0);
 	// // lv_obj_set_pos(ui.clockLabel_2, 170, 105);
 	// lv_obj_align(ui.clockLabel_2, LV_ALIGN_CENTER, 0, 60);
+
 }
 
 // void Clock::updateClock()
@@ -85,6 +87,7 @@ void Clock::onViewLoad()
 	ui.group = lv_group_create();
 
 	GUICreate();
+
 	lv_group_add_obj(ui.group, root);
 	AttachEvent(root);
 }
@@ -100,30 +103,64 @@ void Clock::onViewWillAppear()
 
 	lv_obj_set_style_bg_color(root, lv_color_white(), LV_PART_MAIN);
 
-	timer = lv_timer_create(onTimerUpdate, 500, this);
+	timer = lv_timer_create(onTimerUpdate, 20, this);
 	lv_timer_ready(timer);
 
 	lv_obj_fade_in(root, 300, 0);
 
-#ifdef ARDUINO
-	notifyUrlThread();
-	HAL::parseTimeStamp(HAL::getTimestampLocal());
-#endif
-	updateSeconds();
+
+// lv_draw_rect_dsc_t rect_dsc;
+// 	lv_draw_rect_dsc_init(&rect_dsc);
+// 	rect_dsc.radius = 0;
+// 	rect_dsc.bg_opa = LV_OPA_COVER;
+// 	rect_dsc.bg_grad_dir = LV_GRAD_DIR_HOR;
+// 	rect_dsc.bg_color = lv_color_make(0, 0, 0);
+// 	rect_dsc.bg_grad_color = lv_color_make(0, 0, 0);
+// 	rect_dsc.border_width = 1;
+// 	rect_dsc.border_opa = LV_OPA_90;
+// 	rect_dsc.border_color = lv_color_white();
+// 	rect_dsc.shadow_width = 5;
+// 	rect_dsc.shadow_ofs_x = 5;
+// 	rect_dsc.shadow_ofs_y = 5;
+
+// 	lv_canvas_draw_rect(canvas, 0, 0, CANVAS_W, CANVAS_W, &rect_dsc);
+
+	canvasbuf = lv_mem_alloc(LV_CANVAS_BUF_SIZE_TRUE_COLOR(CANVAS_W, CANVAS_W));
+	lv_obj_t* canvas = lv_canvas_create(root);
+	ui.canvas=canvas;
+
+	lv_canvas_set_buffer(canvas, canvasbuf, CANVAS_W, CANVAS_W, LV_IMG_CF_TRUE_COLOR);
+	lv_obj_align(canvas, LV_ALIGN_CENTER, 0, 65);
+	lv_canvas_fill_bg(canvas, lv_color_make(0, 0, 0), LV_OPA_COVER);
 }
 
 void Clock::onViewDidAppear()
 {
+	#ifdef ARDUINO
+	notifyUrlThread();
+	HAL::parseTimeStamp(HAL::getTimestampLocal());
+#endif
+	updateSeconds();
+    // lv_indev_set_cursor(lv_get_indev(LV_INDEV_TYPE_ENCODER), View.ui.canvas);
 }
 
 void Clock::onViewWillDisappear()
 {
 	lv_obj_fade_out(root, 300, 0);
+	// lv_obj_del(ui.canvas);
+	// lv_obj_del(ui.labelTitle);
+
+	
 }
 
 void Clock::onViewDidDisappear()
 {
 	lv_timer_del(timer);
+
+	if(canvasbuf!=nullptr)
+	{
+		lv_mem_free(canvasbuf);
+	}
 }
 
 void Clock::onViewDidUnload()
@@ -140,6 +177,7 @@ void Clock::AttachEvent(lv_obj_t *obj)
 
 void Clock::Update()
 {
+     Model.Update(ui.canvas);
 	__IntervalExecute(notifyUrlThread(), (1000 * 60 * HAL::config.update_weather_interval_minute));
 	__IntervalExecute(updateSeconds(), 1000);
 

@@ -9,12 +9,6 @@
 using namespace Page;
 static lv_style_t sytle_chart;
 static lv_style_t sytle_label;
-
-extern long irValue;
-extern float beatsPerMinute;
-extern float beatAvg;
-
-uint8_t update_max_flag = 0;
 int max_sesor_update_interval = 300;
 
 HeartBeat::HeartBeat()
@@ -151,6 +145,7 @@ void HeartBeat::Chart_Create()
     lv_chart_set_range(ui.rate_chart, LV_CHART_AXIS_PRIMARY_Y, 0, 100);
     lv_chart_set_range(ui.rate_chart, LV_CHART_AXIS_SECONDARY_Y, 0, 400);
     // lv_chart_set_axis_tick(ui.rate_chart, LV_CHART_AXIS_PRIMARY_X, 10, 5, 12, 3, false, 40);
+    //  lv_coord_t major_len, lv_coord_t minor_len, lv_coord_t major_cnt, lv_coord_t minor_cnt,
     lv_chart_set_axis_tick(ui.rate_chart, LV_CHART_AXIS_PRIMARY_Y, 10, 5, 6, 2, true, 50);
     lv_chart_set_axis_tick(ui.rate_chart, LV_CHART_AXIS_SECONDARY_Y, 10, 5, 3, 4, true, 50);
 }
@@ -195,18 +190,17 @@ void HeartBeat::Labels_Create()
     ui.rate_text = lv_label_create(root);
     lv_label_set_recolor(ui.rate_text, true);
     lv_label_set_text_fmt(ui.rate_text, "#ffa500 %02d#", 52);
-    // lv_obj_set_style_text_font(ui.rate_text, &lv_font_montserrat_28, 0);
     lv_obj_add_style(ui.rate_text, &sytle_label, 0);
     lv_obj_align(ui.rate_text, LV_ALIGN_TOP_RIGHT, -60, 30);
 
     lv_obj_t *text = lv_label_create(root);
     lv_label_set_text_fmt(text, "Meter", 52);
     lv_obj_add_style(text, &sytle_label, 0);
-    lv_obj_align(text, LV_ALIGN_TOP_RIGHT, -20, 30);
+    lv_obj_align_to(text, ui.rate_text,LV_ALIGN_OUT_RIGHT_MID, 5, 0);
 
     text = lv_label_create(root);
     lv_label_set_recolor(text, true);
-    lv_label_set_text_fmt(text, "%.2f", 52);
+    lv_label_set_text_fmt(text, "#ffa500 %02d#", 52);
     lv_obj_add_style(text, &sytle_label, 0);
     lv_obj_align(text, LV_ALIGN_TOP_RIGHT, -150, 30);
     ui.avg_bpm_text = text;
@@ -215,7 +209,19 @@ void HeartBeat::Labels_Create()
     lv_label_set_recolor(text, true);
     lv_label_set_text_fmt(text, "Kpa", 52);
     lv_obj_add_style(text, &sytle_label, 0);
-    lv_obj_align(text, LV_ALIGN_TOP_RIGHT, -120, 30);
+    lv_obj_align_to(text, ui.avg_bpm_text,LV_ALIGN_OUT_RIGHT_MID, 5, 0);
+
+    // text = lv_label_create(root);
+    // lv_label_set_text(text, "Pressure");
+    // lv_obj_set_style_text_font(text, &lv_font_montserrat_16, 0);
+    // lv_obj_set_style_text_color(text, lv_color_white(),0);
+    // lv_obj_align_to(text, ui.rate_chart,LV_ALIGN_OUT_LEFT_TOP, 0, 0);
+
+    // text = lv_label_create(root);
+    // lv_label_set_text(text, "Altitude");
+    // lv_obj_set_style_text_font(text, &lv_font_montserrat_16, 0);
+    // lv_obj_set_style_text_color(text, lv_color_white(),0);
+    // lv_obj_align_to(text, ui.rate_chart,LV_ALIGN_OUT_RIGHT_TOP, 0, 0);
 }
 
 void HeartBeat::GUICreate()
@@ -284,7 +290,7 @@ void HeartBeat::Chart_AutoRangeProcess(lv_obj_t *chart, lv_chart_series_t *serie
     // 0, 50, 100, 150, 200, 250
     // 0, 100, 200, 300, 400, 500
     // 0, 500, 1000, 1500, 2000, 2500
-    const int16_t rangeRef[] = {5, 10, 25, 50, 250, 500, 2500, 5000};
+    const int16_t rangeRef[] = {1,5, 10, 25, 50, 250, 500, 2500, 5000};
     int16_t tick = 5;
     for (int i = 0; i < __Sizeof(rangeRef); i++)
     {
@@ -333,7 +339,7 @@ void HeartBeat::onViewWillAppear()
 
     lv_obj_fade_in(root, 300, 0);
 
-    update_max_flag = 1;
+    gflag.update_max_flag = 1;
 }
 
 void HeartBeat::onViewDidAppear()
@@ -349,7 +355,7 @@ void HeartBeat::onViewDidDisappear()
 {
     lv_timer_del(timer);
 
-    update_max_flag = 0;
+    gflag.update_max_flag = 0;
 }
 
 void HeartBeat::onViewDidUnload()
@@ -370,15 +376,15 @@ void HeartBeat::Update()
     float target2 = 0;
     
 #ifdef ARDUINO
-    target1 = bmp_altitude;
-    target2 = bmp_pressure;
+    HAL::sensors_max30102_data();
+
+    target1 = gvar.bmp_altitude;
+    target2 = gvar.bmp_pressure;
 #else
-    int target = 0;
-    float bpm = 0;
-    float beatAvg = 0;
     static int index = 0;
     index += 5;
-    target = 70 * sin(index * PI / 180) + 40;
+    target1 = 70 * sin(index * PI / 180) + 40;
+    target2 = 70 * sin(index*2 * PI / 180) + 40;
 #endif
 
     lv_chart_set_next_value(ui.rate_chart, ui.rate_ser, target1);

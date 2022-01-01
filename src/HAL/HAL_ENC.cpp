@@ -4,6 +4,12 @@
 #include "Game/GamePrivate.h"
 #include "PCF8574.h"
 
+// #undef USE_PCF8574
+// #undef USE_EKEY
+
+extern uint32_t enc_dir_event_time;
+extern uint8_t enc_btn_down_flag;
+
 #ifdef USE_KEY
 static ButtonEvent EncoderUp(2000);
 static ButtonEvent EncoderDown(2000);
@@ -28,11 +34,7 @@ static ButtonEvent KeyRight(2000);
 
 static ButtonEvent EncoderPush(2000);
 static volatile float EncoderDiff = 0;
-// static volatile int16_t EncoderDiff = 0;
 static bool EncoderEnable = true;
-
-lv_dir_t key_value;
-uint8_t enc_long_push_flag = 0;
 Account *actEncoder;
 
 void HAL::Encoder_SetEnable(bool en)
@@ -60,7 +62,6 @@ static void Encoder_Key_Handler(ButtonEvent *btn, int event)
         else if (btn == &EncoderPush)
         {
             HAL::enc_btn_first_push_flag = 1;
-            Serial.println("EncoderPush EVENT_PRESSED");
             Game_SetButtonState(GAME_BUTTON_A, true);
             Game_SetButtonState(GAME_BUTTON_B, true);
             HAL::Buzz_Tone(500, 20);
@@ -169,7 +170,7 @@ static void Encoder_Key_Handler(ButtonEvent *btn, int event)
     {
         if (btn == &EncoderPush)
         {
-            enc_long_push_flag = 1;
+            gflag.enc_long_push_flag = 1;
             // HAL::Power_Shutdown();
             HAL::Audio_PlayMusic("Shutdown");
             Serial.println("Encoder btn EVENT_LONG_PRESSED");
@@ -185,23 +186,27 @@ static void Encoder_ExtraKey_Handler(ButtonEvent *btn, int event)
         if (btn == &ExtraKeyUp)
         {
             EncoderDiff--;
-            Game_SetButtonState(GAME_BUTTON_UP, true);
-
-        }else if (btn == &ExtraKeyDown)
+            // Game_SetButtonState(GAME_BUTTON_UP, true);
+        }
+        else if (btn == &ExtraKeyDown)
         {
             EncoderDiff++;
-            Game_SetButtonState(GAME_BUTTON_DOWN, true);
-
+            // Game_SetButtonState(GAME_BUTTON_DOWN, true);
         }
     }
     else if (event == ButtonEvent::EVENT_RELEASED)
     {
-            Game_SetButtonState(GAME_BUTTON_UP, false);
-        
+        if (btn == &ExtraKeyUp)
+        {
+            // Game_SetButtonState(GAME_BUTTON_UP, false);
+        }
+        else if (btn == &ExtraKeyDown)
+        {
+            // Game_SetButtonState(GAME_BUTTON_DOWN, false);
+        }
     }
     else if (event == ButtonEvent::EVENT_LONG_PRESSED)
     {
-            Game_SetButtonState(GAME_BUTTON_DOWN, false);
     }
 }
 #endif
@@ -305,7 +310,6 @@ void HAL::Encoder_Update()
     ExtraKeyDown.EventMonitor((digitalRead(CONFIG_BTN_B_PIN) == LOW));
 #endif
 
-
 #ifdef USE_PCF8574
     PCF8574::DigitalInput di = pcf8574.digitalReadAll();
     KeyStart.EventMonitor(!di.p0);
@@ -321,11 +325,11 @@ void HAL::Encoder_Update()
 
 int16_t HAL::Encoder_GetDiff()
 {
-// #ifdef USE_ENC
-//     int16_t diff = (EncoderDiff/2);
-//     #else
-//     int16_t diff = (EncoderDiff);
-//     #endif
+    // #ifdef USE_ENC
+    //     int16_t diff = (EncoderDiff/2);
+    //     #else
+    //     int16_t diff = (EncoderDiff);
+    //     #endif
     int16_t diff = (EncoderDiff);
 
     if (diff != 0)
@@ -335,6 +339,19 @@ int16_t HAL::Encoder_GetDiff()
         HAL::enc_btn_first_push_flag = 1;
         actEncoder->Commit((const void *)&diff, sizeof(int16_t));
         actEncoder->Publish();
+
+        if (diff < 0)
+        {
+            Game_SetButtonState(GAME_BUTTON_LEFT, true);
+            enc_btn_down_flag = 1;
+            enc_dir_event_time = millis();
+        }
+        else
+        {
+            Game_SetButtonState(GAME_BUTTON_RIGHT, true);
+            enc_btn_down_flag = 1;
+            enc_dir_event_time = millis();
+        }
     }
 
     return diff;

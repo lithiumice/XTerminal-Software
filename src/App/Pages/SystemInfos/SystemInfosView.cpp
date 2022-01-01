@@ -48,25 +48,27 @@ void SystemInfosView::Create(lv_obj_t* root)
 		"SysTick\n"
 		"Compiler\n\n"
 		"Build\n"
+		"\n"
+		"To\n"
 	);
 
 
-	Item_Create(
-		&ui.imu,
-		root,
-		"IMU",
-		"gyroscope",
+	// Item_Create(
+	// 	&ui.imu,
+	// 	root,
+	// 	"IMU",
+	// 	"gyroscope",
 
-		"Ax\n"
-		"Ay\n"
-		"Az\n"
-		"Gx\n"
-		"Gy\n"
-		"Gz\n"
-		"Pitch\n"
-		"Roll\n"
-		"Yaw"
-	);
+	// 	"Ax\n"
+	// 	"Ay\n"
+	// 	"Az\n"
+	// 	"Gx\n"
+	// 	"Gy\n"
+	// 	"Gz\n"
+	// 	"Pitch\n"
+	// 	"Roll\n"
+	// 	"Yaw"
+	// );
 
 	Item_Create(
 		&ui.battery,
@@ -104,7 +106,7 @@ void SystemInfosView::Group_Init()
 	
 	lv_group_add_obj(ui.group, ui.wifi.icon);
 	lv_group_add_obj(ui.group, ui.system.icon);
-	lv_group_add_obj(ui.group, ui.imu.icon);
+	// lv_group_add_obj(ui.group, ui.imu.icon);
 	lv_group_add_obj(ui.group, ui.battery.icon);
 	lv_group_add_obj(ui.group, ui.storage.icon);
 
@@ -333,7 +335,8 @@ void SystemInfosView::SetSystem(
 		"%s\n"
 		"%s\n"
 		"%s\n"
-		"%s",
+		"%s\n"
+		"HLX",
 		firmVer,
 		authorName,
 		lvglVer,

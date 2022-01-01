@@ -11,12 +11,8 @@
 
 Pixel rgb;
 TaskHandle_t handleTaskUrl;
+TaskHandle_t handleTaskNormal;
 data_send dataMonitor;
-extern long irValue;
-extern long redValue;
-extern long greenValue;
-extern float beatsPerMinute;
-extern uint8_t update_max_flag;
 
 void notify()
 {
@@ -51,28 +47,6 @@ void normal()
     HAL::IMU_Update();
 }
 
-void get_sys_info()
-{
-    uint64_t chipid = ESP.getEfuseMac();                             // The chip ID is essentially its MAC address(length: 6 bytes).
-    Serial.printf("ESP32 Chip ID = %04X", (uint16_t)(chipid >> 32)); // print High 2 bytes
-    Serial.printf("%08X\n", (uint32_t)chipid);                       // print Low 4bytes.
-
-    Serial.printf("total heap size = %u\n", ESP.getHeapSize());
-    Serial.printf("available heap = %u\n", ESP.getFreeHeap());
-    Serial.printf("lowest level of free heap since boot = %u\n", ESP.getMinFreeHeap());
-    Serial.printf("largest block of heap that can be allocated at once = %u\n", ESP.getMaxAllocHeap());
-
-    Serial.printf("total Psram size = %u\n", ESP.getPsramSize());
-    Serial.printf("available Psram = %u\n", ESP.getFreePsram());
-    Serial.printf("lowest level of free Psram since boot = %u\n", ESP.getMinFreePsram());
-    Serial.printf("largest block of Psram that can be allocated at once = %u\n", ESP.getMinFreePsram());
-
-    Serial.printf("get Chip Revision = %u\n", ESP.getChipRevision());
-    Serial.printf("getCpuFreqMHz = %u\n", ESP.getCpuFreqMHz());
-    Serial.printf("get Cycle Count = %u\n", ESP.getCycleCount());
-    Serial.printf("get SdkVersion = %s\n", ESP.getSdkVersion());
-}
-
 void notifyUrlThread()
 {
 #ifdef ARDUINO
@@ -91,8 +65,9 @@ void TaskUrlUpdate(void *parameter)
         HAL::Weather_Update();
         delay(5);
         HAL::Clock_Update();
-        // audio_loop();
-        delay(1);
+
+        UBaseType_t used = uxTaskGetStackHighWaterMark(handleTaskUrl);
+        printf("url used: %d KB\n", used * 4 / 1024);
     }
 }
 
@@ -104,10 +79,23 @@ void NormalUpdate(void *parameter)
         // __IntervalExecute(upload(), 200);
         // __IntervalExecute(get_sys_info(), 1500);
         // __IntervalExecute(HAL::sensors_max30102_data(), 1000);
+
+        // if (gflag.update_max_flag)
+        //     __IntervalExecute(HAL::sensors_max30102_data(), 300);
+
+
         delay(1);
-if (update_max_flag)
-        __IntervalExecute(HAL::sensors_max30102_data(), 300);
-            // HAL::sensors_max30102_data();
+        
+    }
+}
+
+void AudioUpdate(void *parameter)
+{
+    for (;;)
+    {
+        if (gflag.audio_en_flag)
+            audio_loop();
+        delay(1);
     }
 }
 
@@ -124,30 +112,31 @@ void HAL::Init()
     config_weather_load(&HAL::weaInfo);
     config_clock_load(&HAL::time_stamp_info);
 
-    // config_clock_load(&HAL::time_stamp_info.preNetTimestamp);
-    // time_stamp_info.preLocalTimestamp = millis();
+    gflag.audio_en_flag = 0;
+    gflag.update_max_flag = 0;
 
     HAL::Power_Init();
     HAL::Backlight_Init();
     HAL::Buzz_init();
     HAL::Audio_Init();
+
     HAL::wifi_init();
     HAL::wifi_connect();
-    HAL::I2C_Init(true); // 0x68 0x76
-    HAL::sensors_init(); 
-    HAL::IMU_Init();
-    // HAL::SD_Init();
-    // audio_init();
+   
+
     HAL::Encoder_Init();
     HAL::Audio_PlayMusic("Startup");
 
     Port_Init();
+
+    // HAL::SD_Init();
+    // audio_init();
+    //     audio_start();
+
     App_Init();
-    rgb.init();
-    rgb.setBrightness(0.1).setRGB(0, 0, 122, 204).setRGB(1, 0, 122, 204);
-
-    // audio_start();
-
+    // rgb.init();
+    // rgb.setBrightness(0.1).setRGB(0, 0, 122, 204).setRGB(1, 0, 122, 204);
+    // HAL::SD_Init();
 
     // 116-76=40KB
     // xTaskCreate(
@@ -162,20 +151,36 @@ void HAL::Init()
     xTaskCreatePinnedToCore(
         TaskUrlUpdate,
         "TaskUrlUpdate",
-        1024 * 45, // KB
+        // 1420*4/1024 KB=5.54KB
+        1024 * 6.0, // KB
         NULL,
         configMAX_PRIORITIES - 1,
         &handleTaskUrl,
         0);
 
-    xTaskCreatePinnedToCore(
+    xTaskCreate(
         NormalUpdate,
         "NormalUpdate",
         1024 * 1.5, // KB
         NULL,
         configMAX_PRIORITIES - 2,
-        NULL,
-        0);
+        &handleTaskNormal);
+
+    // pinMode(36, OUTPUT);
+}
+
+void test_pin()
+{
+    digitalWrite(36, 1);
+    delay(1000);
+    digitalWrite(36, 0);
+    delay(1000);
+}
+
+void toggle_pin()
+{
+    digitalWrite(36, !digitalRead(36));
+    printf("%d", digitalPinCanOutput(36));
 }
 
 void HAL::Update()
@@ -184,4 +189,5 @@ void HAL::Update()
     lv_task_handler();
     // if (millis() > 3000)
     //     audio_loop();
+    // __IntervalExecute(toggle_pin(), 1000);
 }

@@ -27,6 +27,7 @@ void GameList::onViewLoad()
 #include "../GameArduboy/_GameList.inc"
 
 #undef REG_GAME
+    lv_group_focus_obj(View.ui.GameArduboy3D.icon);
 }
 
 void GameList::onViewDidLoad()
